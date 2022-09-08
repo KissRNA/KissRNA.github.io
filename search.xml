@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>深圳先进院开发修饰mRNA增强干细胞疗法，原位注射实现软骨再生。</title>
-    <url>/2022/09/08/%E6%B7%B1%E5%9C%B3%E5%85%88%E8%BF%9B%E9%99%A2%E5%BC%80%E5%8F%91%E4%BF%AE%E9%A5%B0mRNA%E5%A2%9E%E5%BC%BA%E5%B9%B2%E7%BB%86%E8%83%9E%E7%96%97%E6%B3%95%EF%BC%8C%E5%8E%9F%E4%BD%8D%E6%B3%A8%E5%B0%84%E5%AE%9E%E7%8E%B0%E8%BD%AF%E9%AA%A8%E5%86%8D%E7%94%9F%E3%80%82/</url>
-    <content><![CDATA[<p>关节软骨是滑膜关节非常重要的组成元件。当我们在行走，跳跃或者进行其他活动时，关节软骨会对相互连接的骨头间的震动起到缓冲减震作用，这使得关节软骨非常容易受到机械损伤。由于关节软骨所在的部位缺乏血管和营养物质，一旦发生损伤，很难自愈，导致骨性关节炎（osteoarthritis，OA）。骨性关节炎是世界上最常见的慢性关节疾病，预计到2040年会对7800万人群的日常生活造成影响。</p>
-<p>较高的发病率和有限的自我治愈使得软骨损伤对年轻的运动员和老人群体带来极大的威胁。传统治疗方法，包括非甾体类药物，物理治疗或者手术移植，存在低效，治疗时间长，副作用以及免疫排斥等缺陷，对其临床应用造成阻碍。干细胞由于具有多向分化潜能，可应用于多种组织修复，因而受到众多关注。</p>
-<p>但是，干细胞的多向分化潜能是一把双刃剑，一方面使得干细胞疗法在多种组织中具有修复效果，另一方面多向分化的干细胞可能形成畸胎瘤或者癌变，存在安全隐患。有研究发现，把MSCs移植到裸鼠中，观察到典型的骨肉瘤形成，即间充质干细胞(MSCs)移植促进肿瘤形成。总结来说，未经指向和不受限制的干细胞疗法存在严重的安全隐患。</p>
-<p>基因治疗是一种非常有前景的提供治疗性蛋白的迭代方案。但是，pDNA要实现治疗性蛋白翻译需要进入细胞核，而且转染效率低，还可能发生基因组插入突变，这极大限制了DNA疗法的应用。与此相反，mRNA在细胞质中便可以快速翻译生成治疗性蛋白，不需要进入细胞核中。利用mRNA技术来增强干细胞治疗的效果成为非常有前景的方向，例如有研究用抗人皮间素靶向嵌合抗原受体mRNA CAR转染外周血来源的淋巴细胞。目前，基于mRNA技术的CAR-T疗法已经进入到临床试验中。最新的应用进展使得人们希望通过mRNA技术来开发出一种新型的，安全的以及高疗效的组织再生药物。</p>
-<p>基于MSCs的干细胞疗法使得软骨生重获希望。生长因子的添加可以为干细胞的分化指明方向。但是，重组蛋白生长因子不仅成本非常高，而且还会引发一系列副作用，用来提升干细胞疗效的优势非常微弱。利用mRNA技术向损伤部位递送治疗性蛋白成为非常有前景的替代方案，但是向无血管的组织（例如，软骨）中递送mRNA极少被研究，面临诸多困难。</p>
-<p>2022年5月6号，中科院深圳先进技术研究院于寅研究员在bioRxiv发表文章：Highly efficient healing of critical sized articular cartilage defect in situ using a chemically nucleoside-modified mRNA-enhanced cell therapy，使用编码生长因子TGF-β3的修饰核苷酸提升骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效。在小鼠模型中，原位注射TGF-β3 cmRNA +BMSCs，六周之内，可以将软骨损伤修复到自然水平。此外，通过TGF-β3 cmRNA增强的BMSCs疗法还能够阻止软骨损伤造成的骨性关节炎（osteoarthritis, OA）。这种利用mRNA技术增强基于MSCs的疗法成为修复软骨损伤的新疗法。</p>
-<p>TGF-β3在软骨再生的过程中具有非常重要的作用，能够诱导MSCs软骨分化，促进软骨样基质沉淀。因此，研究人员构建TGF-β3 cmRNA，使用PEI包封。首先，证实其在BMSCs单层细胞和3D球状体细胞模型中具有非常好的转染效率，表达出来的TGF-β3能够显著提升BMSCs细胞外基质的分泌。接着，证实TGF-β3-cmRNA能够在体外诱导BMSCs的软骨分化，甚至诱导效果要好于用重组蛋白TGF-β3。最后，通过手术在小鼠膝盖创造出软骨损伤，将TGF-β3-cmRNA+BMSCs（CBmR组）或者BMSCs（CB组）注射到小鼠软骨损伤部位测试治疗效果。在没有注射BMSCs的对照组，软骨损伤清晰可见，关节表面粗糙，有大量严重渗出物。在CB组和CBmR组关节表面平滑，软骨再生得到显著提升。国际修复协会评分和组织染色证实CBmR组要比CB组能更好地促进软骨再生。</p>
-<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206291842660.png" alt="TGF-β3 cmRNA在小鼠模型中能够增强BMSCs软骨再生的疗效。"></p>
-<p>此外，研究人员还利用microCT 观察cmRNA-TGF-β3对软骨下骨(subchondral bone)的影响。在空白对照组，软骨损伤部位会出现软骨下骨严重的碎裂。此外，还可以观察到软骨下骨的冠状面和骨小梁变薄和丢失。在CB组和CBmR组，软骨下骨的碎裂丢失都是非常明显的抑制。特别是在CBmR组。骨小梁的体积和骨矿物密度更加高。软骨下骨的异常和丢失，会造成骨性关节炎，甚至最终导致行动障碍。我们可以看到，TGF-β3 cmRNA不仅可以促进软骨再生，而且还可以抑制软骨下骨的病理性变化。</p>
-<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206292205686.png" alt="TGF-β3 cmRNA抑制软骨下骨的病理学变化。"></p>
-<p>这篇文章原位注射编码生长因子的修饰mRNA诱导不含血管的软骨组织再生，增强骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效，证明修饰mRNA增强型的干细胞疗法是一种非常高效的，安全的，具备潜在临床转化前景的治疗方案。在小鼠软骨损伤部位注射携带TGF-β3 mRNA的骨髓间充质干细胞，在4-6周之内，可以近乎完全治愈软骨损伤。这是第一次证实修饰mRNA能够显著增强BMSCs的治疗效果，而且只需要原位注射，不需要系统性注射修饰mRNA。这也为其他组织的再生搭建出一个非常有前景的治疗平台技术。</p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>深圳先进院开发修饰mRNA增强干细胞疗法，原位注射实现软骨再生。</title>
+      <link href="/2022/09/08/%E6%B7%B1%E5%9C%B3%E5%85%88%E8%BF%9B%E9%99%A2%E5%BC%80%E5%8F%91%E4%BF%AE%E9%A5%B0mRNA%E5%A2%9E%E5%BC%BA%E5%B9%B2%E7%BB%86%E8%83%9E%E7%96%97%E6%B3%95%EF%BC%8C%E5%8E%9F%E4%BD%8D%E6%B3%A8%E5%B0%84%E5%AE%9E%E7%8E%B0%E8%BD%AF%E9%AA%A8%E5%86%8D%E7%94%9F%E3%80%82/"/>
+      <url>/2022/09/08/%E6%B7%B1%E5%9C%B3%E5%85%88%E8%BF%9B%E9%99%A2%E5%BC%80%E5%8F%91%E4%BF%AE%E9%A5%B0mRNA%E5%A2%9E%E5%BC%BA%E5%B9%B2%E7%BB%86%E8%83%9E%E7%96%97%E6%B3%95%EF%BC%8C%E5%8E%9F%E4%BD%8D%E6%B3%A8%E5%B0%84%E5%AE%9E%E7%8E%B0%E8%BD%AF%E9%AA%A8%E5%86%8D%E7%94%9F%E3%80%82/</url>
+      
+        <content type="html"><![CDATA[<p>关节软骨是滑膜关节非常重要的组成元件。当我们在行走，跳跃或者进行其他活动时，关节软骨会对相互连接的骨头间的震动起到缓冲减震作用，这使得关节软骨非常容易受到机械损伤。由于关节软骨所在的部位缺乏血管和营养物质，一旦发生损伤，很难自愈，导致骨性关节炎（osteoarthritis，OA）。骨性关节炎是世界上最常见的慢性关节疾病，预计到2040年会对7800万人群的日常生活造成影响。</p><p>较高的发病率和有限的自我治愈使得软骨损伤对年轻的运动员和老人群体带来极大的威胁。传统治疗方法，包括非甾体类药物，物理治疗或者手术移植，存在低效，治疗时间长，副作用以及免疫排斥等缺陷，对其临床应用造成阻碍。干细胞由于具有多向分化潜能，可应用于多种组织修复，因而受到众多关注。</p><p>但是，干细胞的多向分化潜能是一把双刃剑，一方面使得干细胞疗法在多种组织中具有修复效果，另一方面多向分化的干细胞可能形成畸胎瘤或者癌变，存在安全隐患。有研究发现，把MSCs移植到裸鼠中，观察到典型的骨肉瘤形成，即间充质干细胞(MSCs)移植促进肿瘤形成。总结来说，未经指向和不受限制的干细胞疗法存在严重的安全隐患。</p><p>基因治疗是一种非常有前景的提供治疗性蛋白的迭代方案。但是，pDNA要实现治疗性蛋白翻译需要进入细胞核，而且转染效率低，还可能发生基因组插入突变，这极大限制了DNA疗法的应用。与此相反，mRNA在细胞质中便可以快速翻译生成治疗性蛋白，不需要进入细胞核中。利用mRNA技术来增强干细胞治疗的效果成为非常有前景的方向，例如有研究用抗人皮间素靶向嵌合抗原受体mRNA CAR转染外周血来源的淋巴细胞。目前，基于mRNA技术的CAR-T疗法已经进入到临床试验中。最新的应用进展使得人们希望通过mRNA技术来开发出一种新型的，安全的以及高疗效的组织再生药物。</p><p>基于MSCs的干细胞疗法使得软骨生重获希望。生长因子的添加可以为干细胞的分化指明方向。但是，重组蛋白生长因子不仅成本非常高，而且还会引发一系列副作用，用来提升干细胞疗效的优势非常微弱。利用mRNA技术向损伤部位递送治疗性蛋白成为非常有前景的替代方案，但是向无血管的组织（例如，软骨）中递送mRNA极少被研究，面临诸多困难。</p><p>2022年5月6号，中科院深圳先进技术研究院于寅研究员在bioRxiv发表文章：Highly efficient healing of critical sized articular cartilage defect in situ using a chemically nucleoside-modified mRNA-enhanced cell therapy，使用编码生长因子TGF-β3的修饰核苷酸提升骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效。在小鼠模型中，原位注射TGF-β3 cmRNA +BMSCs，六周之内，可以将软骨损伤修复到自然水平。此外，通过TGF-β3 cmRNA增强的BMSCs疗法还能够阻止软骨损伤造成的骨性关节炎（osteoarthritis, OA）。这种利用mRNA技术增强基于MSCs的疗法成为修复软骨损伤的新疗法。</p><p>TGF-β3在软骨再生的过程中具有非常重要的作用，能够诱导MSCs软骨分化，促进软骨样基质沉淀。因此，研究人员构建TGF-β3 cmRNA，使用PEI包封。首先，证实其在BMSCs单层细胞和3D球状体细胞模型中具有非常好的转染效率，表达出来的TGF-β3能够显著提升BMSCs细胞外基质的分泌。接着，证实TGF-β3-cmRNA能够在体外诱导BMSCs的软骨分化，甚至诱导效果要好于用重组蛋白TGF-β3。最后，通过手术在小鼠膝盖创造出软骨损伤，将TGF-β3-cmRNA+BMSCs（CBmR组）或者BMSCs（CB组）注射到小鼠软骨损伤部位测试治疗效果。在没有注射BMSCs的对照组，软骨损伤清晰可见，关节表面粗糙，有大量严重渗出物。在CB组和CBmR组关节表面平滑，软骨再生得到显著提升。国际修复协会评分和组织染色证实CBmR组要比CB组能更好地促进软骨再生。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206291842660.png" alt="TGF-β3 cmRNA在小鼠模型中能够增强BMSCs软骨再生的疗效。"></p><p>此外，研究人员还利用microCT 观察cmRNA-TGF-β3对软骨下骨(subchondral bone)的影响。在空白对照组，软骨损伤部位会出现软骨下骨严重的碎裂。此外，还可以观察到软骨下骨的冠状面和骨小梁变薄和丢失。在CB组和CBmR组，软骨下骨的碎裂丢失都是非常明显的抑制。特别是在CBmR组。骨小梁的体积和骨矿物密度更加高。软骨下骨的异常和丢失，会造成骨性关节炎，甚至最终导致行动障碍。我们可以看到，TGF-β3 cmRNA不仅可以促进软骨再生，而且还可以抑制软骨下骨的病理性变化。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206292205686.png" alt="TGF-β3 cmRNA抑制软骨下骨的病理学变化。"></p><p>这篇文章原位注射编码生长因子的修饰mRNA诱导不含血管的软骨组织再生，增强骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效，证明修饰mRNA增强型的干细胞疗法是一种非常高效的，安全的，具备潜在临床转化前景的治疗方案。在小鼠软骨损伤部位注射携带TGF-β3 mRNA的骨髓间充质干细胞，在4-6周之内，可以近乎完全治愈软骨损伤。这是第一次证实修饰mRNA能够显著增强BMSCs的治疗效果，而且只需要原位注射，不需要系统性注射修饰mRNA。这也为其他组织的再生搭建出一个非常有前景的治疗平台技术。</p>]]></content>
+      
+      
       <categories>
-        <category>RNA工艺</category>
+          
+          <category> RNA工艺 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/09/05/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/09/05/hello-world/"/>
+      <url>/2022/09/05/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
