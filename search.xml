@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>深圳先进院开发修饰mRNA增强干细胞疗法，原位注射实现软骨再生。</title>
-    <url>/2022/09/08/%E6%B7%B1%E5%9C%B3%E5%85%88%E8%BF%9B%E9%99%A2%E5%BC%80%E5%8F%91%E4%BF%AE%E9%A5%B0mRNA%E5%A2%9E%E5%BC%BA%E5%B9%B2%E7%BB%86%E8%83%9E%E7%96%97%E6%B3%95%EF%BC%8C%E5%8E%9F%E4%BD%8D%E6%B3%A8%E5%B0%84%E5%AE%9E%E7%8E%B0%E8%BD%AF%E9%AA%A8%E5%86%8D%E7%94%9F%E3%80%82/</url>
-    <content><![CDATA[<p>关节软骨是滑膜关节非常重要的组成元件。当我们在行走，跳跃或者进行其他活动时，关节软骨会对相互连接的骨头间的震动起到缓冲减震作用，这使得关节软骨非常容易受到机械损伤。由于关节软骨所在的部位缺乏血管和营养物质，一旦发生损伤，很难自愈，导致骨性关节炎（osteoarthritis，OA）。骨性关节炎是世界上最常见的慢性关节疾病，预计到2040年会对7800万人群的日常生活造成影响。</p>
-<p>较高的发病率和有限的自我治愈使得软骨损伤对年轻的运动员和老人群体带来极大的威胁。传统治疗方法，包括非甾体类药物，物理治疗或者手术移植，存在低效，治疗时间长，副作用以及免疫排斥等缺陷，对其临床应用造成阻碍。干细胞由于具有多向分化潜能，可应用于多种组织修复，因而受到众多关注。</p>
-<p>但是，干细胞的多向分化潜能是一把双刃剑，一方面使得干细胞疗法在多种组织中具有修复效果，另一方面多向分化的干细胞可能形成畸胎瘤或者癌变，存在安全隐患。有研究发现，把MSCs移植到裸鼠中，观察到典型的骨肉瘤形成，即间充质干细胞(MSCs)移植促进肿瘤形成。总结来说，未经指向和不受限制的干细胞疗法存在严重的安全隐患。</p>
-<p>基因治疗是一种非常有前景的提供治疗性蛋白的迭代方案。但是，pDNA要实现治疗性蛋白翻译需要进入细胞核，而且转染效率低，还可能发生基因组插入突变，这极大限制了DNA疗法的应用。与此相反，mRNA在细胞质中便可以快速翻译生成治疗性蛋白，不需要进入细胞核中。利用mRNA技术来增强干细胞治疗的效果成为非常有前景的方向，例如有研究用抗人皮间素靶向嵌合抗原受体mRNA CAR转染外周血来源的淋巴细胞。目前，基于mRNA技术的CAR-T疗法已经进入到临床试验中。最新的应用进展使得人们希望通过mRNA技术来开发出一种新型的，安全的以及高疗效的组织再生药物。</p>
-<p>基于MSCs的干细胞疗法使得软骨生重获希望。生长因子的添加可以为干细胞的分化指明方向。但是，重组蛋白生长因子不仅成本非常高，而且还会引发一系列副作用，用来提升干细胞疗效的优势非常微弱。利用mRNA技术向损伤部位递送治疗性蛋白成为非常有前景的替代方案，但是向无血管的组织（例如，软骨）中递送mRNA极少被研究，面临诸多困难。</p>
-<p>2022年5月6号，中科院深圳先进技术研究院于寅研究员在bioRxiv发表文章：Highly efficient healing of critical sized articular cartilage defect in situ using a chemically nucleoside-modified mRNA-enhanced cell therapy，使用编码生长因子TGF-β3的修饰核苷酸提升骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效。在小鼠模型中，原位注射TGF-β3 cmRNA +BMSCs，六周之内，可以将软骨损伤修复到自然水平。此外，通过TGF-β3 cmRNA增强的BMSCs疗法还能够阻止软骨损伤造成的骨性关节炎（osteoarthritis, OA）。这种利用mRNA技术增强基于MSCs的疗法成为修复软骨损伤的新疗法。</p>
-<p>TGF-β3在软骨再生的过程中具有非常重要的作用，能够诱导MSCs软骨分化，促进软骨样基质沉淀。因此，研究人员构建TGF-β3 cmRNA，使用PEI包封。首先，证实其在BMSCs单层细胞和3D球状体细胞模型中具有非常好的转染效率，表达出来的TGF-β3能够显著提升BMSCs细胞外基质的分泌。接着，证实TGF-β3-cmRNA能够在体外诱导BMSCs的软骨分化，甚至诱导效果要好于用重组蛋白TGF-β3。最后，通过手术在小鼠膝盖创造出软骨损伤，将TGF-β3-cmRNA+BMSCs（CBmR组）或者BMSCs（CB组）注射到小鼠软骨损伤部位测试治疗效果。在没有注射BMSCs的对照组，软骨损伤清晰可见，关节表面粗糙，有大量严重渗出物。在CB组和CBmR组关节表面平滑，软骨再生得到显著提升。国际修复协会评分和组织染色证实CBmR组要比CB组能更好地促进软骨再生。</p>
-<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206291842660.png" alt="TGF-β3 cmRNA在小鼠模型中能够增强BMSCs软骨再生的疗效。"></p>
-<p>此外，研究人员还利用microCT 观察cmRNA-TGF-β3对软骨下骨(subchondral bone)的影响。在空白对照组，软骨损伤部位会出现软骨下骨严重的碎裂。此外，还可以观察到软骨下骨的冠状面和骨小梁变薄和丢失。在CB组和CBmR组，软骨下骨的碎裂丢失都是非常明显的抑制。特别是在CBmR组。骨小梁的体积和骨矿物密度更加高。软骨下骨的异常和丢失，会造成骨性关节炎，甚至最终导致行动障碍。我们可以看到，TGF-β3 cmRNA不仅可以促进软骨再生，而且还可以抑制软骨下骨的病理性变化。</p>
-<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206292205686.png" alt="TGF-β3 cmRNA抑制软骨下骨的病理学变化。"></p>
-<p>这篇文章原位注射编码生长因子的修饰mRNA诱导不含血管的软骨组织再生，增强骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效，证明修饰mRNA增强型的干细胞疗法是一种非常高效的，安全的，具备潜在临床转化前景的治疗方案。在小鼠软骨损伤部位注射携带TGF-β3 mRNA的骨髓间充质干细胞，在4-6周之内，可以近乎完全治愈软骨损伤。这是第一次证实修饰mRNA能够显著增强BMSCs的治疗效果，而且只需要原位注射，不需要系统性注射修饰mRNA。这也为其他组织的再生搭建出一个非常有前景的治疗平台技术。</p>
-]]></content>
-      <categories>
-        <category>RNA工艺</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2022/09/05/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -36,5 +17,104 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>多价mRNA疫苗中各组分mRNA的快速鉴定和准确定量</title>
+    <url>/2022/09/16/%E5%A4%9A%E4%BB%B7mRNA%E7%96%AB%E8%8B%97%E4%B8%AD%E5%90%84%E7%BB%84%E5%88%86mRNA%E7%9A%84%E5%BF%AB%E9%80%9F%E9%89%B4%E5%AE%9A%E5%92%8C%E5%87%86%E7%A1%AE%E5%AE%9A%E9%87%8F/</url>
+    <content><![CDATA[<p>2022年6月7号，Moderna宣布启动流感四价疫苗mRNA-1010的三期临床试验。<strong>mRNA1010</strong>编码4株流感病毒的血凝素蛋白，分别是A型流感病毒H1N1, A型流感病毒H3N2,B型流感病毒Yamagata ,B型流感病毒Victoria-lineages。Moderna还研发出两款组合型疫苗，靶向流感病毒和新冠病毒的<strong>mRNA-1073</strong>以及靶向流感，新冠，呼吸道合胞病毒RSV的<strong>mRNA-1230</strong>。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209131649774.png" alt="Moderna开发的多价疫苗mRNA1230和mRNA1073。" style="zoom: 80%;" />
+
+<p><strong>2022年8月31日，FDA同时批准Moderna和Pizer-BioNTech新冠二价疫苗加强针的紧急授权申请，标志着二价mRNA疫苗的首次获批使用。</strong>mRNA-1273.222是Moderna研发的专门预防BA.4/BA.5的二价疫苗，剂量是50ug，由25ug 编码新冠原始株Spike蛋白的mRNA与编码BA.4/BA.5 Omicron变异株Spike蛋白的mRNA组成。</p>
+<p>随着mRNA疫苗研发生产工艺的不断完善，未来将会出现越来越多的多价疫苗，这就带来一个问题：<strong>一个多价mRNA疫苗完成LNP包封以后，内部含有多条mRNA序列，对mRNA进行定量或者检测包封率时，如何鉴定每一条mRNA序列？如何准确定量每一条mRNA序列的含量或者包封率？</strong></p>
+<p>USP最近公布的mRNA疫苗分析草案中，<strong>建议通过测序和RT-PCR来鉴定mRNA</strong>。尽管测序可以提供非常丰富的序列信息，但是整个过程复杂，耗时长。RT-PCR是比测序更加直接的鉴定方式，但是，仍然需要特殊的操作流程。如果mRNA包封在LNP里面，还需要提前进行纯化处理。</p>
+<p><strong>USP草案建议采用基于PCR或者紫外吸收的方法对于mRNA进行定量分析</strong>。利用紫外分光光度计可以直接测定相对较纯的mRNA浓度，而基于紫外吸收的RiboGreen可以通过绘制标准曲线来测定溶液中mRNA含量或者LNP包封率。然而，基于紫外吸收的方法很容易受到样品中杂质的干扰，更加重要的是，缺乏特异性，无法同时对多价mRNA疫苗中的各个mRNA成分进行定量分析。虽然数字PCR可以对多条mRNA序列进行定量，但是，这需要提前将mRNA序列从LNP包封的样品中提取纯化处理，在分析之前的提取纯化过程就需要花费掉一天的时间。</p>
+<p>与传统疫苗相比，mRNA疫苗显著的速度优势和多价mRNA疫苗的快速发展将会需要更完善快速的分析方法来使得mRNA生产包封工艺变成流水线作业，降低上市时间，提升实验室临床成果的转化落地。<strong>2022年9月3号，InDevR公司首席技术官Erica Dawson在bioRxiv上传预印本：Rapid Identity and Quantity CQA Test for Multivalent mRNA Drug Product Formulations。</strong>简单来说，他们设计出一种<strong>核酸芯片-VaxArray，在芯片上固定特异性的捕获探针，将单条或者多条裸mRNA序列或者从LNP裂解出来的mRNA序列点到芯片上，捕获探针会跟靶标mRNA序列杂交结合，洗去芯片上未结合的杂质，再加入荧光标记的各种不同位置序列的检测探针（寡核苷酸或者抗体），根据荧光信号强度，便可以同时鉴定或者定量分析多条mRNA序列</strong>。</p>
+<h2 id="VaxArray-mRNA芯片设计原理"><a href="#VaxArray-mRNA芯片设计原理" class="headerlink" title="VaxArray mRNA芯片设计原理"></a>VaxArray mRNA芯片设计原理</h2><p>研究人员以编码流感病毒HA抗原和NA抗原的mRNA序列作为例子，阐述VaxArray mRNA芯片设计的原理。他们总共设计了37条靶向HA/NA的特异性寡核苷酸序列作为捕获或者检测探针序列，根据探针序列的反应性和特异性，从中挑选出靶向HA/NA mRNA的特异性探针序列各8条。图a和b显示NA/HA mRNA组成元件以及4个捕获探针序列（黄色显示的是主要测试的捕获探针序列）。如图c所示，每条芯片上有16个重复的微阵列单元，每个微阵列单元中存在9个不同的捕获探针位点，每个捕获探针位点又是由9个相同的重复位点构成。 PolyT探针序列作为通用的捕获探针序列。根据不同的应用需求，可以灵活搭配捕获探针序列和检测探针序列。</p>
+<table>
+<thead>
+<tr>
+<th align="center">组合序号</th>
+<th align="center">捕获探针</th>
+<th align="center">检测探针</th>
+<th align="center">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">ⅰ</td>
+<td align="center">靶向目标mRNA编码区</td>
+<td align="center">荧光标记-Poly T寡核苷酸序列</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">ⅱ</td>
+<td align="center">靶向目标mRNA编码区</td>
+<td align="center">荧光标记-抗5’帽子结构抗体</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">ⅲ</td>
+<td align="center">靶向目标mRNA编码区</td>
+<td align="center">荧光标记-靶向编码区的特异性寡核苷酸序列</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">ⅳ</td>
+<td align="center">Poly T寡核苷酸序列</td>
+<td align="center">荧光标记-抗5’帽子结构抗体</td>
+<td align="center">检测全长序列</td>
+</tr>
+<tr>
+<td align="center">ⅴ</td>
+<td align="center">Poly T寡核苷酸序列</td>
+<td align="center">荧光标记-靶向编码区的特异性寡核苷酸序列</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151645877.png" alt="VaxArray mRNA芯片设计"></p>
+<p>VaxArray mRNA芯片的检测操作很简单，耗时不会超过2小时。将目标mRNA加入芯片，在优化的缓冲液buffer体系中与芯片上的捕获探针发生杂交结合，洗涤除去杂质，再加入检测探针进行孵育，最后使用VaxArray成像系统检测荧光信号。</p>
+<h2 id="VaxArray-mRNA芯片性能测试"><a href="#VaxArray-mRNA芯片性能测试" class="headerlink" title="VaxArray mRNA芯片性能测试"></a>VaxArray mRNA芯片性能测试</h2><h3 id="反应性与特异性"><a href="#反应性与特异性" class="headerlink" title="反应性与特异性"></a>反应性与特异性</h3><p>以NA/HAmRNA作为目标mRNA，使用VaxArray mRNA芯片检测浓度为10 ug/ml 单价NA mRNA，单价HA mRNA以及双价NA/HA mRNA，以Poly T寡核苷酸序列作为检测探针，荧光信号图谱（图a）显示针对目标mRNA设计的每一个捕获探针均具有高度的特异性。</p>
+<p>如图b所示，对于特定的捕获探针和不同的检测探针来说，信噪比（S/B）浮动范围在5.3-28.2，表明捕获探针序列与目标mRNA序列具有很好的反应性。对于非目标mRNA来说，信噪比&lt;1.3，表明捕获探针序列具有非常强的特异性。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151652579.png" alt="VaxArray mRNA芯片检测裸mRNA序列的反应性和特异性。" style="zoom: 80%;" />
+
+<h3 id="荧光信号强度和浓度之间存在很好的线性对应关系"><a href="#荧光信号强度和浓度之间存在很好的线性对应关系" class="headerlink" title="荧光信号强度和浓度之间存在很好的线性对应关系"></a>荧光信号强度和浓度之间存在很好的线性对应关系</h3><p>如左图所示，研究人员利用不同的捕获探针和检测探针组合芯片与目标mRNA（HA或者NA）进行杂交孵育，检测到的荧光信号与目标mRNA真实浓度之间存在良好的线性关系。更加重要的是，如右图所示，当检测样本是HA+NA二价mRNA时，使用 VaxArray 芯片检测到的荧光信号与单价mRNA(HA或者NA)是相似的。也就是说，VaxArray 芯片能够非常好的适用于多价mRNA疫苗，其他mRNA序列的存在对于检测的目标mRNA序列不会造成干扰。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151936498.png" alt="不同的捕获探针与检测探针或者单价mRNA与多价mRNA，荧光信号强度与真实浓度之间存在良好的线性对应关系。"></p>
+<h3 id="检测限范围"><a href="#检测限范围" class="headerlink" title="检测限范围"></a>检测限范围</h3><p>如表1所示，<strong>VaxArray芯片检测上限</strong>（ULOQ）<strong>范围是14 ug/ml—18 ug/ml，检测下限</strong>（LLOQ）<strong>范围是0.08 ug/ml—0.2 ug/ml</strong>，4种靶向目标mRNA(HA/NA)编码区的捕获探针可以检测到的目标mRNA浓度浮动范围超过90倍以上。对于高浓度的检测样本，可以将其按照合适的比例稀释到VaxArray芯片工作范围内。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151948329.png" alt="VaxArray芯片检测上限和下限范围，以NA或者HA mRNA作为目标mRNA，捕获探针使用靶向编码区的寡核苷酸探针，检测探针使用荧光标记的PolyT寡核苷酸。"></p>
+<h3 id="准确度和精密度"><a href="#准确度和精密度" class="headerlink" title="准确度和精密度"></a>准确度和精密度</h3><p><strong>准确度</strong>（Accuracy）：指在一定实验条件下多次测定的平均值与真值相符合的程度，以误差来表示。 它用来表示系统误差的大小。 <strong>精密度</strong>（Precision）：是指多次重复测定同一量时各测定值之间彼此相符合的程度。 表征测定过程中随机误差的大小。如表2所示，VaxArray芯片利用不同的捕获探针检测二价mRNA(NA+HA)浓度时（2.4 ug/ml），具有非常好的准确度和精密度。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209152112895.png" alt="测定VaxArray芯片检测目标mRNA的准确度和精密度，总共3个操作者，每个操作者利用每个捕获探针测定8个重复的样品。"></p>
+<h3 id="检测LNP包封mRNA样品"><a href="#检测LNP包封mRNA样品" class="headerlink" title="检测LNP包封mRNA样品"></a>检测LNP包封mRNA样品</h3><p>使用VaxArray芯片分析LNP包封的mRNA样品时，需要先用1% Triton X-100破乳处理10 min，然后按照正常流程检测，整个过程花费的时间依然少于2小时。<strong>尤其值得一提的是，该方法不需要对破乳后的mRNA样品进行纯化，可在含有LNP成分的情况下，直接进行检测。空白LNPs是检测不到荧光信号的</strong>。</p>
+<p>研究人员使用VaxArray芯片比较检测2 ug/ml 裸NA-mRNA和LNP包封的NA-mRNA，使用相同的检测探针Poly T寡核苷酸序列以及相同的曝光时间，荧光信号图谱显示LNP包封的NA-mRNA与裸NA-mRNA产生相似的图谱，而且，当使用HA作为捕获探针时，不会出现脱靶荧光信号。同时，如图b所示，VaxArray芯片检测LNP包封的mRNA时也具有非常好的反应性和特异性。<strong>这些数据说明，对于LNP包封的mRNA样品来说，VaxArray芯片检测时无需在破乳后对目标mRNA进行纯化处理，脂质体成分也不会产生非特异性的荧光信号</strong>。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209152125083.png" alt="VaxArray芯片检测LNP-mRNA样品时，产生的荧光图谱同裸mRNA是相似的，具有非常好的特异性和反应性。"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>随着mRNA疫苗领域的快速发展和众多多价mRNA疫苗的不断涌现，开发出匹配mRNA疫苗研发速度，流水线化mRNA疫苗产品的相关分析方法是非常关键的。对mRNA序列或者含量进行鉴定和定量的理想方法需要具备以下几点：（1）卓越的分析能力（准确度和精密度），（2）短时间内便可出分析报告，（3）易于操作，无需经过特殊训练，（4）灵活的样本处理量，即可实现大批次高通量，也可实现少量样品检测，（5）无需复杂耗时的样品前处理过程，（6）高度的特异性，可鉴定多条不同的mRNA序列。</p>
+<p>VaxArray芯片依赖于特殊设计的捕获探针和灵活的检测探针，实现mRNA的快速鉴定和准确定量。这种芯片具极高的特异性，特别是当组合使用靶向目标mRNA编码区的捕获探针与靶向目标mRNA编码区的荧光标记检测探针时。不管是对于单价mRNA疫苗还是多价mRNA疫苗，此芯片的荧光信号强度和真实浓度之间均具有非常好的线性对应关系，优越的准确度和精密度。值得一提的是，当组合使用靶向末端的Poly A 捕获探针与荧光标记的抗帽子结构抗体时，可实现对整个全长mRNA序列的鉴定。更加重要的是，VaxArray芯片检测LNP包封的mRNA样品时，只多了一个10min的破乳步骤，无须进行mRNA纯化，便可上机检测。最为吸引人的是，优秀的分析能力使得VaxArray芯片特别适合应用于多价mRNA工艺优化和生产过程中的各个阶段，例如，IVT优化，LNP包封，稳定性测试等。</p>
+]]></content>
+      <categories>
+        <category>RNA工艺</category>
+      </categories>
+      <tags>
+        <tag>多价mRNA疫苗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>深圳先进院开发修饰mRNA增强干细胞疗法，原位注射实现软骨再生。</title>
+    <url>/2022/09/08/%E6%B7%B1%E5%9C%B3%E5%85%88%E8%BF%9B%E9%99%A2%E5%BC%80%E5%8F%91%E4%BF%AE%E9%A5%B0mRNA%E5%A2%9E%E5%BC%BA%E5%B9%B2%E7%BB%86%E8%83%9E%E7%96%97%E6%B3%95%EF%BC%8C%E5%8E%9F%E4%BD%8D%E6%B3%A8%E5%B0%84%E5%AE%9E%E7%8E%B0%E8%BD%AF%E9%AA%A8%E5%86%8D%E7%94%9F%E3%80%82/</url>
+    <content><![CDATA[<p>关节软骨是滑膜关节非常重要的组成元件。当我们在行走，跳跃或者进行其他活动时，关节软骨会对相互连接的骨头间的震动起到缓冲减震作用，这使得关节软骨非常容易受到机械损伤。由于关节软骨所在的部位缺乏血管和营养物质，一旦发生损伤，很难自愈，导致骨性关节炎（osteoarthritis，OA）。骨性关节炎是世界上最常见的慢性关节疾病，预计到2040年会对7800万人群的日常生活造成影响。</p>
+<p>较高的发病率和有限的自我治愈使得软骨损伤对年轻的运动员和老人群体带来极大的威胁。传统治疗方法，包括非甾体类药物，物理治疗或者手术移植，存在低效，治疗时间长，副作用以及免疫排斥等缺陷，对其临床应用造成阻碍。干细胞由于具有多向分化潜能，可应用于多种组织修复，因而受到众多关注。</p>
+<p>但是，干细胞的多向分化潜能是一把双刃剑，一方面使得干细胞疗法在多种组织中具有修复效果，另一方面多向分化的干细胞可能形成畸胎瘤或者癌变，存在安全隐患。有研究发现，把MSCs移植到裸鼠中，观察到典型的骨肉瘤形成，即间充质干细胞(MSCs)移植促进肿瘤形成。总结来说，未经指向和不受限制的干细胞疗法存在严重的安全隐患。</p>
+<p>基因治疗是一种非常有前景的提供治疗性蛋白的迭代方案。但是，pDNA要实现治疗性蛋白翻译需要进入细胞核，而且转染效率低，还可能发生基因组插入突变，这极大限制了DNA疗法的应用。与此相反，mRNA在细胞质中便可以快速翻译生成治疗性蛋白，不需要进入细胞核中。利用mRNA技术来增强干细胞治疗的效果成为非常有前景的方向，例如有研究用抗人皮间素靶向嵌合抗原受体mRNA CAR转染外周血来源的淋巴细胞。目前，基于mRNA技术的CAR-T疗法已经进入到临床试验中。最新的应用进展使得人们希望通过mRNA技术来开发出一种新型的，安全的以及高疗效的组织再生药物。</p>
+<p>基于MSCs的干细胞疗法使得软骨生重获希望。生长因子的添加可以为干细胞的分化指明方向。但是，重组蛋白生长因子不仅成本非常高，而且还会引发一系列副作用，用来提升干细胞疗效的优势非常微弱。利用mRNA技术向损伤部位递送治疗性蛋白成为非常有前景的替代方案，但是向无血管的组织（例如，软骨）中递送mRNA极少被研究，面临诸多困难。</p>
+<p>2022年5月6号，中科院深圳先进技术研究院于寅研究员在bioRxiv发表文章：Highly efficient healing of critical sized articular cartilage defect in situ using a chemically nucleoside-modified mRNA-enhanced cell therapy，使用编码生长因子TGF-β3的修饰核苷酸提升骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效。在小鼠模型中，原位注射TGF-β3 cmRNA +BMSCs，六周之内，可以将软骨损伤修复到自然水平。此外，通过TGF-β3 cmRNA增强的BMSCs疗法还能够阻止软骨损伤造成的骨性关节炎（osteoarthritis, OA）。这种利用mRNA技术增强基于MSCs的疗法成为修复软骨损伤的新疗法。</p>
+<p>TGF-β3在软骨再生的过程中具有非常重要的作用，能够诱导MSCs软骨分化，促进软骨样基质沉淀。因此，研究人员构建TGF-β3 cmRNA，使用PEI包封。首先，证实其在BMSCs单层细胞和3D球状体细胞模型中具有非常好的转染效率，表达出来的TGF-β3能够显著提升BMSCs细胞外基质的分泌。接着，证实TGF-β3-cmRNA能够在体外诱导BMSCs的软骨分化，甚至诱导效果要好于用重组蛋白TGF-β3。最后，通过手术在小鼠膝盖创造出软骨损伤，将TGF-β3-cmRNA+BMSCs（CBmR组）或者BMSCs（CB组）注射到小鼠软骨损伤部位测试治疗效果。在没有注射BMSCs的对照组，软骨损伤清晰可见，关节表面粗糙，有大量严重渗出物。在CB组和CBmR组关节表面平滑，软骨再生得到显著提升。国际修复协会评分和组织染色证实CBmR组要比CB组能更好地促进软骨再生。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206291842660.png" alt="TGF-β3 cmRNA在小鼠模型中能够增强BMSCs软骨再生的疗效。"></p>
+<p>此外，研究人员还利用microCT 观察cmRNA-TGF-β3对软骨下骨(subchondral bone)的影响。在空白对照组，软骨损伤部位会出现软骨下骨严重的碎裂。此外，还可以观察到软骨下骨的冠状面和骨小梁变薄和丢失。在CB组和CBmR组，软骨下骨的碎裂丢失都是非常明显的抑制。特别是在CBmR组。骨小梁的体积和骨矿物密度更加高。软骨下骨的异常和丢失，会造成骨性关节炎，甚至最终导致行动障碍。我们可以看到，TGF-β3 cmRNA不仅可以促进软骨再生，而且还可以抑制软骨下骨的病理性变化。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206292205686.png" alt="TGF-β3 cmRNA抑制软骨下骨的病理学变化。"></p>
+<p>这篇文章原位注射编码生长因子的修饰mRNA诱导不含血管的软骨组织再生，增强骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效，证明修饰mRNA增强型的干细胞疗法是一种非常高效的，安全的，具备潜在临床转化前景的治疗方案。在小鼠软骨损伤部位注射携带TGF-β3 mRNA的骨髓间充质干细胞，在4-6周之内，可以近乎完全治愈软骨损伤。这是第一次证实修饰mRNA能够显著增强BMSCs的治疗效果，而且只需要原位注射，不需要系统性注射修饰mRNA。这也为其他组织的再生搭建出一个非常有前景的治疗平台技术。</p>
+]]></content>
+      <categories>
+        <category>RNA疗法</category>
+      </categories>
+      <tags>
+        <tag>干细胞</tag>
+      </tags>
   </entry>
 </search>

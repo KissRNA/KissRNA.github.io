@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.2">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"www.kissrna.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":"ture","trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="2022年9月3号，InDevR公司首席技术官Erica Dawson在bioRxiv上传预印本：Rapid Identity and Quantity CQA Test for Multivalent mRNA Drug Product Formulations。简单来说，他们设计出一种**核酸芯片-VaxArray，在芯片上固定特异性的捕获探针，将单条或者多条裸mRNA序列或者从LNP裂解出来">
+<meta property="og:type" content="article">
+<meta property="og:title" content="多价mRNA疫苗中各组分mRNA的快速鉴定和准确定量">
+<meta property="og:url" content="http://www.kissrna.com/2022/09/16/%E5%A4%9A%E4%BB%B7mRNA%E7%96%AB%E8%8B%97%E4%B8%AD%E5%90%84%E7%BB%84%E5%88%86mRNA%E7%9A%84%E5%BF%AB%E9%80%9F%E9%89%B4%E5%AE%9A%E5%92%8C%E5%87%86%E7%A1%AE%E5%AE%9A%E9%87%8F/index.html">
+<meta property="og:site_name" content="RNAFactory">
+<meta property="og:description" content="2022年9月3号，InDevR公司首席技术官Erica Dawson在bioRxiv上传预印本：Rapid Identity and Quantity CQA Test for Multivalent mRNA Drug Product Formulations。简单来说，他们设计出一种**核酸芯片-VaxArray，在芯片上固定特异性的捕获探针，将单条或者多条裸mRNA序列或者从LNP裂解出来">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209131649774.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151645877.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151652579.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151936498.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151948329.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209152112895.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209152125083.png">
+<meta property="article:published_time" content="2022-09-16T11:09:42.000Z">
+<meta property="article:modified_time" content="2022-09-16T11:41:13.591Z">
+<meta property="article:author" content="留胡子的豆腐">
+<meta property="article:tag" content="多价mRNA疫苗">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209131649774.png">
+
+<link rel="canonical" href="http://www.kissrna.com/2022/09/16/%E5%A4%9A%E4%BB%B7mRNA%E7%96%AB%E8%8B%97%E4%B8%AD%E5%90%84%E7%BB%84%E5%88%86mRNA%E7%9A%84%E5%BF%AB%E9%80%9F%E9%89%B4%E5%AE%9A%E5%92%8C%E5%87%86%E7%A1%AE%E5%AE%9A%E9%87%8F/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>多价mRNA疫苗中各组分mRNA的快速鉴定和准确定量 | RNAFactory</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">RNAFactory</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Sharing Key Discoveries and Advances in mRNA Therapeutics</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.kissrna.com/2022/09/16/%E5%A4%9A%E4%BB%B7mRNA%E7%96%AB%E8%8B%97%E4%B8%AD%E5%90%84%E7%BB%84%E5%88%86mRNA%E7%9A%84%E5%BF%AB%E9%80%9F%E9%89%B4%E5%AE%9A%E5%92%8C%E5%87%86%E7%A1%AE%E5%AE%9A%E9%87%8F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/2.png">
+      <meta itemprop="name" content="留胡子的豆腐">
+      <meta itemprop="description" content="We love and creat cool RNAs">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RNAFactory">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          多价mRNA疫苗中各组分mRNA的快速鉴定和准确定量
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-09-16 19:09:42 / 修改时间：19:41:13" itemprop="dateCreated datePublished" datetime="2022-09-16T19:09:42+08:00">2022-09-16</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/RNA%E5%B7%A5%E8%89%BA/" itemprop="url" rel="index"><span itemprop="name">RNA工艺</span></a>
+                </span>
+            </span>
+
+          
+            <div class="post-description">2022年9月3号，InDevR公司首席技术官Erica Dawson在bioRxiv上传预印本：Rapid Identity and Quantity CQA Test for Multivalent mRNA Drug Product Formulations。简单来说，他们设计出一种**核酸芯片-VaxArray，在芯片上固定特异性的捕获探针，将单条或者多条裸mRNA序列或者从LNP裂解出来的mRNA序列点到芯片上，捕获探针会跟靶标mRNA序列杂交结合，洗去芯片上未结合的杂质，再加入荧光标记的各种不同位置序列的检测探针（寡核苷酸或者抗体），根据荧光信号强度，便可以同时鉴定或者定量分析多条mRNA序列。</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>2022年6月7号，Moderna宣布启动流感四价疫苗mRNA-1010的三期临床试验。<strong>mRNA1010</strong>编码4株流感病毒的血凝素蛋白，分别是A型流感病毒H1N1, A型流感病毒H3N2,B型流感病毒Yamagata ,B型流感病毒Victoria-lineages。Moderna还研发出两款组合型疫苗，靶向流感病毒和新冠病毒的<strong>mRNA-1073</strong>以及靶向流感，新冠，呼吸道合胞病毒RSV的<strong>mRNA-1230</strong>。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209131649774.png" alt="Moderna开发的多价疫苗mRNA1230和mRNA1073。" style="zoom: 80%;" />
+
+<p><strong>2022年8月31日，FDA同时批准Moderna和Pizer-BioNTech新冠二价疫苗加强针的紧急授权申请，标志着二价mRNA疫苗的首次获批使用。</strong>mRNA-1273.222是Moderna研发的专门预防BA.4/BA.5的二价疫苗，剂量是50ug，由25ug 编码新冠原始株Spike蛋白的mRNA与编码BA.4/BA.5 Omicron变异株Spike蛋白的mRNA组成。</p>
+<p>随着mRNA疫苗研发生产工艺的不断完善，未来将会出现越来越多的多价疫苗，这就带来一个问题：<strong>一个多价mRNA疫苗完成LNP包封以后，内部含有多条mRNA序列，对mRNA进行定量或者检测包封率时，如何鉴定每一条mRNA序列？如何准确定量每一条mRNA序列的含量或者包封率？</strong></p>
+<p>USP最近公布的mRNA疫苗分析草案中，<strong>建议通过测序和RT-PCR来鉴定mRNA</strong>。尽管测序可以提供非常丰富的序列信息，但是整个过程复杂，耗时长。RT-PCR是比测序更加直接的鉴定方式，但是，仍然需要特殊的操作流程。如果mRNA包封在LNP里面，还需要提前进行纯化处理。</p>
+<p><strong>USP草案建议采用基于PCR或者紫外吸收的方法对于mRNA进行定量分析</strong>。利用紫外分光光度计可以直接测定相对较纯的mRNA浓度，而基于紫外吸收的RiboGreen可以通过绘制标准曲线来测定溶液中mRNA含量或者LNP包封率。然而，基于紫外吸收的方法很容易受到样品中杂质的干扰，更加重要的是，缺乏特异性，无法同时对多价mRNA疫苗中的各个mRNA成分进行定量分析。虽然数字PCR可以对多条mRNA序列进行定量，但是，这需要提前将mRNA序列从LNP包封的样品中提取纯化处理，在分析之前的提取纯化过程就需要花费掉一天的时间。</p>
+<p>与传统疫苗相比，mRNA疫苗显著的速度优势和多价mRNA疫苗的快速发展将会需要更完善快速的分析方法来使得mRNA生产包封工艺变成流水线作业，降低上市时间，提升实验室临床成果的转化落地。<strong>2022年9月3号，InDevR公司首席技术官Erica Dawson在bioRxiv上传预印本：Rapid Identity and Quantity CQA Test for Multivalent mRNA Drug Product Formulations。</strong>简单来说，他们设计出一种<strong>核酸芯片-VaxArray，在芯片上固定特异性的捕获探针，将单条或者多条裸mRNA序列或者从LNP裂解出来的mRNA序列点到芯片上，捕获探针会跟靶标mRNA序列杂交结合，洗去芯片上未结合的杂质，再加入荧光标记的各种不同位置序列的检测探针（寡核苷酸或者抗体），根据荧光信号强度，便可以同时鉴定或者定量分析多条mRNA序列</strong>。</p>
+<h2 id="VaxArray-mRNA芯片设计原理"><a href="#VaxArray-mRNA芯片设计原理" class="headerlink" title="VaxArray mRNA芯片设计原理"></a>VaxArray mRNA芯片设计原理</h2><p>研究人员以编码流感病毒HA抗原和NA抗原的mRNA序列作为例子，阐述VaxArray mRNA芯片设计的原理。他们总共设计了37条靶向HA/NA的特异性寡核苷酸序列作为捕获或者检测探针序列，根据探针序列的反应性和特异性，从中挑选出靶向HA/NA mRNA的特异性探针序列各8条。图a和b显示NA/HA mRNA组成元件以及4个捕获探针序列（黄色显示的是主要测试的捕获探针序列）。如图c所示，每条芯片上有16个重复的微阵列单元，每个微阵列单元中存在9个不同的捕获探针位点，每个捕获探针位点又是由9个相同的重复位点构成。 PolyT探针序列作为通用的捕获探针序列。根据不同的应用需求，可以灵活搭配捕获探针序列和检测探针序列。</p>
+<table>
+<thead>
+<tr>
+<th align="center">组合序号</th>
+<th align="center">捕获探针</th>
+<th align="center">检测探针</th>
+<th align="center">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">ⅰ</td>
+<td align="center">靶向目标mRNA编码区</td>
+<td align="center">荧光标记-Poly T寡核苷酸序列</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">ⅱ</td>
+<td align="center">靶向目标mRNA编码区</td>
+<td align="center">荧光标记-抗5’帽子结构抗体</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">ⅲ</td>
+<td align="center">靶向目标mRNA编码区</td>
+<td align="center">荧光标记-靶向编码区的特异性寡核苷酸序列</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">ⅳ</td>
+<td align="center">Poly T寡核苷酸序列</td>
+<td align="center">荧光标记-抗5’帽子结构抗体</td>
+<td align="center">检测全长序列</td>
+</tr>
+<tr>
+<td align="center">ⅴ</td>
+<td align="center">Poly T寡核苷酸序列</td>
+<td align="center">荧光标记-靶向编码区的特异性寡核苷酸序列</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151645877.png" alt="VaxArray mRNA芯片设计"></p>
+<p>VaxArray mRNA芯片的检测操作很简单，耗时不会超过2小时。将目标mRNA加入芯片，在优化的缓冲液buffer体系中与芯片上的捕获探针发生杂交结合，洗涤除去杂质，再加入检测探针进行孵育，最后使用VaxArray成像系统检测荧光信号。</p>
+<h2 id="VaxArray-mRNA芯片性能测试"><a href="#VaxArray-mRNA芯片性能测试" class="headerlink" title="VaxArray mRNA芯片性能测试"></a>VaxArray mRNA芯片性能测试</h2><h3 id="反应性与特异性"><a href="#反应性与特异性" class="headerlink" title="反应性与特异性"></a>反应性与特异性</h3><p>以NA/HAmRNA作为目标mRNA，使用VaxArray mRNA芯片检测浓度为10 ug/ml 单价NA mRNA，单价HA mRNA以及双价NA/HA mRNA，以Poly T寡核苷酸序列作为检测探针，荧光信号图谱（图a）显示针对目标mRNA设计的每一个捕获探针均具有高度的特异性。</p>
+<p>如图b所示，对于特定的捕获探针和不同的检测探针来说，信噪比（S/B）浮动范围在5.3-28.2，表明捕获探针序列与目标mRNA序列具有很好的反应性。对于非目标mRNA来说，信噪比&lt;1.3，表明捕获探针序列具有非常强的特异性。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151652579.png" alt="VaxArray mRNA芯片检测裸mRNA序列的反应性和特异性。" style="zoom: 80%;" />
+
+<h3 id="荧光信号强度和浓度之间存在很好的线性对应关系"><a href="#荧光信号强度和浓度之间存在很好的线性对应关系" class="headerlink" title="荧光信号强度和浓度之间存在很好的线性对应关系"></a>荧光信号强度和浓度之间存在很好的线性对应关系</h3><p>如左图所示，研究人员利用不同的捕获探针和检测探针组合芯片与目标mRNA（HA或者NA）进行杂交孵育，检测到的荧光信号与目标mRNA真实浓度之间存在良好的线性关系。更加重要的是，如右图所示，当检测样本是HA+NA二价mRNA时，使用 VaxArray 芯片检测到的荧光信号与单价mRNA(HA或者NA)是相似的。也就是说，VaxArray 芯片能够非常好的适用于多价mRNA疫苗，其他mRNA序列的存在对于检测的目标mRNA序列不会造成干扰。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151936498.png" alt="不同的捕获探针与检测探针或者单价mRNA与多价mRNA，荧光信号强度与真实浓度之间存在良好的线性对应关系。"></p>
+<h3 id="检测限范围"><a href="#检测限范围" class="headerlink" title="检测限范围"></a>检测限范围</h3><p>如表1所示，<strong>VaxArray芯片检测上限</strong>（ULOQ）<strong>范围是14 ug/ml—18 ug/ml，检测下限</strong>（LLOQ）<strong>范围是0.08 ug/ml—0.2 ug/ml</strong>，4种靶向目标mRNA(HA/NA)编码区的捕获探针可以检测到的目标mRNA浓度浮动范围超过90倍以上。对于高浓度的检测样本，可以将其按照合适的比例稀释到VaxArray芯片工作范围内。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151948329.png" alt="VaxArray芯片检测上限和下限范围，以NA或者HA mRNA作为目标mRNA，捕获探针使用靶向编码区的寡核苷酸探针，检测探针使用荧光标记的PolyT寡核苷酸。"></p>
+<h3 id="准确度和精密度"><a href="#准确度和精密度" class="headerlink" title="准确度和精密度"></a>准确度和精密度</h3><p><strong>准确度</strong>（Accuracy）：指在一定实验条件下多次测定的平均值与真值相符合的程度，以误差来表示。 它用来表示系统误差的大小。 <strong>精密度</strong>（Precision）：是指多次重复测定同一量时各测定值之间彼此相符合的程度。 表征测定过程中随机误差的大小。如表2所示，VaxArray芯片利用不同的捕获探针检测二价mRNA(NA+HA)浓度时（2.4 ug/ml），具有非常好的准确度和精密度。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209152112895.png" alt="测定VaxArray芯片检测目标mRNA的准确度和精密度，总共3个操作者，每个操作者利用每个捕获探针测定8个重复的样品。"></p>
+<h3 id="检测LNP包封mRNA样品"><a href="#检测LNP包封mRNA样品" class="headerlink" title="检测LNP包封mRNA样品"></a>检测LNP包封mRNA样品</h3><p>使用VaxArray芯片分析LNP包封的mRNA样品时，需要先用1% Triton X-100破乳处理10 min，然后按照正常流程检测，整个过程花费的时间依然少于2小时。<strong>尤其值得一提的是，该方法不需要对破乳后的mRNA样品进行纯化，可在含有LNP成分的情况下，直接进行检测。空白LNPs是检测不到荧光信号的</strong>。</p>
+<p>研究人员使用VaxArray芯片比较检测2 ug/ml 裸NA-mRNA和LNP包封的NA-mRNA，使用相同的检测探针Poly T寡核苷酸序列以及相同的曝光时间，荧光信号图谱显示LNP包封的NA-mRNA与裸NA-mRNA产生相似的图谱，而且，当使用HA作为捕获探针时，不会出现脱靶荧光信号。同时，如图b所示，VaxArray芯片检测LNP包封的mRNA时也具有非常好的反应性和特异性。<strong>这些数据说明，对于LNP包封的mRNA样品来说，VaxArray芯片检测时无需在破乳后对目标mRNA进行纯化处理，脂质体成分也不会产生非特异性的荧光信号</strong>。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209152125083.png" alt="VaxArray芯片检测LNP-mRNA样品时，产生的荧光图谱同裸mRNA是相似的，具有非常好的特异性和反应性。"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>随着mRNA疫苗领域的快速发展和众多多价mRNA疫苗的不断涌现，开发出匹配mRNA疫苗研发速度，流水线化mRNA疫苗产品的相关分析方法是非常关键的。对mRNA序列或者含量进行鉴定和定量的理想方法需要具备以下几点：（1）卓越的分析能力（准确度和精密度），（2）短时间内便可出分析报告，（3）易于操作，无需经过特殊训练，（4）灵活的样本处理量，即可实现大批次高通量，也可实现少量样品检测，（5）无需复杂耗时的样品前处理过程，（6）高度的特异性，可鉴定多条不同的mRNA序列。</p>
+<p>VaxArray芯片依赖于特殊设计的捕获探针和灵活的检测探针，实现mRNA的快速鉴定和准确定量。这种芯片具极高的特异性，特别是当组合使用靶向目标mRNA编码区的捕获探针与靶向目标mRNA编码区的荧光标记检测探针时。不管是对于单价mRNA疫苗还是多价mRNA疫苗，此芯片的荧光信号强度和真实浓度之间均具有非常好的线性对应关系，优越的准确度和精密度。值得一提的是，当组合使用靶向末端的Poly A 捕获探针与荧光标记的抗帽子结构抗体时，可实现对整个全长mRNA序列的鉴定。更加重要的是，VaxArray芯片检测LNP包封的mRNA样品时，只多了一个10min的破乳步骤，无须进行mRNA纯化，便可上机检测。最为吸引人的是，优秀的分析能力使得VaxArray芯片特别适合应用于多价mRNA工艺优化和生产过程中的各个阶段，例如，IVT优化，LNP包封，稳定性测试等。</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%A4%9A%E4%BB%B7mRNA%E7%96%AB%E8%8B%97/" rel="tag"># 多价mRNA疫苗</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/09/08/%E6%B7%B1%E5%9C%B3%E5%85%88%E8%BF%9B%E9%99%A2%E5%BC%80%E5%8F%91%E4%BF%AE%E9%A5%B0mRNA%E5%A2%9E%E5%BC%BA%E5%B9%B2%E7%BB%86%E8%83%9E%E7%96%97%E6%B3%95%EF%BC%8C%E5%8E%9F%E4%BD%8D%E6%B3%A8%E5%B0%84%E5%AE%9E%E7%8E%B0%E8%BD%AF%E9%AA%A8%E5%86%8D%E7%94%9F%E3%80%82/" rel="prev" title="深圳先进院开发修饰mRNA增强干细胞疗法，原位注射实现软骨再生。">
+      <i class="fa fa-chevron-left"></i> 深圳先进院开发修饰mRNA增强干细胞疗法，原位注射实现软骨再生。
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#VaxArray-mRNA%E8%8A%AF%E7%89%87%E8%AE%BE%E8%AE%A1%E5%8E%9F%E7%90%86"><span class="nav-number">1.</span> <span class="nav-text">VaxArray mRNA芯片设计原理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#VaxArray-mRNA%E8%8A%AF%E7%89%87%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95"><span class="nav-number">2.</span> <span class="nav-text">VaxArray mRNA芯片性能测试</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%8D%E5%BA%94%E6%80%A7%E4%B8%8E%E7%89%B9%E5%BC%82%E6%80%A7"><span class="nav-number">2.1.</span> <span class="nav-text">反应性与特异性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%8D%A7%E5%85%89%E4%BF%A1%E5%8F%B7%E5%BC%BA%E5%BA%A6%E5%92%8C%E6%B5%93%E5%BA%A6%E4%B9%8B%E9%97%B4%E5%AD%98%E5%9C%A8%E5%BE%88%E5%A5%BD%E7%9A%84%E7%BA%BF%E6%80%A7%E5%AF%B9%E5%BA%94%E5%85%B3%E7%B3%BB"><span class="nav-number">2.2.</span> <span class="nav-text">荧光信号强度和浓度之间存在很好的线性对应关系</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A3%80%E6%B5%8B%E9%99%90%E8%8C%83%E5%9B%B4"><span class="nav-number">2.3.</span> <span class="nav-text">检测限范围</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%87%86%E7%A1%AE%E5%BA%A6%E5%92%8C%E7%B2%BE%E5%AF%86%E5%BA%A6"><span class="nav-number">2.4.</span> <span class="nav-text">准确度和精密度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A3%80%E6%B5%8BLNP%E5%8C%85%E5%B0%81mRNA%E6%A0%B7%E5%93%81"><span class="nav-number">2.5.</span> <span class="nav-text">检测LNP包封mRNA样品</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="留胡子的豆腐"
+      src="/images/2.png">
+  <p class="site-author-name" itemprop="name">留胡子的豆腐</p>
+  <div class="site-description" itemprop="description">We love and creat cool RNAs</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">留胡子的豆腐</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+<div>
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("09/07/2022 00:00:00");
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+setInterval("createtime()",250);
+</script>
+</div>
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
