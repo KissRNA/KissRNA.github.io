@@ -1,22 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/09/05/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>2022新春佳节畅谈RNA药物无限未来</title>
+    <url>/2022/09/18/2022%E6%96%B0%E6%98%A5%E4%BD%B3%E8%8A%82%E7%95%85%E8%B0%88RNA%E8%8D%AF%E7%89%A9%E6%97%A0%E9%99%90%E6%9C%AA%E6%9D%A5/</url>
+    <content><![CDATA[<p>2022年，新冠疫情的幽灵依然盘旋在每一个人的头顶上，久久不能散去。间隔一段时间就会冒出的新型变异株打乱刚恢复不久的日常秩序，反反复复，折腾不停。一波又一波的变异株突袭，也迫使疫苗研发不断迭代升级。</p>
+<p>从生物医药行业的角度来看，新冠疫情的爆发带来巨大的机遇，促使mRNA疫苗在真实世界中得以普及接种。mRNA技术凭借惊人的研发生产速度，显著的临床数据，大放异彩，引发投资热潮，让大家意识到一场生物医药行业前所未有的技术革命即将启航。</p>
+<p>国内RNA新药研发公司如雨后春笋般不断涌现，各大传统药企强力布局，所有人朝着风口狂奔，开足马力挤进赛道，生怕自己被甩在后面，登不上变革的列车。身处行业中的每一个人，哪怕是最迟钝的人，也能够感受到滔天的热浪，大家把对于未来的无数憧憬和激情投射到RNA技术上，期待它深刻地改变医药行业的格局。</p>
+<p>正值新春佳节，我们决定暂不推送circRNA相关论文，整理前段时间行业大佬们在mRNA药物研发论坛上的精彩对话，以茶话会的方式分享给大家，听听前辈们关于mRNA药物行业的一些深刻见解。聆听大佬的真知灼见，也是快速提升自己的最有效的方法。</p>
+<p>下面，把各位大佬在论坛上的相关讲话，以文字的形式整理总结，为了语句的凝练通顺，会自行删改加工，所有的信息以原视频为准，这里的记录仅仅是个人的整理。</p>
+<blockquote>
+<p>李航文  </p>
+</blockquote>
+<p>李航文，上海斯微生物创始人，斯微生物是国内致力于mRNA技术研发成立最早的公司，总部位于上海，在过去的一年里，已经完成2亿美元的融资，获得政府层面巨大支持，相信在新的一年，可以获得重大突破。</p>
+<p>…</p>
+<p>mRNA是一个平台型技术，不管是模板，还是递送，都具有平台属性，未来可以做很多事情。哪里蛋白，哪里就有RNA一展身手的机会。</p>
+<p>…</p>
+<blockquote>
+<p>王刚  赫林生物创始人</p>
+</blockquote>
+<p>王刚，杭州林生物创始人，公司管线集中中在mRNA替代治疗和传染病疫苗研发。</p>
+<ul>
+<li><p>mRNA疫苗是否会成为疫苗研发的主流技术？</p>
+<p>mRNA疫苗是人类疫苗研发历史上最重大的一个革命，相比其他的一些研发多年的疫苗，比如艾滋病疫苗，新冠疫苗一年之内就研发成功了，因此这个技术毋庸置疑必然是整个疫苗领域的一个基石。</p>
+</li>
+<li><p>RNA药物研发过程中遇到的核心挑战</p>
+<p>在新冠疫情爆发以前，国际上有关mRNA疫苗研发的相关工作已经进行多年，例如在寨卡病毒疫苗上做出过很优秀的成就，但是，在FDA那里遇到了一个最大的问题，那就是mRNA到底是否可以成为药物？因为在此之前，人类从未暴露在外源的RNA分子当中，可成药性是此前的一个最大的问题。当然，凭借新冠疫情带来的机遇，基本上已经解决了这个问题。</p>
+<p>当前mRNA技术面临的瓶颈，主要有两个方面，骨架系统和递送系统，两个系统叠加在一起，才能成为一个产品，因此这两个系统也是未来突破的方向。</p>
+<p>先谈谈骨架系统，骨架的参数是一个非常大的变量。mRNA一级结构决定二级结构，不同的序列导致完全不同的翻译效率，所以我认为，挑战还是在骨架上。实际上，目前我们并不知道哪些帽子好？哪些尾巴好？哪些UTR好？哪些密码子优化策略好？哪些组合是最优的能够实现最好的效果？今后的发展方向，可以用AI技术结合bench work来寻找到一个比较好的规律。这个规律包含两个层面，第一个是如何实现高效表达，第二个是如果实现组织特异性表达。</p>
+<p>再说说递送系统，兰格曾经跟我讲，自己发现大分子递送系统可以等同于发现DNA和RNA。要解决大分子的持续给药和大分子结构完整，必须借助递送系统来实现。递送系统的突破也面临很多困难：第一，构成递送系统的很多材料是人体无法清除的；第二，从目前mRNA发展历程来看，moderan公司第一个通过二期临床的药物（治疗糖尿病皮肤病并发症的），实际上是一个裸RNA。结合本人自己做的研究来看，RNA在体内（体外另外一回事情），即便没有递送系统，也可以work。当然，这并不是否定递送系统，而恰恰说明，递送系统也需要升级和与骨架系统相匹配，一定存在一个非常好的递送系统搭配一个优化的骨架系统来实现非常好的体内表达效果。同时，我也认为，现阶段，就事论事来说，一个高级的骨架系统可以配一个低级的递送系统，因为FDA批准递送系统通过的难度比较大。</p>
+<p>最好，就靶点面临的挑战来说，实际上，对于mRNA药物，这么年轻的产品，从做产品的角度来说，靶点非常多。现在拥有一个巨大的历史机遇，就是曾经的专利壁垒事实上已经不存在了，同样的靶点，通过mRNA技术实现全新的起步。把现有靶点做好，已经是机会重重。</p>
+</li>
+<li><p>未来最可能攻破的应用场景</p>
+<p>除了无细胞表达以外，mRNA药物还有一个最大的优势就是细胞内蛋白的替代，甚至是线粒体的替代，我本人做过一个线粒体替代的东西，这个是重组蛋白技术无法实现的。</p>
+<p>除了疫苗和肿瘤领域以外，罕见病是一个可以快速突破的领域。因为罕见病一般是单基因突变，导致酶活性丧失，用mRNA技术可以把酶递送回去，恢复正常的生理功能。罕见病领域，也是疫情前很多RNA公司主要的研发热点。</p>
+</li>
+</ul>
+<blockquote>
+<p>王奕 </p>
+</blockquote>
+<p>王奕 ，深圳新合生物创始人，有多年从事艾滋病疫苗研发的经验。新合生物17年成立，公司致力于多组学信息采集，推动AI生信算法，全自动药物靶点挖掘设计，以RNA形式研发创新药物，管线以肿瘤免疫合传染病两个大的方向为主。</p>
+<ul>
+<li><p>mRNA疫苗的优势</p>
+<p>mRNA疫苗作为一个新型的疫苗载体，有着自己独特的先天优势：第一，比较强地激发B细胞或者T细胞免疫反应。第二，速度快，不管是研发速度，还是工艺生成速度。如何把mRNA疫苗平台的优势更深地激发出来。疫苗更多地取决于靶点问题，艾滋病疫苗的靶点很难寻找，像新冠疫苗靶点比较明确的。</p>
+</li>
+<li><p>RNA药物未来的突破方向</p>
+<p>RNA药物，实际上是RNA序列设计和递送系统的加乘，这两边是一个联动，一个加乘的关系。如果通过RNA序列优化设计，使表达效率或者特异性提高10倍或者20倍，再把提送效率提升5倍，那实际上加起来就RNA药物表达效果就提升了100倍。因此，这两个方向是RNA技术平台未来两个大的突破方向。</p>
+<p>除了线性RNA的优化骨架系统，实际上也出现了一些全新的骨架系统，比如saRNA和circRNA，在一定程度解决RNA在体内的表达效率和表达时间的问题。这个方面地更多取决于我们想做什么样的适应症，我们希望靶标蛋白在体内表达多长时间。</p>
+<p>递送方向上面，除了LNP系统，大家也在突破一些现有的专利，去找到一些更好的系统。总体来说，整个递送系统，在朝3个大地方向发展：</p>
+<ol>
+<li>安全性</li>
+<li>有效性，能把多少RNA递送到细胞里面去</li>
+<li>靶向性，除了绝大多数的肝，和一点点的脾脏，一点点的肺部，到底能不能实现更精准的器官靶向，甚至是细胞靶向。不管是通过LNP本身以及配方的优化，还是用一些新型的载体，来实现靶向性，这方面未来肯定存在一定的发展空间。</li>
+</ol>
+<p>从产业上来讲，由于疫情和政治环境，需要实现试剂仪器耗材的国产化，让国内的试剂耗材达到国外的标准。上游供应商的不断前进发展，可以降低核酸药物的成本，让RNA药物获得一个更好的发展空间。</p>
+<p>mRNA药物未来可以应用于哪些领域，还是取决于该技术的发展能够为我们打开哪些大门。</p>
+</li>
+</ul>
+<blockquote>
+<p>张佩琢 </p>
+</blockquote>
+<p>张佩琢，吉玛基因董事长，开启中国核酸药物的前辈。本人从1991年到英国学习RNA化学，入行有三十年，吉码也有近20年的积累，从化学到分子生物学，细胞到动物平台，RNA各自分析平台，综合平台力量为科研院所提供服务，为药物研发企业提供服务，自身定位是一家RNA平台型服务公司。</p>
+<ul>
+<li><p>mRNA疫苗的优势</p>
+<p>直观一点，免疫系统更像是我们的警察，疫苗不外乎就是我们把东西丢进去，让警察系统先识别一下，等将来真正碰到敌人突袭的时候，他好预先有反应。各自疫苗平台的差异，可以从生命中心法则的各段来看。康希诺的苗，无外乎就是把最后要表达成蛋白的DNA，先用病毒的方式放进去，然后进入体内，转录成mRNA，翻译成蛋白，警察拍了照片。重组蛋白直接把病毒碎片放进去。灭活苗，把病毒打死，尸体放进去。减毒苗，打了各半死，放进去，让警察看。不同的路径，各有各的优势。其他非mRNA疫苗，全部用到了生物制造体系，唯独mRNA疫苗几乎没有用到活细胞体系，生产过程是一个化学过程，简便和可控制。</p>
+</li>
+<li><p>界定RNA药物概念</p>
+<p>过去在相当长的一个领域内，没有人用RNA药物这样的字眼来界定这个细分领域。回到生命中心法则，把RAN药物同小分子化学药物，抗体药物，基因工程蛋白药物，基因治疗以及细胞治疗区分开来，只有用RNA药物去界定，才会更有价值。RNA药物可以把小核酸，小RNA，mRNA，涵盖在一起。小干扰RNA，反义核苷酸，作用机制是把靶基因下调下去，相反，mRNA是把靶标mRNA上调上去，最终，都是影响到蛋白表达。希望用RNA药物把自己小的细分行业给区分出来。</p>
+</li>
+<li><p>小核酸领域发展状况</p>
+<p>小RNA领域发展的历史，可以用3个40来概括：</p>
+<ol>
+<li><p>第一个40，40年多一点。从1978年，提出反义核苷酸，真正第一次把药物靶标从过去传统意义蛋白层面上托到了mRNA层面上。</p>
+</li>
+<li><p>第二个40，实际上，是FDA的态度。每年FDA的批准的药物，均下来是40多个。过去40年，FDA总共批准的药物总数是410多个，在相当长的时间内，一直到2015年以前，批准通过的小RNA药物，年年是零，年年在FDA那里交白卷。从2016年，2017年，2018年以后，逐渐进入到每年批准通过2个，3个，4个，</p>
+</li>
+<li><p>第三个40，中美研发团队对比。美国团队已经有十多款上市的药物，光小RNA一个方向上，还有二三十个2期临床已经拿到数据，3期临床看到比较好的结果。中国团队， 交出的答卷，很不好看，一个巴掌都不到，中国自己团队独立开发的并且处于临床的RNA药物，还非常少。这也是一个非常巨大的机会，国内企业转型的节点恰恰就在这里，国外已经走通了，国内外巨大的差距，可以让我们看到向前冲的机会。</p>
+</li>
+</ol>
+</li>
+<li><p>RNA药物面临的挑战</p>
+<p>不管是小RNA，还是mRNA，真正面临的挑战，也是小分子药物和抗体药物逃掉的一个挑战，就是要真正靶向性地进入细胞内。小分子化学药物用不着进入细胞内，大分子药物干脆柿子捡软的捏，找一些胞外靶点，RNA药物逃无可逃，必须进入细胞内才能解决问题。mRNA药物研发是第一次真正面对这个巨大的挑战，能够给整个制药行业带来一个新的转折和机遇，那就是必须找到真正能够靶向某一类组织甚至是细胞的工具。找起来，很难，是挑战。一旦找到，这就是药物开发的第一次选择，也就是只进了我该去的地方。第二次选择才是进去以后，选择使用小核酸了，把某一个mRNA特异性压制下来，还是选择mRNA，特异性地把某一个mRNA上调表。双重选择也是挑战带来的机会。</p>
+</li>
+<li><p>国内大型药企面临的机会</p>
+<p>小RNA也好，mRNA也好，给国内的很多寻找机会的药企，提供了一个更加容易接近的一个平台。</p>
+</li>
+<li><p>RNA药物未来靶点地选择方向</p>
+<p>第一，传统意义上在胞内不可成药的靶标。第二，传统意义成熟的靶点上，RNA药物可以实现更长效，依存性更好。</p>
+</li>
+</ul>
+<blockquote>
+<p> 赵孝斌 海旭创始人</p>
+</blockquote>
+<p>赵孝斌 ，海旭生物创始人。海旭生物是一家2014年成立的杭州公司，聚焦药物递送包括核酸递送的平台型公司，从化学药物到不同分子量RNA，进行商业化递送服务。</p>
+<ul>
+<li><p>mRNA行业的发展需要共同合作</p>
+<p>与传统疫苗相比，mRNA药物是新生的技术，新生的产品，新的平台。新冠疫情推动了整个RNA行业的发展。十年前，只要是mRNA药物就不被看好，但是现在整个制药行业都在拥抱这项技术。这对大家来说是一个共同的机遇和挑战。从上游到下游，行业的发展是需要共同合作的。上游创新的研发，下游的脚踏实地，紧密结合，共同开发合作，开拓战略性空间，推动行业发展。</p>
+</li>
+</ul>
+<blockquote>
+<p>栗世铀  启辰生创始人</p>
+</blockquote>
+<p>栗世铀，北京启辰生创始人，本人在科学院从事过功能基因组研究。启辰生坚持以免疫学理论为中心，进行所有管线研发和产品设计，基于细胞和纳米脂质颗粒递送系统的研发，管线有肿瘤和传染病疫苗的研发。</p>
+<ul>
+<li><p>mRNA疫苗是否会成为疫苗研发的主流技术？</p>
+<p>mRNA是一个分子工具（涉及基因编辑），也是一个信息分子（中心法则，信息流动），不管是疫苗领域，还是其他领域，毫无疑问，mRNA技术会成为一个主流的技术平台，这是由其更加灵活弹性的生产方式决定。</p>
+</li>
+<li><p>构建RNA药物行业微生态</p>
+<p>从药物开发的全链条来说，挑战还在于，要涉及到生产工艺开发和质量标准的建立，上下游的行业伙伴需要一起建立一个基于核酸的微生态。</p>
+</li>
+</ul>
+<blockquote>
+<p>总结</p>
+</blockquote>
+<p>从上面众位大佬分享的见解可以看到，大家对于RNA药物充满了期待，不同领域的专家，都瞄准了RNA赛道，殊途同归，开始全部致力于RNA药物的研发中来。多年以后，大家可能会淡忘新冠疫情期间带来的生活不便，核酸检测，行程码，口罩，这些疫情期间特有的东西会烟消云散，人们又无忧无虑地生活在阳光下，自由地呼吸，随心所欲地旅行。但是，可以肯定，RNA疫苗在疫情中展现出来的巨大优势和对医药行业带来的巨大变革将会铭刻。</p>
 ]]></content>
+      <categories>
+        <category>RNA行业发展动态</category>
+      </categories>
+      <tags>
+        <tag>论坛</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Orna Therapeutics环形RNA平台最新研发进展</title>
+    <url>/2022/09/18/Orna-Therapeutics%E7%8E%AF%E5%BD%A2RNA%E5%B9%B3%E5%8F%B0%E6%9C%80%E6%96%B0%E7%A0%94%E5%8F%91%E8%BF%9B%E5%B1%95/</url>
+    <content><![CDATA[<img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205191830785.png" alt="image-20220519183042776" style="zoom: 25%;" />
+
+<p>在最近举办的美国细胞基因治疗行业会议上，Orna Therapeutics分享了他们最新的研发和工艺生产方面的进展。在2018年，Daneil G. Aderson成功利用具有剪切活性的I型内含子构建CircRNA用来表达外源蛋白，并且申请到构建环形RNA的专利。在2021年2月，Orna Therapeutics完成首轮融资，Daneil成为其董事会成员。一年多过去了，期间出现多款新冠环形RNA候选疫苗，但是几乎没怎么听到Orna Therapeutics 公司的消息。看到他们最新分享的公司研发进展，发现他们一直在完善环形RNA工艺平台的搭建，工作做的很踏实，拿到很多有意思的数据，非常值得我们学习。</p>
+<h2 id="比较环形RNA和线性RNA特征"><a href="#比较环形RNA和线性RNA特征" class="headerlink" title="比较环形RNA和线性RNA特征"></a>比较环形RNA和线性RNA特征</h2><h3 id="包封"><a href="#包封" class="headerlink" title="包封"></a>包封</h3><p>测试不同的阳离子脂质，不同长度的编码区，在包封过程中，均能取得类似的极低的PDI（&lt;0.1）和非常好的包封效率(90%)。与对应的线性mRNA-LNP颗粒相比，ORNA-LNP颗粒更小。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205191553449.png" alt="不同LNP配方，不同长度的ORNA-LNP和其对应的mRNA-LNP颗粒直径比较"></p>
+<h3 id="体内分布"><a href="#体内分布" class="headerlink" title="体内分布"></a>体内分布</h3><p>利用luciferase作为报告基因，比较ORNA-LNP和mRNA-LNP（来源于Trilink）在小鼠体内不同组织中的表达差异。在测试的4组LNP配方中，相同LNP配方的同组内，ORNA-LNP在脾脏中的表达量是比较高的，而对应的mRNA-LNP在脾脏中几乎不表达。在肝脏中，相同LNP配方的同组内，ORNA-LNP普遍不如mRNA-LNP表达水平高。对于ORNA-LNP，其在脾脏和肝脏中表达比例的差异取决于LNP配方。肝脏是非常重要的免疫器官，含有很多免疫效应细胞，例如T细胞。CircRNA注射到体内，在脾脏中的表达显著于线性mRNA，这对于mRNA技术在CART疗法的应用来说有非常重要的意义。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205191608809.png" alt="image-20220519160824669"></p>
+<h3 id="脾脏T细胞表达效率"><a href="#脾脏T细胞表达效率" class="headerlink" title="脾脏T细胞表达效率"></a>脾脏T细胞表达效率</h3><p>在不同的LNP配方，不同的编码区，ORNA-LNP在小鼠脾脏T细胞中的表达均显著优于线性mRNA。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205191636303.png" alt="image-20220519163619219"></p>
+<p>ORNA-LNP在人T细胞中的表达随着ORNA含量的增加而增加，呈现出剂量依赖效应。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205191640132.png" alt="image-20220519164025068"></p>
+<h2 id="环形RNA应用于蛋白替代疗法"><a href="#环形RNA应用于蛋白替代疗法" class="headerlink" title="环形RNA应用于蛋白替代疗法"></a>环形RNA应用于蛋白替代疗法</h2><p>杜氏肌营养不良症（Duchenne muscular dystrophy ），是由于DMD 基因突变，导致缺失抗肌萎缩蛋白引起的严重性的致死性肌肉疾病。由于抗肌萎缩蛋白（dystrophin）全长编码区长达11kb，蛋白分子量427kDa，使得传统蛋白替代疗法难以实现。贝克尔肌肉萎缩症是一种较为温和的肌肉营养不良症，病人可以表达截断的抗肌萎缩蛋白，生命周期得以提升，这表明表达阶段的抗肌萎缩蛋白可以减缓致死型的肌营养不良症。目前已经有一些基于腺病毒递送系统（AAV）来表达截断抗肌萎缩蛋白的疗法，但是由于病毒免疫原性和低下的克隆能力限制此类方法的发展。Orna Therapeutics 公司将开发的环形RNA应用于杜氏肌营养不良症的治疗中，实现持久高效的蛋白表达，甚至是长编码区蛋白的表达，以及多次给药。</p>
+<p>编码全长抗肌萎缩蛋白和截断突变体的环形RNA均能在原代骨骼肌细胞中表达。</p>
+<img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205191749286.png" alt="image-20220519174936157" style="zoom:50%;" />
+
+
+
+<p>通过肌肉注射的方式，将编码micron-dystrophin ORNA-LNP打到mdx小鼠模型中（DMD 基因突变，缺失抗肌萎缩蛋白），在四头肌中的表达量可以达到野生型小鼠表达全长抗肌萎缩蛋白量的4.2%，并且正确定位到肌膜上（sarcolemma）。</p>
+<img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205191820517.png" alt="image-20220519182030352" style="zoom:50%;" />
+
+
+
+<h2 id="IRES序列筛选"><a href="#IRES序列筛选" class="headerlink" title="IRES序列筛选"></a>IRES序列筛选</h2><p>环形RNA与线性mRNA相比，没有游离的末端，无须帽子和尾巴结构，无须修饰核苷酸。蛋白表达量和表达持续时间均显著优于线性mRNA。环形RNA起始蛋白翻译，是通过IRES序列介导的。IRES是一段较长的序列&gt;500nt，其复杂的二级和三级结构对于起始蛋白翻译的活性非常重要。</p>
+<h3 id="IRES分类"><a href="#IRES分类" class="headerlink" title="IRES分类"></a>IRES分类</h3><p>IRES来源病毒UTR序列，可以分为源自细胞质环境的IRES和源自细胞核环境的IRES。源自细胞质环境的IRES起始蛋白翻译，需要细胞质中的ITAFs，不需要特殊的化学修饰，长度在400nt-1000nt+。源自细胞核环境的IRES起始蛋白翻译，必须在细胞核中经过一定程度的化学修饰，与核内特殊的蛋白相互作用，具有更短的序列&lt;200nt。源自细胞核环境的IRES不能用于启动细胞质环境中RNA的翻译。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205191851824.png" alt="image-20220519185116707"></p>
+<h3 id="影响IRES翻译活性的因素"><a href="#影响IRES翻译活性的因素" class="headerlink" title="影响IRES翻译活性的因素"></a>影响IRES翻译活性的因素</h3><p>IRES活性和长度之间存在相关性。400-800nt IRES活性是最高的。IRES活性依赖于细胞类型，在不同的细胞类型中具有不同的表达活性。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205191901275.png" alt="image-20220519190111184"></p>
+<p>IRES在肌管细胞（myotube）和肝细胞中的翻译活性具有相关性，而T细胞中IRES的活性与这两种细胞中的IRES活性具有相关性。只有极少数的IRES在所有细胞类型中均展现出非常强的翻译活性。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205191907017.png" alt="image-20220519190751926"></p>
+<h3 id="筛选IRES遇到的困难"><a href="#筛选IRES遇到的困难" class="headerlink" title="筛选IRES遇到的困难"></a>筛选IRES遇到的困难</h3><p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205191902478.png" alt="image-20220519190241330"></p>
+<p>研发人员以及筛选到上百个具有非常高活性的IRES序列，有一些翻译活性要比常用的EMCV-IRES高出10-40倍。他们还发现来自类似病毒的IRES在翻译活性有着非常显著的差异。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205191906939.png" alt="image-20220519190631828"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在Orna Therapeutics此次的交流分享中，我们可以看到他们在工艺优化方面做出一系列的摸索，测试不同LNP配方包封不同长度的环形RNA，测定oRNA-LNP在体内不同器官的分布以及表达情况。更加重要的是，他们对IRES序列进行高通量筛选，研究影响IRES表达活性的因素，摸索不同细胞背景下IRES表达活性。他们似乎并没有利用环形RNA来追赶新冠疫苗的热点，而是去探索更多别的领域，比如CART疗法和蛋白替代疗法。通过这些踏实的基础工作，Orna Therapeutics一定可以将环形RNA平台打造得更加完善，期待他们在不久的将来做出激动人心的产品。</p>
+]]></content>
+      <categories>
+        <category>RNA行业发展动态</category>
+      </categories>
+      <tags>
+        <tag>circRNA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>深圳先进院开发修饰mRNA增强干细胞疗法，原位注射实现软骨再生。</title>
+    <url>/2022/09/08/%E6%B7%B1%E5%9C%B3%E5%85%88%E8%BF%9B%E9%99%A2%E5%BC%80%E5%8F%91%E4%BF%AE%E9%A5%B0mRNA%E5%A2%9E%E5%BC%BA%E5%B9%B2%E7%BB%86%E8%83%9E%E7%96%97%E6%B3%95%EF%BC%8C%E5%8E%9F%E4%BD%8D%E6%B3%A8%E5%B0%84%E5%AE%9E%E7%8E%B0%E8%BD%AF%E9%AA%A8%E5%86%8D%E7%94%9F%E3%80%82/</url>
+    <content><![CDATA[<p>关节软骨是滑膜关节非常重要的组成元件。当我们在行走，跳跃或者进行其他活动时，关节软骨会对相互连接的骨头间的震动起到缓冲减震作用，这使得关节软骨非常容易受到机械损伤。由于关节软骨所在的部位缺乏血管和营养物质，一旦发生损伤，很难自愈，导致骨性关节炎（osteoarthritis，OA）。骨性关节炎是世界上最常见的慢性关节疾病，预计到2040年会对7800万人群的日常生活造成影响。</p>
+<p>较高的发病率和有限的自我治愈使得软骨损伤对年轻的运动员和老人群体带来极大的威胁。传统治疗方法，包括非甾体类药物，物理治疗或者手术移植，存在低效，治疗时间长，副作用以及免疫排斥等缺陷，对其临床应用造成阻碍。干细胞由于具有多向分化潜能，可应用于多种组织修复，因而受到众多关注。</p>
+<p>但是，干细胞的多向分化潜能是一把双刃剑，一方面使得干细胞疗法在多种组织中具有修复效果，另一方面多向分化的干细胞可能形成畸胎瘤或者癌变，存在安全隐患。有研究发现，把MSCs移植到裸鼠中，观察到典型的骨肉瘤形成，即间充质干细胞(MSCs)移植促进肿瘤形成。总结来说，未经指向和不受限制的干细胞疗法存在严重的安全隐患。</p>
+<p>基因治疗是一种非常有前景的提供治疗性蛋白的迭代方案。但是，pDNA要实现治疗性蛋白翻译需要进入细胞核，而且转染效率低，还可能发生基因组插入突变，这极大限制了DNA疗法的应用。与此相反，mRNA在细胞质中便可以快速翻译生成治疗性蛋白，不需要进入细胞核中。利用mRNA技术来增强干细胞治疗的效果成为非常有前景的方向，例如有研究用抗人皮间素靶向嵌合抗原受体mRNA CAR转染外周血来源的淋巴细胞。目前，基于mRNA技术的CAR-T疗法已经进入到临床试验中。最新的应用进展使得人们希望通过mRNA技术来开发出一种新型的，安全的以及高疗效的组织再生药物。</p>
+<p>基于MSCs的干细胞疗法使得软骨生重获希望。生长因子的添加可以为干细胞的分化指明方向。但是，重组蛋白生长因子不仅成本非常高，而且还会引发一系列副作用，用来提升干细胞疗效的优势非常微弱。利用mRNA技术向损伤部位递送治疗性蛋白成为非常有前景的替代方案，但是向无血管的组织（例如，软骨）中递送mRNA极少被研究，面临诸多困难。</p>
+<p>2022年5月6号，中科院深圳先进技术研究院于寅研究员在bioRxiv发表文章：Highly efficient healing of critical sized articular cartilage defect in situ using a chemically nucleoside-modified mRNA-enhanced cell therapy，使用编码生长因子TGF-β3的修饰核苷酸提升骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效。在小鼠模型中，原位注射TGF-β3 cmRNA +BMSCs，六周之内，可以将软骨损伤修复到自然水平。此外，通过TGF-β3 cmRNA增强的BMSCs疗法还能够阻止软骨损伤造成的骨性关节炎（osteoarthritis, OA）。这种利用mRNA技术增强基于MSCs的疗法成为修复软骨损伤的新疗法。</p>
+<p>TGF-β3在软骨再生的过程中具有非常重要的作用，能够诱导MSCs软骨分化，促进软骨样基质沉淀。因此，研究人员构建TGF-β3 cmRNA，使用PEI包封。首先，证实其在BMSCs单层细胞和3D球状体细胞模型中具有非常好的转染效率，表达出来的TGF-β3能够显著提升BMSCs细胞外基质的分泌。接着，证实TGF-β3-cmRNA能够在体外诱导BMSCs的软骨分化，甚至诱导效果要好于用重组蛋白TGF-β3。最后，通过手术在小鼠膝盖创造出软骨损伤，将TGF-β3-cmRNA+BMSCs（CBmR组）或者BMSCs（CB组）注射到小鼠软骨损伤部位测试治疗效果。在没有注射BMSCs的对照组，软骨损伤清晰可见，关节表面粗糙，有大量严重渗出物。在CB组和CBmR组关节表面平滑，软骨再生得到显著提升。国际修复协会评分和组织染色证实CBmR组要比CB组能更好地促进软骨再生。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206291842660.png" alt="TGF-β3 cmRNA在小鼠模型中能够增强BMSCs软骨再生的疗效。"></p>
+<p>此外，研究人员还利用microCT 观察cmRNA-TGF-β3对软骨下骨(subchondral bone)的影响。在空白对照组，软骨损伤部位会出现软骨下骨严重的碎裂。此外，还可以观察到软骨下骨的冠状面和骨小梁变薄和丢失。在CB组和CBmR组，软骨下骨的碎裂丢失都是非常明显的抑制。特别是在CBmR组。骨小梁的体积和骨矿物密度更加高。软骨下骨的异常和丢失，会造成骨性关节炎，甚至最终导致行动障碍。我们可以看到，TGF-β3 cmRNA不仅可以促进软骨再生，而且还可以抑制软骨下骨的病理性变化。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206292205686.png" alt="TGF-β3 cmRNA抑制软骨下骨的病理学变化。"></p>
+<p>这篇文章原位注射编码生长因子的修饰mRNA诱导不含血管的软骨组织再生，增强骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效，证明修饰mRNA增强型的干细胞疗法是一种非常高效的，安全的，具备潜在临床转化前景的治疗方案。在小鼠软骨损伤部位注射携带TGF-β3 mRNA的骨髓间充质干细胞，在4-6周之内，可以近乎完全治愈软骨损伤。这是第一次证实修饰mRNA能够显著增强BMSCs的治疗效果，而且只需要原位注射，不需要系统性注射修饰mRNA。这也为其他组织的再生搭建出一个非常有前景的治疗平台技术。</p>
+]]></content>
+      <categories>
+        <category>RNA疗法</category>
+      </categories>
+      <tags>
+        <tag>干细胞</tag>
+      </tags>
   </entry>
   <entry>
     <title>多价mRNA疫苗中各组分mRNA的快速鉴定和准确定量</title>
@@ -70,14 +239,14 @@
 <td align="center"></td>
 </tr>
 </tbody></table>
-<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151645877.png" alt="VaxArray mRNA芯片设计"></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151645877.png" alt="VaxArray mRNA芯片设计" title="VaxArray mRNA芯片设计"></p>
 <p>VaxArray mRNA芯片的检测操作很简单，耗时不会超过2小时。将目标mRNA加入芯片，在优化的缓冲液buffer体系中与芯片上的捕获探针发生杂交结合，洗涤除去杂质，再加入检测探针进行孵育，最后使用VaxArray成像系统检测荧光信号。</p>
 <h2 id="VaxArray-mRNA芯片性能测试"><a href="#VaxArray-mRNA芯片性能测试" class="headerlink" title="VaxArray mRNA芯片性能测试"></a>VaxArray mRNA芯片性能测试</h2><h3 id="反应性与特异性"><a href="#反应性与特异性" class="headerlink" title="反应性与特异性"></a>反应性与特异性</h3><p>以NA/HAmRNA作为目标mRNA，使用VaxArray mRNA芯片检测浓度为10 ug/ml 单价NA mRNA，单价HA mRNA以及双价NA/HA mRNA，以Poly T寡核苷酸序列作为检测探针，荧光信号图谱（图a）显示针对目标mRNA设计的每一个捕获探针均具有高度的特异性。</p>
 <p>如图b所示，对于特定的捕获探针和不同的检测探针来说，信噪比（S/B）浮动范围在5.3-28.2，表明捕获探针序列与目标mRNA序列具有很好的反应性。对于非目标mRNA来说，信噪比&lt;1.3，表明捕获探针序列具有非常强的特异性。</p>
 <img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151652579.png" alt="VaxArray mRNA芯片检测裸mRNA序列的反应性和特异性。" style="zoom: 80%;" />
 
 <h3 id="荧光信号强度和浓度之间存在很好的线性对应关系"><a href="#荧光信号强度和浓度之间存在很好的线性对应关系" class="headerlink" title="荧光信号强度和浓度之间存在很好的线性对应关系"></a>荧光信号强度和浓度之间存在很好的线性对应关系</h3><p>如左图所示，研究人员利用不同的捕获探针和检测探针组合芯片与目标mRNA（HA或者NA）进行杂交孵育，检测到的荧光信号与目标mRNA真实浓度之间存在良好的线性关系。更加重要的是，如右图所示，当检测样本是HA+NA二价mRNA时，使用 VaxArray 芯片检测到的荧光信号与单价mRNA(HA或者NA)是相似的。也就是说，VaxArray 芯片能够非常好的适用于多价mRNA疫苗，其他mRNA序列的存在对于检测的目标mRNA序列不会造成干扰。</p>
-<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151936498.png" alt="不同的捕获探针与检测探针或者单价mRNA与多价mRNA，荧光信号强度与真实浓度之间存在良好的线性对应关系。"></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151936498.png" alt="不同的捕获探针与检测探针或者单价mRNA与多价mRNA，荧光信号强度与真实浓度之间存在良好的线性对应关系。" title="不同的捕获探针与检测探针或者单价mRNA与多价mRNA，荧光信号强度与真实浓度之间存在良好的线性对应关系。"></p>
 <h3 id="检测限范围"><a href="#检测限范围" class="headerlink" title="检测限范围"></a>检测限范围</h3><p>如表1所示，<strong>VaxArray芯片检测上限</strong>（ULOQ）<strong>范围是14 ug/ml—18 ug/ml，检测下限</strong>（LLOQ）<strong>范围是0.08 ug/ml—0.2 ug/ml</strong>，4种靶向目标mRNA(HA/NA)编码区的捕获探针可以检测到的目标mRNA浓度浮动范围超过90倍以上。对于高浓度的检测样本，可以将其按照合适的比例稀释到VaxArray芯片工作范围内。</p>
 <p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151948329.png" alt="VaxArray芯片检测上限和下限范围，以NA或者HA mRNA作为目标mRNA，捕获探针使用靶向编码区的寡核苷酸探针，检测探针使用荧光标记的PolyT寡核苷酸。"></p>
 <h3 id="准确度和精密度"><a href="#准确度和精密度" class="headerlink" title="准确度和精密度"></a>准确度和精密度</h3><p><strong>准确度</strong>（Accuracy）：指在一定实验条件下多次测定的平均值与真值相符合的程度，以误差来表示。 它用来表示系统误差的大小。 <strong>精密度</strong>（Precision）：是指多次重复测定同一量时各测定值之间彼此相符合的程度。 表征测定过程中随机误差的大小。如表2所示，VaxArray芯片利用不同的捕获探针检测二价mRNA(NA+HA)浓度时（2.4 ug/ml），具有非常好的准确度和精密度。</p>
@@ -96,25 +265,35 @@
       </tags>
   </entry>
   <entry>
-    <title>深圳先进院开发修饰mRNA增强干细胞疗法，原位注射实现软骨再生。</title>
-    <url>/2022/09/08/%E6%B7%B1%E5%9C%B3%E5%85%88%E8%BF%9B%E9%99%A2%E5%BC%80%E5%8F%91%E4%BF%AE%E9%A5%B0mRNA%E5%A2%9E%E5%BC%BA%E5%B9%B2%E7%BB%86%E8%83%9E%E7%96%97%E6%B3%95%EF%BC%8C%E5%8E%9F%E4%BD%8D%E6%B3%A8%E5%B0%84%E5%AE%9E%E7%8E%B0%E8%BD%AF%E9%AA%A8%E5%86%8D%E7%94%9F%E3%80%82/</url>
-    <content><![CDATA[<p>关节软骨是滑膜关节非常重要的组成元件。当我们在行走，跳跃或者进行其他活动时，关节软骨会对相互连接的骨头间的震动起到缓冲减震作用，这使得关节软骨非常容易受到机械损伤。由于关节软骨所在的部位缺乏血管和营养物质，一旦发生损伤，很难自愈，导致骨性关节炎（osteoarthritis，OA）。骨性关节炎是世界上最常见的慢性关节疾病，预计到2040年会对7800万人群的日常生活造成影响。</p>
-<p>较高的发病率和有限的自我治愈使得软骨损伤对年轻的运动员和老人群体带来极大的威胁。传统治疗方法，包括非甾体类药物，物理治疗或者手术移植，存在低效，治疗时间长，副作用以及免疫排斥等缺陷，对其临床应用造成阻碍。干细胞由于具有多向分化潜能，可应用于多种组织修复，因而受到众多关注。</p>
-<p>但是，干细胞的多向分化潜能是一把双刃剑，一方面使得干细胞疗法在多种组织中具有修复效果，另一方面多向分化的干细胞可能形成畸胎瘤或者癌变，存在安全隐患。有研究发现，把MSCs移植到裸鼠中，观察到典型的骨肉瘤形成，即间充质干细胞(MSCs)移植促进肿瘤形成。总结来说，未经指向和不受限制的干细胞疗法存在严重的安全隐患。</p>
-<p>基因治疗是一种非常有前景的提供治疗性蛋白的迭代方案。但是，pDNA要实现治疗性蛋白翻译需要进入细胞核，而且转染效率低，还可能发生基因组插入突变，这极大限制了DNA疗法的应用。与此相反，mRNA在细胞质中便可以快速翻译生成治疗性蛋白，不需要进入细胞核中。利用mRNA技术来增强干细胞治疗的效果成为非常有前景的方向，例如有研究用抗人皮间素靶向嵌合抗原受体mRNA CAR转染外周血来源的淋巴细胞。目前，基于mRNA技术的CAR-T疗法已经进入到临床试验中。最新的应用进展使得人们希望通过mRNA技术来开发出一种新型的，安全的以及高疗效的组织再生药物。</p>
-<p>基于MSCs的干细胞疗法使得软骨生重获希望。生长因子的添加可以为干细胞的分化指明方向。但是，重组蛋白生长因子不仅成本非常高，而且还会引发一系列副作用，用来提升干细胞疗效的优势非常微弱。利用mRNA技术向损伤部位递送治疗性蛋白成为非常有前景的替代方案，但是向无血管的组织（例如，软骨）中递送mRNA极少被研究，面临诸多困难。</p>
-<p>2022年5月6号，中科院深圳先进技术研究院于寅研究员在bioRxiv发表文章：Highly efficient healing of critical sized articular cartilage defect in situ using a chemically nucleoside-modified mRNA-enhanced cell therapy，使用编码生长因子TGF-β3的修饰核苷酸提升骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效。在小鼠模型中，原位注射TGF-β3 cmRNA +BMSCs，六周之内，可以将软骨损伤修复到自然水平。此外，通过TGF-β3 cmRNA增强的BMSCs疗法还能够阻止软骨损伤造成的骨性关节炎（osteoarthritis, OA）。这种利用mRNA技术增强基于MSCs的疗法成为修复软骨损伤的新疗法。</p>
-<p>TGF-β3在软骨再生的过程中具有非常重要的作用，能够诱导MSCs软骨分化，促进软骨样基质沉淀。因此，研究人员构建TGF-β3 cmRNA，使用PEI包封。首先，证实其在BMSCs单层细胞和3D球状体细胞模型中具有非常好的转染效率，表达出来的TGF-β3能够显著提升BMSCs细胞外基质的分泌。接着，证实TGF-β3-cmRNA能够在体外诱导BMSCs的软骨分化，甚至诱导效果要好于用重组蛋白TGF-β3。最后，通过手术在小鼠膝盖创造出软骨损伤，将TGF-β3-cmRNA+BMSCs（CBmR组）或者BMSCs（CB组）注射到小鼠软骨损伤部位测试治疗效果。在没有注射BMSCs的对照组，软骨损伤清晰可见，关节表面粗糙，有大量严重渗出物。在CB组和CBmR组关节表面平滑，软骨再生得到显著提升。国际修复协会评分和组织染色证实CBmR组要比CB组能更好地促进软骨再生。</p>
-<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206291842660.png" alt="TGF-β3 cmRNA在小鼠模型中能够增强BMSCs软骨再生的疗效。"></p>
-<p>此外，研究人员还利用microCT 观察cmRNA-TGF-β3对软骨下骨(subchondral bone)的影响。在空白对照组，软骨损伤部位会出现软骨下骨严重的碎裂。此外，还可以观察到软骨下骨的冠状面和骨小梁变薄和丢失。在CB组和CBmR组，软骨下骨的碎裂丢失都是非常明显的抑制。特别是在CBmR组。骨小梁的体积和骨矿物密度更加高。软骨下骨的异常和丢失，会造成骨性关节炎，甚至最终导致行动障碍。我们可以看到，TGF-β3 cmRNA不仅可以促进软骨再生，而且还可以抑制软骨下骨的病理性变化。</p>
-<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206292205686.png" alt="TGF-β3 cmRNA抑制软骨下骨的病理学变化。"></p>
-<p>这篇文章原位注射编码生长因子的修饰mRNA诱导不含血管的软骨组织再生，增强骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效，证明修饰mRNA增强型的干细胞疗法是一种非常高效的，安全的，具备潜在临床转化前景的治疗方案。在小鼠软骨损伤部位注射携带TGF-β3 mRNA的骨髓间充质干细胞，在4-6周之内，可以近乎完全治愈软骨损伤。这是第一次证实修饰mRNA能够显著增强BMSCs的治疗效果，而且只需要原位注射，不需要系统性注射修饰mRNA。这也为其他组织的再生搭建出一个非常有前景的治疗平台技术。</p>
+    <title>行业致力环形RNA药物产业化新势力之Laronde</title>
+    <url>/2022/09/18/%E8%A1%8C%E4%B8%9A%E8%87%B4%E5%8A%9B%E7%8E%AF%E5%BD%A2RNA%E8%8D%AF%E7%89%A9%E4%BA%A7%E4%B8%9A%E5%8C%96%E6%96%B0%E5%8A%BF%E5%8A%9B%E4%B9%8BLaronde/</url>
+    <content><![CDATA[<img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202202040018924.png" alt="image-20220204001847715" style="zoom:50%;" />
+
+<p>前面我们介绍过推动circRNA药物产业化的公司环尾蛇——Orna Therapeutics，详细解析过其技术团队创始人Daniel G. Anderson关于circRNA的一系列Paper。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202202032327329.png" alt="image-20220203232714252"></p>
+<p>今天，我们走进一家由Flagship Pioneering孵化的冉冉升起的新秀公司——Laronde（法语，圆形的），在公开路演结束三个月后，在2021年8月，该公司拿到4亿美元融资，致力于推动其特有的基于eRNA技术平台的circRNA药物研发，能够允许外源蛋白在体内表达的时间维系数周或者数月来治疗疾病。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202202032110088.png" alt="image-20220203211007979"></p>
+<h2 id="不稳定的RNA分子"><a href="#不稳定的RNA分子" class="headerlink" title="不稳定的RNA分子"></a>不稳定的RNA分子</h2><p>在Moderna和Pfizer-BioNTech利用化学修饰RNA研发成功COVID-19疫苗以前，研发人员就一直梦想使用工程化的遗传信息去革新现有众多疾病的治疗方法。长久以来面临的一个最主要问题就是外源RNA注射到机体内以后，很快会被降解掉。对于疫苗的研发来说，这个问题并不是特别致命的，靶标蛋白只需要触发机体免疫反应就可以了，但是，对于慢性疾病的治疗，例如糖尿病，血友病，靶标蛋白需要长期驻留体内才能维系机体的正常功能，这样就会导致病人必须频繁注射RNA。</p>
+<p>Laronde创始人Avak Kahvejian说，一般来说，RNA分子是一个非常不稳定的分子，外源RNA分子一旦进入体内很快会被降解，而我们所研发出来的eRNA，避免了这个缺点，是一个非常稳定的RNA分子。</p>
+<h2 id="eRNA-Platform-研发历程"><a href="#eRNA-Platform-研发历程" class="headerlink" title="eRNA Platform 研发历程"></a>eRNA Platform 研发历程</h2><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202202032358236.png" alt="image-20220203235813904" style="zoom:33%;" />
+
+<p>在研究生期间，Kahvejian一直从事circRNA方向的工作。由于circRNAs不具有游离末端，因此很难降解。他受到环形RNA稳定性的启发，希望研发出一种能够在细胞内驻留几周，甚至几个月的circRNA药物，这将彻底解决RNA稳定性的问题。新的问题随之而来，circRNA没有游离的末端，细胞不知道从何处开始阅读密码子。Kahvejian又从病毒那里获得灵感，将一段病毒序列插入到circRNA分子中，告诉细胞从何处开始密码子的翻译。</p>
+<p>由于这项技术用的RNA分子，既没有游离的末端，又能够在体内持续存在很长实际，因此Kahvejian将其称为“endless RNA”。</p>
+<p>Kahvejian在小鼠体内用luciferase-endless RNA验证自己的想法，一组小鼠注射endless RNA，另外一组小鼠注射传统的，线性mRNA。每隔几天，抽血，检测血液中的luciferase activity。刚开始的时候，在所有小鼠血液中都看了luciferase activity增加。随后，注射线性mRNA的小鼠，血液中开始检测不到luciferase activity，但是，注射endless RNA的小鼠一直可以检测到luciferase activity。两天，三天，甚至到第七天，注射endless RNA的小鼠体内一直在表达luciferase。</p>
+<p>根据Kahvejian的说法，注射endless RNA的小鼠在初始接种以后，体内表达luciferase的时间，最少可以持续20天。对于他来说，这是成功研发出可以持续表达蛋白的稳定RNA分子的标志，或许，将来会称为新型RNA药物的理论基础。</p>
+<h3 id="一切还都是一个美妙的想法"><a href="#一切还都是一个美妙的想法" class="headerlink" title="一切还都是一个美妙的想法"></a>一切还都是一个美妙的想法</h3><p>Kahvejian并没有公开发表任何他们关于eRNA的试验数据，因此他们的发现也不能被其他研发人员去验证。Harvard Medical School的RNA生物学家Dr. Judy Lieberman说，再没有看到数据以前，无法知道这项新型技术如何真正发挥作用，一切只是一个卓越的想法。</p>
+<h3 id="Laronde-优势和困难"><a href="#Laronde-优势和困难" class="headerlink" title="Laronde 优势和困难"></a>Laronde 优势和困难</h3><p>Laronde也获得了一家曾投资Moderna的风险投资公司的融资。Dr. Judy Lieberman认为，Laronde的技术团队成员中有世界上最顶级的RNA生物学家。即便如此，这家年轻的公司通往成功的道路依旧很长，还需要克服很多潜在难题——实际上，很难知道体内是否表达出来足够的蛋白？这些蛋白的量是否和治疗所需要的蛋白的量相匹配？真正能够在体内存在多久？是否还有许多未知的副作用？</p>
+<p>如果Kahvejian得到的数据是可靠的，那么eRNA将会成为下一代新型的RNA疗法，能够应用于慢性疾病，内分泌疾病等诸多疾病。正如他们所说的，eRNA的潜力是无限的（endless）。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Laronde和Orna Therapeutics都是2021年成立的，致力于研发下一代新型CircRNA技术平台，属于circRNA赛道上的竞争者。</p>
+<p>Laronde创始人Kahvejian并没有公开发表自己的试验数据，他本人总从2011年起，成为Flagship Pioneering合伙人，作为生命科学领域的投资者和创业者，推动多家生物公司的成立发展，例如 Seres Therapeutics，Codiak BioSciences ， Rubius Therapeutics， Rubius Therapeutics等等。查询Kahvejian发表的学术论文，发现他做过蛋白质翻译机制相关的工作，在circRNA方面，一篇文章也没有。</p>
+<p>与Daniel G. Anderson学术大佬相比，Kahvejian更像是一个投资人和管理者。更加重要的是，Daniel G. Anderson已经申请了circRNA专利，所以并不是很清楚Laronde到底凭借什么亮眼的数据可以从投资人那里拿到4亿美元融资。期待两家公司在今年在产品研发上可以做出突破性的进展，让circRNA不仅仅只是作为一个美妙的想法存在。</p>
+<p>参考文献：<a href="https://www.wbur.org/news/2021/06/01/next-generation-rna-technology-could-therapies-chronic-conditions">https://www.wbur.org/news/2021/06/01/next-generation-rna-technology-could-therapies-chronic-conditions</a></p>
 ]]></content>
       <categories>
-        <category>RNA疗法</category>
+        <category>RNA行业发展动态</category>
       </categories>
       <tags>
-        <tag>干细胞</tag>
+        <tag>circRNA</tag>
       </tags>
   </entry>
 </search>
