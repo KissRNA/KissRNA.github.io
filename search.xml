@@ -1,191 +1,500 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>在这里</title>
-      <link href="/2022/10/09/%E5%9C%A8%E8%BF%99%E9%87%8C/"/>
-      <url>/2022/10/09/%E5%9C%A8%E8%BF%99%E9%87%8C/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>在mRNA疫苗抗原序列上嵌合dsRNA佐剂，增强癌症治疗过程中的细胞免疫。</title>
-      <link href="/2022/09/22/%E5%9C%A8mRNA%E7%96%AB%E8%8B%97%E6%8A%97%E5%8E%9F%E5%BA%8F%E5%88%97%E4%B8%8A%E5%B5%8C%E5%90%88dsRNA%E4%BD%90%E5%89%82%EF%BC%8C%E5%A2%9E%E5%BC%BA%E7%99%8C%E7%97%87%E6%B2%BB%E7%96%97%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB%E3%80%82/"/>
-      <url>/2022/09/22/%E5%9C%A8mRNA%E7%96%AB%E8%8B%97%E6%8A%97%E5%8E%9F%E5%BA%8F%E5%88%97%E4%B8%8A%E5%B5%8C%E5%90%88dsRNA%E4%BD%90%E5%89%82%EF%BC%8C%E5%A2%9E%E5%BC%BA%E7%99%8C%E7%97%87%E6%B2%BB%E7%96%97%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB%E3%80%82/</url>
-      
-        <content type="html"><![CDATA[<p>mRNA疫苗在癌症免疫治疗中一直被寄予厚望，国内也有许多临床试验正在推进：</p><ul><li><strong>2022年2月12日</strong>，<strong>斯微</strong>开发的编码新抗原的mRNA个性化肿瘤疫苗，在澳大利亚进入临床I期试验；</li><li><strong>2022年7月14日，新合生物</strong>在北京协和医院召开”新抗原肿瘤疫苗对晚期实体瘤安全性合有效性的研究”临床试验启动会，在这次临床试验中，新合生物将对患者的肿瘤细胞组织借助AI算法进行测序分析，从中找到最佳的新抗原，将编码新抗原的mRNA疫苗注射到患者体内，诱导机体产生免疫反应，从而遏制肿瘤生长；</li><li><strong>2022年8月9日，康得赛</strong>研发的用于治疗晚期卵巢癌的个体化树突状细胞CUD002注射液临床试验的申请已受理，该产品号称中国首款基于患者肿瘤新抗原的mRNA编辑DC肿瘤疫苗。</li></ul><p>在mRNA肿瘤疫苗持续多年的研发中，研究人员尝试各种递送技术实现抗原表达效率的最大化，而且，设计优化具有免疫激活活性的佐剂加强mRNA肿瘤疫苗触发的免疫反应。对于佐剂的设计，常常采用以下3种策略：</p><ol><li><strong>独立合成佐剂与抗原</strong>：将编码抗原的mRNA序列与佐剂分子通过包封材料共同封装进同一聚合物里面，确保两个必需的组分共同递送进入相同的抗原递呈细胞中<strong>，</strong>这是<strong>最为常规的方法</strong>；</li><li><strong>包封材料作为佐剂</strong>：将佐剂整合到mRNA包封材料中，简化工艺生产，例如，可电离脂质作为LNP的包封组分具有天然的免疫刺激活性。然而，这种策略需要平衡递送效率和佐剂活性两者之间的关系，必须通过大量的筛选优化才能够找到符合条件的包封材料；</li><li><strong>抗原本身嵌合佐剂</strong>：将佐剂整合进入mRNA序列本身，使得包封材料的递送效率和佐剂的免疫刺激效应最大化，这是<strong>最为新颖和简单的方法</strong>，利用现存的已优化完善的包封递送材料便可。</li></ol><p>我们知道，dsRNA作为体外转录反应的副产物，能够被细胞内的天然免疫受体识别，从而触发抗病毒天然免疫反应，因此在mRNA工艺生产中，需要想尽办法降低体外转录反应生成的dsRNA含量或者通过特定的纯化手段去除dsRNA。反过来看，<strong>既然dsRNA具有免疫刺激活性，我们是否可以将其作为一种天然佐剂使用，以此增强mRNA疫苗触发的免疫反应呢</strong>？</p><p><strong>日本川崎产业振兴研究所纳米医学创新中心</strong>片岡一則和内田 智士两位教授做出尝试，他们<strong>将编码抗原的mRNA序列与双链dsRNA杂交，就像是为mRNA序列镶嵌了一排“牙齿”，dsRNA“牙齿”能够激活细胞内的天然免疫受体，充当佐剂</strong>。<strong>通过调整mRNA序列上dsRNA“牙齿”的数量，能够优化调节不同递送系统下的免疫刺激强度，增强或者避免过度的免疫反应。</strong>非常吸引人的一点是，这种方法仅仅需要添加一小段dsRNA，便可增强现有mRNA疫苗的免疫效果，省去佐剂材料的筛选发掘和安全性验证，非常适合进行临床转化应用。<strong>2022年8月20号</strong>，这项研究成果以预印本的形式上传在<strong>BioRxiv</strong>：<strong>Comb-structured mRNA vaccine tethered with short doublestranded RNA adjuvants maximizes cellular immunity for cancer treatment</strong>。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209220140610.png"></p><h2 id="导读"><a href="#导读" class="headerlink" title="导读"></a>导读</h2><ul><li><code>新知</code>：佐剂dsRNA序列设计</li><li><code>新知</code>：佐剂dsRNA合成制备</li><li><code>新知</code>：佐剂dsRNA参数优化</li><li><code>新知</code>：佐剂dsRNA不影响mRNA翻译效率</li></ul><h2 id="dsRNA-mRNA嵌合结构"><a href="#dsRNA-mRNA嵌合结构" class="headerlink" title="dsRNA-mRNA嵌合结构"></a>dsRNA-mRNA嵌合结构</h2><h3 id="佐剂dsRNA序列设计"><a href="#佐剂dsRNA序列设计" class="headerlink" title="佐剂dsRNA序列设计"></a>佐剂dsRNA序列设计</h3><p>细胞内不同的天然免疫受体识别不同结构的dsRNA，像MDA5识别序列长度超过2000bp 的长链dsRNA，而RIG-I仅仅需要20bp长度的5’ppp-dsRNA便可被激活，触发强烈的细胞毒性T细胞反应。</p><p>对于佐剂dsRNA的设计来说，必须要<strong>最小化佐剂dsRNA对编码抗原的mRNA翻译效率和整体RNA剂量造成的负面影响</strong>，这必然要求佐剂dsRNA要尽可能短。因此，研究人员<strong>以RIG-I识别的dsRNA作为结构模型</strong>，进行佐剂dsRNA序列设计。</p><p>研究人员设计出一种短链dsRNA，如图所示，由两部分元件构成：</p><ol><li><strong>5’ppp-RNA</strong>：在5’平末端携带三磷酸基团的单链RNA序列；</li><li><strong>cRNA</strong>:跟5’ppp-RNA序列和编码抗原的mRNA序列中的特定区域分别互补配对的反义链（counter RNA strand）。</li></ol><h3 id="佐剂dsRNA制备"><a href="#佐剂dsRNA制备" class="headerlink" title="佐剂dsRNA制备"></a><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209201859705.png"><strong>佐剂dsRNA制备</strong></h3><h4 id="5’ppp-RNA合成"><a href="#5’ppp-RNA合成" class="headerlink" title="5’ppp-RNA合成"></a>5’ppp-RNA合成</h4><p>采用<strong>体外转录反应IVT合成5’ppp-RNA</strong>。为防止IVT反应中，以RNA为模板合成出与目标mRNA互补配对的副产物RNA链，研发人员设计出序列内部不存在互补配对区域的<strong>24nt或者40nt GUrepeat的5’ppp-RNA序列</strong>。此外，还以G&#x2F;C&#x2F;U随机组合合成出内部存在互补配对的control 组 5’ppp-RNA序列.</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209210032643.png"></p><h4 id="cRNA合成"><a href="#cRNA合成" class="headerlink" title="cRNA合成"></a>cRNA合成</h4><p>对于跟mRNA序列上不同位点发生互补配对的cRNA序列来说，其序列组成是变化的，无法消除cRNA序列内部发生自我互补配对的可能性，因此，为避免IVT合成中出现的副产物，<strong>cRNA只能采用化学合成</strong>。</p><p>在<strong>2019年</strong>，<strong>片冈一则</strong>发表文章：<strong>I****nduced packaging of mRNA into polyplex micelles by regulated hybridization with a small number of cholesteryl RNA oligonucleotides directed enhanced in vivo transfection</strong>，这篇文章显示当长片段mRNA序列（783nt）与17nt RNA寡核苷酸链发生杂交时，对mRNA的翻译效率和免疫原性不会造成影响，因此研究人员<strong>在设计cRNA序列时，将其与mRNA序列之间互补配对的区域固定在17nt</strong>。</p><h4 id="gap序列"><a href="#gap序列" class="headerlink" title="gap序列"></a>gap序列</h4><p>将cRNA分别与5’ppp-RNA序列互补配对的区域和与mRNA互补配对的区域成为gap序列，研发人员<strong>将gap序列设定为2nt或者10nt</strong>，他们想比较这种差别是否会影响天然免疫受体识别dsRNA“牙齿”的微环境。</p><h4 id="杂交"><a href="#杂交" class="headerlink" title="杂交"></a>杂交</h4><p><strong>以等摩尔比例将mRNA，cRNA，5’ppp-RNA三种溶液混合，65℃加热变性5min，间隔10min逐渐降温到30℃，最终置于4℃</strong>。使用MWCO100k超滤管过滤混合溶液，当dsRNA与mRNA成功杂交形成嵌合型RNA时，在流穿中将检测不到dsRNA，因此可以使用Cy5-标记的5’ppp-RNA来定量检测杂交率。</p><h3 id="优化佐剂dsRNA参数"><a href="#优化佐剂dsRNA参数" class="headerlink" title="优化佐剂dsRNA参数"></a>优化佐剂dsRNA参数</h3><p>用Lipofectamine LTX包封嵌合型gluc-mRNA，转染鼠源DC2.4细胞，通过荧光定量PCR检测细胞内促炎症因子IFN-β和IL-6基因转录水平的变化，以此评估各种dsRNA参数对于dsRNA免疫刺激活性的影响。如图E&#x2F;F，值得注意的是，Lipofectamine LTX本身的免疫刺激活性几乎可以忽略，因此采用Lipofectamine LTX包封非常适合检测嵌合mRNA（序列上杂交有不同数量和结构的佐剂dsRNA）内在的免疫刺激活性和翻译效率。</p><ol><li><strong>序列组成</strong>：如图A&#x2F;B所示，与对照组的随机序列dsRNA相比，<strong>由GU重复单元组成的dsRNA具备非常显著的免疫刺激活性</strong>，这可能是由于GU重复序列能够避免IVT合成5’pppRNA时产生与其互补配对的RNA链，而合成携带随机序列的5’pppRNA时产生的互补链RNA会干扰5’pppRNA与cRNA之间的杂交。</li><li><strong>序列长度</strong>：如图A&#x2F;B所示，<strong>把dsRNA序列中的GU重复单元从24bp延长到40bp时，会明显降低免疫刺激活性</strong>。5’pppRNA序列长度增加，与cRNA在未预期的位点发生互补配对的概率可能增加，从而阻碍平末端携带5’pppRNA（RIG-I的特异性配体）的形成。</li><li><strong>gap序列</strong>：如图C&#x2F;D所示，<strong>将gap序列长度从2nt延长到10nt时，会明显降低免疫刺激活性</strong>。gap序列的长度可能会改变dsRNA的局部环境，使得RIG-I顺利识别dsRNA的过程受到影响。</li><li><strong>杂交</strong>：如图E&#x2F;F所示，非常有意思的是，如果仅仅包封dsRNA或者将未杂交配对的dsRNA和mRNA包封，转染细胞，均无法刺激天然免疫反应，这说明<strong>dsRNA与mRNA的杂交配对对于免疫刺激活性非常重要。</strong></li><li><strong>dsRNA“牙齿”数量</strong>：如图G&#x2F;H所示，当使用dsRNA-GUrepeat（24bp）-gap（2nt）时，将嵌合在mRNA序列上的<strong>dsRNA数量从1个增加到5个时，会逐渐增强免疫刺激活性</strong>。</li></ol><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209211931086.png"></p><h2 id="dsRNA不影响mRNA抗原翻译效率"><a href="#dsRNA不影响mRNA抗原翻译效率" class="headerlink" title="dsRNA不影响mRNA抗原翻译效率"></a>dsRNA不影响mRNA抗原翻译效率</h2><p>在编码抗原的mRNA序列上嵌合上不同数量的dsRNA，我们肯定非常想知道<strong>这种嵌合型mRNA抗原翻译效率是否会受到抑制？</strong>嵌合1&#x2F;3&#x2F;5个dsRNA“牙齿”的gLuc-mRNA在鼠源或者人源BMDCs细胞中的蛋白翻译效率是不嵌合dsRNA的gLuc-mRNA的50%。研究者怀疑，在mRNA序列上杂交dsRNA以后，会刺激天然免疫反应，而天然免疫会抑制mRNA的翻译效率，因此附着dsRNA“牙齿”的gLuc-mRNA翻译效率的降低可能是其作为佐剂触发的天然免疫反应抑制的，并不是由于mRNA序列上面的dsRNA本身抑制翻译过程。</p><p>为搞清楚这个问题，研究者构建不携带5’ppp的dsRNA(5个)-mRNA嵌合结构，这种dsRNA缺乏免疫刺激活性。如图I所示，在BMDCs细胞中，不携带5’ppp的dsRNA(5个)-mRNA与不携带dsRNA的mRNA翻译效率是相似的。这充分证实<strong>嵌合型mRNA翻译效率的降低是由于杂交dsRNA后触发的天然免疫反应抑制的，并不是由于mRNA序列上dsRNA的存在造成的。</strong></p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209212346090.png"></p><h2 id="嵌合mRNA适配各种递送系统"><a href="#嵌合mRNA适配各种递送系统" class="headerlink" title="嵌合mRNA适配各种递送系统"></a>嵌合mRNA适配各种递送系统</h2><h3 id="阳离子脂质体"><a href="#阳离子脂质体" class="headerlink" title="阳离子脂质体"></a>阳离子脂质体</h3><p>研究者采用阳离子脂质体(cationic lipoplexes )包封编码卵清蛋白(OVA)的mRNA测定小鼠体内的CTL细胞毒性反应，结果发现，与没有镶嵌dsRNA的mRNA序列相比，在mRNA序列上嵌合1&#x2F;3&#x2F;5 dsRNA”牙齿”时会<strong>增强抗原特异性的CTL反应</strong>，这种增强效应可能是由于<strong>嵌合型dsRNA-mRNA增强了对DC细胞的激活和促炎症因子的释放</strong>。如图F所示，在皮下淋巴瘤治疗模型中，与不携带dsRNA的OVA-mRNA相比，3次免疫阳离子脂质体包封的嵌合型dsRNA-OVA-mRNA会显著降低生长肿瘤的大小。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209220036768.png"></p><h3 id="基于可电离脂质的LNP"><a href="#基于可电离脂质的LNP" class="headerlink" title="基于可电离脂质的LNP"></a>基于可电离脂质的LNP</h3><p>LNP递送系统已经被成功应用于新冠疫苗的递送，可以非常有效的触发细胞免疫。值得注意的是，用LNP包封mRNA或者嵌合dsRNA(1个)-mRNA，两种LNP的粒径大小是相似的。同不杂交dsRNA的OVA-mRNA-LNP相比，<strong>嵌合1个dsRNA的OVA-mRNA-LNP会显著增强抗原特异性的CTL反应</strong>，即便mRNA浓度在0.01ug。</p><h3 id="基于聚合物的递送系统"><a href="#基于聚合物的递送系统" class="headerlink" title="基于聚合物的递送系统"></a>基于聚合物的递送系统</h3><p>尽管基于聚合物（Polymers）的递送系统在递送mRNA方面具有巨大的潜力，但是极少用于mRNA疫苗，这是因为聚合物本身具有非常低的免疫刺激活性。dsRNA能够作为非常好的佐剂，这会给聚合物递送系统在疫苗中的使用带来新的机会。研究者利用PM递送系统包封携带或者不携带dsRNA的OVA-mRNA，结果发现，<strong>同OVA-mRNA相比，当OVA-mRNA序列上镶嵌5个dsRNA时才会成功增强CTL效应</strong>。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209221025034.png"></p><h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>研究者开发出一种非常新颖和简单的佐剂添加方式，将具有免疫刺激活性的佐剂dsRNA直接嵌入编码抗原的mRNA序列上，并且不会影响抗原翻译的过程，直接利用现有的递送系统便可实现包封，加强DC细胞的激活，促进促炎因子的释放，显著提升CTL效应，从而增强mRNA疫苗在癌症治疗过程中的效果。特别有趣的是，通过调整佐剂dsRNA的数量，可以增强或者防止过度的免疫刺激活性。在未来，还需要将这套系统应于更多疾病相关的模型才能够为其最终进行临床转化提供更加详尽的数据和理论支撑。</p><blockquote><p><strong>iCONM</strong></p></blockquote><p>ICONM，始创于2015年，是一家位于日本川崎的纳米医学创新中心，致力于不断创造新的医疗技术，提升疑难疾病的治愈率，成为全球最具创新性的研究中心。</p><p>在其logo设计中，<strong>“O”</strong>代表纳米胶束，向中心渐变的颜色代表“无限的可能性”和“迈向未来的飞跃”。 黑色和水蓝色代表“诚实”和“透明”。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209221708414.png"></p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>在mRNA疫苗抗原序列上嵌合dsRNA佐剂，增强癌症治疗过程中的细胞免疫。</title>
+    <url>/2022/09/22/%E5%9C%A8mRNA%E7%96%AB%E8%8B%97%E6%8A%97%E5%8E%9F%E5%BA%8F%E5%88%97%E4%B8%8A%E5%B5%8C%E5%90%88dsRNA%E4%BD%90%E5%89%82%EF%BC%8C%E5%A2%9E%E5%BC%BA%E7%99%8C%E7%97%87%E6%B2%BB%E7%96%97%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB%E3%80%82/</url>
+    <content><![CDATA[<p>mRNA疫苗在癌症免疫治疗中一直被寄予厚望，国内也有许多临床试验正在推进：</p>
+<ul>
+<li><strong>2022年2月12日</strong>，<strong>斯微</strong>开发的编码新抗原的mRNA个性化肿瘤疫苗，在澳大利亚进入临床I期试验；</li>
+<li><strong>2022年7月14日，新合生物</strong>在北京协和医院召开”新抗原肿瘤疫苗对晚期实体瘤安全性合有效性的研究”临床试验启动会，在这次临床试验中，新合生物将对患者的肿瘤细胞组织借助AI算法进行测序分析，从中找到最佳的新抗原，将编码新抗原的mRNA疫苗注射到患者体内，诱导机体产生免疫反应，从而遏制肿瘤生长；</li>
+<li><strong>2022年8月9日，康得赛</strong>研发的用于治疗晚期卵巢癌的个体化树突状细胞CUD002注射液临床试验的申请已受理，该产品号称中国首款基于患者肿瘤新抗原的mRNA编辑DC肿瘤疫苗。</li>
+</ul>
+<p>在mRNA肿瘤疫苗持续多年的研发中，研究人员尝试各种递送技术实现抗原表达效率的最大化，而且，设计优化具有免疫激活活性的佐剂加强mRNA肿瘤疫苗触发的免疫反应。对于佐剂的设计，常常采用以下3种策略：</p>
+<ol>
+<li><strong>独立合成佐剂与抗原</strong>：将编码抗原的mRNA序列与佐剂分子通过包封材料共同封装进同一聚合物里面，确保两个必需的组分共同递送进入相同的抗原递呈细胞中<strong>，</strong>这是<strong>最为常规的方法</strong>；</li>
+<li><strong>包封材料作为佐剂</strong>：将佐剂整合到mRNA包封材料中，简化工艺生产，例如，可电离脂质作为LNP的包封组分具有天然的免疫刺激活性。然而，这种策略需要平衡递送效率和佐剂活性两者之间的关系，必须通过大量的筛选优化才能够找到符合条件的包封材料；</li>
+<li><strong>抗原本身嵌合佐剂</strong>：将佐剂整合进入mRNA序列本身，使得包封材料的递送效率和佐剂的免疫刺激效应最大化，这是<strong>最为新颖和简单的方法</strong>，利用现存的已优化完善的包封递送材料便可。</li>
+</ol>
+<p>我们知道，dsRNA作为体外转录反应的副产物，能够被细胞内的天然免疫受体识别，从而触发抗病毒天然免疫反应，因此在mRNA工艺生产中，需要想尽办法降低体外转录反应生成的dsRNA含量或者通过特定的纯化手段去除dsRNA。反过来看，<strong>既然dsRNA具有免疫刺激活性，我们是否可以将其作为一种天然佐剂使用，以此增强mRNA疫苗触发的免疫反应呢</strong>？</p>
+<p><strong>日本川崎产业振兴研究所纳米医学创新中心</strong>片岡一則和内田 智士两位教授做出尝试，他们<strong>将编码抗原的mRNA序列与双链dsRNA杂交，就像是为mRNA序列镶嵌了一排“牙齿”，dsRNA“牙齿”能够激活细胞内的天然免疫受体，充当佐剂</strong>。<strong>通过调整mRNA序列上dsRNA“牙齿”的数量，能够优化调节不同递送系统下的免疫刺激强度，增强或者避免过度的免疫反应。</strong>非常吸引人的一点是，这种方法仅仅需要添加一小段dsRNA，便可增强现有mRNA疫苗的免疫效果，省去佐剂材料的筛选发掘和安全性验证，非常适合进行临床转化应用。<strong>2022年8月20号</strong>，这项研究成果以预印本的形式上传在<strong>BioRxiv</strong>：<strong>Comb-structured mRNA vaccine tethered with short doublestranded RNA adjuvants maximizes cellular immunity for cancer treatment</strong>。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209220140610.png"></p>
+<h2 id="导读"><a href="#导读" class="headerlink" title="导读"></a>导读</h2><ul>
+<li><code>新知</code>：佐剂dsRNA序列设计</li>
+<li><code>新知</code>：佐剂dsRNA合成制备</li>
+<li><code>新知</code>：佐剂dsRNA参数优化</li>
+<li><code>新知</code>：佐剂dsRNA不影响mRNA翻译效率</li>
+</ul>
+<h2 id="dsRNA-mRNA嵌合结构"><a href="#dsRNA-mRNA嵌合结构" class="headerlink" title="dsRNA-mRNA嵌合结构"></a>dsRNA-mRNA嵌合结构</h2><h3 id="佐剂dsRNA序列设计"><a href="#佐剂dsRNA序列设计" class="headerlink" title="佐剂dsRNA序列设计"></a>佐剂dsRNA序列设计</h3><p>细胞内不同的天然免疫受体识别不同结构的dsRNA，像MDA5识别序列长度超过2000bp 的长链dsRNA，而RIG-I仅仅需要20bp长度的5’ppp-dsRNA便可被激活，触发强烈的细胞毒性T细胞反应。</p>
+<p>对于佐剂dsRNA的设计来说，必须要<strong>最小化佐剂dsRNA对编码抗原的mRNA翻译效率和整体RNA剂量造成的负面影响</strong>，这必然要求佐剂dsRNA要尽可能短。因此，研究人员<strong>以RIG-I识别的dsRNA作为结构模型</strong>，进行佐剂dsRNA序列设计。</p>
+<p>研究人员设计出一种短链dsRNA，如图所示，由两部分元件构成：</p>
+<ol>
+<li><strong>5’ppp-RNA</strong>：在5’平末端携带三磷酸基团的单链RNA序列；</li>
+<li><strong>cRNA</strong>:跟5’ppp-RNA序列和编码抗原的mRNA序列中的特定区域分别互补配对的反义链（counter RNA strand）。</li>
+</ol>
+<h3 id="佐剂dsRNA制备"><a href="#佐剂dsRNA制备" class="headerlink" title="佐剂dsRNA制备"></a><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209201859705.png"><strong>佐剂dsRNA制备</strong></h3><h4 id="5’ppp-RNA合成"><a href="#5’ppp-RNA合成" class="headerlink" title="5’ppp-RNA合成"></a>5’ppp-RNA合成</h4><p>采用<strong>体外转录反应IVT合成5’ppp-RNA</strong>。为防止IVT反应中，以RNA为模板合成出与目标mRNA互补配对的副产物RNA链，研发人员设计出序列内部不存在互补配对区域的<strong>24nt或者40nt GUrepeat的5’ppp-RNA序列</strong>。此外，还以G&#x2F;C&#x2F;U随机组合合成出内部存在互补配对的control 组 5’ppp-RNA序列.</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209210032643.png"></p>
+<h4 id="cRNA合成"><a href="#cRNA合成" class="headerlink" title="cRNA合成"></a>cRNA合成</h4><p>对于跟mRNA序列上不同位点发生互补配对的cRNA序列来说，其序列组成是变化的，无法消除cRNA序列内部发生自我互补配对的可能性，因此，为避免IVT合成中出现的副产物，<strong>cRNA只能采用化学合成</strong>。</p>
+<p>在<strong>2019年</strong>，<strong>片冈一则</strong>发表文章：<strong>I****nduced packaging of mRNA into polyplex micelles by regulated hybridization with a small number of cholesteryl RNA oligonucleotides directed enhanced in vivo transfection</strong>，这篇文章显示当长片段mRNA序列（783nt）与17nt RNA寡核苷酸链发生杂交时，对mRNA的翻译效率和免疫原性不会造成影响，因此研究人员<strong>在设计cRNA序列时，将其与mRNA序列之间互补配对的区域固定在17nt</strong>。</p>
+<h4 id="gap序列"><a href="#gap序列" class="headerlink" title="gap序列"></a>gap序列</h4><p>将cRNA分别与5’ppp-RNA序列互补配对的区域和与mRNA互补配对的区域成为gap序列，研发人员<strong>将gap序列设定为2nt或者10nt</strong>，他们想比较这种差别是否会影响天然免疫受体识别dsRNA“牙齿”的微环境。</p>
+<h4 id="杂交"><a href="#杂交" class="headerlink" title="杂交"></a>杂交</h4><p><strong>以等摩尔比例将mRNA，cRNA，5’ppp-RNA三种溶液混合，65℃加热变性5min，间隔10min逐渐降温到30℃，最终置于4℃</strong>。使用MWCO100k超滤管过滤混合溶液，当dsRNA与mRNA成功杂交形成嵌合型RNA时，在流穿中将检测不到dsRNA，因此可以使用Cy5-标记的5’ppp-RNA来定量检测杂交率。</p>
+<h3 id="优化佐剂dsRNA参数"><a href="#优化佐剂dsRNA参数" class="headerlink" title="优化佐剂dsRNA参数"></a>优化佐剂dsRNA参数</h3><p>用Lipofectamine LTX包封嵌合型gluc-mRNA，转染鼠源DC2.4细胞，通过荧光定量PCR检测细胞内促炎症因子IFN-β和IL-6基因转录水平的变化，以此评估各种dsRNA参数对于dsRNA免疫刺激活性的影响。如图E&#x2F;F，值得注意的是，Lipofectamine LTX本身的免疫刺激活性几乎可以忽略，因此采用Lipofectamine LTX包封非常适合检测嵌合mRNA（序列上杂交有不同数量和结构的佐剂dsRNA）内在的免疫刺激活性和翻译效率。</p>
+<ol>
+<li><strong>序列组成</strong>：如图A&#x2F;B所示，与对照组的随机序列dsRNA相比，<strong>由GU重复单元组成的dsRNA具备非常显著的免疫刺激活性</strong>，这可能是由于GU重复序列能够避免IVT合成5’pppRNA时产生与其互补配对的RNA链，而合成携带随机序列的5’pppRNA时产生的互补链RNA会干扰5’pppRNA与cRNA之间的杂交。</li>
+<li><strong>序列长度</strong>：如图A&#x2F;B所示，<strong>把dsRNA序列中的GU重复单元从24bp延长到40bp时，会明显降低免疫刺激活性</strong>。5’pppRNA序列长度增加，与cRNA在未预期的位点发生互补配对的概率可能增加，从而阻碍平末端携带5’pppRNA（RIG-I的特异性配体）的形成。</li>
+<li><strong>gap序列</strong>：如图C&#x2F;D所示，<strong>将gap序列长度从2nt延长到10nt时，会明显降低免疫刺激活性</strong>。gap序列的长度可能会改变dsRNA的局部环境，使得RIG-I顺利识别dsRNA的过程受到影响。</li>
+<li><strong>杂交</strong>：如图E&#x2F;F所示，非常有意思的是，如果仅仅包封dsRNA或者将未杂交配对的dsRNA和mRNA包封，转染细胞，均无法刺激天然免疫反应，这说明<strong>dsRNA与mRNA的杂交配对对于免疫刺激活性非常重要。</strong></li>
+<li><strong>dsRNA“牙齿”数量</strong>：如图G&#x2F;H所示，当使用dsRNA-GUrepeat（24bp）-gap（2nt）时，将嵌合在mRNA序列上的<strong>dsRNA数量从1个增加到5个时，会逐渐增强免疫刺激活性</strong>。</li>
+</ol>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209211931086.png"></p>
+<h2 id="dsRNA不影响mRNA抗原翻译效率"><a href="#dsRNA不影响mRNA抗原翻译效率" class="headerlink" title="dsRNA不影响mRNA抗原翻译效率"></a>dsRNA不影响mRNA抗原翻译效率</h2><p>在编码抗原的mRNA序列上嵌合上不同数量的dsRNA，我们肯定非常想知道<strong>这种嵌合型mRNA抗原翻译效率是否会受到抑制？</strong>嵌合1&#x2F;3&#x2F;5个dsRNA“牙齿”的gLuc-mRNA在鼠源或者人源BMDCs细胞中的蛋白翻译效率是不嵌合dsRNA的gLuc-mRNA的50%。研究者怀疑，在mRNA序列上杂交dsRNA以后，会刺激天然免疫反应，而天然免疫会抑制mRNA的翻译效率，因此附着dsRNA“牙齿”的gLuc-mRNA翻译效率的降低可能是其作为佐剂触发的天然免疫反应抑制的，并不是由于mRNA序列上面的dsRNA本身抑制翻译过程。</p>
+<p>为搞清楚这个问题，研究者构建不携带5’ppp的dsRNA(5个)-mRNA嵌合结构，这种dsRNA缺乏免疫刺激活性。如图I所示，在BMDCs细胞中，不携带5’ppp的dsRNA(5个)-mRNA与不携带dsRNA的mRNA翻译效率是相似的。这充分证实<strong>嵌合型mRNA翻译效率的降低是由于杂交dsRNA后触发的天然免疫反应抑制的，并不是由于mRNA序列上dsRNA的存在造成的。</strong></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209212346090.png"></p>
+<h2 id="嵌合mRNA适配各种递送系统"><a href="#嵌合mRNA适配各种递送系统" class="headerlink" title="嵌合mRNA适配各种递送系统"></a>嵌合mRNA适配各种递送系统</h2><h3 id="阳离子脂质体"><a href="#阳离子脂质体" class="headerlink" title="阳离子脂质体"></a>阳离子脂质体</h3><p>研究者采用阳离子脂质体(cationic lipoplexes )包封编码卵清蛋白(OVA)的mRNA测定小鼠体内的CTL细胞毒性反应，结果发现，与没有镶嵌dsRNA的mRNA序列相比，在mRNA序列上嵌合1&#x2F;3&#x2F;5 dsRNA”牙齿”时会<strong>增强抗原特异性的CTL反应</strong>，这种增强效应可能是由于<strong>嵌合型dsRNA-mRNA增强了对DC细胞的激活和促炎症因子的释放</strong>。如图F所示，在皮下淋巴瘤治疗模型中，与不携带dsRNA的OVA-mRNA相比，3次免疫阳离子脂质体包封的嵌合型dsRNA-OVA-mRNA会显著降低生长肿瘤的大小。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209220036768.png"></p>
+<h3 id="基于可电离脂质的LNP"><a href="#基于可电离脂质的LNP" class="headerlink" title="基于可电离脂质的LNP"></a>基于可电离脂质的LNP</h3><p>LNP递送系统已经被成功应用于新冠疫苗的递送，可以非常有效的触发细胞免疫。值得注意的是，用LNP包封mRNA或者嵌合dsRNA(1个)-mRNA，两种LNP的粒径大小是相似的。同不杂交dsRNA的OVA-mRNA-LNP相比，<strong>嵌合1个dsRNA的OVA-mRNA-LNP会显著增强抗原特异性的CTL反应</strong>，即便mRNA浓度在0.01ug。</p>
+<h3 id="基于聚合物的递送系统"><a href="#基于聚合物的递送系统" class="headerlink" title="基于聚合物的递送系统"></a>基于聚合物的递送系统</h3><p>尽管基于聚合物（Polymers）的递送系统在递送mRNA方面具有巨大的潜力，但是极少用于mRNA疫苗，这是因为聚合物本身具有非常低的免疫刺激活性。dsRNA能够作为非常好的佐剂，这会给聚合物递送系统在疫苗中的使用带来新的机会。研究者利用PM递送系统包封携带或者不携带dsRNA的OVA-mRNA，结果发现，<strong>同OVA-mRNA相比，当OVA-mRNA序列上镶嵌5个dsRNA时才会成功增强CTL效应</strong>。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209221025034.png"></p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>研究者开发出一种非常新颖和简单的佐剂添加方式，将具有免疫刺激活性的佐剂dsRNA直接嵌入编码抗原的mRNA序列上，并且不会影响抗原翻译的过程，直接利用现有的递送系统便可实现包封，加强DC细胞的激活，促进促炎因子的释放，显著提升CTL效应，从而增强mRNA疫苗在癌症治疗过程中的效果。特别有趣的是，通过调整佐剂dsRNA的数量，可以增强或者防止过度的免疫刺激活性。在未来，还需要将这套系统应于更多疾病相关的模型才能够为其最终进行临床转化提供更加详尽的数据和理论支撑。</p>
+<blockquote>
+<p><strong>iCONM</strong></p>
+</blockquote>
+<p>ICONM，始创于2015年，是一家位于日本川崎的纳米医学创新中心，致力于不断创造新的医疗技术，提升疑难疾病的治愈率，成为全球最具创新性的研究中心。</p>
+<p>在其logo设计中，<strong>“O”</strong>代表纳米胶束，向中心渐变的颜色代表“无限的可能性”和“迈向未来的飞跃”。 黑色和水蓝色代表“诚实”和“透明”。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209221708414.png"></p>
+]]></content>
       <categories>
-          
-          <category> RNA工艺 </category>
-          
+        <category>RNA工艺</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> dsRNA </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>综述|mRNA加帽率测定方法研究进展</title>
-      <link href="/2022/09/19/%E7%BB%BC%E8%BF%B0-mRNA%E5%8A%A0%E5%B8%BD%E7%8E%87%E6%B5%8B%E5%AE%9A%E6%96%B9%E6%B3%95%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95/"/>
-      <url>/2022/09/19/%E7%BB%BC%E8%BF%B0-mRNA%E5%8A%A0%E5%B8%BD%E7%8E%87%E6%B5%8B%E5%AE%9A%E6%96%B9%E6%B3%95%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95/</url>
-      
-        <content type="html"><![CDATA[<p>帽子结构是mRNA在体内发挥生物学功能是必不可少的元件。简单来说，RNA帽子结构有2个最主要的功能：第一，在细胞中招募蛋白翻译机器，使得mRNA翻译表达出执行特定生物学功能的蛋白质；第二，提升mRNA稳定性，避免被细胞内的核酸内切酶降解。既然帽子结构有着如此重要的功能，那么检测mRNA加帽率毫无疑问成为mRNA生产工艺质量分析里面最关键的指标之一。</p><p>mRNA分子质量一般成百上千KDa，帽子结构只有500 Da左右。<span style="color:red;">极小的帽子结构在巨无霸mRNA分子面前，显得微不可辨，</span>这就导致加帽mRNA和未加帽mRNA之间的差异极其细微，也就是一个核苷酸或者甲基的区别，常规分离分析方法难以捕捉到。mRNA加帽率检测的研究者一开始就意识到这个问题，因此，他们通过酶法降解或者切割的方式使得分子质量巨大的RNA分子变为可分析的同位素标记单核苷酸或者5’末端短序列，比如，RNase T2 ,RNase H，Ribozyme等。搭配焦磷酸水解酶（TAP或者RppH），还可实现帽子方向的检测。接下来，研究者不断优化聚丙烯酰胺凝胶电泳，毛细管凝胶电泳或者HPLC-MS系统，以此检测区分并且定量携带帽子的短片段，从而最终确定mRNA加帽率。</p><p>我们对mRNA加帽率测定方法的发展历程进行详细的调查总结，回溯过去，着眼当下，展望未来，整理成此文。这篇综述将从以下几个方面进行探讨;</p><ul><li><span style="color:red;">分析加帽反应产物中的不同组分</span></li><li><span style="color:red;">早期同位素标记法测定mRNA加帽率</span></li><li><span style="color:red;">重点探讨RNase H介导的mRNA加帽率测定方法，主要包括：RNase H切割位点的特异性以及探针序列的筛选优化；优化RNase H切割片段的富集回收；硼酸盐化的聚丙烯酰胺凝胶，毛细管凝胶电泳，LC-MS对加帽率的检测分析。</span></li><li><span style="color:red;">Ribozyme 介导的mRNA加帽率检测方法</span></li><li><span style="color:red;">mRNA加帽率测定ELISA试剂盒专利介绍</span></li></ul><h2 id="分析加帽反应产物中的不同组分"><a href="#分析加帽反应产物中的不同组分" class="headerlink" title="分析加帽反应产物中的不同组分"></a>分析加帽反应产物中的不同组分</h2><p>既然我们要定量mRNA加帽率，那首先我们就得弄清楚mRNA加帽方式有几种？每种类型加帽反应的产物包含几种不同的组分？存在哪些加帽反应的中间产物？</p><p>在mRNA工艺生产中采用2种类型的加帽方式：酶法加帽和共转录加帽。如果从加帽反应来说，存在4种加帽反应，不同的加帽反应所需的底物是不同的，生成的产物类型也是不同的，存在的帽子中间产物当然也是不一样的。</p><p>对于<strong>酶法 Cap 0 加帽反应</strong>来说，终产物是m7GpppGpG-RNA，中间产物是ppGpG-RNA或者GpppGpG-RNA；对于<strong>酶法 Cap 1 加帽反应</strong>来说，终产物是m7GpppmGpG-RNA，中间产物是m7GpppGpG-RNA，ppGpG-RNA以及GpppGpG-RNA。与此形成对比的是，对于<strong>ARCA Cap 0 共转录加帽反应</strong>来说，终产物是m7GpppGpG-RNA；对于<strong>GAG Cap 1共转录加帽反应</strong>来说，终产物是m7GpppmAG-RNA。大多数研究数据显示酶法加帽的效率要优于共转录加帽，但是，酶法加帽存在诸多的加帽反应中间产物。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209011157763.png" alt="酶法加帽反应各个过程所需要的酶活性，生成的最终产物以及各种中间产物。" title="酶法加帽反应各个过程所需要的酶活性，生成的最终产物以及各种中间产物"></p><p>我们已经对酶法加帽反应的过程以及中间产物作出分析，这样的话，<span style="color:red;">通过检测酶法加帽反应生成的mRNA样本中存在的各种组分，我们就可以倒推分析酶法加帽反应中各个酶促步骤进行的程度。</span></p><p>如果在mRNA 5’末端酶切短片段中检测到存在<span style="color:red;"><del>pp</del>G<del>p</del>G-RNA，</span>这说明酶法加帽反应第一步是正常进行的，即移除mRNA5’末端首个磷酸基团。如果在mRNA 5’末端酶切短片段中检测到存在<span style="color:red;">G<del>ppp</del>G<del>p</del>G-RNA，</span>这说明加帽反应第二步也是正常进行的，即在RNA5’末端添加1个GTP。但是，从另外一个角度来看，酶法加帽反应产物中检测到<span style="color:red;"><del>ppp</del>G<del>p</del>G-RNA，</span>这说明5’末端移除首个磷酸基团不完全。酶法加帽反应产物中检测到<span style="color:red;"><del>pp</del>G<del>p</del>G-RNA，</span>这说明添加GTP的过程并没有进行得非常彻底。酶法加帽反应产物中检测到<span style="color:red;">G<del>ppp</del>G-RNA，</span>这说明RNA5’末端鸟嘌呤核苷酸甲基化没有完全，可能是由于N7-甲基转移酶活性不足或者SAM含量不足造成的。</p><p>有文献报道，牛痘加帽酶N7-甲基转移酶活性位点和上游两个酶促反应的位点相距较远，同时，N7-甲基转移酶对于RNA具有非常高的亲和力。如果5’末端已添加鸟嘌呤核苷酸的RNA到较远的N7-甲基转移酶活性位点穿行效率不高或者N7-甲基转移酶活性位点被其他类型的RNA所占据，那么N7-甲基转移酶活性就非常有可能成为加帽反应的限制性因素。<span style="color:red;">当GTP或者SAM含量充足时，N7-甲基转移酶活性将成为牛痘加帽酶反应的限制性因素，从而造成上游两个反应产物的累积。</span></p><p>从Cap 0-mRNA生成Cap1-mRNA，需要用到2’-O-甲基转移酶。Michael Beverly在文章称，<span style="color:red;">非常有意思的是，在Cap 1酶法加帽反应产物中可以检测到GpppGpG-RNA，但是并没有检测到m7GpppGpG-RNA，这说明2’-O-甲基转移酶活性足以覆盖掉牛痘加帽酶的N7-甲基转移酶活性生成的m7GpppGpG-RNA，将Cap 0-mRNA催化转变为Cap 1-mRNA。他推测，这种现象也可能是由于2’-O-甲基转移酶对于SAM的亲和力要比N7-甲基转移酶更高造成的。</span></p><h2 id="利用同位素标记核苷酸测定加帽率"><a href="#利用同位素标记核苷酸测定加帽率" class="headerlink" title="利用同位素标记核苷酸测定加帽率"></a>利用同位素标记核苷酸测定加帽率</h2><p>早期研究对加帽率以及帽子方向的研究一直使用相关的RNA酶将同位素标记RNA降解为单核苷酸。RNase T2降解mRNA时，不具备碱基特异性，从而产生3’NMPs。mRNA 5’端帽子结构中存在三磷酸键，对于<span style="color:red;">RNase T2</span>的降解耐受。当采用RNaseT2降解使用α-磷酸基团-P32核苷酸生成的mRNA时，如果RNA 5’末端具有正常的m7GpppG，那么RNaseT2降解后，就会形成m7GpppGp⁕（℗代表P32）。当同位素标记的mRNA帽子结构是正向的，先用<span style="color:red;">烟草酸性焦磷酸酶（TAP）</span>处理mRNA，接着用RNase T2降解，就会得到pGp⁕，相反，当同位素标记的mRNA帽子结构是反向的，采用相同的两种酶联合处理mRNA，只会得到pm7Gp⁕。通过凝胶电泳或者HPLC对酶法降解得到的同位素标记核苷酸（帽子结构）进行分析，便可定量加帽效率和帽子方向^[3]^。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208292322783.png" alt="左图：RNase T2单独或者与TAP联合使用降解加帽RNA或者未加帽RNA产生的帽子结构类型。右图：阴离子HPLC分离酶法降解RNA产生的不同帽子结构。" title="左图：RNase T2单独或者与TAP联合使用降解加帽RNA或者未加帽RNA产生的帽子结构类型。右图：阴离子HPLC分离酶法降解RNA产生的不同帽子结构。"></p><p>2008年，Charles A Nicolette 比较酶法加帽和共转录加帽对于CD40L RNA加帽效应的差异。他首先利用T4 RNA连接酶，在RNase H切割下来的mRNA 5’末端序列的3’末端连接上同位素P32标记的单核苷酸。接着，用变性聚丙烯酰胺凝胶电泳将加帽mRNA和未加帽mRNA分离开来，通过放射自显影技术确定加帽率。<span style="color:red;">结果发现，牛痘加帽酶对RNA的加帽效率可以达到100%，而共转录的加帽效率只有67%^[2]^。</span></p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208291721063.png" alt="利用同位素标记RNaseH切割产物，变性聚丙烯酰胺凝胶电泳分离，放射自显影，测定酶法和共转录加帽效率差异。" style="zoom:50%;" /><div align="center">利用同位素标记RNaseH切割产物，变性聚丙烯酰胺凝胶电泳分离，放射自显影，测定酶法和共转录加帽效率差异。</div><h2 id="利用RNaseH测定加帽率"><a href="#利用RNaseH测定加帽率" class="headerlink" title="利用RNaseH测定加帽率"></a>利用RNaseH测定加帽率</h2><p>尽管传统的同位素标记标记法可以分析帽子方向和加帽率，但是，用来分析的RNA样本必须是同位素标记的，无法将此方法推广应用到临床mRNA生产的质控检测领域。在2016年，Michael Beverly基于不同帽子结构的分子质量和保留时间的差异，利用LC-MS分析无任何标记的加帽RNA与不加帽RNA。全长mRNA分子量巨大，用MS难以进行分析，因此需要利用Rase H 从mRNA 5’末端酶切一段短RNA序列^[9]^。</p><p>RNase H 探针由两部分序列组成：2’-O-甲基修饰的短RNA序列和探针3’末端引导RNase H 切割的位点（4-6个脱氧核糖核苷酸组成）。RNase H无法识别2’-O-甲基修饰的RNA序列，但是，探针3’末端的脱氧核糖核苷酸短序列会引导RNase H在与其互补配对的RNA序列的特定位置进行切割。RNase H切割得到的5’末端序列与生物素标记Rase H 探针序列处于互补配对状态，用链霉亲和素标记的磁珠可以将其从反应混合液中特异性吸附出来。将RNase H切割得到的5’末端序列从磁珠上分离，先用HPLC分离携带5’末端帽子类似结构的RNase H酶切片段，再用MC便对不同类型的帽子类似结构进行定量分析。</p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208311647038.png" alt="RNase H探针序列的组成以及切割位点。" style="zoom: 50%;" /><div align="center">RNase H探针序列的组成以及切割位点。</div><h3 id="RNase-H存在多个切割位点"><a href="#RNase-H存在多个切割位点" class="headerlink" title="RNase H存在多个切割位点"></a>RNase H存在多个切割位点</h3><p>RNase H 是一种核酸内切酶，能够移除NDA复制过程中冈崎片段上面的RNA引物或者加工处理R-Loops，调节R-Loops介导的生物学过程，比如基因表达，DNA复制以及DNA或者组蛋白修饰。在体外，研究报道大肠杆菌RNase H可以利用DNA-RNA嵌合结构在单链RNA特定位点进行切割。然而，<span style="color:red;">大肠杆菌RNase H切割位点存在1个或者多个，导致产生的5’末端短切割片段是异质化的，相互之间存在1个或者几个核苷酸的差异。</span></p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208301332103.png" alt="有研究报道，RNase H存在两个邻近的切割位点，切割产物之间相差一个核苷酸。" title="有研究报道，RNase H存在两个邻近的切割位点，切割产物之间相差一个核苷酸。"></p><p>2022年7月23号，NEB研究人员G. Brett Robb对RNase H 是否可以产生更加同质性的切割片段展开详解研究。基于早先的研究，他们设计出24 nt RNase H 探针，介导RNase H在FLuc-RNA 5’端序列（33nt）二级结构的Loop环内进行切割。在相同的反应条件下，大肠杆菌 RNase H 和嗜热菌 RNase H 具有相似的切割效率（分别是98%，96.6%），均可产生两种类型的切割产物（23 nt和24 nt）。然而，<span style="color:red;">嗜热菌 RNase H 要比大肠杆菌 RNase H 产生更多的24 nt 切割产物。</span></p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208301344854.png" alt="A:RNase H 探针序列的组成以及切割位点。B:FLuc-RNA 5&#39;端最前面40个核苷酸的预测二级结构。C:大肠杆菌 RNase H 和嗜热菌 RNase H 具有相似的切割效率，但是，两种切割产物（23 nt/24 nt）的比例是不相同的。" title="RNase H 探针序列的组成以及切割位点。B:FLuc-RNA 5&#39;端最前面40个核苷酸的预测二级结构。C:大肠杆菌 RNase H 和嗜热菌 RNase H 具有相似的切割效率，但是，两种切割产物（23 nt/24 nt）的比例是不相同的"></p><h3 id="筛选RNase-H探针序列"><a href="#筛选RNase-H探针序列" class="headerlink" title="筛选RNase H探针序列"></a>筛选RNase H探针序列</h3><p>研究人员合成出一系列不同长度的RNase H探针序列，介导嗜热菌 RNase H对5末端携带荧光标记核苷酸的FLuc-RNA 5’端序列（30-50 nt）进行切割，接着用尿素PAGE凝胶电泳或者LC-MS进行分析，结果显示：</p><ol><li>在<strong>25 nt 探针序列介导的RNase H 切割反应</strong>中， 24 nt 切割片段占比86%，由-1 A|C位点产生；23 nt 切割片段占比15%，由 A|A位点产生，还存在占比少于1% 的22 nt 切割片段，由-3 U|A位点产生。</li><li><strong>当RNase H探针序列缩短1个核苷酸，变成24 nt时</strong>，大部分切割反应依然发生在A|C位点（+1），产生占比60%的24 nt 切割片段 ；23 nt 切割片段占比11%，由-1 A|A位点产生；22 nt 切割片段占比29%，由-2 A|A位点产生。</li><li><strong>当RNase H探针序列延长1个核苷酸，变成26 nt时</strong>，大部分切割反应发生在-2 A|C位点，产生占比为66% 的24 nt切割片段；在-1 C|U位点未检测到发生切割。</li><li><strong>当RNase H探针序列延长2个核苷酸，变成27 nt时</strong>，大部分切割反应发生在-1U|U位点，产生占比为87%的26 nt切割片段；其他三个位点发生切割反应的概率非常低。</li><li><strong>当RNase H探针序列延长3个核苷酸，变成28 nt时</strong>，绝大部分切割反应依然发生在U|U，只是位置变为-2，产生占比为98%的26 nt切割片段；-1 U|U位点发生切割反应的概率为1%。</li></ol><p>研究人员用脱硫生物素标记的25 nt 探针序列引导RNase H 对全长 Fluc-RNA(1.7kb)进行切割，LC-MS数据显示：在-1 A|C位点切割产生占比为91% 的24 nt 片段；-2 A|A位点切割产生占比为8%的23 nt片段；还在+1 C|U位点处切割产生占比为2%的 25 nt 片段。尽管RNase H 切割全长RNA序列和5’末端RNA序列时，切割位点以及所产生的片段比例存在些许的差异，但是，在切割反应产物中占比最大的切割位点还是类似的。<span style="color:red;">因此，研究人员认为可以通过合成一系列探针序列，介导RNase H对靶标RNA 5’端短序列进行切割，从中筛选找到能够产生更高比例同质化切割片段（相同核苷酸数目）的RNase H探针序列。</span></p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208301409434.png" alt="左图：筛选能够产生更高比例同质化切割片段的RNase H 探针序列。黄色表示探针序列中的核糖核苷酸，灰色表示探针序列中的脱氧核糖核苷酸。右图：25 nt RNase H探针序列切割全长FLuc-RNA产生更高比例的同质切割片段。绿色表示核糖核苷酸，蓝色表示脱氧核糖核苷酸。" title="左图：筛选能够产生更高比例同质化切割片段的RNase H 探针序列。黄色表示探针序列中的核糖核苷酸，灰色表示探针序列中的脱氧核糖核苷酸。右图：25 nt RNase H探针序列切割全长FLuc-RNA产生更高比例的同质切割片段。绿色表示核糖核苷酸，蓝色表示脱氧核糖核苷酸。"></p><h3 id="尿嘧啶修饰影响RNase-H切割特异性"><a href="#尿嘧啶修饰影响RNase-H切割特异性" class="headerlink" title="尿嘧啶修饰影响RNase H切割特异性"></a>尿嘧啶修饰影响RNase H切割特异性</h3><p>尿嘧啶修饰核苷酸包括假尿嘧啶核苷酸，N1M-甲基假尿嘧啶核苷酸，5-甲氧基假尿嘧啶核苷酸。同天然尿嘧啶相比，假尿嘧啶核苷酸展现出不同的碱基配对属性，这种差异可能会影响探针序列与5’末端RNA序列之间的退火或者RNase H切割特异性。</p><p>G. Brett Robb合成1.8 kb CLuc-RNA(编码海萤荧光素酶)，选择26 nt RNase H 探针序列（探针序列5’末端是尿嘧啶核苷酸）。使用天然尿嘧啶合成全长CLuc-RNA，那么在C|UC位点切割产生占比73%为25 nt 片段，而在CU|C位点还会切割产生占比27%为26 nt 片段。与此形成显著差异的是，使用假尿嘧啶合成全长CLuc-RNA序列，那么在C|ΨC位点切割产生25 nt片段，占比会降低到34%，而在CΨ|C位点切割产生的26 nt片段占比上升到66%。<span style="color:red;">由此可以看到，mRNA序列中的假尿嘧啶修饰核苷酸会导致RNase H切割特异性发生改变。</span></p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208301534486.png" alt="上图：筛选切割CLuc-RNA的RNase H探针序列。下图：假尿嘧啶核苷酸对RNase H切割位点的影响。" style="zoom:50%;" /><div align="center">上图：筛选切割CLuc-RNA的RNase H探针序列。下图：假尿嘧啶核苷酸对RNase H切割位点的影响。</div><h3 id="RNase-H切割片段的富集回收"><a href="#RNase-H切割片段的富集回收" class="headerlink" title="RNase H切割片段的富集回收"></a>RNase H切割片段的富集回收</h3><p>采用Ribozyme切割mRNA产生5’末端切割片段需要用硅胶柱富集回收才可以进行LC-MS分析，然而，硅胶柱至少需要20-60 ug RNA上样量。Beverly使用链霉亲和素磁珠对生物素标记RNase H切割片段进去亲和纯化，再通过加热，甲醇洗脱下来。为寻找更低RNA上样量的富集纯化方法，同时避免使用甲醇作为洗脱溶液，<strong>NEB研究人员G. Brett Robb</strong>对Beverly的<span style="color:red;">切割片段回收方法进行改造，利用RNA分子片段大小和亲和作用纯化</span>。简单来说，将RNase H切割反应混合物和NEBNext磁珠共同孵育，较小的RNA片段不会与发生磁珠发生结合，吸取澄清溶液再次同NEBNext磁珠共同孵育，这样会使得澄清溶液中的较大RNA片段降低到极少的比例。然后，吸取澄清溶液与链霉素亲和磁珠孵育，通过生物素-链霉亲和素特异性作用富集回收生物素标记RNase H切割片段。G. Brett Robb发现，尽管当不使用依赖片段大小进行分离的NEBNext磁珠时，溶液中的大片端RNA比例会所有升高，但是，省去NEBNext磁珠纯化步骤对LC-MS分析结果不会造成影响。</p><p><span style="color:red;">G. Brett Robb还比较将生物素标记 RNase H切割片段从链霉亲和素磁珠上洗脱下来的两种方式^[8]^。</span>第一种洗脱方式：先用标准的链霉亲和素Wash Buffer（含1M Nacl）洗杂，再将0.1M 生物素溶液与结合有RNase H切割片段的链霉亲和素磁珠37℃孵育1h。第二种洗脱方式：先用低盐Wash Buffer（含有60mm Nacl）洗杂，再将纯水与结合有RNase H切割片段的链霉亲和素磁珠65℃孵育6min。尿素聚丙烯酰胺变性胶电泳显示，两种洗脱方式具有相似的回收率。</p><p><span style="color:red;">总结来说，富集回收RNase H切割片段时，为方便起见，可只采用链霉亲和素磁珠纯化，同时用低盐洗杂，纯水洗脱RNase H切割片段。</p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208301825274.png" alt="利用片段大小和亲和作用富集纯化RNaseH切割片段，同时，比较两种洗脱方式的回收效率。" style="zoom: 50%;" /><div align="center">利用片段大小和亲和作用富集纯化RNaseH切割片段，同时，比较两种洗脱方式的回收效率。</div><h3 id="硼酸盐聚丙烯酰胺凝胶电泳分析RNase-H切割片段"><a href="#硼酸盐聚丙烯酰胺凝胶电泳分析RNase-H切割片段" class="headerlink" title="硼酸盐聚丙烯酰胺凝胶电泳分析RNase H切割片段"></a>硼酸盐聚丙烯酰胺凝胶电泳分析RNase H切割片段</h3><p><span style="color:red;">在2014年，Jessica A. Matts发现硼酸盐化的聚丙烯酰胺凝胶对3’末端修饰小RNA和3’末端未修饰小RNA的亲和力存在差异^[6]^。</span>未被修饰的小RNA3’末端2’-OH和3’-OH会与聚丙烯酰胺凝胶中的硼酸基团发生相互作用，但是，当小RNA3’末端2’-OH 甲基化修饰时，便不会聚丙烯酰胺凝胶中的硼酸基团发生相互作用。标准尿素变性丙烯酰胺凝胶无法区将相同长度，3’末端存在修饰的小RNA和3’末端没有修饰的小RNA区分开来。但是，如果在配制尿素变性丙烯酰胺凝胶时，加入一定量的丙烯酰氨基苯硼酸(APB)，在这种凝胶基质上，3’末端2’-OH 甲基化修饰的小RNA会比3’末端没有修饰的小RNA迁移得更快。<span style="color:red;">G. Brett Robb在文章称采用硼酸盐化的聚丙烯酰胺凝胶同样可以把<del>ppp</del>-RNA，<del>p</del>p-RNA，G^ppp^-RNA 与<del>m7</del>G<del>ppp</del>-RNA区分开来。Bio-RAD公司有在出售Affi-Gel® Boronate Gel，宣称对小分子量的核苷酸或者核苷有着非常高的分辨率。</span></p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208311054810.png" alt="利用硼酸盐化的聚丙烯酰胺凝胶区分3&#39;末端修饰和3&#39;末端未修饰的相同长度的小RNA。" title="利用硼酸盐化的聚丙烯酰胺凝胶区分3&#39;末端修饰和3&#39;末端未修饰的相同长度的小RNA。"></p><h3 id="毛细管凝胶电泳（CE）分析RNase-H切割片段"><a href="#毛细管凝胶电泳（CE）分析RNase-H切割片段" class="headerlink" title="毛细管凝胶电泳（CE）分析RNase H切割片段"></a>毛细管凝胶电泳（CE）分析RNase H切割片段</h3><p>2019年，Madalee G. Wulf利用毛细管电泳（Applied Biosystems基因分析仪）对5‘末端携带4种不同结构的短RNA序列（25 nt）成功进行分离定量^[5]^。<span style="color:red;">2022年，G. Brett Robb对此进行验证，用Applied Biosystems 3730xl Genetic Analyzer毛细管电泳仪对25 nt RNA 加帽反应产物进行分析，加帽反应的终产物（<del>m7</del>G<del>ppp</del>-RNA），底物（<del>ppp</del>-RNA），中间产物（<del>pp</del>-RNA和G<del>ppp</del>-RNA）在迁移峰图中具有非常好的分辨率，可实现加帽率的定量分析。</span></p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208311148196.png" alt="左图：不同5&#39;末端结构的25nt RNA在毛细管电泳系统中的迁移峰图。右图：利用Applied Biosystems 3730xl Genetic Analyzer测定加帽率。" title="左图：不同5&#39;末端结构的25nt RNA在毛细管电泳系统中的迁移峰图。右图：利用Applied Biosystems 3730xl Genetic Analyzer测定加帽率。"></p><p><span style="color:red;">SCIEX高铁等人利用PA800 Plus 毛细管电泳仪测定mRNA加帽效率，对RNase H切割片段进行分析时，有效区分加帽RNA片段和未加帽RNA片段，从而确定加帽效率^[4]^。</span>尽管他们在文章中称PA800Plus药物分析系统在进行短片段（&lt;100nt ）RNA分析时，分离度可以达到单个核苷酸的分离，<span style="color:red;">但是，从峰图来看，无法实现5’末端不同结构的精细区分，比如ppp-RNA，pp-RNA，Gppp-RNA等。</span></p><h3 id="荧光标记RNase-H切割产物"><a href="#荧光标记RNase-H切割产物" class="headerlink" title="荧光标记RNase H切割产物"></a>荧光标记RNase H切割产物</h3><p>在某些探针序列引导下，RNaseH切割产端3’末端会存在一个核苷酸的缺口，G. Brett Robb利用大肠杆菌DNA聚合酶 I（Klenow 片段）的填补活性，在RNaseH切割片段3’末端可添加一个荧光标记的核苷酸。由于聚合酶的填补活性依赖于荧光标记的dNTPs必须与DNA-RNA嵌合序列对应的位点互补，因此荧光标记的RNase H切割片段大小是确定的，其他切割位点产生RNase H片段不会发生荧光标记。尿素聚丙烯酰胺凝胶电泳，毛细管电泳以及LC-MS均可对荧光标记的RNase H 切割片段进行分析。当用丙烯酰胺凝胶电泳对加帽反应产物进行分离时，检测荧光信号，可以获得更高的新噪比，还可以消除加帽反应中某些中间产物（无法被荧光核苷酸标记）的干扰。</p><p>利用荧光标记RNase H切割产物对牛痘加帽酶反应中的FLuc-RNA进行分析。尿素聚丙烯酰胺凝胶电泳是分析加帽产物最方便的方法，但是，该方法无法区分5 ‘<del>ppp</del>-RNA与<del>pp</del>-RNA，<del>m7</del>G<del>ppp</del>-RNA与G<del>ppp</del>-RNA。在电泳图上，<del>ppp</del>G-RNA和<del>pp</del>G-RNA作为一条带，共同迁移，<span style="color:red;">表现为unCapped RNA，</span>而<del>m7</del>G<del>ppp</del>-RNA 和G<del>ppp</del>-RNA共同迁移，<span style="color:red;">表现为Capped RNA。</span>毛细管凝胶电泳则可实现5 <del>‘ppp</del>-G,<del>pp-</del>G,G-<del>ppp</del>G,<del>m7</del>G<del>ppp</del>-RNA片段的分离和定量，测定牛痘加帽酶对Fluc-RNA加帽率为78.4%。最后，G. Brett Robb比较3种分析方法测定的牛痘加帽酶对FLuc-RNA的加帽效率，结果显示，虽然尿素聚丙烯酰胺凝胶电泳不具备非常精细的分辨率，但是，尿素聚丙烯酰胺凝胶电泳与毛细管凝胶电泳以及LC-MS测定的加帽效率大致是相当的。</p><p>值得注意的是，G. Brett Robb采用荧光信号分析加帽反应产物电泳结果时，观察到存在极低比例的+1nt 荧光标记RNase H片段，这是可能是由于FLuc-RNA 5’末端起始序列是GGG引起的。<span style="color:red;">1998年，Pleiss发现某些模板在体外转录时，T7 RNA聚合酶合成出来的RNA具有异质性的5’末端。降低模板序列5’末端连续的G会显著减少RNA 5’末端的异质性^[7]^。</span></p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208302318498.png" alt="A:在Klenow聚合酶作用,在RNase H切割片段3'末端添加上荧光标记核苷酸；B：聚丙烯酰胺凝胶电泳(SYBR Gold染色或者采集荧光信号)分析加帽反应产物。C:毛细管凝胶电泳（CE）分析加帽应产物。D:比较聚丙烯凝胶电泳，毛细管凝胶电泳，LC-MS测定加帽效率差异。" style="zoom:50%;" /><div align="center">A:在Klenow聚合酶作用,在RNase H切割片段3'末端添加上荧光标记核苷酸；B：聚丙烯酰胺凝胶电泳(SYBR Gold染色或者采集荧光信号)分析加帽反应产物。C:毛细管凝胶电泳（CE）分析加帽应产物。D:比较聚丙烯凝胶电泳，毛细管凝胶电泳，LC-MS测定加帽效率差异。</div><h3 id="LC-MS分析RNase-H切割产物"><a href="#LC-MS分析RNase-H切割产物" class="headerlink" title="LC-MS分析RNase H切割产物"></a>LC-MS分析RNase H切割产物</h3><p>与ppp-RNA片段，pp-RNA片段或者Gppp-RNA片段相比，m7Gppp-RNA片段具有特定的分子质量，只要能够测定出不同5’末端结构的RNase H切割片段的分子质量，便可鉴定区分不同类型的5’末端结构，计算得到加帽率。<span style="color:red;">Michael Beverly利用反相HPLC很容易地能够将m7Gppp-mG-RNA与ppp-RNA片分离，再通过质谱计算得到各种组分的分子量，确定RNA片段的5’末端结构。</span>采用质谱分析各种不同类型的帽子结构，实现更高的分辨率和精确度。他们发现除了预期的切割片段，还发现了RNase H第2个位点的切割产物。HPLC无法区分具有相同核苷酸数量的RNase H切割片段，这时候只能依赖质谱区分。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208311648480.png" alt="通过LC-MS分析Cap1/uncapped RNase H切割片段混合物。上图：总离子色谱图，纵坐标是出峰时间。下图：总离子色谱图中7.1-7.7min对应的质谱图，纵坐标是荷质比。" title="通过LC-MS分析Cap1/uncapped RNase H切割片段混合物。上图：总离子色谱图，纵坐标是出峰时间。下图：总离子色谱图中7.1-7.7min对应的质谱图，纵坐标是荷质比。"></p><p>通过酶法加帽反应，使得CLuc-RNA和FLuc-RNA获得Cap 1。通过RNase H切割，一步法纯化富集回收切割片段（亲和纯化）。根据LC-MS得到的不同分子质量进行去卷积分，便可以鉴定出5’末端携带不同结构的RNA切割片段在加帽反应产物中所占的比例。<span style="color:red;">只需要5 pmol 1.8kb CLuc-RNA&#x2F;1.7kb FLuc-RNA（2.9ug）便足以通过LC-MS来测定加帽效率。</span></p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208312225847.png" alt="利用LC-MS分析CLuc-RNA/FLuc-RNA RNase H切割片段中不同5&#39;末端结构所占的比例。" title="利用LC-MS分析CLuc-RNA/FLuc-RNA RNase H切割片段中不同5&#39;末端结构所占的比例。"></p><h3 id="LC-MS分析加帽效率"><a href="#LC-MS分析加帽效率" class="headerlink" title="LC-MS分析加帽效率"></a>LC-MS分析加帽效率</h3><p>Michael Beverly对不同长度的RNA（2.9 K和9 K），不同帽结构的RNA(Cap 0和Cap 1)，不同修饰核苷酸的RNA(假尿嘧啶和5-甲基胞嘧啶)采用RNaseH+LC-MS对牛痘加帽或者共转录加帽的效率进行分析：</p><ul><li><strong>在分析的所有RNA中，不管大小，帽子类型，是否有修饰核苷酸酸，未加帽RNase H切割片段主要包括3种类型：Gppp-RNA，ppp-RNA，pp-RNA。</strong></li><li><strong>当加帽反应的条件确定时，不同批次的加帽效率是相似的，例如2.2k mRNA(天然核苷酸)，2.2k mRNA(假尿嘧啶)，9KmRNA(天然核苷酸)。</strong></li><li><strong>与天然核苷酸相比，在2.2k mRNA序列中存在假尿嘧啶时会导致未加帽RNA微小幅度上升2.5%左右。</strong></li><li><strong>同NEB关于ARCA加帽反应效率得到的数据一致，提高ARCA与GTP比例会导致反应产物中加帽RNA比例上升。</strong></li><li><strong>ARCA共转录加帽效应要低于牛痘加帽酶的加帽效应。只有当ACRCA&#x2F;GTP比例为8：1时，ARCA共转录加帽效率才接近牛痘加帽酶加帽效率。</strong></li></ul><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208312255450.png" alt="利用LC-MS分析ACRA共转录加帽和酶法加帽在各种不同条件下的加帽效率。" title="利用LC-MS分析ACRA共转录加帽和酶法加帽在各种不同条件下的加帽效率。"></p><h3 id="LC-MS分析加帽方向"><a href="#LC-MS分析加帽方向" class="headerlink" title="LC-MS分析加帽方向"></a>LC-MS分析加帽方向</h3><p>早期采用二核苷酸帽子类似物进行共转录产生Cap0结构时，经常会出现两种类型的产物：一种具有正确的帽子方向，即m7GpppG-RNA;另外一种具有相反的帽子结构，即Gpppm7GRNA。RNase H切割产物结合到磁珠后，添加焦磷酸酶（例如RppH或者TAP）水解磷酸键，从而将5’末端第一个核苷酸切除掉。由于帽子方向的不同，会导致剩于RNase H 切割序列的分子质量不同，通过LC-MS便可定量分析。</p><p>目前，二核苷酸帽子类似物均用ARCA进行加帽，由于添3’OH已被甲基化，因此在ARCA共转录加帽反应产物中不会出现反向帽子结构。在mRNA合成生产工艺中，对于帽子结构的分析已经不再作为质控指标。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209011728895.png" alt="添加焦磷酸酶,水解三磷酸键，LC-MS分析帽子方向。" title="添加焦磷酸酶,水解三磷酸键，LC-MS分析帽子方向。"></p><h2 id="Ribozyme-介导的mRNA加帽率检测方法"><a href="#Ribozyme-介导的mRNA加帽率检测方法" class="headerlink" title="Ribozyme 介导的mRNA加帽率检测方法"></a>Ribozyme 介导的mRNA加帽率检测方法</h2><p>当前最常用的RNaseH介导的切割反应中存在一个问题：由于RNaseH切割位点具有异质性，会产生除预期条带之外的额外条带。与此相成对比的是，核酶具有非常专一的切割位点，产生的5’切割产物中只存在两条带—携带帽子结构的5‘切割产物条带&#x2F;不携带帽子结构的5’切割产物条带。2022年，Katalin Karikó设计出一系列在mRNA 5’UTR特定位点特异性切割mRNA的核酶（Ribozyme）。IVT mRNA经过核酶切割，释放出5’末端携带帽子结构或者不携带帽子结构的10-30nt 短5’切割产物。使用硅胶柱去除长链RNA（未发生切割全长mRNA&#x2F;长3’切割产物），纯化获得核酶和5‘切割产物。最后，利用尿素变性聚丙烯酰胺凝胶电泳或者LC-MS可视化和定量分析携带帽子结构5‘切割产物&#x2F;不携带帽子结构5’切割产物比例，从而获得加帽效率。与RNaseH 介导的切割反应相比，核酶介导的切割反应显然具有极大的优势，切割位点单一，切割反应产物中不存在非特异性的条带。</p><p>具体的文章参见:<a href="https://mp.weixin.qq.com/s?__biz=MzAwMzc1Nzc5NQ==&mid=2648238342&idx=1&sn=d46888790a69101cc453b0d342dfdad9&chksm=831a0a8ab46d839cbc302408fb15a1a7e7528a87863ef01a1a2d99887dfa409e78a24a50fedc&scene=21#wechat_redirect">BioNTech开发核酶介导的加帽率测定方法</a></p><h2 id="ELSIA试剂盒测定加帽率"><a href="#ELSIA试剂盒测定加帽率" class="headerlink" title="ELSIA试剂盒测定加帽率"></a>ELSIA试剂盒测定加帽率</h2><p>在2014年，Shire Human Genetic Therapies 公开申请专利：信使RNA加帽效率的定量评估。这份专利用帽特异性结合物质（例如，帽特异性抗体）与加帽mRNA之间复合物的形成和定量来评估mRNA加帽效率，即基于ELISA的mRNA加帽率测定，是一种简单，可靠且有效的定量方法^[1]^。</p><p>对于捕获mRNA的固体基底来说，唯一的要求是必须能够直接或者间接捕获mRNA。连接在固体基底上的用于结合mRNA的第一捕获剂既可以是蛋白，例如，可结合到mRNA 3’末端的多聚A结合蛋白，可结合到mRNA 5’末端的抗m7G抗体或者真核生物起始因子eIF-4E；也可以是单链多核苷酸序列，例如，多聚PloyA尾巴，3’UTR区域以及CDS区域特异性序列等。</p><p>帽特异性结合物来是指能够选择性结合加帽mRNA或者帽子类似物的任何物质（蛋白或者分子）。帽特异性结合物质最常用的是帽特异性抗体，可以识别结合帽类似结构：<del>m7</del>G,<del>m7</del>G<del>ppp</del>G,<del>m7</del>G<del>ppp</del>A,<del>m7</del>G<del>ppp</del>C或者ARCA等。此外，真核生物翻译起始因子eIF-4E已经用于基于帽的mRNA纯化。</p><p>在这份公开的专利中，详细举例介绍基于生物素-链霉亲和素的寡聚dT捕获ELISA定量加帽效率：</p><ul><li><p>首先，用洗涤缓冲液（0.05%Tween 20,0.01M PBS,PH7.2）洗涤3次商品化的链霉亲和素包被微孔板，在每个孔中加入1-5pmol 100ul 的5’端生物素标记的寡聚dT20，室温孵育1h。然后，用洗涤缓冲液洗涤微孔板，冲洗去除未结合到微孔板上的寡聚dT20。最后，在每个孔中加入320ul封闭缓冲液（0.01M PBS,0.5%BSA,0.15%Tween 20），封闭1h。</p></li><li><p>mRNA样品94°变性10min，并且在室温放置30min。向每个微孔板添加含有20pmol-1umol mRNA的100ul杂交缓冲液（4×SSC,20mM HEPES,2mM EDTA,0.15% Tween 20），室温孵育1h。接着用含有2mM EDTA的洗涤缓冲液洗涤微孔板3次。</p></li><li><p>向每个孔加入100ul 一抗-小鼠抗m7G帽单抗（1：2000-1：25000稀释），室温孵育1h，用含有2mM EDTA的洗涤缓冲液洗涤微孔板3次；再向每个孔加入100ul二抗-山羊抗小鼠HRP-共轭抗体（1：40000稀释），室温孵育1h，用含有2mM EDTA的洗涤缓冲液洗涤微孔板3次。</p></li><li><p>加入TMB，当检测到HRP时，TMP生成蓝色底物，加入终止反应试剂H2SO4，颜色变为黄色。检测450处吸收值。</p></li><li><p>450nm处具有吸收的孔表示加帽mRNA的存在。根据连续稀释的结合到链霉亲和素涂布的微孔板上的生物素标记的m7G小分子阳性对照产生的吸收值绘制标准曲线。根据样品的吸收值便可以确定样品中含有的加帽mRNA含量，从而确定加帽率。</p></li></ul><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208291052310.png" alt="基于生物素-链霉亲和素的寡聚dT捕获ELISA定量加帽效率" style="zoom:67%;" /><h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>从上世纪90年代同位素标记检测帽子结构和方向，到当前普遍使用的RNase H介导的加帽率测定方法，研究者一直再不断优化末端携带不同帽子类似结构RNA片段的分离和分析方法。尽管有文献成功利用变性聚丙烯酰胺凝胶和毛细管凝胶电泳检测mRNA加帽率，但是，这两者检测的灵敏度和分辨率还是远远不如LC-MS。如果可以研制出对酶法加帽反应过程中各种中间产物具有良好分辨率的凝胶成分，凭借高通量分析，毛细管电泳分析加帽产物对于mRNA生产质控平台的建立将会产生巨大的吸引力。相对来说，ELISA检测加帽率显得不那么现实，很难保证抗体能够精确区分不同的帽子类似结构，会带来非常严重的假阳性现象。总结来说，目前，未来优化加帽率检测方法需要攻克的难关依然是对携带不同帽子类似结构RNA片段的高分辨率地分离鉴定。</p><hr><p><strong>附图：RNase H 介导的加帽率检测方法。</strong></p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209020030635.png" alt="image-20220902003006455"></p><hr><ol><li>信使RNA加帽效率的定量评估，CN105209633 A</li><li>Ectopic expression of a truncated CD40L protein from synthetic post-transcriptionally capped RNA in dendritic cells induces high levels of IL-12 secretion.</li><li>Synthesis and properties of mRNAs containing the novel “anti-reverse” cap analogs 7-methyl(3’-O-methyl)GpppG and 7-methyl(3’-deoxy)GpppG。</li><li>SCIEX.高铁.Analysis of capping efficiency of mRNA by capillary gel electrophoresis.</li><li>2019.Madalee G. Wulf.the yeast scavenger decapping enzyme Dcps and its application for in vitro RNA recapping.</li><li>2014.Jessica A. Matts.Small RNA library construction from minute biological samples. </li><li>1998.Pleiss.T7 RNA polymerase produces 5’ end heterogeneity during in vitro transcription from certain templates.</li><li>2022.G. Brett Robb.RNase H-based analysis of synthetic mRNA 5’ cap incorporation.</li><li><ol start="2016"><li>Michael Beverly. Label-free analysis of mRNA capping efficiency using RNase H probes and LC-MS.</li></ol></li></ol>]]></content>
-      
-      
+      <tags>
+        <tag>dsRNA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022新春佳节畅谈RNA药物无限未来</title>
+    <url>/2022/09/18/2022%E6%96%B0%E6%98%A5%E4%BD%B3%E8%8A%82%E7%95%85%E8%B0%88RNA%E8%8D%AF%E7%89%A9%E6%97%A0%E9%99%90%E6%9C%AA%E6%9D%A5/</url>
+    <content><![CDATA[<p>2022年，新冠疫情的幽灵依然盘旋在每一个人的头顶上，久久不能散去。间隔一段时间就会冒出的新型变异株打乱刚恢复不久的日常秩序，反反复复，折腾不停。一波又一波的变异株突袭，也迫使疫苗研发不断迭代升级。</p>
+<p>从生物医药行业的角度来看，新冠疫情的爆发带来巨大的机遇，促使mRNA疫苗在真实世界中得以普及接种。mRNA技术凭借惊人的研发生产速度，显著的临床数据，大放异彩，引发投资热潮，让大家意识到一场生物医药行业前所未有的技术革命即将启航。</p>
+<p>国内RNA新药研发公司如雨后春笋般不断涌现，各大传统药企强力布局，所有人朝着风口狂奔，开足马力挤进赛道，生怕自己被甩在后面，登不上变革的列车。身处行业中的每一个人，哪怕是最迟钝的人，也能够感受到滔天的热浪，大家把对于未来的无数憧憬和激情投射到RNA技术上，期待它深刻地改变医药行业的格局。</p>
+<p>正值新春佳节，我们决定暂不推送circRNA相关论文，整理前段时间行业大佬们在mRNA药物研发论坛上的精彩对话，以茶话会的方式分享给大家，听听前辈们关于mRNA药物行业的一些深刻见解。聆听大佬的真知灼见，也是快速提升自己的最有效的方法。</p>
+<p>下面，把各位大佬在论坛上的相关讲话，以文字的形式整理总结，为了语句的凝练通顺，会自行删改加工，所有的信息以原视频为准，这里的记录仅仅是个人的整理。</p>
+<blockquote>
+<p>李航文  </p>
+</blockquote>
+<p>李航文，上海斯微生物创始人，斯微生物是国内致力于mRNA技术研发成立最早的公司，总部位于上海，在过去的一年里，已经完成2亿美元的融资，获得政府层面巨大支持，相信在新的一年，可以获得重大突破。</p>
+<p>…</p>
+<p>mRNA是一个平台型技术，不管是模板，还是递送，都具有平台属性，未来可以做很多事情。哪里蛋白，哪里就有RNA一展身手的机会。</p>
+<p>…</p>
+<blockquote>
+<p>王刚  赫林生物创始人</p>
+</blockquote>
+<p>王刚，杭州林生物创始人，公司管线集中中在mRNA替代治疗和传染病疫苗研发。</p>
+<ul>
+<li><p>mRNA疫苗是否会成为疫苗研发的主流技术？</p>
+<p>mRNA疫苗是人类疫苗研发历史上最重大的一个革命，相比其他的一些研发多年的疫苗，比如艾滋病疫苗，新冠疫苗一年之内就研发成功了，因此这个技术毋庸置疑必然是整个疫苗领域的一个基石。</p>
+</li>
+<li><p>RNA药物研发过程中遇到的核心挑战</p>
+<p>在新冠疫情爆发以前，国际上有关mRNA疫苗研发的相关工作已经进行多年，例如在寨卡病毒疫苗上做出过很优秀的成就，但是，在FDA那里遇到了一个最大的问题，那就是mRNA到底是否可以成为药物？因为在此之前，人类从未暴露在外源的RNA分子当中，可成药性是此前的一个最大的问题。当然，凭借新冠疫情带来的机遇，基本上已经解决了这个问题。</p>
+<p>当前mRNA技术面临的瓶颈，主要有两个方面，骨架系统和递送系统，两个系统叠加在一起，才能成为一个产品，因此这两个系统也是未来突破的方向。</p>
+<p>先谈谈骨架系统，骨架的参数是一个非常大的变量。mRNA一级结构决定二级结构，不同的序列导致完全不同的翻译效率，所以我认为，挑战还是在骨架上。实际上，目前我们并不知道哪些帽子好？哪些尾巴好？哪些UTR好？哪些密码子优化策略好？哪些组合是最优的能够实现最好的效果？今后的发展方向，可以用AI技术结合bench work来寻找到一个比较好的规律。这个规律包含两个层面，第一个是如何实现高效表达，第二个是如果实现组织特异性表达。</p>
+<p>再说说递送系统，兰格曾经跟我讲，自己发现大分子递送系统可以等同于发现DNA和RNA。要解决大分子的持续给药和大分子结构完整，必须借助递送系统来实现。递送系统的突破也面临很多困难：第一，构成递送系统的很多材料是人体无法清除的；第二，从目前mRNA发展历程来看，moderan公司第一个通过二期临床的药物（治疗糖尿病皮肤病并发症的），实际上是一个裸RNA。结合本人自己做的研究来看，RNA在体内（体外另外一回事情），即便没有递送系统，也可以work。当然，这并不是否定递送系统，而恰恰说明，递送系统也需要升级和与骨架系统相匹配，一定存在一个非常好的递送系统搭配一个优化的骨架系统来实现非常好的体内表达效果。同时，我也认为，现阶段，就事论事来说，一个高级的骨架系统可以配一个低级的递送系统，因为FDA批准递送系统通过的难度比较大。</p>
+<p>最好，就靶点面临的挑战来说，实际上，对于mRNA药物，这么年轻的产品，从做产品的角度来说，靶点非常多。现在拥有一个巨大的历史机遇，就是曾经的专利壁垒事实上已经不存在了，同样的靶点，通过mRNA技术实现全新的起步。把现有靶点做好，已经是机会重重。</p>
+</li>
+<li><p>未来最可能攻破的应用场景</p>
+<p>除了无细胞表达以外，mRNA药物还有一个最大的优势就是细胞内蛋白的替代，甚至是线粒体的替代，我本人做过一个线粒体替代的东西，这个是重组蛋白技术无法实现的。</p>
+<p>除了疫苗和肿瘤领域以外，罕见病是一个可以快速突破的领域。因为罕见病一般是单基因突变，导致酶活性丧失，用mRNA技术可以把酶递送回去，恢复正常的生理功能。罕见病领域，也是疫情前很多RNA公司主要的研发热点。</p>
+</li>
+</ul>
+<blockquote>
+<p>王奕 </p>
+</blockquote>
+<p>王奕 ，深圳新合生物创始人，有多年从事艾滋病疫苗研发的经验。新合生物17年成立，公司致力于多组学信息采集，推动AI生信算法，全自动药物靶点挖掘设计，以RNA形式研发创新药物，管线以肿瘤免疫合传染病两个大的方向为主。</p>
+<ul>
+<li><p>mRNA疫苗的优势</p>
+<p>mRNA疫苗作为一个新型的疫苗载体，有着自己独特的先天优势：第一，比较强地激发B细胞或者T细胞免疫反应。第二，速度快，不管是研发速度，还是工艺生成速度。如何把mRNA疫苗平台的优势更深地激发出来。疫苗更多地取决于靶点问题，艾滋病疫苗的靶点很难寻找，像新冠疫苗靶点比较明确的。</p>
+</li>
+<li><p>RNA药物未来的突破方向</p>
+<p>RNA药物，实际上是RNA序列设计和递送系统的加乘，这两边是一个联动，一个加乘的关系。如果通过RNA序列优化设计，使表达效率或者特异性提高10倍或者20倍，再把提送效率提升5倍，那实际上加起来就RNA药物表达效果就提升了100倍。因此，这两个方向是RNA技术平台未来两个大的突破方向。</p>
+<p>除了线性RNA的优化骨架系统，实际上也出现了一些全新的骨架系统，比如saRNA和circRNA，在一定程度解决RNA在体内的表达效率和表达时间的问题。这个方面地更多取决于我们想做什么样的适应症，我们希望靶标蛋白在体内表达多长时间。</p>
+<p>递送方向上面，除了LNP系统，大家也在突破一些现有的专利，去找到一些更好的系统。总体来说，整个递送系统，在朝3个大地方向发展：</p>
+<ol>
+<li>安全性</li>
+<li>有效性，能把多少RNA递送到细胞里面去</li>
+<li>靶向性，除了绝大多数的肝，和一点点的脾脏，一点点的肺部，到底能不能实现更精准的器官靶向，甚至是细胞靶向。不管是通过LNP本身以及配方的优化，还是用一些新型的载体，来实现靶向性，这方面未来肯定存在一定的发展空间。</li>
+</ol>
+<p>从产业上来讲，由于疫情和政治环境，需要实现试剂仪器耗材的国产化，让国内的试剂耗材达到国外的标准。上游供应商的不断前进发展，可以降低核酸药物的成本，让RNA药物获得一个更好的发展空间。</p>
+<p>mRNA药物未来可以应用于哪些领域，还是取决于该技术的发展能够为我们打开哪些大门。</p>
+</li>
+</ul>
+<blockquote>
+<p>张佩琢 </p>
+</blockquote>
+<p>张佩琢，吉玛基因董事长，开启中国核酸药物的前辈。本人从1991年到英国学习RNA化学，入行有三十年，吉码也有近20年的积累，从化学到分子生物学，细胞到动物平台，RNA各自分析平台，综合平台力量为科研院所提供服务，为药物研发企业提供服务，自身定位是一家RNA平台型服务公司。</p>
+<ul>
+<li><p>mRNA疫苗的优势</p>
+<p>直观一点，免疫系统更像是我们的警察，疫苗不外乎就是我们把东西丢进去，让警察系统先识别一下，等将来真正碰到敌人突袭的时候，他好预先有反应。各自疫苗平台的差异，可以从生命中心法则的各段来看。康希诺的苗，无外乎就是把最后要表达成蛋白的DNA，先用病毒的方式放进去，然后进入体内，转录成mRNA，翻译成蛋白，警察拍了照片。重组蛋白直接把病毒碎片放进去。灭活苗，把病毒打死，尸体放进去。减毒苗，打了各半死，放进去，让警察看。不同的路径，各有各的优势。其他非mRNA疫苗，全部用到了生物制造体系，唯独mRNA疫苗几乎没有用到活细胞体系，生产过程是一个化学过程，简便和可控制。</p>
+</li>
+<li><p>界定RNA药物概念</p>
+<p>过去在相当长的一个领域内，没有人用RNA药物这样的字眼来界定这个细分领域。回到生命中心法则，把RAN药物同小分子化学药物，抗体药物，基因工程蛋白药物，基因治疗以及细胞治疗区分开来，只有用RNA药物去界定，才会更有价值。RNA药物可以把小核酸，小RNA，mRNA，涵盖在一起。小干扰RNA，反义核苷酸，作用机制是把靶基因下调下去，相反，mRNA是把靶标mRNA上调上去，最终，都是影响到蛋白表达。希望用RNA药物把自己小的细分行业给区分出来。</p>
+</li>
+<li><p>小核酸领域发展状况</p>
+<p>小RNA领域发展的历史，可以用3个40来概括：</p>
+<ol>
+<li><p>第一个40，40年多一点。从1978年，提出反义核苷酸，真正第一次把药物靶标从过去传统意义蛋白层面上托到了mRNA层面上。</p>
+</li>
+<li><p>第二个40，实际上，是FDA的态度。每年FDA的批准的药物，均下来是40多个。过去40年，FDA总共批准的药物总数是410多个，在相当长的时间内，一直到2015年以前，批准通过的小RNA药物，年年是零，年年在FDA那里交白卷。从2016年，2017年，2018年以后，逐渐进入到每年批准通过2个，3个，4个，</p>
+</li>
+<li><p>第三个40，中美研发团队对比。美国团队已经有十多款上市的药物，光小RNA一个方向上，还有二三十个2期临床已经拿到数据，3期临床看到比较好的结果。中国团队， 交出的答卷，很不好看，一个巴掌都不到，中国自己团队独立开发的并且处于临床的RNA药物，还非常少。这也是一个非常巨大的机会，国内企业转型的节点恰恰就在这里，国外已经走通了，国内外巨大的差距，可以让我们看到向前冲的机会。</p>
+</li>
+</ol>
+</li>
+<li><p>RNA药物面临的挑战</p>
+<p>不管是小RNA，还是mRNA，真正面临的挑战，也是小分子药物和抗体药物逃掉的一个挑战，就是要真正靶向性地进入细胞内。小分子化学药物用不着进入细胞内，大分子药物干脆柿子捡软的捏，找一些胞外靶点，RNA药物逃无可逃，必须进入细胞内才能解决问题。mRNA药物研发是第一次真正面对这个巨大的挑战，能够给整个制药行业带来一个新的转折和机遇，那就是必须找到真正能够靶向某一类组织甚至是细胞的工具。找起来，很难，是挑战。一旦找到，这就是药物开发的第一次选择，也就是只进了我该去的地方。第二次选择才是进去以后，选择使用小核酸了，把某一个mRNA特异性压制下来，还是选择mRNA，特异性地把某一个mRNA上调表。双重选择也是挑战带来的机会。</p>
+</li>
+<li><p>国内大型药企面临的机会</p>
+<p>小RNA也好，mRNA也好，给国内的很多寻找机会的药企，提供了一个更加容易接近的一个平台。</p>
+</li>
+<li><p>RNA药物未来靶点地选择方向</p>
+<p>第一，传统意义上在胞内不可成药的靶标。第二，传统意义成熟的靶点上，RNA药物可以实现更长效，依存性更好。</p>
+</li>
+</ul>
+<blockquote>
+<p> 赵孝斌 海旭创始人</p>
+</blockquote>
+<p>赵孝斌 ，海旭生物创始人。海旭生物是一家2014年成立的杭州公司，聚焦药物递送包括核酸递送的平台型公司，从化学药物到不同分子量RNA，进行商业化递送服务。</p>
+<ul>
+<li><p>mRNA行业的发展需要共同合作</p>
+<p>与传统疫苗相比，mRNA药物是新生的技术，新生的产品，新的平台。新冠疫情推动了整个RNA行业的发展。十年前，只要是mRNA药物就不被看好，但是现在整个制药行业都在拥抱这项技术。这对大家来说是一个共同的机遇和挑战。从上游到下游，行业的发展是需要共同合作的。上游创新的研发，下游的脚踏实地，紧密结合，共同开发合作，开拓战略性空间，推动行业发展。</p>
+</li>
+</ul>
+<blockquote>
+<p>栗世铀  启辰生创始人</p>
+</blockquote>
+<p>栗世铀，北京启辰生创始人，本人在科学院从事过功能基因组研究。启辰生坚持以免疫学理论为中心，进行所有管线研发和产品设计，基于细胞和纳米脂质颗粒递送系统的研发，管线有肿瘤和传染病疫苗的研发。</p>
+<ul>
+<li><p>mRNA疫苗是否会成为疫苗研发的主流技术？</p>
+<p>mRNA是一个分子工具（涉及基因编辑），也是一个信息分子（中心法则，信息流动），不管是疫苗领域，还是其他领域，毫无疑问，mRNA技术会成为一个主流的技术平台，这是由其更加灵活弹性的生产方式决定。</p>
+</li>
+<li><p>构建RNA药物行业微生态</p>
+<p>从药物开发的全链条来说，挑战还在于，要涉及到生产工艺开发和质量标准的建立，上下游的行业伙伴需要一起建立一个基于核酸的微生态。</p>
+</li>
+</ul>
+<blockquote>
+<p>总结</p>
+</blockquote>
+<p>从上面众位大佬分享的见解可以看到，大家对于RNA药物充满了期待，不同领域的专家，都瞄准了RNA赛道，殊途同归，开始全部致力于RNA药物的研发中来。多年以后，大家可能会淡忘新冠疫情期间带来的生活不便，核酸检测，行程码，口罩，这些疫情期间特有的东西会烟消云散，人们又无忧无虑地生活在阳光下，自由地呼吸，随心所欲地旅行。但是，可以肯定，RNA疫苗在疫情中展现出来的巨大优势和对医药行业带来的巨大变革将会铭刻。</p>
+]]></content>
       <categories>
-          
-          <category> RNA工艺 </category>
-          
-          <category> 质量分析 </category>
-          
+        <category>行业动态</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Cap </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Orna Therapeutics环形RNA平台最新研发进展</title>
-      <link href="/2022/09/18/Orna-Therapeutics%E7%8E%AF%E5%BD%A2RNA%E5%B9%B3%E5%8F%B0%E6%9C%80%E6%96%B0%E7%A0%94%E5%8F%91%E8%BF%9B%E5%B1%95/"/>
-      <url>/2022/09/18/Orna-Therapeutics%E7%8E%AF%E5%BD%A2RNA%E5%B9%B3%E5%8F%B0%E6%9C%80%E6%96%B0%E7%A0%94%E5%8F%91%E8%BF%9B%E5%B1%95/</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242309853.png" alt="image-20220924230904344"></p><p>在最近举办的美国细胞基因治疗行业会议上，Orna Therapeutics分享了他们最新的研发和工艺生产方面的进展。在2018年，Daneil G. Aderson成功利用具有剪切活性的I型内含子构建CircRNA用来表达外源蛋白，并且申请到构建环形RNA的专利。在2021年2月，Orna Therapeutics完成首轮融资，Daneil成为其董事会成员。一年多过去了，期间出现多款新冠环形RNA候选疫苗，但是几乎没怎么听到Orna Therapeutics 公司的消息。看到他们最新分享的公司研发进展，发现他们一直在完善环形RNA工艺平台的搭建，工作做的很踏实，拿到很多有意思的数据，非常值得我们学习。</p><h2 id="比较环形RNA和线性RNA特征"><a href="#比较环形RNA和线性RNA特征" class="headerlink" title="比较环形RNA和线性RNA特征"></a>比较环形RNA和线性RNA特征</h2><h3 id="包封"><a href="#包封" class="headerlink" title="包封"></a>包封</h3><p>测试不同的阳离子脂质，不同长度的编码区，在包封过程中，均能取得类似的极低的PDI（&lt;0.1）和非常好的包封效率(90%)。与对应的线性mRNA-LNP颗粒相比，ORNA-LNP颗粒更小。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242309194.png" alt="image-20220924230930110"></p><h3 id="体内分布"><a href="#体内分布" class="headerlink" title="体内分布"></a>体内分布</h3><p>利用luciferase作为报告基因，比较ORNA-LNP和mRNA-LNP（来源于Trilink）在小鼠体内不同组织中的表达差异。在测试的4组LNP配方中，相同LNP配方的同组内，ORNA-LNP在脾脏中的表达量是比较高的，而对应的mRNA-LNP在脾脏中几乎不表达。在肝脏中，相同LNP配方的同组内，ORNA-LNP普遍不如mRNA-LNP表达水平高。对于ORNA-LNP，其在脾脏和肝脏中表达比例的差异取决于LNP配方。肝脏是非常重要的免疫器官，含有很多免疫效应细胞，例如T细胞。CircRNA注射到体内，在脾脏中的表达显著于线性mRNA，这对于mRNA技术在CART疗法的应用来说有非常重要的意义。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242310775.png" alt="image-20220924231046618"></p><h3 id="脾脏T细胞表达效率"><a href="#脾脏T细胞表达效率" class="headerlink" title="脾脏T细胞表达效率"></a>脾脏T细胞表达效率</h3><p>在不同的LNP配方，不同的编码区，ORNA-LNP在小鼠脾脏T细胞中的表达均显著优于线性mRNA。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242311310.png" alt="image-20220924231113172"></p><p>ORNA-LNP在人T细胞中的表达随着ORNA含量的增加而增加，呈现出剂量依赖效应。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242311016.png" alt="image-20220924231139913"></p><h2 id="环形RNA应用于蛋白替代疗法"><a href="#环形RNA应用于蛋白替代疗法" class="headerlink" title="环形RNA应用于蛋白替代疗法"></a>环形RNA应用于蛋白替代疗法</h2><p>杜氏肌营养不良症（Duchenne muscular dystrophy ），是由于DMD 基因突变，导致缺失抗肌萎缩蛋白引起的严重性的致死性肌肉疾病。由于抗肌萎缩蛋白（dystrophin）全长编码区长达11kb，蛋白分子量427kDa，使得传统蛋白替代疗法难以实现。贝克尔肌肉萎缩症是一种较为温和的肌肉营养不良症，病人可以表达截断的抗肌萎缩蛋白，生命周期得以提升，这表明表达阶段的抗肌萎缩蛋白可以减缓致死型的肌营养不良症。目前已经有一些基于腺病毒递送系统（AAV）来表达截断抗肌萎缩蛋白的疗法，但是由于病毒免疫原性和低下的克隆能力限制此类方法的发展。Orna Therapeutics 公司将开发的环形RNA应用于杜氏肌营养不良症的治疗中，实现持久高效的蛋白表达，甚至是长编码区蛋白的表达，以及多次给药。</p><p>编码全长抗肌萎缩蛋白和截断突变体的环形RNA均能在原代骨骼肌细胞中表达。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242312009.png" alt="image-20220924231200810"></p><p>通过肌肉注射的方式，将编码micron-dystrophin ORNA-LNP打到mdx小鼠模型中（DMD 基因突变，缺失抗肌萎缩蛋白），在四头肌中的表达量可以达到野生型小鼠表达全长抗肌萎缩蛋白量的4.2%，并且正确定位到肌膜上（sarcolemma）。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242312226.png" alt="image-20220924231235083"></p><h2 id="IRES序列筛选"><a href="#IRES序列筛选" class="headerlink" title="IRES序列筛选"></a>IRES序列筛选</h2><p>环形RNA与线性mRNA相比，没有游离的末端，无须帽子和尾巴结构，无须修饰核苷酸。蛋白表达量和表达持续时间均显著优于线性mRNA。环形RNA起始蛋白翻译，是通过IRES序列介导的。IRES是一段较长的序列&gt;500nt，其复杂的二级和三级结构对于起始蛋白翻译的活性非常重要。</p><h3 id="IRES分类"><a href="#IRES分类" class="headerlink" title="IRES分类"></a>IRES分类</h3><p>IRES来源病毒UTR序列，可以分为源自细胞质环境的IRES和源自细胞核环境的IRES。源自细胞质环境的IRES起始蛋白翻译，需要细胞质中的ITAFs，不需要特殊的化学修饰，长度在400nt-1000nt+。源自细胞核环境的IRES起始蛋白翻译，必须在细胞核中经过一定程度的化学修饰，与核内特殊的蛋白相互作用，具有更短的序列&lt;200nt。源自细胞核环境的IRES不能用于启动细胞质环境中RNA的翻译。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242314430.png" alt="image-20220924231408247"></p><h3 id="影响IRES翻译活性的因素"><a href="#影响IRES翻译活性的因素" class="headerlink" title="影响IRES翻译活性的因素"></a>影响IRES翻译活性的因素</h3><p>IRES活性和长度之间存在相关性。400-800nt IRES活性是最高的。IRES活性依赖于细胞类型，在不同的细胞类型中具有不同的表达活性。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242313595.png" alt="image-20220924231353511"></p><p>IRES在肌管细胞（myotube）和肝细胞中的翻译活性具有相关性，而T细胞中IRES的活性与这两种细胞中的IRES活性具有相关性。只有极少数的IRES在所有细胞类型中均展现出非常强的翻译活性。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242313865.png" alt="image-20220924231337775"></p><h3 id="筛选IRES遇到的困难"><a href="#筛选IRES遇到的困难" class="headerlink" title="筛选IRES遇到的困难"></a>筛选IRES遇到的困难</h3><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242313681.png" alt="image-20220924231320582"></p><p>研发人员以及筛选到上百个具有非常高活性的IRES序列，有一些翻译活性要比常用的EMCV-IRES高出10-40倍。他们还发现来自类似病毒的IRES在翻译活性有着非常显著的差异。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242313684.png" alt="image-20220924231300584"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在Orna Therapeutics此次的交流分享中，我们可以看到他们在工艺优化方面做出一系列的摸索，测试不同LNP配方包封不同长度的环形RNA，测定oRNA-LNP在体内不同器官的分布以及表达情况。更加重要的是，他们对IRES序列进行高通量筛选，研究影响IRES表达活性的因素，摸索不同细胞背景下IRES表达活性。他们似乎并没有利用环形RNA来追赶新冠疫苗的热点，而是去探索更多别的领域，比如CART疗法和蛋白替代疗法。通过这些踏实的基础工作，Orna Therapeutics一定可以将环形RNA平台打造得更加完善，期待他们在不久的将来做出激动人心的产品。</p>]]></content>
-      
-      
+  </entry>
+  <entry>
+    <title>Orna Therapeutics环形RNA平台最新研发进展</title>
+    <url>/2022/09/18/Orna-Therapeutics%E7%8E%AF%E5%BD%A2RNA%E5%B9%B3%E5%8F%B0%E6%9C%80%E6%96%B0%E7%A0%94%E5%8F%91%E8%BF%9B%E5%B1%95/</url>
+    <content><![CDATA[<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242309853.png" alt="image-20220924230904344"></p>
+<p>在最近举办的美国细胞基因治疗行业会议上，Orna Therapeutics分享了他们最新的研发和工艺生产方面的进展。在2018年，Daneil G. Aderson成功利用具有剪切活性的I型内含子构建CircRNA用来表达外源蛋白，并且申请到构建环形RNA的专利。在2021年2月，Orna Therapeutics完成首轮融资，Daneil成为其董事会成员。一年多过去了，期间出现多款新冠环形RNA候选疫苗，但是几乎没怎么听到Orna Therapeutics 公司的消息。看到他们最新分享的公司研发进展，发现他们一直在完善环形RNA工艺平台的搭建，工作做的很踏实，拿到很多有意思的数据，非常值得我们学习。</p>
+<h2 id="比较环形RNA和线性RNA特征"><a href="#比较环形RNA和线性RNA特征" class="headerlink" title="比较环形RNA和线性RNA特征"></a>比较环形RNA和线性RNA特征</h2><h3 id="包封"><a href="#包封" class="headerlink" title="包封"></a>包封</h3><p>测试不同的阳离子脂质，不同长度的编码区，在包封过程中，均能取得类似的极低的PDI（&lt;0.1）和非常好的包封效率(90%)。与对应的线性mRNA-LNP颗粒相比，ORNA-LNP颗粒更小。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242309194.png" alt="image-20220924230930110"></p>
+<h3 id="体内分布"><a href="#体内分布" class="headerlink" title="体内分布"></a>体内分布</h3><p>利用luciferase作为报告基因，比较ORNA-LNP和mRNA-LNP（来源于Trilink）在小鼠体内不同组织中的表达差异。在测试的4组LNP配方中，相同LNP配方的同组内，ORNA-LNP在脾脏中的表达量是比较高的，而对应的mRNA-LNP在脾脏中几乎不表达。在肝脏中，相同LNP配方的同组内，ORNA-LNP普遍不如mRNA-LNP表达水平高。对于ORNA-LNP，其在脾脏和肝脏中表达比例的差异取决于LNP配方。肝脏是非常重要的免疫器官，含有很多免疫效应细胞，例如T细胞。CircRNA注射到体内，在脾脏中的表达显著于线性mRNA，这对于mRNA技术在CART疗法的应用来说有非常重要的意义。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242310775.png" alt="image-20220924231046618"></p>
+<h3 id="脾脏T细胞表达效率"><a href="#脾脏T细胞表达效率" class="headerlink" title="脾脏T细胞表达效率"></a>脾脏T细胞表达效率</h3><p>在不同的LNP配方，不同的编码区，ORNA-LNP在小鼠脾脏T细胞中的表达均显著优于线性mRNA。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242311310.png" alt="image-20220924231113172"></p>
+<p>ORNA-LNP在人T细胞中的表达随着ORNA含量的增加而增加，呈现出剂量依赖效应。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242311016.png" alt="image-20220924231139913"></p>
+<h2 id="环形RNA应用于蛋白替代疗法"><a href="#环形RNA应用于蛋白替代疗法" class="headerlink" title="环形RNA应用于蛋白替代疗法"></a>环形RNA应用于蛋白替代疗法</h2><p>杜氏肌营养不良症（Duchenne muscular dystrophy ），是由于DMD 基因突变，导致缺失抗肌萎缩蛋白引起的严重性的致死性肌肉疾病。由于抗肌萎缩蛋白（dystrophin）全长编码区长达11kb，蛋白分子量427kDa，使得传统蛋白替代疗法难以实现。贝克尔肌肉萎缩症是一种较为温和的肌肉营养不良症，病人可以表达截断的抗肌萎缩蛋白，生命周期得以提升，这表明表达阶段的抗肌萎缩蛋白可以减缓致死型的肌营养不良症。目前已经有一些基于腺病毒递送系统（AAV）来表达截断抗肌萎缩蛋白的疗法，但是由于病毒免疫原性和低下的克隆能力限制此类方法的发展。Orna Therapeutics 公司将开发的环形RNA应用于杜氏肌营养不良症的治疗中，实现持久高效的蛋白表达，甚至是长编码区蛋白的表达，以及多次给药。</p>
+<p>编码全长抗肌萎缩蛋白和截断突变体的环形RNA均能在原代骨骼肌细胞中表达。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242312009.png" alt="image-20220924231200810"></p>
+<p>通过肌肉注射的方式，将编码micron-dystrophin ORNA-LNP打到mdx小鼠模型中（DMD 基因突变，缺失抗肌萎缩蛋白），在四头肌中的表达量可以达到野生型小鼠表达全长抗肌萎缩蛋白量的4.2%，并且正确定位到肌膜上（sarcolemma）。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242312226.png" alt="image-20220924231235083"></p>
+<h2 id="IRES序列筛选"><a href="#IRES序列筛选" class="headerlink" title="IRES序列筛选"></a>IRES序列筛选</h2><p>环形RNA与线性mRNA相比，没有游离的末端，无须帽子和尾巴结构，无须修饰核苷酸。蛋白表达量和表达持续时间均显著优于线性mRNA。环形RNA起始蛋白翻译，是通过IRES序列介导的。IRES是一段较长的序列&gt;500nt，其复杂的二级和三级结构对于起始蛋白翻译的活性非常重要。</p>
+<h3 id="IRES分类"><a href="#IRES分类" class="headerlink" title="IRES分类"></a>IRES分类</h3><p>IRES来源病毒UTR序列，可以分为源自细胞质环境的IRES和源自细胞核环境的IRES。源自细胞质环境的IRES起始蛋白翻译，需要细胞质中的ITAFs，不需要特殊的化学修饰，长度在400nt-1000nt+。源自细胞核环境的IRES起始蛋白翻译，必须在细胞核中经过一定程度的化学修饰，与核内特殊的蛋白相互作用，具有更短的序列&lt;200nt。源自细胞核环境的IRES不能用于启动细胞质环境中RNA的翻译。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242314430.png" alt="image-20220924231408247"></p>
+<h3 id="影响IRES翻译活性的因素"><a href="#影响IRES翻译活性的因素" class="headerlink" title="影响IRES翻译活性的因素"></a>影响IRES翻译活性的因素</h3><p>IRES活性和长度之间存在相关性。400-800nt IRES活性是最高的。IRES活性依赖于细胞类型，在不同的细胞类型中具有不同的表达活性。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242313595.png" alt="image-20220924231353511"></p>
+<p>IRES在肌管细胞（myotube）和肝细胞中的翻译活性具有相关性，而T细胞中IRES的活性与这两种细胞中的IRES活性具有相关性。只有极少数的IRES在所有细胞类型中均展现出非常强的翻译活性。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242313865.png" alt="image-20220924231337775"></p>
+<h3 id="筛选IRES遇到的困难"><a href="#筛选IRES遇到的困难" class="headerlink" title="筛选IRES遇到的困难"></a>筛选IRES遇到的困难</h3><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242313681.png" alt="image-20220924231320582"></p>
+<p>研发人员以及筛选到上百个具有非常高活性的IRES序列，有一些翻译活性要比常用的EMCV-IRES高出10-40倍。他们还发现来自类似病毒的IRES在翻译活性有着非常显著的差异。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209242313684.png" alt="image-20220924231300584"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在Orna Therapeutics此次的交流分享中，我们可以看到他们在工艺优化方面做出一系列的摸索，测试不同LNP配方包封不同长度的环形RNA，测定oRNA-LNP在体内不同器官的分布以及表达情况。更加重要的是，他们对IRES序列进行高通量筛选，研究影响IRES表达活性的因素，摸索不同细胞背景下IRES表达活性。他们似乎并没有利用环形RNA来追赶新冠疫苗的热点，而是去探索更多别的领域，比如CART疗法和蛋白替代疗法。通过这些踏实的基础工作，Orna Therapeutics一定可以将环形RNA平台打造得更加完善，期待他们在不久的将来做出激动人心的产品。</p>
+]]></content>
       <categories>
-          
-          <category> 行业动态 </category>
-          
+        <category>行业动态</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> circRNA </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>致力环形RNA药物产业化新势力之Laronde</title>
-      <link href="/2022/09/18/%E8%A1%8C%E4%B8%9A%E8%87%B4%E5%8A%9B%E7%8E%AF%E5%BD%A2RNA%E8%8D%AF%E7%89%A9%E4%BA%A7%E4%B8%9A%E5%8C%96%E6%96%B0%E5%8A%BF%E5%8A%9B%E4%B9%8BLaronde/"/>
-      <url>/2022/09/18/%E8%A1%8C%E4%B8%9A%E8%87%B4%E5%8A%9B%E7%8E%AF%E5%BD%A2RNA%E8%8D%AF%E7%89%A9%E4%BA%A7%E4%B8%9A%E5%8C%96%E6%96%B0%E5%8A%BF%E5%8A%9B%E4%B9%8BLaronde/</url>
-      
-        <content type="html"><![CDATA[<img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202202040018924.png" alt="image-20220204001847715" style="zoom:50%;" /><p>前面我们介绍过推动circRNA药物产业化的公司环尾蛇——Orna Therapeutics，详细解析过其技术团队创始人Daniel G. Anderson关于circRNA的一系列Paper。</p><p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202202032327329.png" alt="image-20220203232714252"></p><p>今天，我们走进一家由Flagship Pioneering孵化的冉冉升起的新秀公司——Laronde（法语，圆形的），在公开路演结束三个月后，在2021年8月，该公司拿到4亿美元融资，致力于推动其特有的基于eRNA技术平台的circRNA药物研发，能够允许外源蛋白在体内表达的时间维系数周或者数月来治疗疾病。</p><p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202202032110088.png" alt="image-20220203211007979"></p><h2 id="不稳定的RNA分子"><a href="#不稳定的RNA分子" class="headerlink" title="不稳定的RNA分子"></a>不稳定的RNA分子</h2><p>在Moderna和Pfizer-BioNTech利用化学修饰RNA研发成功COVID-19疫苗以前，研发人员就一直梦想使用工程化的遗传信息去革新现有众多疾病的治疗方法。长久以来面临的一个最主要问题就是外源RNA注射到机体内以后，很快会被降解掉。对于疫苗的研发来说，这个问题并不是特别致命的，靶标蛋白只需要触发机体免疫反应就可以了，但是，对于慢性疾病的治疗，例如糖尿病，血友病，靶标蛋白需要长期驻留体内才能维系机体的正常功能，这样就会导致病人必须频繁注射RNA。</p><p>Laronde创始人Avak Kahvejian说，一般来说，RNA分子是一个非常不稳定的分子，外源RNA分子一旦进入体内很快会被降解，而我们所研发出来的eRNA，避免了这个缺点，是一个非常稳定的RNA分子。</p><h2 id="eRNA-Platform-研发历程"><a href="#eRNA-Platform-研发历程" class="headerlink" title="eRNA Platform 研发历程"></a>eRNA Platform 研发历程</h2><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202202032358236.png" alt="image-20220203235813904" style="zoom:33%;" /><p>在研究生期间，Kahvejian一直从事circRNA方向的工作。由于circRNAs不具有游离末端，因此很难降解。他受到环形RNA稳定性的启发，希望研发出一种能够在细胞内驻留几周，甚至几个月的circRNA药物，这将彻底解决RNA稳定性的问题。新的问题随之而来，circRNA没有游离的末端，细胞不知道从何处开始阅读密码子。Kahvejian又从病毒那里获得灵感，将一段病毒序列插入到circRNA分子中，告诉细胞从何处开始密码子的翻译。</p><p>由于这项技术用的RNA分子，既没有游离的末端，又能够在体内持续存在很长实际，因此Kahvejian将其称为“endless RNA”。</p><p>Kahvejian在小鼠体内用luciferase-endless RNA验证自己的想法，一组小鼠注射endless RNA，另外一组小鼠注射传统的，线性mRNA。每隔几天，抽血，检测血液中的luciferase activity。刚开始的时候，在所有小鼠血液中都看了luciferase activity增加。随后，注射线性mRNA的小鼠，血液中开始检测不到luciferase activity，但是，注射endless RNA的小鼠一直可以检测到luciferase activity。两天，三天，甚至到第七天，注射endless RNA的小鼠体内一直在表达luciferase。</p><p>根据Kahvejian的说法，注射endless RNA的小鼠在初始接种以后，体内表达luciferase的时间，最少可以持续20天。对于他来说，这是成功研发出可以持续表达蛋白的稳定RNA分子的标志，或许，将来会称为新型RNA药物的理论基础。</p><h3 id="一切还都是一个美妙的想法"><a href="#一切还都是一个美妙的想法" class="headerlink" title="一切还都是一个美妙的想法"></a>一切还都是一个美妙的想法</h3><p>Kahvejian并没有公开发表任何他们关于eRNA的试验数据，因此他们的发现也不能被其他研发人员去验证。Harvard Medical School的RNA生物学家Dr. Judy Lieberman说，再没有看到数据以前，无法知道这项新型技术如何真正发挥作用，一切只是一个卓越的想法。</p><h3 id="Laronde-优势和困难"><a href="#Laronde-优势和困难" class="headerlink" title="Laronde 优势和困难"></a>Laronde 优势和困难</h3><p>Laronde也获得了一家曾投资Moderna的风险投资公司的融资。Dr. Judy Lieberman认为，Laronde的技术团队成员中有世界上最顶级的RNA生物学家。即便如此，这家年轻的公司通往成功的道路依旧很长，还需要克服很多潜在难题——实际上，很难知道体内是否表达出来足够的蛋白？这些蛋白的量是否和治疗所需要的蛋白的量相匹配？真正能够在体内存在多久？是否还有许多未知的副作用？</p><p>如果Kahvejian得到的数据是可靠的，那么eRNA将会成为下一代新型的RNA疗法，能够应用于慢性疾病，内分泌疾病等诸多疾病。正如他们所说的，eRNA的潜力是无限的（endless）。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Laronde和Orna Therapeutics都是2021年成立的，致力于研发下一代新型CircRNA技术平台，属于circRNA赛道上的竞争者。</p><p>Laronde创始人Kahvejian并没有公开发表自己的试验数据，他本人总从2011年起，成为Flagship Pioneering合伙人，作为生命科学领域的投资者和创业者，推动多家生物公司的成立发展，例如 Seres Therapeutics，Codiak BioSciences ， Rubius Therapeutics， Rubius Therapeutics等等。查询Kahvejian发表的学术论文，发现他做过蛋白质翻译机制相关的工作，在circRNA方面，一篇文章也没有。</p><p>与Daniel G. Anderson学术大佬相比，Kahvejian更像是一个投资人和管理者。更加重要的是，Daniel G. Anderson已经申请了circRNA专利，所以并不是很清楚Laronde到底凭借什么亮眼的数据可以从投资人那里拿到4亿美元融资。期待两家公司在今年在产品研发上可以做出突破性的进展，让circRNA不仅仅只是作为一个美妙的想法存在。</p><p>参考文献：<a href="https://www.wbur.org/news/2021/06/01/next-generation-rna-technology-could-therapies-chronic-conditions">https://www.wbur.org/news/2021/06/01/next-generation-rna-technology-could-therapies-chronic-conditions</a></p>]]></content>
-      
-      
+      <tags>
+        <tag>circRNA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>多价mRNA疫苗中各组分mRNA的快速鉴定和准确定量</title>
+    <url>/2022/09/16/%E5%A4%9A%E4%BB%B7mRNA%E7%96%AB%E8%8B%97%E4%B8%AD%E5%90%84%E7%BB%84%E5%88%86mRNA%E7%9A%84%E5%BF%AB%E9%80%9F%E9%89%B4%E5%AE%9A%E5%92%8C%E5%87%86%E7%A1%AE%E5%AE%9A%E9%87%8F/</url>
+    <content><![CDATA[<p>2022年6月7号，Moderna宣布启动流感四价疫苗mRNA-1010的三期临床试验。<strong>mRNA1010</strong>编码4株流感病毒的血凝素蛋白，分别是A型流感病毒H1N1, A型流感病毒H3N2,B型流感病毒Yamagata ,B型流感病毒Victoria-lineages。Moderna还研发出两款组合型疫苗，靶向流感病毒和新冠病毒的<strong>mRNA-1073</strong>以及靶向流感，新冠，呼吸道合胞病毒RSV的<strong>mRNA-1230</strong>。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209131649774.png" alt="Moderna开发的多价疫苗mRNA1230和mRNA1073。" style="zoom: 80%;" />
+
+<p><strong>2022年8月31日，FDA同时批准Moderna和Pizer-BioNTech新冠二价疫苗加强针的紧急授权申请，标志着二价mRNA疫苗的首次获批使用。</strong>mRNA-1273.222是Moderna研发的专门预防BA.4&#x2F;BA.5的二价疫苗，剂量是50ug，由25ug 编码新冠原始株Spike蛋白的mRNA与编码BA.4&#x2F;BA.5 Omicron变异株Spike蛋白的mRNA组成。</p>
+<p>随着mRNA疫苗研发生产工艺的不断完善，未来将会出现越来越多的多价疫苗，这就带来一个问题：<strong>一个多价mRNA疫苗完成LNP包封以后，内部含有多条mRNA序列，对mRNA进行定量或者检测包封率时，如何鉴定每一条mRNA序列？如何准确定量每一条mRNA序列的含量或者包封率？</strong></p>
+<p>USP最近公布的mRNA疫苗分析草案中，<strong>建议通过测序和RT-PCR来鉴定mRNA</strong>。尽管测序可以提供非常丰富的序列信息，但是整个过程复杂，耗时长。RT-PCR是比测序更加直接的鉴定方式，但是，仍然需要特殊的操作流程。如果mRNA包封在LNP里面，还需要提前进行纯化处理。</p>
+<p><strong>USP草案建议采用基于PCR或者紫外吸收的方法对于mRNA进行定量分析</strong>。利用紫外分光光度计可以直接测定相对较纯的mRNA浓度，而基于紫外吸收的RiboGreen可以通过绘制标准曲线来测定溶液中mRNA含量或者LNP包封率。然而，基于紫外吸收的方法很容易受到样品中杂质的干扰，更加重要的是，缺乏特异性，无法同时对多价mRNA疫苗中的各个mRNA成分进行定量分析。虽然数字PCR可以对多条mRNA序列进行定量，但是，这需要提前将mRNA序列从LNP包封的样品中提取纯化处理，在分析之前的提取纯化过程就需要花费掉一天的时间。</p>
+<p>与传统疫苗相比，mRNA疫苗显著的速度优势和多价mRNA疫苗的快速发展将会需要更完善快速的分析方法来使得mRNA生产包封工艺变成流水线作业，降低上市时间，提升实验室临床成果的转化落地。<strong>2022年9月3号，InDevR公司首席技术官Erica Dawson在bioRxiv上传预印本：Rapid Identity and Quantity CQA Test for Multivalent mRNA Drug Product Formulations。</strong>简单来说，他们设计出一种<strong>核酸芯片-VaxArray，在芯片上固定特异性的捕获探针，将单条或者多条裸mRNA序列或者从LNP裂解出来的mRNA序列点到芯片上，捕获探针会跟靶标mRNA序列杂交结合，洗去芯片上未结合的杂质，再加入荧光标记的各种不同位置序列的检测探针（寡核苷酸或者抗体），根据荧光信号强度，便可以同时鉴定或者定量分析多条mRNA序列</strong>。</p>
+<h2 id="VaxArray-mRNA芯片设计原理"><a href="#VaxArray-mRNA芯片设计原理" class="headerlink" title="VaxArray mRNA芯片设计原理"></a>VaxArray mRNA芯片设计原理</h2><p>研究人员以编码流感病毒HA抗原和NA抗原的mRNA序列作为例子，阐述VaxArray mRNA芯片设计的原理。他们总共设计了37条靶向HA&#x2F;NA的特异性寡核苷酸序列作为捕获或者检测探针序列，根据探针序列的反应性和特异性，从中挑选出靶向HA&#x2F;NA mRNA的特异性探针序列各8条。图a和b显示NA&#x2F;HA mRNA组成元件以及4个捕获探针序列（黄色显示的是主要测试的捕获探针序列）。如图c所示，每条芯片上有16个重复的微阵列单元，每个微阵列单元中存在9个不同的捕获探针位点，每个捕获探针位点又是由9个相同的重复位点构成。 PolyT探针序列作为通用的捕获探针序列。根据不同的应用需求，可以灵活搭配捕获探针序列和检测探针序列。</p>
+<table>
+<thead>
+<tr>
+<th align="center">组合序号</th>
+<th align="center">捕获探针</th>
+<th align="center">检测探针</th>
+<th align="center">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">ⅰ</td>
+<td align="center">靶向目标mRNA编码区</td>
+<td align="center">荧光标记-Poly T寡核苷酸序列</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">ⅱ</td>
+<td align="center">靶向目标mRNA编码区</td>
+<td align="center">荧光标记-抗5’帽子结构抗体</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">ⅲ</td>
+<td align="center">靶向目标mRNA编码区</td>
+<td align="center">荧光标记-靶向编码区的特异性寡核苷酸序列</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">ⅳ</td>
+<td align="center">Poly T寡核苷酸序列</td>
+<td align="center">荧光标记-抗5’帽子结构抗体</td>
+<td align="center">检测全长序列</td>
+</tr>
+<tr>
+<td align="center">ⅴ</td>
+<td align="center">Poly T寡核苷酸序列</td>
+<td align="center">荧光标记-靶向编码区的特异性寡核苷酸序列</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151645877.png" alt="VaxArray mRNA芯片设计" title="VaxArray mRNA芯片设计"></p>
+<p>VaxArray mRNA芯片的检测操作很简单，耗时不会超过2小时。将目标mRNA加入芯片，在优化的缓冲液buffer体系中与芯片上的捕获探针发生杂交结合，洗涤除去杂质，再加入检测探针进行孵育，最后使用VaxArray成像系统检测荧光信号。</p>
+<h2 id="VaxArray-mRNA芯片性能测试"><a href="#VaxArray-mRNA芯片性能测试" class="headerlink" title="VaxArray mRNA芯片性能测试"></a>VaxArray mRNA芯片性能测试</h2><h3 id="反应性与特异性"><a href="#反应性与特异性" class="headerlink" title="反应性与特异性"></a>反应性与特异性</h3><p>以NA&#x2F;HAmRNA作为目标mRNA，使用VaxArray mRNA芯片检测浓度为10 ug&#x2F;ml 单价NA mRNA，单价HA mRNA以及双价NA&#x2F;HA mRNA，以Poly T寡核苷酸序列作为检测探针，荧光信号图谱（图a）显示针对目标mRNA设计的每一个捕获探针均具有高度的特异性。</p>
+<p>如图b所示，对于特定的捕获探针和不同的检测探针来说，信噪比（S&#x2F;B）浮动范围在5.3-28.2，表明捕获探针序列与目标mRNA序列具有很好的反应性。对于非目标mRNA来说，信噪比&lt;1.3，表明捕获探针序列具有非常强的特异性。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151652579.png" alt="VaxArray mRNA芯片检测裸mRNA序列的反应性和特异性。" style="zoom: 80%;" />
+
+<h3 id="荧光信号强度和浓度之间存在很好的线性对应关系"><a href="#荧光信号强度和浓度之间存在很好的线性对应关系" class="headerlink" title="荧光信号强度和浓度之间存在很好的线性对应关系"></a>荧光信号强度和浓度之间存在很好的线性对应关系</h3><p>如左图所示，研究人员利用不同的捕获探针和检测探针组合芯片与目标mRNA（HA或者NA）进行杂交孵育，检测到的荧光信号与目标mRNA真实浓度之间存在良好的线性关系。更加重要的是，如右图所示，当检测样本是HA+NA二价mRNA时，使用 VaxArray 芯片检测到的荧光信号与单价mRNA(HA或者NA)是相似的。也就是说，VaxArray 芯片能够非常好的适用于多价mRNA疫苗，其他mRNA序列的存在对于检测的目标mRNA序列不会造成干扰。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151936498.png" alt="不同的捕获探针与检测探针或者单价mRNA与多价mRNA，荧光信号强度与真实浓度之间存在良好的线性对应关系。" title="不同的捕获探针与检测探针或者单价mRNA与多价mRNA，荧光信号强度与真实浓度之间存在良好的线性对应关系。"></p>
+<h3 id="检测限范围"><a href="#检测限范围" class="headerlink" title="检测限范围"></a>检测限范围</h3><p>如表1所示，<strong>VaxArray芯片检测上限</strong>（ULOQ）<strong>范围是14 ug&#x2F;ml—18 ug&#x2F;ml，检测下限</strong>（LLOQ）<strong>范围是0.08 ug&#x2F;ml—0.2 ug&#x2F;ml</strong>，4种靶向目标mRNA(HA&#x2F;NA)编码区的捕获探针可以检测到的目标mRNA浓度浮动范围超过90倍以上。对于高浓度的检测样本，可以将其按照合适的比例稀释到VaxArray芯片工作范围内。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151948329.png" alt="VaxArray芯片检测上限和下限范围，以NA或者HA mRNA作为目标mRNA，捕获探针使用靶向编码区的寡核苷酸探针，检测探针使用荧光标记的PolyT寡核苷酸。"></p>
+<h3 id="准确度和精密度"><a href="#准确度和精密度" class="headerlink" title="准确度和精密度"></a>准确度和精密度</h3><p><strong>准确度</strong>（Accuracy）：指在一定实验条件下多次测定的平均值与真值相符合的程度，以误差来表示。 它用来表示系统误差的大小。 <strong>精密度</strong>（Precision）：是指多次重复测定同一量时各测定值之间彼此相符合的程度。 表征测定过程中随机误差的大小。如表2所示，VaxArray芯片利用不同的捕获探针检测二价mRNA(NA+HA)浓度时（2.4 ug&#x2F;ml），具有非常好的准确度和精密度。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209152112895.png" alt="测定VaxArray芯片检测目标mRNA的准确度和精密度，总共3个操作者，每个操作者利用每个捕获探针测定8个重复的样品。"></p>
+<h3 id="检测LNP包封mRNA样品"><a href="#检测LNP包封mRNA样品" class="headerlink" title="检测LNP包封mRNA样品"></a>检测LNP包封mRNA样品</h3><p>使用VaxArray芯片分析LNP包封的mRNA样品时，需要先用1% Triton X-100破乳处理10 min，然后按照正常流程检测，整个过程花费的时间依然少于2小时。<strong>尤其值得一提的是，该方法不需要对破乳后的mRNA样品进行纯化，可在含有LNP成分的情况下，直接进行检测。空白LNPs是检测不到荧光信号的</strong>。</p>
+<p>研究人员使用VaxArray芯片比较检测2 ug&#x2F;ml 裸NA-mRNA和LNP包封的NA-mRNA，使用相同的检测探针Poly T寡核苷酸序列以及相同的曝光时间，荧光信号图谱显示LNP包封的NA-mRNA与裸NA-mRNA产生相似的图谱，而且，当使用HA作为捕获探针时，不会出现脱靶荧光信号。同时，如图b所示，VaxArray芯片检测LNP包封的mRNA时也具有非常好的反应性和特异性。<strong>这些数据说明，对于LNP包封的mRNA样品来说，VaxArray芯片检测时无需在破乳后对目标mRNA进行纯化处理，脂质体成分也不会产生非特异性的荧光信号</strong>。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209152125083.png" alt="VaxArray芯片检测LNP-mRNA样品时，产生的荧光图谱同裸mRNA是相似的，具有非常好的特异性和反应性。"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>随着mRNA疫苗领域的快速发展和众多多价mRNA疫苗的不断涌现，开发出匹配mRNA疫苗研发速度，流水线化mRNA疫苗产品的相关分析方法是非常关键的。对mRNA序列或者含量进行鉴定和定量的理想方法需要具备以下几点：（1）卓越的分析能力（准确度和精密度），（2）短时间内便可出分析报告，（3）易于操作，无需经过特殊训练，（4）灵活的样本处理量，即可实现大批次高通量，也可实现少量样品检测，（5）无需复杂耗时的样品前处理过程，（6）高度的特异性，可鉴定多条不同的mRNA序列。</p>
+<p>VaxArray芯片依赖于特殊设计的捕获探针和灵活的检测探针，实现mRNA的快速鉴定和准确定量。这种芯片具极高的特异性，特别是当组合使用靶向目标mRNA编码区的捕获探针与靶向目标mRNA编码区的荧光标记检测探针时。不管是对于单价mRNA疫苗还是多价mRNA疫苗，此芯片的荧光信号强度和真实浓度之间均具有非常好的线性对应关系，优越的准确度和精密度。值得一提的是，当组合使用靶向末端的Poly A 捕获探针与荧光标记的抗帽子结构抗体时，可实现对整个全长mRNA序列的鉴定。更加重要的是，VaxArray芯片检测LNP包封的mRNA样品时，只多了一个10min的破乳步骤，无须进行mRNA纯化，便可上机检测。最为吸引人的是，优秀的分析能力使得VaxArray芯片特别适合应用于多价mRNA工艺优化和生产过程中的各个阶段，例如，IVT优化，LNP包封，稳定性测试等。</p>
+]]></content>
       <categories>
-          
-          <category> 行业动态 </category>
-          
+        <category>RNA工艺</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> circRNA </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2022新春佳节畅谈RNA药物无限未来</title>
-      <link href="/2022/09/18/2022%E6%96%B0%E6%98%A5%E4%BD%B3%E8%8A%82%E7%95%85%E8%B0%88RNA%E8%8D%AF%E7%89%A9%E6%97%A0%E9%99%90%E6%9C%AA%E6%9D%A5/"/>
-      <url>/2022/09/18/2022%E6%96%B0%E6%98%A5%E4%BD%B3%E8%8A%82%E7%95%85%E8%B0%88RNA%E8%8D%AF%E7%89%A9%E6%97%A0%E9%99%90%E6%9C%AA%E6%9D%A5/</url>
-      
-        <content type="html"><![CDATA[<p>2022年，新冠疫情的幽灵依然盘旋在每一个人的头顶上，久久不能散去。间隔一段时间就会冒出的新型变异株打乱刚恢复不久的日常秩序，反反复复，折腾不停。一波又一波的变异株突袭，也迫使疫苗研发不断迭代升级。</p><p>从生物医药行业的角度来看，新冠疫情的爆发带来巨大的机遇，促使mRNA疫苗在真实世界中得以普及接种。mRNA技术凭借惊人的研发生产速度，显著的临床数据，大放异彩，引发投资热潮，让大家意识到一场生物医药行业前所未有的技术革命即将启航。</p><p>国内RNA新药研发公司如雨后春笋般不断涌现，各大传统药企强力布局，所有人朝着风口狂奔，开足马力挤进赛道，生怕自己被甩在后面，登不上变革的列车。身处行业中的每一个人，哪怕是最迟钝的人，也能够感受到滔天的热浪，大家把对于未来的无数憧憬和激情投射到RNA技术上，期待它深刻地改变医药行业的格局。</p><p>正值新春佳节，我们决定暂不推送circRNA相关论文，整理前段时间行业大佬们在mRNA药物研发论坛上的精彩对话，以茶话会的方式分享给大家，听听前辈们关于mRNA药物行业的一些深刻见解。聆听大佬的真知灼见，也是快速提升自己的最有效的方法。</p><p>下面，把各位大佬在论坛上的相关讲话，以文字的形式整理总结，为了语句的凝练通顺，会自行删改加工，所有的信息以原视频为准，这里的记录仅仅是个人的整理。</p><blockquote><p>李航文  </p></blockquote><p>李航文，上海斯微生物创始人，斯微生物是国内致力于mRNA技术研发成立最早的公司，总部位于上海，在过去的一年里，已经完成2亿美元的融资，获得政府层面巨大支持，相信在新的一年，可以获得重大突破。</p><p>…</p><p>mRNA是一个平台型技术，不管是模板，还是递送，都具有平台属性，未来可以做很多事情。哪里蛋白，哪里就有RNA一展身手的机会。</p><p>…</p><blockquote><p>王刚  赫林生物创始人</p></blockquote><p>王刚，杭州林生物创始人，公司管线集中中在mRNA替代治疗和传染病疫苗研发。</p><ul><li><p>mRNA疫苗是否会成为疫苗研发的主流技术？</p><p>mRNA疫苗是人类疫苗研发历史上最重大的一个革命，相比其他的一些研发多年的疫苗，比如艾滋病疫苗，新冠疫苗一年之内就研发成功了，因此这个技术毋庸置疑必然是整个疫苗领域的一个基石。</p></li><li><p>RNA药物研发过程中遇到的核心挑战</p><p>在新冠疫情爆发以前，国际上有关mRNA疫苗研发的相关工作已经进行多年，例如在寨卡病毒疫苗上做出过很优秀的成就，但是，在FDA那里遇到了一个最大的问题，那就是mRNA到底是否可以成为药物？因为在此之前，人类从未暴露在外源的RNA分子当中，可成药性是此前的一个最大的问题。当然，凭借新冠疫情带来的机遇，基本上已经解决了这个问题。</p><p>当前mRNA技术面临的瓶颈，主要有两个方面，骨架系统和递送系统，两个系统叠加在一起，才能成为一个产品，因此这两个系统也是未来突破的方向。</p><p>先谈谈骨架系统，骨架的参数是一个非常大的变量。mRNA一级结构决定二级结构，不同的序列导致完全不同的翻译效率，所以我认为，挑战还是在骨架上。实际上，目前我们并不知道哪些帽子好？哪些尾巴好？哪些UTR好？哪些密码子优化策略好？哪些组合是最优的能够实现最好的效果？今后的发展方向，可以用AI技术结合bench work来寻找到一个比较好的规律。这个规律包含两个层面，第一个是如何实现高效表达，第二个是如果实现组织特异性表达。</p><p>再说说递送系统，兰格曾经跟我讲，自己发现大分子递送系统可以等同于发现DNA和RNA。要解决大分子的持续给药和大分子结构完整，必须借助递送系统来实现。递送系统的突破也面临很多困难：第一，构成递送系统的很多材料是人体无法清除的；第二，从目前mRNA发展历程来看，moderan公司第一个通过二期临床的药物（治疗糖尿病皮肤病并发症的），实际上是一个裸RNA。结合本人自己做的研究来看，RNA在体内（体外另外一回事情），即便没有递送系统，也可以work。当然，这并不是否定递送系统，而恰恰说明，递送系统也需要升级和与骨架系统相匹配，一定存在一个非常好的递送系统搭配一个优化的骨架系统来实现非常好的体内表达效果。同时，我也认为，现阶段，就事论事来说，一个高级的骨架系统可以配一个低级的递送系统，因为FDA批准递送系统通过的难度比较大。</p><p>最好，就靶点面临的挑战来说，实际上，对于mRNA药物，这么年轻的产品，从做产品的角度来说，靶点非常多。现在拥有一个巨大的历史机遇，就是曾经的专利壁垒事实上已经不存在了，同样的靶点，通过mRNA技术实现全新的起步。把现有靶点做好，已经是机会重重。</p></li><li><p>未来最可能攻破的应用场景</p><p>除了无细胞表达以外，mRNA药物还有一个最大的优势就是细胞内蛋白的替代，甚至是线粒体的替代，我本人做过一个线粒体替代的东西，这个是重组蛋白技术无法实现的。</p><p>除了疫苗和肿瘤领域以外，罕见病是一个可以快速突破的领域。因为罕见病一般是单基因突变，导致酶活性丧失，用mRNA技术可以把酶递送回去，恢复正常的生理功能。罕见病领域，也是疫情前很多RNA公司主要的研发热点。</p></li></ul><blockquote><p>王奕 </p></blockquote><p>王奕 ，深圳新合生物创始人，有多年从事艾滋病疫苗研发的经验。新合生物17年成立，公司致力于多组学信息采集，推动AI生信算法，全自动药物靶点挖掘设计，以RNA形式研发创新药物，管线以肿瘤免疫合传染病两个大的方向为主。</p><ul><li><p>mRNA疫苗的优势</p><p>mRNA疫苗作为一个新型的疫苗载体，有着自己独特的先天优势：第一，比较强地激发B细胞或者T细胞免疫反应。第二，速度快，不管是研发速度，还是工艺生成速度。如何把mRNA疫苗平台的优势更深地激发出来。疫苗更多地取决于靶点问题，艾滋病疫苗的靶点很难寻找，像新冠疫苗靶点比较明确的。</p></li><li><p>RNA药物未来的突破方向</p><p>RNA药物，实际上是RNA序列设计和递送系统的加乘，这两边是一个联动，一个加乘的关系。如果通过RNA序列优化设计，使表达效率或者特异性提高10倍或者20倍，再把提送效率提升5倍，那实际上加起来就RNA药物表达效果就提升了100倍。因此，这两个方向是RNA技术平台未来两个大的突破方向。</p><p>除了线性RNA的优化骨架系统，实际上也出现了一些全新的骨架系统，比如saRNA和circRNA，在一定程度解决RNA在体内的表达效率和表达时间的问题。这个方面地更多取决于我们想做什么样的适应症，我们希望靶标蛋白在体内表达多长时间。</p><p>递送方向上面，除了LNP系统，大家也在突破一些现有的专利，去找到一些更好的系统。总体来说，整个递送系统，在朝3个大地方向发展：</p><ol><li>安全性</li><li>有效性，能把多少RNA递送到细胞里面去</li><li>靶向性，除了绝大多数的肝，和一点点的脾脏，一点点的肺部，到底能不能实现更精准的器官靶向，甚至是细胞靶向。不管是通过LNP本身以及配方的优化，还是用一些新型的载体，来实现靶向性，这方面未来肯定存在一定的发展空间。</li></ol><p>从产业上来讲，由于疫情和政治环境，需要实现试剂仪器耗材的国产化，让国内的试剂耗材达到国外的标准。上游供应商的不断前进发展，可以降低核酸药物的成本，让RNA药物获得一个更好的发展空间。</p><p>mRNA药物未来可以应用于哪些领域，还是取决于该技术的发展能够为我们打开哪些大门。</p></li></ul><blockquote><p>张佩琢 </p></blockquote><p>张佩琢，吉玛基因董事长，开启中国核酸药物的前辈。本人从1991年到英国学习RNA化学，入行有三十年，吉码也有近20年的积累，从化学到分子生物学，细胞到动物平台，RNA各自分析平台，综合平台力量为科研院所提供服务，为药物研发企业提供服务，自身定位是一家RNA平台型服务公司。</p><ul><li><p>mRNA疫苗的优势</p><p>直观一点，免疫系统更像是我们的警察，疫苗不外乎就是我们把东西丢进去，让警察系统先识别一下，等将来真正碰到敌人突袭的时候，他好预先有反应。各自疫苗平台的差异，可以从生命中心法则的各段来看。康希诺的苗，无外乎就是把最后要表达成蛋白的DNA，先用病毒的方式放进去，然后进入体内，转录成mRNA，翻译成蛋白，警察拍了照片。重组蛋白直接把病毒碎片放进去。灭活苗，把病毒打死，尸体放进去。减毒苗，打了各半死，放进去，让警察看。不同的路径，各有各的优势。其他非mRNA疫苗，全部用到了生物制造体系，唯独mRNA疫苗几乎没有用到活细胞体系，生产过程是一个化学过程，简便和可控制。</p></li><li><p>界定RNA药物概念</p><p>过去在相当长的一个领域内，没有人用RNA药物这样的字眼来界定这个细分领域。回到生命中心法则，把RAN药物同小分子化学药物，抗体药物，基因工程蛋白药物，基因治疗以及细胞治疗区分开来，只有用RNA药物去界定，才会更有价值。RNA药物可以把小核酸，小RNA，mRNA，涵盖在一起。小干扰RNA，反义核苷酸，作用机制是把靶基因下调下去，相反，mRNA是把靶标mRNA上调上去，最终，都是影响到蛋白表达。希望用RNA药物把自己小的细分行业给区分出来。</p></li><li><p>小核酸领域发展状况</p><p>小RNA领域发展的历史，可以用3个40来概括：</p><ol><li><p>第一个40，40年多一点。从1978年，提出反义核苷酸，真正第一次把药物靶标从过去传统意义蛋白层面上托到了mRNA层面上。</p></li><li><p>第二个40，实际上，是FDA的态度。每年FDA的批准的药物，均下来是40多个。过去40年，FDA总共批准的药物总数是410多个，在相当长的时间内，一直到2015年以前，批准通过的小RNA药物，年年是零，年年在FDA那里交白卷。从2016年，2017年，2018年以后，逐渐进入到每年批准通过2个，3个，4个，</p></li><li><p>第三个40，中美研发团队对比。美国团队已经有十多款上市的药物，光小RNA一个方向上，还有二三十个2期临床已经拿到数据，3期临床看到比较好的结果。中国团队， 交出的答卷，很不好看，一个巴掌都不到，中国自己团队独立开发的并且处于临床的RNA药物，还非常少。这也是一个非常巨大的机会，国内企业转型的节点恰恰就在这里，国外已经走通了，国内外巨大的差距，可以让我们看到向前冲的机会。</p></li></ol></li><li><p>RNA药物面临的挑战</p><p>不管是小RNA，还是mRNA，真正面临的挑战，也是小分子药物和抗体药物逃掉的一个挑战，就是要真正靶向性地进入细胞内。小分子化学药物用不着进入细胞内，大分子药物干脆柿子捡软的捏，找一些胞外靶点，RNA药物逃无可逃，必须进入细胞内才能解决问题。mRNA药物研发是第一次真正面对这个巨大的挑战，能够给整个制药行业带来一个新的转折和机遇，那就是必须找到真正能够靶向某一类组织甚至是细胞的工具。找起来，很难，是挑战。一旦找到，这就是药物开发的第一次选择，也就是只进了我该去的地方。第二次选择才是进去以后，选择使用小核酸了，把某一个mRNA特异性压制下来，还是选择mRNA，特异性地把某一个mRNA上调表。双重选择也是挑战带来的机会。</p></li><li><p>国内大型药企面临的机会</p><p>小RNA也好，mRNA也好，给国内的很多寻找机会的药企，提供了一个更加容易接近的一个平台。</p></li><li><p>RNA药物未来靶点地选择方向</p><p>第一，传统意义上在胞内不可成药的靶标。第二，传统意义成熟的靶点上，RNA药物可以实现更长效，依存性更好。</p></li></ul><blockquote><p> 赵孝斌 海旭创始人</p></blockquote><p>赵孝斌 ，海旭生物创始人。海旭生物是一家2014年成立的杭州公司，聚焦药物递送包括核酸递送的平台型公司，从化学药物到不同分子量RNA，进行商业化递送服务。</p><ul><li><p>mRNA行业的发展需要共同合作</p><p>与传统疫苗相比，mRNA药物是新生的技术，新生的产品，新的平台。新冠疫情推动了整个RNA行业的发展。十年前，只要是mRNA药物就不被看好，但是现在整个制药行业都在拥抱这项技术。这对大家来说是一个共同的机遇和挑战。从上游到下游，行业的发展是需要共同合作的。上游创新的研发，下游的脚踏实地，紧密结合，共同开发合作，开拓战略性空间，推动行业发展。</p></li></ul><blockquote><p>栗世铀  启辰生创始人</p></blockquote><p>栗世铀，北京启辰生创始人，本人在科学院从事过功能基因组研究。启辰生坚持以免疫学理论为中心，进行所有管线研发和产品设计，基于细胞和纳米脂质颗粒递送系统的研发，管线有肿瘤和传染病疫苗的研发。</p><ul><li><p>mRNA疫苗是否会成为疫苗研发的主流技术？</p><p>mRNA是一个分子工具（涉及基因编辑），也是一个信息分子（中心法则，信息流动），不管是疫苗领域，还是其他领域，毫无疑问，mRNA技术会成为一个主流的技术平台，这是由其更加灵活弹性的生产方式决定。</p></li><li><p>构建RNA药物行业微生态</p><p>从药物开发的全链条来说，挑战还在于，要涉及到生产工艺开发和质量标准的建立，上下游的行业伙伴需要一起建立一个基于核酸的微生态。</p></li></ul><blockquote><p>总结</p></blockquote><p>从上面众位大佬分享的见解可以看到，大家对于RNA药物充满了期待，不同领域的专家，都瞄准了RNA赛道，殊途同归，开始全部致力于RNA药物的研发中来。多年以后，大家可能会淡忘新冠疫情期间带来的生活不便，核酸检测，行程码，口罩，这些疫情期间特有的东西会烟消云散，人们又无忧无虑地生活在阳光下，自由地呼吸，随心所欲地旅行。但是，可以肯定，RNA疫苗在疫情中展现出来的巨大优势和对医药行业带来的巨大变革将会铭刻。</p>]]></content>
-      
-      
+      <tags>
+        <tag>多价疫苗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>深圳先进院开发修饰mRNA增强干细胞疗法，原位注射实现软骨再生。</title>
+    <url>/2022/09/08/%E6%B7%B1%E5%9C%B3%E5%85%88%E8%BF%9B%E9%99%A2%E5%BC%80%E5%8F%91%E4%BF%AE%E9%A5%B0mRNA%E5%A2%9E%E5%BC%BA%E5%B9%B2%E7%BB%86%E8%83%9E%E7%96%97%E6%B3%95%EF%BC%8C%E5%8E%9F%E4%BD%8D%E6%B3%A8%E5%B0%84%E5%AE%9E%E7%8E%B0%E8%BD%AF%E9%AA%A8%E5%86%8D%E7%94%9F%E3%80%82/</url>
+    <content><![CDATA[<p>关节软骨是滑膜关节非常重要的组成元件。当我们在行走，跳跃或者进行其他活动时，关节软骨会对相互连接的骨头间的震动起到缓冲减震作用，这使得关节软骨非常容易受到机械损伤。由于关节软骨所在的部位缺乏血管和营养物质，一旦发生损伤，很难自愈，导致骨性关节炎（osteoarthritis，OA）。骨性关节炎是世界上最常见的慢性关节疾病，预计到2040年会对7800万人群的日常生活造成影响。</p>
+<p>较高的发病率和有限的自我治愈使得软骨损伤对年轻的运动员和老人群体带来极大的威胁。传统治疗方法，包括非甾体类药物，物理治疗或者手术移植，存在低效，治疗时间长，副作用以及免疫排斥等缺陷，对其临床应用造成阻碍。干细胞由于具有多向分化潜能，可应用于多种组织修复，因而受到众多关注。</p>
+<p>但是，干细胞的多向分化潜能是一把双刃剑，一方面使得干细胞疗法在多种组织中具有修复效果，另一方面多向分化的干细胞可能形成畸胎瘤或者癌变，存在安全隐患。有研究发现，把MSCs移植到裸鼠中，观察到典型的骨肉瘤形成，即间充质干细胞(MSCs)移植促进肿瘤形成。总结来说，未经指向和不受限制的干细胞疗法存在严重的安全隐患。</p>
+<p>基因治疗是一种非常有前景的提供治疗性蛋白的迭代方案。但是，pDNA要实现治疗性蛋白翻译需要进入细胞核，而且转染效率低，还可能发生基因组插入突变，这极大限制了DNA疗法的应用。与此相反，mRNA在细胞质中便可以快速翻译生成治疗性蛋白，不需要进入细胞核中。利用mRNA技术来增强干细胞治疗的效果成为非常有前景的方向，例如有研究用抗人皮间素靶向嵌合抗原受体mRNA CAR转染外周血来源的淋巴细胞。目前，基于mRNA技术的CAR-T疗法已经进入到临床试验中。最新的应用进展使得人们希望通过mRNA技术来开发出一种新型的，安全的以及高疗效的组织再生药物。</p>
+<p>基于MSCs的干细胞疗法使得软骨生重获希望。生长因子的添加可以为干细胞的分化指明方向。但是，重组蛋白生长因子不仅成本非常高，而且还会引发一系列副作用，用来提升干细胞疗效的优势非常微弱。利用mRNA技术向损伤部位递送治疗性蛋白成为非常有前景的替代方案，但是向无血管的组织（例如，软骨）中递送mRNA极少被研究，面临诸多困难。</p>
+<p>2022年5月6号，中科院深圳先进技术研究院于寅研究员在bioRxiv发表文章：Highly efficient healing of critical sized articular cartilage defect in situ using a chemically nucleoside-modified mRNA-enhanced cell therapy，使用编码生长因子TGF-β3的修饰核苷酸提升骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效。在小鼠模型中，原位注射TGF-β3 cmRNA +BMSCs，六周之内，可以将软骨损伤修复到自然水平。此外，通过TGF-β3 cmRNA增强的BMSCs疗法还能够阻止软骨损伤造成的骨性关节炎（osteoarthritis, OA）。这种利用mRNA技术增强基于MSCs的疗法成为修复软骨损伤的新疗法。</p>
+<p>TGF-β3在软骨再生的过程中具有非常重要的作用，能够诱导MSCs软骨分化，促进软骨样基质沉淀。因此，研究人员构建TGF-β3 cmRNA，使用PEI包封。首先，证实其在BMSCs单层细胞和3D球状体细胞模型中具有非常好的转染效率，表达出来的TGF-β3能够显著提升BMSCs细胞外基质的分泌。接着，证实TGF-β3-cmRNA能够在体外诱导BMSCs的软骨分化，甚至诱导效果要好于用重组蛋白TGF-β3。最后，通过手术在小鼠膝盖创造出软骨损伤，将TGF-β3-cmRNA+BMSCs（CBmR组）或者BMSCs（CB组）注射到小鼠软骨损伤部位测试治疗效果。在没有注射BMSCs的对照组，软骨损伤清晰可见，关节表面粗糙，有大量严重渗出物。在CB组和CBmR组关节表面平滑，软骨再生得到显著提升。国际修复协会评分和组织染色证实CBmR组要比CB组能更好地促进软骨再生。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206291842660.png" alt="TGF-β3 cmRNA在小鼠模型中能够增强BMSCs软骨再生的疗效。"></p>
+<p>此外，研究人员还利用microCT 观察cmRNA-TGF-β3对软骨下骨(subchondral bone)的影响。在空白对照组，软骨损伤部位会出现软骨下骨严重的碎裂。此外，还可以观察到软骨下骨的冠状面和骨小梁变薄和丢失。在CB组和CBmR组，软骨下骨的碎裂丢失都是非常明显的抑制。特别是在CBmR组。骨小梁的体积和骨矿物密度更加高。软骨下骨的异常和丢失，会造成骨性关节炎，甚至最终导致行动障碍。我们可以看到，TGF-β3 cmRNA不仅可以促进软骨再生，而且还可以抑制软骨下骨的病理性变化。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206292205686.png" alt="TGF-β3 cmRNA抑制软骨下骨的病理学变化。"></p>
+<p>这篇文章原位注射编码生长因子的修饰mRNA诱导不含血管的软骨组织再生，增强骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效，证明修饰mRNA增强型的干细胞疗法是一种非常高效的，安全的，具备潜在临床转化前景的治疗方案。在小鼠软骨损伤部位注射携带TGF-β3 mRNA的骨髓间充质干细胞，在4-6周之内，可以近乎完全治愈软骨损伤。这是第一次证实修饰mRNA能够显著增强BMSCs的治疗效果，而且只需要原位注射，不需要系统性注射修饰mRNA。这也为其他组织的再生搭建出一个非常有前景的治疗平台技术。</p>
+]]></content>
       <categories>
-          
-          <category> 行业动态 </category>
-          
+        <category>RNA疗法</category>
       </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>多价mRNA疫苗中各组分mRNA的快速鉴定和准确定量</title>
-      <link href="/2022/09/16/%E5%A4%9A%E4%BB%B7mRNA%E7%96%AB%E8%8B%97%E4%B8%AD%E5%90%84%E7%BB%84%E5%88%86mRNA%E7%9A%84%E5%BF%AB%E9%80%9F%E9%89%B4%E5%AE%9A%E5%92%8C%E5%87%86%E7%A1%AE%E5%AE%9A%E9%87%8F/"/>
-      <url>/2022/09/16/%E5%A4%9A%E4%BB%B7mRNA%E7%96%AB%E8%8B%97%E4%B8%AD%E5%90%84%E7%BB%84%E5%88%86mRNA%E7%9A%84%E5%BF%AB%E9%80%9F%E9%89%B4%E5%AE%9A%E5%92%8C%E5%87%86%E7%A1%AE%E5%AE%9A%E9%87%8F/</url>
-      
-        <content type="html"><![CDATA[<p>2022年6月7号，Moderna宣布启动流感四价疫苗mRNA-1010的三期临床试验。<strong>mRNA1010</strong>编码4株流感病毒的血凝素蛋白，分别是A型流感病毒H1N1, A型流感病毒H3N2,B型流感病毒Yamagata ,B型流感病毒Victoria-lineages。Moderna还研发出两款组合型疫苗，靶向流感病毒和新冠病毒的<strong>mRNA-1073</strong>以及靶向流感，新冠，呼吸道合胞病毒RSV的<strong>mRNA-1230</strong>。</p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209131649774.png" alt="Moderna开发的多价疫苗mRNA1230和mRNA1073。" style="zoom: 80%;" /><p><strong>2022年8月31日，FDA同时批准Moderna和Pizer-BioNTech新冠二价疫苗加强针的紧急授权申请，标志着二价mRNA疫苗的首次获批使用。</strong>mRNA-1273.222是Moderna研发的专门预防BA.4&#x2F;BA.5的二价疫苗，剂量是50ug，由25ug 编码新冠原始株Spike蛋白的mRNA与编码BA.4&#x2F;BA.5 Omicron变异株Spike蛋白的mRNA组成。</p><p>随着mRNA疫苗研发生产工艺的不断完善，未来将会出现越来越多的多价疫苗，这就带来一个问题：<strong>一个多价mRNA疫苗完成LNP包封以后，内部含有多条mRNA序列，对mRNA进行定量或者检测包封率时，如何鉴定每一条mRNA序列？如何准确定量每一条mRNA序列的含量或者包封率？</strong></p><p>USP最近公布的mRNA疫苗分析草案中，<strong>建议通过测序和RT-PCR来鉴定mRNA</strong>。尽管测序可以提供非常丰富的序列信息，但是整个过程复杂，耗时长。RT-PCR是比测序更加直接的鉴定方式，但是，仍然需要特殊的操作流程。如果mRNA包封在LNP里面，还需要提前进行纯化处理。</p><p><strong>USP草案建议采用基于PCR或者紫外吸收的方法对于mRNA进行定量分析</strong>。利用紫外分光光度计可以直接测定相对较纯的mRNA浓度，而基于紫外吸收的RiboGreen可以通过绘制标准曲线来测定溶液中mRNA含量或者LNP包封率。然而，基于紫外吸收的方法很容易受到样品中杂质的干扰，更加重要的是，缺乏特异性，无法同时对多价mRNA疫苗中的各个mRNA成分进行定量分析。虽然数字PCR可以对多条mRNA序列进行定量，但是，这需要提前将mRNA序列从LNP包封的样品中提取纯化处理，在分析之前的提取纯化过程就需要花费掉一天的时间。</p><p>与传统疫苗相比，mRNA疫苗显著的速度优势和多价mRNA疫苗的快速发展将会需要更完善快速的分析方法来使得mRNA生产包封工艺变成流水线作业，降低上市时间，提升实验室临床成果的转化落地。<strong>2022年9月3号，InDevR公司首席技术官Erica Dawson在bioRxiv上传预印本：Rapid Identity and Quantity CQA Test for Multivalent mRNA Drug Product Formulations。</strong>简单来说，他们设计出一种<strong>核酸芯片-VaxArray，在芯片上固定特异性的捕获探针，将单条或者多条裸mRNA序列或者从LNP裂解出来的mRNA序列点到芯片上，捕获探针会跟靶标mRNA序列杂交结合，洗去芯片上未结合的杂质，再加入荧光标记的各种不同位置序列的检测探针（寡核苷酸或者抗体），根据荧光信号强度，便可以同时鉴定或者定量分析多条mRNA序列</strong>。</p><h2 id="VaxArray-mRNA芯片设计原理"><a href="#VaxArray-mRNA芯片设计原理" class="headerlink" title="VaxArray mRNA芯片设计原理"></a>VaxArray mRNA芯片设计原理</h2><p>研究人员以编码流感病毒HA抗原和NA抗原的mRNA序列作为例子，阐述VaxArray mRNA芯片设计的原理。他们总共设计了37条靶向HA&#x2F;NA的特异性寡核苷酸序列作为捕获或者检测探针序列，根据探针序列的反应性和特异性，从中挑选出靶向HA&#x2F;NA mRNA的特异性探针序列各8条。图a和b显示NA&#x2F;HA mRNA组成元件以及4个捕获探针序列（黄色显示的是主要测试的捕获探针序列）。如图c所示，每条芯片上有16个重复的微阵列单元，每个微阵列单元中存在9个不同的捕获探针位点，每个捕获探针位点又是由9个相同的重复位点构成。 PolyT探针序列作为通用的捕获探针序列。根据不同的应用需求，可以灵活搭配捕获探针序列和检测探针序列。</p><table><thead><tr><th align="center">组合序号</th><th align="center">捕获探针</th><th align="center">检测探针</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center">ⅰ</td><td align="center">靶向目标mRNA编码区</td><td align="center">荧光标记-Poly T寡核苷酸序列</td><td align="center"></td></tr><tr><td align="center">ⅱ</td><td align="center">靶向目标mRNA编码区</td><td align="center">荧光标记-抗5’帽子结构抗体</td><td align="center"></td></tr><tr><td align="center">ⅲ</td><td align="center">靶向目标mRNA编码区</td><td align="center">荧光标记-靶向编码区的特异性寡核苷酸序列</td><td align="center"></td></tr><tr><td align="center">ⅳ</td><td align="center">Poly T寡核苷酸序列</td><td align="center">荧光标记-抗5’帽子结构抗体</td><td align="center">检测全长序列</td></tr><tr><td align="center">ⅴ</td><td align="center">Poly T寡核苷酸序列</td><td align="center">荧光标记-靶向编码区的特异性寡核苷酸序列</td><td align="center"></td></tr></tbody></table><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151645877.png" alt="VaxArray mRNA芯片设计" title="VaxArray mRNA芯片设计"></p><p>VaxArray mRNA芯片的检测操作很简单，耗时不会超过2小时。将目标mRNA加入芯片，在优化的缓冲液buffer体系中与芯片上的捕获探针发生杂交结合，洗涤除去杂质，再加入检测探针进行孵育，最后使用VaxArray成像系统检测荧光信号。</p><h2 id="VaxArray-mRNA芯片性能测试"><a href="#VaxArray-mRNA芯片性能测试" class="headerlink" title="VaxArray mRNA芯片性能测试"></a>VaxArray mRNA芯片性能测试</h2><h3 id="反应性与特异性"><a href="#反应性与特异性" class="headerlink" title="反应性与特异性"></a>反应性与特异性</h3><p>以NA&#x2F;HAmRNA作为目标mRNA，使用VaxArray mRNA芯片检测浓度为10 ug&#x2F;ml 单价NA mRNA，单价HA mRNA以及双价NA&#x2F;HA mRNA，以Poly T寡核苷酸序列作为检测探针，荧光信号图谱（图a）显示针对目标mRNA设计的每一个捕获探针均具有高度的特异性。</p><p>如图b所示，对于特定的捕获探针和不同的检测探针来说，信噪比（S&#x2F;B）浮动范围在5.3-28.2，表明捕获探针序列与目标mRNA序列具有很好的反应性。对于非目标mRNA来说，信噪比&lt;1.3，表明捕获探针序列具有非常强的特异性。</p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151652579.png" alt="VaxArray mRNA芯片检测裸mRNA序列的反应性和特异性。" style="zoom: 80%;" /><h3 id="荧光信号强度和浓度之间存在很好的线性对应关系"><a href="#荧光信号强度和浓度之间存在很好的线性对应关系" class="headerlink" title="荧光信号强度和浓度之间存在很好的线性对应关系"></a>荧光信号强度和浓度之间存在很好的线性对应关系</h3><p>如左图所示，研究人员利用不同的捕获探针和检测探针组合芯片与目标mRNA（HA或者NA）进行杂交孵育，检测到的荧光信号与目标mRNA真实浓度之间存在良好的线性关系。更加重要的是，如右图所示，当检测样本是HA+NA二价mRNA时，使用 VaxArray 芯片检测到的荧光信号与单价mRNA(HA或者NA)是相似的。也就是说，VaxArray 芯片能够非常好的适用于多价mRNA疫苗，其他mRNA序列的存在对于检测的目标mRNA序列不会造成干扰。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151936498.png" alt="不同的捕获探针与检测探针或者单价mRNA与多价mRNA，荧光信号强度与真实浓度之间存在良好的线性对应关系。" title="不同的捕获探针与检测探针或者单价mRNA与多价mRNA，荧光信号强度与真实浓度之间存在良好的线性对应关系。"></p><h3 id="检测限范围"><a href="#检测限范围" class="headerlink" title="检测限范围"></a>检测限范围</h3><p>如表1所示，<strong>VaxArray芯片检测上限</strong>（ULOQ）<strong>范围是14 ug&#x2F;ml—18 ug&#x2F;ml，检测下限</strong>（LLOQ）<strong>范围是0.08 ug&#x2F;ml—0.2 ug&#x2F;ml</strong>，4种靶向目标mRNA(HA&#x2F;NA)编码区的捕获探针可以检测到的目标mRNA浓度浮动范围超过90倍以上。对于高浓度的检测样本，可以将其按照合适的比例稀释到VaxArray芯片工作范围内。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209151948329.png" alt="VaxArray芯片检测上限和下限范围，以NA或者HA mRNA作为目标mRNA，捕获探针使用靶向编码区的寡核苷酸探针，检测探针使用荧光标记的PolyT寡核苷酸。"></p><h3 id="准确度和精密度"><a href="#准确度和精密度" class="headerlink" title="准确度和精密度"></a>准确度和精密度</h3><p><strong>准确度</strong>（Accuracy）：指在一定实验条件下多次测定的平均值与真值相符合的程度，以误差来表示。 它用来表示系统误差的大小。 <strong>精密度</strong>（Precision）：是指多次重复测定同一量时各测定值之间彼此相符合的程度。 表征测定过程中随机误差的大小。如表2所示，VaxArray芯片利用不同的捕获探针检测二价mRNA(NA+HA)浓度时（2.4 ug&#x2F;ml），具有非常好的准确度和精密度。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209152112895.png" alt="测定VaxArray芯片检测目标mRNA的准确度和精密度，总共3个操作者，每个操作者利用每个捕获探针测定8个重复的样品。"></p><h3 id="检测LNP包封mRNA样品"><a href="#检测LNP包封mRNA样品" class="headerlink" title="检测LNP包封mRNA样品"></a>检测LNP包封mRNA样品</h3><p>使用VaxArray芯片分析LNP包封的mRNA样品时，需要先用1% Triton X-100破乳处理10 min，然后按照正常流程检测，整个过程花费的时间依然少于2小时。<strong>尤其值得一提的是，该方法不需要对破乳后的mRNA样品进行纯化，可在含有LNP成分的情况下，直接进行检测。空白LNPs是检测不到荧光信号的</strong>。</p><p>研究人员使用VaxArray芯片比较检测2 ug&#x2F;ml 裸NA-mRNA和LNP包封的NA-mRNA，使用相同的检测探针Poly T寡核苷酸序列以及相同的曝光时间，荧光信号图谱显示LNP包封的NA-mRNA与裸NA-mRNA产生相似的图谱，而且，当使用HA作为捕获探针时，不会出现脱靶荧光信号。同时，如图b所示，VaxArray芯片检测LNP包封的mRNA时也具有非常好的反应性和特异性。<strong>这些数据说明，对于LNP包封的mRNA样品来说，VaxArray芯片检测时无需在破乳后对目标mRNA进行纯化处理，脂质体成分也不会产生非特异性的荧光信号</strong>。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209152125083.png" alt="VaxArray芯片检测LNP-mRNA样品时，产生的荧光图谱同裸mRNA是相似的，具有非常好的特异性和反应性。"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>随着mRNA疫苗领域的快速发展和众多多价mRNA疫苗的不断涌现，开发出匹配mRNA疫苗研发速度，流水线化mRNA疫苗产品的相关分析方法是非常关键的。对mRNA序列或者含量进行鉴定和定量的理想方法需要具备以下几点：（1）卓越的分析能力（准确度和精密度），（2）短时间内便可出分析报告，（3）易于操作，无需经过特殊训练，（4）灵活的样本处理量，即可实现大批次高通量，也可实现少量样品检测，（5）无需复杂耗时的样品前处理过程，（6）高度的特异性，可鉴定多条不同的mRNA序列。</p><p>VaxArray芯片依赖于特殊设计的捕获探针和灵活的检测探针，实现mRNA的快速鉴定和准确定量。这种芯片具极高的特异性，特别是当组合使用靶向目标mRNA编码区的捕获探针与靶向目标mRNA编码区的荧光标记检测探针时。不管是对于单价mRNA疫苗还是多价mRNA疫苗，此芯片的荧光信号强度和真实浓度之间均具有非常好的线性对应关系，优越的准确度和精密度。值得一提的是，当组合使用靶向末端的Poly A 捕获探针与荧光标记的抗帽子结构抗体时，可实现对整个全长mRNA序列的鉴定。更加重要的是，VaxArray芯片检测LNP包封的mRNA样品时，只多了一个10min的破乳步骤，无须进行mRNA纯化，便可上机检测。最为吸引人的是，优秀的分析能力使得VaxArray芯片特别适合应用于多价mRNA工艺优化和生产过程中的各个阶段，例如，IVT优化，LNP包封，稳定性测试等。</p>]]></content>
-      
-      
+      <tags>
+        <tag>干细胞</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>综述|mRNA加帽率测定方法研究进展</title>
+    <url>/2022/09/19/%E7%BB%BC%E8%BF%B0-mRNA%E5%8A%A0%E5%B8%BD%E7%8E%87%E6%B5%8B%E5%AE%9A%E6%96%B9%E6%B3%95%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95/</url>
+    <content><![CDATA[<p>帽子结构是mRNA在体内发挥生物学功能是必不可少的元件。简单来说，RNA帽子结构有2个最主要的功能：第一，在细胞中招募蛋白翻译机器，使得mRNA翻译表达出执行特定生物学功能的蛋白质；第二，提升mRNA稳定性，避免被细胞内的核酸内切酶降解。既然帽子结构有着如此重要的功能，那么检测mRNA加帽率毫无疑问成为mRNA生产工艺质量分析里面最关键的指标之一。</p>
+<p>mRNA分子质量一般成百上千KDa，帽子结构只有500 Da左右。<span style="color:red;">极小的帽子结构在巨无霸mRNA分子面前，显得微不可辨，</span>这就导致加帽mRNA和未加帽mRNA之间的差异极其细微，也就是一个核苷酸或者甲基的区别，常规分离分析方法难以捕捉到。mRNA加帽率检测的研究者一开始就意识到这个问题，因此，他们通过酶法降解或者切割的方式使得分子质量巨大的RNA分子变为可分析的同位素标记单核苷酸或者5’末端短序列，比如，RNase T2 ,RNase H，Ribozyme等。搭配焦磷酸水解酶（TAP或者RppH），还可实现帽子方向的检测。接下来，研究者不断优化聚丙烯酰胺凝胶电泳，毛细管凝胶电泳或者HPLC-MS系统，以此检测区分并且定量携带帽子的短片段，从而最终确定mRNA加帽率。</p>
+<p>我们对mRNA加帽率测定方法的发展历程进行详细的调查总结，回溯过去，着眼当下，展望未来，整理成此文。这篇综述将从以下几个方面进行探讨;</p>
+<ul>
+<li><span style="color:red;">分析加帽反应产物中的不同组分</span></li>
+<li><span style="color:red;">早期同位素标记法测定mRNA加帽率</span></li>
+<li><span style="color:red;">重点探讨RNase H介导的mRNA加帽率测定方法，主要包括：RNase H切割位点的特异性以及探针序列的筛选优化；优化RNase H切割片段的富集回收；硼酸盐化的聚丙烯酰胺凝胶，毛细管凝胶电泳，LC-MS对加帽率的检测分析。</span></li>
+<li><span style="color:red;">Ribozyme 介导的mRNA加帽率检测方法</span></li>
+<li><span style="color:red;">mRNA加帽率测定ELISA试剂盒专利介绍</span></li>
+</ul>
+<h2 id="分析加帽反应产物中的不同组分"><a href="#分析加帽反应产物中的不同组分" class="headerlink" title="分析加帽反应产物中的不同组分"></a>分析加帽反应产物中的不同组分</h2><p>既然我们要定量mRNA加帽率，那首先我们就得弄清楚mRNA加帽方式有几种？每种类型加帽反应的产物包含几种不同的组分？存在哪些加帽反应的中间产物？</p>
+<p>在mRNA工艺生产中采用2种类型的加帽方式：酶法加帽和共转录加帽。如果从加帽反应来说，存在4种加帽反应，不同的加帽反应所需的底物是不同的，生成的产物类型也是不同的，存在的帽子中间产物当然也是不一样的。</p>
+<p>对于<strong>酶法 Cap 0 加帽反应</strong>来说，终产物是m7GpppGpG-RNA，中间产物是ppGpG-RNA或者GpppGpG-RNA；对于<strong>酶法 Cap 1 加帽反应</strong>来说，终产物是m7GpppmGpG-RNA，中间产物是m7GpppGpG-RNA，ppGpG-RNA以及GpppGpG-RNA。与此形成对比的是，对于<strong>ARCA Cap 0 共转录加帽反应</strong>来说，终产物是m7GpppGpG-RNA；对于<strong>GAG Cap 1共转录加帽反应</strong>来说，终产物是m7GpppmAG-RNA。大多数研究数据显示酶法加帽的效率要优于共转录加帽，但是，酶法加帽存在诸多的加帽反应中间产物。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209011157763.png" alt="酶法加帽反应各个过程所需要的酶活性，生成的最终产物以及各种中间产物。" title="酶法加帽反应各个过程所需要的酶活性，生成的最终产物以及各种中间产物"></p>
+<p>我们已经对酶法加帽反应的过程以及中间产物作出分析，这样的话，<span style="color:red;">通过检测酶法加帽反应生成的mRNA样本中存在的各种组分，我们就可以倒推分析酶法加帽反应中各个酶促步骤进行的程度。</span></p>
+<p>如果在mRNA 5’末端酶切短片段中检测到存在<span style="color:red;"><del>pp</del>G<del>p</del>G-RNA，</span>这说明酶法加帽反应第一步是正常进行的，即移除mRNA5’末端首个磷酸基团。如果在mRNA 5’末端酶切短片段中检测到存在<span style="color:red;">G<del>ppp</del>G<del>p</del>G-RNA，</span>这说明加帽反应第二步也是正常进行的，即在RNA5’末端添加1个GTP。但是，从另外一个角度来看，酶法加帽反应产物中检测到<span style="color:red;"><del>ppp</del>G<del>p</del>G-RNA，</span>这说明5’末端移除首个磷酸基团不完全。酶法加帽反应产物中检测到<span style="color:red;"><del>pp</del>G<del>p</del>G-RNA，</span>这说明添加GTP的过程并没有进行得非常彻底。酶法加帽反应产物中检测到<span style="color:red;">G<del>ppp</del>G-RNA，</span>这说明RNA5’末端鸟嘌呤核苷酸甲基化没有完全，可能是由于N7-甲基转移酶活性不足或者SAM含量不足造成的。</p>
+<p>有文献报道，牛痘加帽酶N7-甲基转移酶活性位点和上游两个酶促反应的位点相距较远，同时，N7-甲基转移酶对于RNA具有非常高的亲和力。如果5’末端已添加鸟嘌呤核苷酸的RNA到较远的N7-甲基转移酶活性位点穿行效率不高或者N7-甲基转移酶活性位点被其他类型的RNA所占据，那么N7-甲基转移酶活性就非常有可能成为加帽反应的限制性因素。<span style="color:red;">当GTP或者SAM含量充足时，N7-甲基转移酶活性将成为牛痘加帽酶反应的限制性因素，从而造成上游两个反应产物的累积。</span></p>
+<p>从Cap 0-mRNA生成Cap1-mRNA，需要用到2’-O-甲基转移酶。Michael Beverly在文章称，<span style="color:red;">非常有意思的是，在Cap 1酶法加帽反应产物中可以检测到GpppGpG-RNA，但是并没有检测到m7GpppGpG-RNA，这说明2’-O-甲基转移酶活性足以覆盖掉牛痘加帽酶的N7-甲基转移酶活性生成的m7GpppGpG-RNA，将Cap 0-mRNA催化转变为Cap 1-mRNA。他推测，这种现象也可能是由于2’-O-甲基转移酶对于SAM的亲和力要比N7-甲基转移酶更高造成的。</span></p>
+<h2 id="利用同位素标记核苷酸测定加帽率"><a href="#利用同位素标记核苷酸测定加帽率" class="headerlink" title="利用同位素标记核苷酸测定加帽率"></a>利用同位素标记核苷酸测定加帽率</h2><p>早期研究对加帽率以及帽子方向的研究一直使用相关的RNA酶将同位素标记RNA降解为单核苷酸。RNase T2降解mRNA时，不具备碱基特异性，从而产生3’NMPs。mRNA 5’端帽子结构中存在三磷酸键，对于<span style="color:red;">RNase T2</span>的降解耐受。当采用RNaseT2降解使用α-磷酸基团-P32核苷酸生成的mRNA时，如果RNA 5’末端具有正常的m7GpppG，那么RNaseT2降解后，就会形成m7GpppGp⁕（℗代表P32）。当同位素标记的mRNA帽子结构是正向的，先用<span style="color:red;">烟草酸性焦磷酸酶（TAP）</span>处理mRNA，接着用RNase T2降解，就会得到pGp⁕，相反，当同位素标记的mRNA帽子结构是反向的，采用相同的两种酶联合处理mRNA，只会得到pm7Gp⁕。通过凝胶电泳或者HPLC对酶法降解得到的同位素标记核苷酸（帽子结构）进行分析，便可定量加帽效率和帽子方向^[3]^。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208292322783.png" alt="左图：RNase T2单独或者与TAP联合使用降解加帽RNA或者未加帽RNA产生的帽子结构类型。右图：阴离子HPLC分离酶法降解RNA产生的不同帽子结构。" title="左图：RNase T2单独或者与TAP联合使用降解加帽RNA或者未加帽RNA产生的帽子结构类型。右图：阴离子HPLC分离酶法降解RNA产生的不同帽子结构。"></p>
+<p>2008年，Charles A Nicolette 比较酶法加帽和共转录加帽对于CD40L RNA加帽效应的差异。他首先利用T4 RNA连接酶，在RNase H切割下来的mRNA 5’末端序列的3’末端连接上同位素P32标记的单核苷酸。接着，用变性聚丙烯酰胺凝胶电泳将加帽mRNA和未加帽mRNA分离开来，通过放射自显影技术确定加帽率。<span style="color:red;">结果发现，牛痘加帽酶对RNA的加帽效率可以达到100%，而共转录的加帽效率只有67%^[2]^。</span></p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208291721063.png" alt="利用同位素标记RNaseH切割产物，变性聚丙烯酰胺凝胶电泳分离，放射自显影，测定酶法和共转录加帽效率差异。" style="zoom:50%;" />
+
+<div align="center">利用同位素标记RNaseH切割产物，变性聚丙烯酰胺凝胶电泳分离，放射自显影，测定酶法和共转录加帽效率差异。</div>
+
+<h2 id="利用RNaseH测定加帽率"><a href="#利用RNaseH测定加帽率" class="headerlink" title="利用RNaseH测定加帽率"></a>利用RNaseH测定加帽率</h2><p>尽管传统的同位素标记标记法可以分析帽子方向和加帽率，但是，用来分析的RNA样本必须是同位素标记的，无法将此方法推广应用到临床mRNA生产的质控检测领域。在2016年，Michael Beverly基于不同帽子结构的分子质量和保留时间的差异，利用LC-MS分析无任何标记的加帽RNA与不加帽RNA。全长mRNA分子量巨大，用MS难以进行分析，因此需要利用Rase H 从mRNA 5’末端酶切一段短RNA序列^[9]^。</p>
+<p>RNase H 探针由两部分序列组成：2’-O-甲基修饰的短RNA序列和探针3’末端引导RNase H 切割的位点（4-6个脱氧核糖核苷酸组成）。RNase H无法识别2’-O-甲基修饰的RNA序列，但是，探针3’末端的脱氧核糖核苷酸短序列会引导RNase H在与其互补配对的RNA序列的特定位置进行切割。RNase H切割得到的5’末端序列与生物素标记Rase H 探针序列处于互补配对状态，用链霉亲和素标记的磁珠可以将其从反应混合液中特异性吸附出来。将RNase H切割得到的5’末端序列从磁珠上分离，先用HPLC分离携带5’末端帽子类似结构的RNase H酶切片段，再用MC便对不同类型的帽子类似结构进行定量分析。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208311647038.png" alt="RNase H探针序列的组成以及切割位点。" style="zoom: 50%;" />
+
+<div align="center">RNase H探针序列的组成以及切割位点。</div>
+
+<h3 id="RNase-H存在多个切割位点"><a href="#RNase-H存在多个切割位点" class="headerlink" title="RNase H存在多个切割位点"></a>RNase H存在多个切割位点</h3><p>RNase H 是一种核酸内切酶，能够移除NDA复制过程中冈崎片段上面的RNA引物或者加工处理R-Loops，调节R-Loops介导的生物学过程，比如基因表达，DNA复制以及DNA或者组蛋白修饰。在体外，研究报道大肠杆菌RNase H可以利用DNA-RNA嵌合结构在单链RNA特定位点进行切割。然而，<span style="color:red;">大肠杆菌RNase H切割位点存在1个或者多个，导致产生的5’末端短切割片段是异质化的，相互之间存在1个或者几个核苷酸的差异。</span></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208301332103.png" alt="有研究报道，RNase H存在两个邻近的切割位点，切割产物之间相差一个核苷酸。" title="有研究报道，RNase H存在两个邻近的切割位点，切割产物之间相差一个核苷酸。"></p>
+<p>2022年7月23号，NEB研究人员G. Brett Robb对RNase H 是否可以产生更加同质性的切割片段展开详解研究。基于早先的研究，他们设计出24 nt RNase H 探针，介导RNase H在FLuc-RNA 5’端序列（33nt）二级结构的Loop环内进行切割。在相同的反应条件下，大肠杆菌 RNase H 和嗜热菌 RNase H 具有相似的切割效率（分别是98%，96.6%），均可产生两种类型的切割产物（23 nt和24 nt）。然而，<span style="color:red;">嗜热菌 RNase H 要比大肠杆菌 RNase H 产生更多的24 nt 切割产物。</span></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208301344854.png" alt="A:RNase H 探针序列的组成以及切割位点。B:FLuc-RNA 5&#39;端最前面40个核苷酸的预测二级结构。C:大肠杆菌 RNase H 和嗜热菌 RNase H 具有相似的切割效率，但是，两种切割产物（23 nt/24 nt）的比例是不相同的。" title="RNase H 探针序列的组成以及切割位点。B:FLuc-RNA 5&#39;端最前面40个核苷酸的预测二级结构。C:大肠杆菌 RNase H 和嗜热菌 RNase H 具有相似的切割效率，但是，两种切割产物（23 nt/24 nt）的比例是不相同的"></p>
+<h3 id="筛选RNase-H探针序列"><a href="#筛选RNase-H探针序列" class="headerlink" title="筛选RNase H探针序列"></a>筛选RNase H探针序列</h3><p>研究人员合成出一系列不同长度的RNase H探针序列，介导嗜热菌 RNase H对5末端携带荧光标记核苷酸的FLuc-RNA 5’端序列（30-50 nt）进行切割，接着用尿素PAGE凝胶电泳或者LC-MS进行分析，结果显示：</p>
+<ol>
+<li>在<strong>25 nt 探针序列介导的RNase H 切割反应</strong>中， 24 nt 切割片段占比86%，由-1 A|C位点产生；23 nt 切割片段占比15%，由 A|A位点产生，还存在占比少于1% 的22 nt 切割片段，由-3 U|A位点产生。</li>
+<li><strong>当RNase H探针序列缩短1个核苷酸，变成24 nt时</strong>，大部分切割反应依然发生在A|C位点（+1），产生占比60%的24 nt 切割片段 ；23 nt 切割片段占比11%，由-1 A|A位点产生；22 nt 切割片段占比29%，由-2 A|A位点产生。</li>
+<li><strong>当RNase H探针序列延长1个核苷酸，变成26 nt时</strong>，大部分切割反应发生在-2 A|C位点，产生占比为66% 的24 nt切割片段；在-1 C|U位点未检测到发生切割。</li>
+<li><strong>当RNase H探针序列延长2个核苷酸，变成27 nt时</strong>，大部分切割反应发生在-1U|U位点，产生占比为87%的26 nt切割片段；其他三个位点发生切割反应的概率非常低。</li>
+<li><strong>当RNase H探针序列延长3个核苷酸，变成28 nt时</strong>，绝大部分切割反应依然发生在U|U，只是位置变为-2，产生占比为98%的26 nt切割片段；-1 U|U位点发生切割反应的概率为1%。</li>
+</ol>
+<p>研究人员用脱硫生物素标记的25 nt 探针序列引导RNase H 对全长 Fluc-RNA(1.7kb)进行切割，LC-MS数据显示：在-1 A|C位点切割产生占比为91% 的24 nt 片段；-2 A|A位点切割产生占比为8%的23 nt片段；还在+1 C|U位点处切割产生占比为2%的 25 nt 片段。尽管RNase H 切割全长RNA序列和5’末端RNA序列时，切割位点以及所产生的片段比例存在些许的差异，但是，在切割反应产物中占比最大的切割位点还是类似的。<span style="color:red;">因此，研究人员认为可以通过合成一系列探针序列，介导RNase H对靶标RNA 5’端短序列进行切割，从中筛选找到能够产生更高比例同质化切割片段（相同核苷酸数目）的RNase H探针序列。</span></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208301409434.png" alt="左图：筛选能够产生更高比例同质化切割片段的RNase H 探针序列。黄色表示探针序列中的核糖核苷酸，灰色表示探针序列中的脱氧核糖核苷酸。右图：25 nt RNase H探针序列切割全长FLuc-RNA产生更高比例的同质切割片段。绿色表示核糖核苷酸，蓝色表示脱氧核糖核苷酸。" title="左图：筛选能够产生更高比例同质化切割片段的RNase H 探针序列。黄色表示探针序列中的核糖核苷酸，灰色表示探针序列中的脱氧核糖核苷酸。右图：25 nt RNase H探针序列切割全长FLuc-RNA产生更高比例的同质切割片段。绿色表示核糖核苷酸，蓝色表示脱氧核糖核苷酸。"></p>
+<h3 id="尿嘧啶修饰影响RNase-H切割特异性"><a href="#尿嘧啶修饰影响RNase-H切割特异性" class="headerlink" title="尿嘧啶修饰影响RNase H切割特异性"></a>尿嘧啶修饰影响RNase H切割特异性</h3><p>尿嘧啶修饰核苷酸包括假尿嘧啶核苷酸，N1M-甲基假尿嘧啶核苷酸，5-甲氧基假尿嘧啶核苷酸。同天然尿嘧啶相比，假尿嘧啶核苷酸展现出不同的碱基配对属性，这种差异可能会影响探针序列与5’末端RNA序列之间的退火或者RNase H切割特异性。</p>
+<p>G. Brett Robb合成1.8 kb CLuc-RNA(编码海萤荧光素酶)，选择26 nt RNase H 探针序列（探针序列5’末端是尿嘧啶核苷酸）。使用天然尿嘧啶合成全长CLuc-RNA，那么在C|UC位点切割产生占比73%为25 nt 片段，而在CU|C位点还会切割产生占比27%为26 nt 片段。与此形成显著差异的是，使用假尿嘧啶合成全长CLuc-RNA序列，那么在C|ΨC位点切割产生25 nt片段，占比会降低到34%，而在CΨ|C位点切割产生的26 nt片段占比上升到66%。<span style="color:red;">由此可以看到，mRNA序列中的假尿嘧啶修饰核苷酸会导致RNase H切割特异性发生改变。</span></p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208301534486.png" alt="上图：筛选切割CLuc-RNA的RNase H探针序列。下图：假尿嘧啶核苷酸对RNase H切割位点的影响。" style="zoom:50%;" />
+
+<div align="center">上图：筛选切割CLuc-RNA的RNase H探针序列。下图：假尿嘧啶核苷酸对RNase H切割位点的影响。</div>
+
+<h3 id="RNase-H切割片段的富集回收"><a href="#RNase-H切割片段的富集回收" class="headerlink" title="RNase H切割片段的富集回收"></a>RNase H切割片段的富集回收</h3><p>采用Ribozyme切割mRNA产生5’末端切割片段需要用硅胶柱富集回收才可以进行LC-MS分析，然而，硅胶柱至少需要20-60 ug RNA上样量。Beverly使用链霉亲和素磁珠对生物素标记RNase H切割片段进去亲和纯化，再通过加热，甲醇洗脱下来。为寻找更低RNA上样量的富集纯化方法，同时避免使用甲醇作为洗脱溶液，<strong>NEB研究人员G. Brett Robb</strong>对Beverly的<span style="color:red;">切割片段回收方法进行改造，利用RNA分子片段大小和亲和作用纯化</span>。简单来说，将RNase H切割反应混合物和NEBNext磁珠共同孵育，较小的RNA片段不会与发生磁珠发生结合，吸取澄清溶液再次同NEBNext磁珠共同孵育，这样会使得澄清溶液中的较大RNA片段降低到极少的比例。然后，吸取澄清溶液与链霉素亲和磁珠孵育，通过生物素-链霉亲和素特异性作用富集回收生物素标记RNase H切割片段。G. Brett Robb发现，尽管当不使用依赖片段大小进行分离的NEBNext磁珠时，溶液中的大片端RNA比例会所有升高，但是，省去NEBNext磁珠纯化步骤对LC-MS分析结果不会造成影响。</p>
+<p><span style="color:red;">G. Brett Robb还比较将生物素标记 RNase H切割片段从链霉亲和素磁珠上洗脱下来的两种方式^[8]^。</span>第一种洗脱方式：先用标准的链霉亲和素Wash Buffer（含1M Nacl）洗杂，再将0.1M 生物素溶液与结合有RNase H切割片段的链霉亲和素磁珠37℃孵育1h。第二种洗脱方式：先用低盐Wash Buffer（含有60mm Nacl）洗杂，再将纯水与结合有RNase H切割片段的链霉亲和素磁珠65℃孵育6min。尿素聚丙烯酰胺变性胶电泳显示，两种洗脱方式具有相似的回收率。</p>
+<p><span style="color:red;">总结来说，富集回收RNase H切割片段时，为方便起见，可只采用链霉亲和素磁珠纯化，同时用低盐洗杂，纯水洗脱RNase H切割片段。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208301825274.png" alt="利用片段大小和亲和作用富集纯化RNaseH切割片段，同时，比较两种洗脱方式的回收效率。" style="zoom: 50%;" />
+
+<div align="center">利用片段大小和亲和作用富集纯化RNaseH切割片段，同时，比较两种洗脱方式的回收效率。</div>
+
+<h3 id="硼酸盐聚丙烯酰胺凝胶电泳分析RNase-H切割片段"><a href="#硼酸盐聚丙烯酰胺凝胶电泳分析RNase-H切割片段" class="headerlink" title="硼酸盐聚丙烯酰胺凝胶电泳分析RNase H切割片段"></a>硼酸盐聚丙烯酰胺凝胶电泳分析RNase H切割片段</h3><p><span style="color:red;">在2014年，Jessica A. Matts发现硼酸盐化的聚丙烯酰胺凝胶对3’末端修饰小RNA和3’末端未修饰小RNA的亲和力存在差异^[6]^。</span>未被修饰的小RNA3’末端2’-OH和3’-OH会与聚丙烯酰胺凝胶中的硼酸基团发生相互作用，但是，当小RNA3’末端2’-OH 甲基化修饰时，便不会聚丙烯酰胺凝胶中的硼酸基团发生相互作用。标准尿素变性丙烯酰胺凝胶无法区将相同长度，3’末端存在修饰的小RNA和3’末端没有修饰的小RNA区分开来。但是，如果在配制尿素变性丙烯酰胺凝胶时，加入一定量的丙烯酰氨基苯硼酸(APB)，在这种凝胶基质上，3’末端2’-OH 甲基化修饰的小RNA会比3’末端没有修饰的小RNA迁移得更快。<span style="color:red;">G. Brett Robb在文章称采用硼酸盐化的聚丙烯酰胺凝胶同样可以把<del>ppp</del>-RNA，<del>p</del>p-RNA，G^ppp^-RNA 与<del>m7</del>G<del>ppp</del>-RNA区分开来。Bio-RAD公司有在出售Affi-Gel® Boronate Gel，宣称对小分子量的核苷酸或者核苷有着非常高的分辨率。</span></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208311054810.png" alt="利用硼酸盐化的聚丙烯酰胺凝胶区分3&#39;末端修饰和3&#39;末端未修饰的相同长度的小RNA。" title="利用硼酸盐化的聚丙烯酰胺凝胶区分3&#39;末端修饰和3&#39;末端未修饰的相同长度的小RNA。"></p>
+<h3 id="毛细管凝胶电泳（CE）分析RNase-H切割片段"><a href="#毛细管凝胶电泳（CE）分析RNase-H切割片段" class="headerlink" title="毛细管凝胶电泳（CE）分析RNase H切割片段"></a>毛细管凝胶电泳（CE）分析RNase H切割片段</h3><p>2019年，Madalee G. Wulf利用毛细管电泳（Applied Biosystems基因分析仪）对5‘末端携带4种不同结构的短RNA序列（25 nt）成功进行分离定量^[5]^。<span style="color:red;">2022年，G. Brett Robb对此进行验证，用Applied Biosystems 3730xl Genetic Analyzer毛细管电泳仪对25 nt RNA 加帽反应产物进行分析，加帽反应的终产物（<del>m7</del>G<del>ppp</del>-RNA），底物（<del>ppp</del>-RNA），中间产物（<del>pp</del>-RNA和G<del>ppp</del>-RNA）在迁移峰图中具有非常好的分辨率，可实现加帽率的定量分析。</span></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208311148196.png" alt="左图：不同5&#39;末端结构的25nt RNA在毛细管电泳系统中的迁移峰图。右图：利用Applied Biosystems 3730xl Genetic Analyzer测定加帽率。" title="左图：不同5&#39;末端结构的25nt RNA在毛细管电泳系统中的迁移峰图。右图：利用Applied Biosystems 3730xl Genetic Analyzer测定加帽率。"></p>
+<p><span style="color:red;">SCIEX高铁等人利用PA800 Plus 毛细管电泳仪测定mRNA加帽效率，对RNase H切割片段进行分析时，有效区分加帽RNA片段和未加帽RNA片段，从而确定加帽效率^[4]^。</span>尽管他们在文章中称PA800Plus药物分析系统在进行短片段（&lt;100nt ）RNA分析时，分离度可以达到单个核苷酸的分离，<span style="color:red;">但是，从峰图来看，无法实现5’末端不同结构的精细区分，比如ppp-RNA，pp-RNA，Gppp-RNA等。</span></p>
+<h3 id="荧光标记RNase-H切割产物"><a href="#荧光标记RNase-H切割产物" class="headerlink" title="荧光标记RNase H切割产物"></a>荧光标记RNase H切割产物</h3><p>在某些探针序列引导下，RNaseH切割产端3’末端会存在一个核苷酸的缺口，G. Brett Robb利用大肠杆菌DNA聚合酶 I（Klenow 片段）的填补活性，在RNaseH切割片段3’末端可添加一个荧光标记的核苷酸。由于聚合酶的填补活性依赖于荧光标记的dNTPs必须与DNA-RNA嵌合序列对应的位点互补，因此荧光标记的RNase H切割片段大小是确定的，其他切割位点产生RNase H片段不会发生荧光标记。尿素聚丙烯酰胺凝胶电泳，毛细管电泳以及LC-MS均可对荧光标记的RNase H 切割片段进行分析。当用丙烯酰胺凝胶电泳对加帽反应产物进行分离时，检测荧光信号，可以获得更高的新噪比，还可以消除加帽反应中某些中间产物（无法被荧光核苷酸标记）的干扰。</p>
+<p>利用荧光标记RNase H切割产物对牛痘加帽酶反应中的FLuc-RNA进行分析。尿素聚丙烯酰胺凝胶电泳是分析加帽产物最方便的方法，但是，该方法无法区分5 ‘<del>ppp</del>-RNA与<del>pp</del>-RNA，<del>m7</del>G<del>ppp</del>-RNA与G<del>ppp</del>-RNA。在电泳图上，<del>ppp</del>G-RNA和<del>pp</del>G-RNA作为一条带，共同迁移，<span style="color:red;">表现为unCapped RNA，</span>而<del>m7</del>G<del>ppp</del>-RNA 和G<del>ppp</del>-RNA共同迁移，<span style="color:red;">表现为Capped RNA。</span>毛细管凝胶电泳则可实现5 <del>‘ppp</del>-G,<del>pp-</del>G,G-<del>ppp</del>G,<del>m7</del>G<del>ppp</del>-RNA片段的分离和定量，测定牛痘加帽酶对Fluc-RNA加帽率为78.4%。最后，G. Brett Robb比较3种分析方法测定的牛痘加帽酶对FLuc-RNA的加帽效率，结果显示，虽然尿素聚丙烯酰胺凝胶电泳不具备非常精细的分辨率，但是，尿素聚丙烯酰胺凝胶电泳与毛细管凝胶电泳以及LC-MS测定的加帽效率大致是相当的。</p>
+<p>值得注意的是，G. Brett Robb采用荧光信号分析加帽反应产物电泳结果时，观察到存在极低比例的+1nt 荧光标记RNase H片段，这是可能是由于FLuc-RNA 5’末端起始序列是GGG引起的。<span style="color:red;">1998年，Pleiss发现某些模板在体外转录时，T7 RNA聚合酶合成出来的RNA具有异质性的5’末端。降低模板序列5’末端连续的G会显著减少RNA 5’末端的异质性^[7]^。</span></p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208302318498.png" alt="A:在Klenow聚合酶作用,在RNase H切割片段3'末端添加上荧光标记核苷酸；B：聚丙烯酰胺凝胶电泳(SYBR Gold染色或者采集荧光信号)分析加帽反应产物。C:毛细管凝胶电泳（CE）分析加帽应产物。D:比较聚丙烯凝胶电泳，毛细管凝胶电泳，LC-MS测定加帽效率差异。" style="zoom:50%;" />
+
+<div align="center">A:在Klenow聚合酶作用,在RNase H切割片段3'末端添加上荧光标记核苷酸；B：聚丙烯酰胺凝胶电泳(SYBR Gold染色或者采集荧光信号)分析加帽反应产物。C:毛细管凝胶电泳（CE）分析加帽应产物。D:比较聚丙烯凝胶电泳，毛细管凝胶电泳，LC-MS测定加帽效率差异。</div>
+
+<h3 id="LC-MS分析RNase-H切割产物"><a href="#LC-MS分析RNase-H切割产物" class="headerlink" title="LC-MS分析RNase H切割产物"></a>LC-MS分析RNase H切割产物</h3><p>与ppp-RNA片段，pp-RNA片段或者Gppp-RNA片段相比，m7Gppp-RNA片段具有特定的分子质量，只要能够测定出不同5’末端结构的RNase H切割片段的分子质量，便可鉴定区分不同类型的5’末端结构，计算得到加帽率。<span style="color:red;">Michael Beverly利用反相HPLC很容易地能够将m7Gppp-mG-RNA与ppp-RNA片分离，再通过质谱计算得到各种组分的分子量，确定RNA片段的5’末端结构。</span>采用质谱分析各种不同类型的帽子结构，实现更高的分辨率和精确度。他们发现除了预期的切割片段，还发现了RNase H第2个位点的切割产物。HPLC无法区分具有相同核苷酸数量的RNase H切割片段，这时候只能依赖质谱区分。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208311648480.png" alt="通过LC-MS分析Cap1/uncapped RNase H切割片段混合物。上图：总离子色谱图，纵坐标是出峰时间。下图：总离子色谱图中7.1-7.7min对应的质谱图，纵坐标是荷质比。" title="通过LC-MS分析Cap1/uncapped RNase H切割片段混合物。上图：总离子色谱图，纵坐标是出峰时间。下图：总离子色谱图中7.1-7.7min对应的质谱图，纵坐标是荷质比。"></p>
+<p>通过酶法加帽反应，使得CLuc-RNA和FLuc-RNA获得Cap 1。通过RNase H切割，一步法纯化富集回收切割片段（亲和纯化）。根据LC-MS得到的不同分子质量进行去卷积分，便可以鉴定出5’末端携带不同结构的RNA切割片段在加帽反应产物中所占的比例。<span style="color:red;">只需要5 pmol 1.8kb CLuc-RNA&#x2F;1.7kb FLuc-RNA（2.9ug）便足以通过LC-MS来测定加帽效率。</span></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208312225847.png" alt="利用LC-MS分析CLuc-RNA/FLuc-RNA RNase H切割片段中不同5&#39;末端结构所占的比例。" title="利用LC-MS分析CLuc-RNA/FLuc-RNA RNase H切割片段中不同5&#39;末端结构所占的比例。"></p>
+<h3 id="LC-MS分析加帽效率"><a href="#LC-MS分析加帽效率" class="headerlink" title="LC-MS分析加帽效率"></a>LC-MS分析加帽效率</h3><p>Michael Beverly对不同长度的RNA（2.9 K和9 K），不同帽结构的RNA(Cap 0和Cap 1)，不同修饰核苷酸的RNA(假尿嘧啶和5-甲基胞嘧啶)采用RNaseH+LC-MS对牛痘加帽或者共转录加帽的效率进行分析：</p>
+<ul>
+<li><strong>在分析的所有RNA中，不管大小，帽子类型，是否有修饰核苷酸酸，未加帽RNase H切割片段主要包括3种类型：Gppp-RNA，ppp-RNA，pp-RNA。</strong></li>
+<li><strong>当加帽反应的条件确定时，不同批次的加帽效率是相似的，例如2.2k mRNA(天然核苷酸)，2.2k mRNA(假尿嘧啶)，9KmRNA(天然核苷酸)。</strong></li>
+<li><strong>与天然核苷酸相比，在2.2k mRNA序列中存在假尿嘧啶时会导致未加帽RNA微小幅度上升2.5%左右。</strong></li>
+<li><strong>同NEB关于ARCA加帽反应效率得到的数据一致，提高ARCA与GTP比例会导致反应产物中加帽RNA比例上升。</strong></li>
+<li><strong>ARCA共转录加帽效应要低于牛痘加帽酶的加帽效应。只有当ACRCA&#x2F;GTP比例为8：1时，ARCA共转录加帽效率才接近牛痘加帽酶加帽效率。</strong></li>
+</ul>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208312255450.png" alt="利用LC-MS分析ACRA共转录加帽和酶法加帽在各种不同条件下的加帽效率。" title="利用LC-MS分析ACRA共转录加帽和酶法加帽在各种不同条件下的加帽效率。"></p>
+<h3 id="LC-MS分析加帽方向"><a href="#LC-MS分析加帽方向" class="headerlink" title="LC-MS分析加帽方向"></a>LC-MS分析加帽方向</h3><p>早期采用二核苷酸帽子类似物进行共转录产生Cap0结构时，经常会出现两种类型的产物：一种具有正确的帽子方向，即m7GpppG-RNA;另外一种具有相反的帽子结构，即Gpppm7GRNA。RNase H切割产物结合到磁珠后，添加焦磷酸酶（例如RppH或者TAP）水解磷酸键，从而将5’末端第一个核苷酸切除掉。由于帽子方向的不同，会导致剩于RNase H 切割序列的分子质量不同，通过LC-MS便可定量分析。</p>
+<p>目前，二核苷酸帽子类似物均用ARCA进行加帽，由于添3’OH已被甲基化，因此在ARCA共转录加帽反应产物中不会出现反向帽子结构。在mRNA合成生产工艺中，对于帽子结构的分析已经不再作为质控指标。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209011728895.png" alt="添加焦磷酸酶,水解三磷酸键，LC-MS分析帽子方向。" title="添加焦磷酸酶,水解三磷酸键，LC-MS分析帽子方向。"></p>
+<h2 id="Ribozyme-介导的mRNA加帽率检测方法"><a href="#Ribozyme-介导的mRNA加帽率检测方法" class="headerlink" title="Ribozyme 介导的mRNA加帽率检测方法"></a>Ribozyme 介导的mRNA加帽率检测方法</h2><p>当前最常用的RNaseH介导的切割反应中存在一个问题：由于RNaseH切割位点具有异质性，会产生除预期条带之外的额外条带。与此相成对比的是，核酶具有非常专一的切割位点，产生的5’切割产物中只存在两条带—携带帽子结构的5‘切割产物条带&#x2F;不携带帽子结构的5’切割产物条带。2022年，Katalin Karikó设计出一系列在mRNA 5’UTR特定位点特异性切割mRNA的核酶（Ribozyme）。IVT mRNA经过核酶切割，释放出5’末端携带帽子结构或者不携带帽子结构的10-30nt 短5’切割产物。使用硅胶柱去除长链RNA（未发生切割全长mRNA&#x2F;长3’切割产物），纯化获得核酶和5‘切割产物。最后，利用尿素变性聚丙烯酰胺凝胶电泳或者LC-MS可视化和定量分析携带帽子结构5‘切割产物&#x2F;不携带帽子结构5’切割产物比例，从而获得加帽效率。与RNaseH 介导的切割反应相比，核酶介导的切割反应显然具有极大的优势，切割位点单一，切割反应产物中不存在非特异性的条带。</p>
+<p>具体的文章参见:<a href="https://mp.weixin.qq.com/s?__biz=MzAwMzc1Nzc5NQ==&mid=2648238342&idx=1&sn=d46888790a69101cc453b0d342dfdad9&chksm=831a0a8ab46d839cbc302408fb15a1a7e7528a87863ef01a1a2d99887dfa409e78a24a50fedc&scene=21#wechat_redirect">BioNTech开发核酶介导的加帽率测定方法</a></p>
+<h2 id="ELSIA试剂盒测定加帽率"><a href="#ELSIA试剂盒测定加帽率" class="headerlink" title="ELSIA试剂盒测定加帽率"></a>ELSIA试剂盒测定加帽率</h2><p>在2014年，Shire Human Genetic Therapies 公开申请专利：信使RNA加帽效率的定量评估。这份专利用帽特异性结合物质（例如，帽特异性抗体）与加帽mRNA之间复合物的形成和定量来评估mRNA加帽效率，即基于ELISA的mRNA加帽率测定，是一种简单，可靠且有效的定量方法^[1]^。</p>
+<p>对于捕获mRNA的固体基底来说，唯一的要求是必须能够直接或者间接捕获mRNA。连接在固体基底上的用于结合mRNA的第一捕获剂既可以是蛋白，例如，可结合到mRNA 3’末端的多聚A结合蛋白，可结合到mRNA 5’末端的抗m7G抗体或者真核生物起始因子eIF-4E；也可以是单链多核苷酸序列，例如，多聚PloyA尾巴，3’UTR区域以及CDS区域特异性序列等。</p>
+<p>帽特异性结合物来是指能够选择性结合加帽mRNA或者帽子类似物的任何物质（蛋白或者分子）。帽特异性结合物质最常用的是帽特异性抗体，可以识别结合帽类似结构：<del>m7</del>G,<del>m7</del>G<del>ppp</del>G,<del>m7</del>G<del>ppp</del>A,<del>m7</del>G<del>ppp</del>C或者ARCA等。此外，真核生物翻译起始因子eIF-4E已经用于基于帽的mRNA纯化。</p>
+<p>在这份公开的专利中，详细举例介绍基于生物素-链霉亲和素的寡聚dT捕获ELISA定量加帽效率：</p>
+<ul>
+<li><p>首先，用洗涤缓冲液（0.05%Tween 20,0.01M PBS,PH7.2）洗涤3次商品化的链霉亲和素包被微孔板，在每个孔中加入1-5pmol 100ul 的5’端生物素标记的寡聚dT20，室温孵育1h。然后，用洗涤缓冲液洗涤微孔板，冲洗去除未结合到微孔板上的寡聚dT20。最后，在每个孔中加入320ul封闭缓冲液（0.01M PBS,0.5%BSA,0.15%Tween 20），封闭1h。</p>
+</li>
+<li><p>mRNA样品94°变性10min，并且在室温放置30min。向每个微孔板添加含有20pmol-1umol mRNA的100ul杂交缓冲液（4×SSC,20mM HEPES,2mM EDTA,0.15% Tween 20），室温孵育1h。接着用含有2mM EDTA的洗涤缓冲液洗涤微孔板3次。</p>
+</li>
+<li><p>向每个孔加入100ul 一抗-小鼠抗m7G帽单抗（1：2000-1：25000稀释），室温孵育1h，用含有2mM EDTA的洗涤缓冲液洗涤微孔板3次；再向每个孔加入100ul二抗-山羊抗小鼠HRP-共轭抗体（1：40000稀释），室温孵育1h，用含有2mM EDTA的洗涤缓冲液洗涤微孔板3次。</p>
+</li>
+<li><p>加入TMB，当检测到HRP时，TMP生成蓝色底物，加入终止反应试剂H2SO4，颜色变为黄色。检测450处吸收值。</p>
+</li>
+<li><p>450nm处具有吸收的孔表示加帽mRNA的存在。根据连续稀释的结合到链霉亲和素涂布的微孔板上的生物素标记的m7G小分子阳性对照产生的吸收值绘制标准曲线。根据样品的吸收值便可以确定样品中含有的加帽mRNA含量，从而确定加帽率。</p>
+</li>
+</ul>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202208291052310.png" alt="基于生物素-链霉亲和素的寡聚dT捕获ELISA定量加帽效率" style="zoom:67%;" />
+
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>从上世纪90年代同位素标记检测帽子结构和方向，到当前普遍使用的RNase H介导的加帽率测定方法，研究者一直再不断优化末端携带不同帽子类似结构RNA片段的分离和分析方法。尽管有文献成功利用变性聚丙烯酰胺凝胶和毛细管凝胶电泳检测mRNA加帽率，但是，这两者检测的灵敏度和分辨率还是远远不如LC-MS。如果可以研制出对酶法加帽反应过程中各种中间产物具有良好分辨率的凝胶成分，凭借高通量分析，毛细管电泳分析加帽产物对于mRNA生产质控平台的建立将会产生巨大的吸引力。相对来说，ELISA检测加帽率显得不那么现实，很难保证抗体能够精确区分不同的帽子类似结构，会带来非常严重的假阳性现象。总结来说，目前，未来优化加帽率检测方法需要攻克的难关依然是对携带不同帽子类似结构RNA片段的高分辨率地分离鉴定。</p>
+<hr>
+<p><strong>附图：RNase H 介导的加帽率检测方法。</strong></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202209020030635.png" alt="image-20220902003006455"></p>
+<hr>
+<ol>
+<li>信使RNA加帽效率的定量评估，CN105209633 A</li>
+<li>Ectopic expression of a truncated CD40L protein from synthetic post-transcriptionally capped RNA in dendritic cells induces high levels of IL-12 secretion.</li>
+<li>Synthesis and properties of mRNAs containing the novel “anti-reverse” cap analogs 7-methyl(3’-O-methyl)GpppG and 7-methyl(3’-deoxy)GpppG。</li>
+<li>SCIEX.高铁.Analysis of capping efficiency of mRNA by capillary gel electrophoresis.</li>
+<li>2019.Madalee G. Wulf.the yeast scavenger decapping enzyme Dcps and its application for in vitro RNA recapping.</li>
+<li>2014.Jessica A. Matts.Small RNA library construction from minute biological samples. </li>
+<li>1998.Pleiss.T7 RNA polymerase produces 5’ end heterogeneity during in vitro transcription from certain templates.</li>
+<li>2022.G. Brett Robb.RNase H-based analysis of synthetic mRNA 5’ cap incorporation.</li>
+<li><ol start="2016">
+<li>Michael Beverly. Label-free analysis of mRNA capping efficiency using RNase H probes and LC-MS.</li>
+</ol>
+</li>
+</ol>
+]]></content>
       <categories>
-          
-          <category> RNA工艺 </category>
-          
+        <category>RNA工艺</category>
+        <category>质量分析</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 多价疫苗 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>深圳先进院开发修饰mRNA增强干细胞疗法，原位注射实现软骨再生。</title>
-      <link href="/2022/09/08/%E6%B7%B1%E5%9C%B3%E5%85%88%E8%BF%9B%E9%99%A2%E5%BC%80%E5%8F%91%E4%BF%AE%E9%A5%B0mRNA%E5%A2%9E%E5%BC%BA%E5%B9%B2%E7%BB%86%E8%83%9E%E7%96%97%E6%B3%95%EF%BC%8C%E5%8E%9F%E4%BD%8D%E6%B3%A8%E5%B0%84%E5%AE%9E%E7%8E%B0%E8%BD%AF%E9%AA%A8%E5%86%8D%E7%94%9F%E3%80%82/"/>
-      <url>/2022/09/08/%E6%B7%B1%E5%9C%B3%E5%85%88%E8%BF%9B%E9%99%A2%E5%BC%80%E5%8F%91%E4%BF%AE%E9%A5%B0mRNA%E5%A2%9E%E5%BC%BA%E5%B9%B2%E7%BB%86%E8%83%9E%E7%96%97%E6%B3%95%EF%BC%8C%E5%8E%9F%E4%BD%8D%E6%B3%A8%E5%B0%84%E5%AE%9E%E7%8E%B0%E8%BD%AF%E9%AA%A8%E5%86%8D%E7%94%9F%E3%80%82/</url>
-      
-        <content type="html"><![CDATA[<p>关节软骨是滑膜关节非常重要的组成元件。当我们在行走，跳跃或者进行其他活动时，关节软骨会对相互连接的骨头间的震动起到缓冲减震作用，这使得关节软骨非常容易受到机械损伤。由于关节软骨所在的部位缺乏血管和营养物质，一旦发生损伤，很难自愈，导致骨性关节炎（osteoarthritis，OA）。骨性关节炎是世界上最常见的慢性关节疾病，预计到2040年会对7800万人群的日常生活造成影响。</p><p>较高的发病率和有限的自我治愈使得软骨损伤对年轻的运动员和老人群体带来极大的威胁。传统治疗方法，包括非甾体类药物，物理治疗或者手术移植，存在低效，治疗时间长，副作用以及免疫排斥等缺陷，对其临床应用造成阻碍。干细胞由于具有多向分化潜能，可应用于多种组织修复，因而受到众多关注。</p><p>但是，干细胞的多向分化潜能是一把双刃剑，一方面使得干细胞疗法在多种组织中具有修复效果，另一方面多向分化的干细胞可能形成畸胎瘤或者癌变，存在安全隐患。有研究发现，把MSCs移植到裸鼠中，观察到典型的骨肉瘤形成，即间充质干细胞(MSCs)移植促进肿瘤形成。总结来说，未经指向和不受限制的干细胞疗法存在严重的安全隐患。</p><p>基因治疗是一种非常有前景的提供治疗性蛋白的迭代方案。但是，pDNA要实现治疗性蛋白翻译需要进入细胞核，而且转染效率低，还可能发生基因组插入突变，这极大限制了DNA疗法的应用。与此相反，mRNA在细胞质中便可以快速翻译生成治疗性蛋白，不需要进入细胞核中。利用mRNA技术来增强干细胞治疗的效果成为非常有前景的方向，例如有研究用抗人皮间素靶向嵌合抗原受体mRNA CAR转染外周血来源的淋巴细胞。目前，基于mRNA技术的CAR-T疗法已经进入到临床试验中。最新的应用进展使得人们希望通过mRNA技术来开发出一种新型的，安全的以及高疗效的组织再生药物。</p><p>基于MSCs的干细胞疗法使得软骨生重获希望。生长因子的添加可以为干细胞的分化指明方向。但是，重组蛋白生长因子不仅成本非常高，而且还会引发一系列副作用，用来提升干细胞疗效的优势非常微弱。利用mRNA技术向损伤部位递送治疗性蛋白成为非常有前景的替代方案，但是向无血管的组织（例如，软骨）中递送mRNA极少被研究，面临诸多困难。</p><p>2022年5月6号，中科院深圳先进技术研究院于寅研究员在bioRxiv发表文章：Highly efficient healing of critical sized articular cartilage defect in situ using a chemically nucleoside-modified mRNA-enhanced cell therapy，使用编码生长因子TGF-β3的修饰核苷酸提升骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效。在小鼠模型中，原位注射TGF-β3 cmRNA +BMSCs，六周之内，可以将软骨损伤修复到自然水平。此外，通过TGF-β3 cmRNA增强的BMSCs疗法还能够阻止软骨损伤造成的骨性关节炎（osteoarthritis, OA）。这种利用mRNA技术增强基于MSCs的疗法成为修复软骨损伤的新疗法。</p><p>TGF-β3在软骨再生的过程中具有非常重要的作用，能够诱导MSCs软骨分化，促进软骨样基质沉淀。因此，研究人员构建TGF-β3 cmRNA，使用PEI包封。首先，证实其在BMSCs单层细胞和3D球状体细胞模型中具有非常好的转染效率，表达出来的TGF-β3能够显著提升BMSCs细胞外基质的分泌。接着，证实TGF-β3-cmRNA能够在体外诱导BMSCs的软骨分化，甚至诱导效果要好于用重组蛋白TGF-β3。最后，通过手术在小鼠膝盖创造出软骨损伤，将TGF-β3-cmRNA+BMSCs（CBmR组）或者BMSCs（CB组）注射到小鼠软骨损伤部位测试治疗效果。在没有注射BMSCs的对照组，软骨损伤清晰可见，关节表面粗糙，有大量严重渗出物。在CB组和CBmR组关节表面平滑，软骨再生得到显著提升。国际修复协会评分和组织染色证实CBmR组要比CB组能更好地促进软骨再生。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206291842660.png" alt="TGF-β3 cmRNA在小鼠模型中能够增强BMSCs软骨再生的疗效。"></p><p>此外，研究人员还利用microCT 观察cmRNA-TGF-β3对软骨下骨(subchondral bone)的影响。在空白对照组，软骨损伤部位会出现软骨下骨严重的碎裂。此外，还可以观察到软骨下骨的冠状面和骨小梁变薄和丢失。在CB组和CBmR组，软骨下骨的碎裂丢失都是非常明显的抑制。特别是在CBmR组。骨小梁的体积和骨矿物密度更加高。软骨下骨的异常和丢失，会造成骨性关节炎，甚至最终导致行动障碍。我们可以看到，TGF-β3 cmRNA不仅可以促进软骨再生，而且还可以抑制软骨下骨的病理性变化。</p><p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202206292205686.png" alt="TGF-β3 cmRNA抑制软骨下骨的病理学变化。"></p><p>这篇文章原位注射编码生长因子的修饰mRNA诱导不含血管的软骨组织再生，增强骨髓间充质干细胞（BMSCs）治愈软骨损伤的疗效，证明修饰mRNA增强型的干细胞疗法是一种非常高效的，安全的，具备潜在临床转化前景的治疗方案。在小鼠软骨损伤部位注射携带TGF-β3 mRNA的骨髓间充质干细胞，在4-6周之内，可以近乎完全治愈软骨损伤。这是第一次证实修饰mRNA能够显著增强BMSCs的治疗效果，而且只需要原位注射，不需要系统性注射修饰mRNA。这也为其他组织的再生搭建出一个非常有前景的治疗平台技术。</p>]]></content>
-      
-      
+      <tags>
+        <tag>Cap</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>致力环形RNA药物产业化新势力之Laronde</title>
+    <url>/2022/09/18/%E8%A1%8C%E4%B8%9A%E8%87%B4%E5%8A%9B%E7%8E%AF%E5%BD%A2RNA%E8%8D%AF%E7%89%A9%E4%BA%A7%E4%B8%9A%E5%8C%96%E6%96%B0%E5%8A%BF%E5%8A%9B%E4%B9%8BLaronde/</url>
+    <content><![CDATA[<img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202202040018924.png" alt="image-20220204001847715" style="zoom:50%;" />
+
+<p>前面我们介绍过推动circRNA药物产业化的公司环尾蛇——Orna Therapeutics，详细解析过其技术团队创始人Daniel G. Anderson关于circRNA的一系列Paper。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202202032327329.png" alt="image-20220203232714252"></p>
+<p>今天，我们走进一家由Flagship Pioneering孵化的冉冉升起的新秀公司——Laronde（法语，圆形的），在公开路演结束三个月后，在2021年8月，该公司拿到4亿美元融资，致力于推动其特有的基于eRNA技术平台的circRNA药物研发，能够允许外源蛋白在体内表达的时间维系数周或者数月来治疗疾病。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202202032110088.png" alt="image-20220203211007979"></p>
+<h2 id="不稳定的RNA分子"><a href="#不稳定的RNA分子" class="headerlink" title="不稳定的RNA分子"></a>不稳定的RNA分子</h2><p>在Moderna和Pfizer-BioNTech利用化学修饰RNA研发成功COVID-19疫苗以前，研发人员就一直梦想使用工程化的遗传信息去革新现有众多疾病的治疗方法。长久以来面临的一个最主要问题就是外源RNA注射到机体内以后，很快会被降解掉。对于疫苗的研发来说，这个问题并不是特别致命的，靶标蛋白只需要触发机体免疫反应就可以了，但是，对于慢性疾病的治疗，例如糖尿病，血友病，靶标蛋白需要长期驻留体内才能维系机体的正常功能，这样就会导致病人必须频繁注射RNA。</p>
+<p>Laronde创始人Avak Kahvejian说，一般来说，RNA分子是一个非常不稳定的分子，外源RNA分子一旦进入体内很快会被降解，而我们所研发出来的eRNA，避免了这个缺点，是一个非常稳定的RNA分子。</p>
+<h2 id="eRNA-Platform-研发历程"><a href="#eRNA-Platform-研发历程" class="headerlink" title="eRNA Platform 研发历程"></a>eRNA Platform 研发历程</h2><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202202032358236.png" alt="image-20220203235813904" style="zoom:33%;" />
+
+<p>在研究生期间，Kahvejian一直从事circRNA方向的工作。由于circRNAs不具有游离末端，因此很难降解。他受到环形RNA稳定性的启发，希望研发出一种能够在细胞内驻留几周，甚至几个月的circRNA药物，这将彻底解决RNA稳定性的问题。新的问题随之而来，circRNA没有游离的末端，细胞不知道从何处开始阅读密码子。Kahvejian又从病毒那里获得灵感，将一段病毒序列插入到circRNA分子中，告诉细胞从何处开始密码子的翻译。</p>
+<p>由于这项技术用的RNA分子，既没有游离的末端，又能够在体内持续存在很长实际，因此Kahvejian将其称为“endless RNA”。</p>
+<p>Kahvejian在小鼠体内用luciferase-endless RNA验证自己的想法，一组小鼠注射endless RNA，另外一组小鼠注射传统的，线性mRNA。每隔几天，抽血，检测血液中的luciferase activity。刚开始的时候，在所有小鼠血液中都看了luciferase activity增加。随后，注射线性mRNA的小鼠，血液中开始检测不到luciferase activity，但是，注射endless RNA的小鼠一直可以检测到luciferase activity。两天，三天，甚至到第七天，注射endless RNA的小鼠体内一直在表达luciferase。</p>
+<p>根据Kahvejian的说法，注射endless RNA的小鼠在初始接种以后，体内表达luciferase的时间，最少可以持续20天。对于他来说，这是成功研发出可以持续表达蛋白的稳定RNA分子的标志，或许，将来会称为新型RNA药物的理论基础。</p>
+<h3 id="一切还都是一个美妙的想法"><a href="#一切还都是一个美妙的想法" class="headerlink" title="一切还都是一个美妙的想法"></a>一切还都是一个美妙的想法</h3><p>Kahvejian并没有公开发表任何他们关于eRNA的试验数据，因此他们的发现也不能被其他研发人员去验证。Harvard Medical School的RNA生物学家Dr. Judy Lieberman说，再没有看到数据以前，无法知道这项新型技术如何真正发挥作用，一切只是一个卓越的想法。</p>
+<h3 id="Laronde-优势和困难"><a href="#Laronde-优势和困难" class="headerlink" title="Laronde 优势和困难"></a>Laronde 优势和困难</h3><p>Laronde也获得了一家曾投资Moderna的风险投资公司的融资。Dr. Judy Lieberman认为，Laronde的技术团队成员中有世界上最顶级的RNA生物学家。即便如此，这家年轻的公司通往成功的道路依旧很长，还需要克服很多潜在难题——实际上，很难知道体内是否表达出来足够的蛋白？这些蛋白的量是否和治疗所需要的蛋白的量相匹配？真正能够在体内存在多久？是否还有许多未知的副作用？</p>
+<p>如果Kahvejian得到的数据是可靠的，那么eRNA将会成为下一代新型的RNA疗法，能够应用于慢性疾病，内分泌疾病等诸多疾病。正如他们所说的，eRNA的潜力是无限的（endless）。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Laronde和Orna Therapeutics都是2021年成立的，致力于研发下一代新型CircRNA技术平台，属于circRNA赛道上的竞争者。</p>
+<p>Laronde创始人Kahvejian并没有公开发表自己的试验数据，他本人总从2011年起，成为Flagship Pioneering合伙人，作为生命科学领域的投资者和创业者，推动多家生物公司的成立发展，例如 Seres Therapeutics，Codiak BioSciences ， Rubius Therapeutics， Rubius Therapeutics等等。查询Kahvejian发表的学术论文，发现他做过蛋白质翻译机制相关的工作，在circRNA方面，一篇文章也没有。</p>
+<p>与Daniel G. Anderson学术大佬相比，Kahvejian更像是一个投资人和管理者。更加重要的是，Daniel G. Anderson已经申请了circRNA专利，所以并不是很清楚Laronde到底凭借什么亮眼的数据可以从投资人那里拿到4亿美元融资。期待两家公司在今年在产品研发上可以做出突破性的进展，让circRNA不仅仅只是作为一个美妙的想法存在。</p>
+<p>参考文献：<a href="https://www.wbur.org/news/2021/06/01/next-generation-rna-technology-could-therapies-chronic-conditions">https://www.wbur.org/news/2021/06/01/next-generation-rna-technology-could-therapies-chronic-conditions</a></p>
+]]></content>
       <categories>
-          
-          <category> RNA疗法 </category>
-          
+        <category>行业动态</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 干细胞 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>circRNA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在这里</title>
+    <url>/2022/10/09/%E5%9C%A8%E8%BF%99%E9%87%8C/</url>
+    <content><![CDATA[]]></content>
+  </entry>
 </search>
