@@ -493,9 +493,9 @@
       </tags>
   </entry>
   <entry>
-    <title>mRNA 3&#39;末端回折配对，重新结合T7 聚合酶，启动自我延伸，形成dsRNA。</title>
+    <title>mRNA 3&#39;末端回折配对，重新结合T7 聚合酶，启动自我延伸。</title>
     <url>/2022/10/15/mRNA-3-%E6%9C%AB%E7%AB%AF%E5%9B%9E%E6%8A%98%E9%85%8D%E5%AF%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E7%BB%93%E5%90%88T7-%E8%81%9A%E5%90%88%E9%85%B6%EF%BC%8C%E5%90%AF%E5%8A%A8%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%EF%BC%8C%E5%BD%A2%E6%88%90dsRNA%E3%80%82/</url>
-    <content><![CDATA[<h1 id="mRNA-3’末端回折配对，重新结合T7-聚合酶，启动自我延伸，形成dsRNA。"><a href="#mRNA-3’末端回折配对，重新结合T7-聚合酶，启动自我延伸，形成dsRNA。" class="headerlink" title="mRNA 3’末端回折配对，重新结合T7 聚合酶，启动自我延伸，形成dsRNA。"></a>mRNA 3’末端回折配对，重新结合T7 聚合酶，启动自我延伸，形成dsRNA。</h1><p>对于一个理想的IVT反应来说，T7 RNA聚合酶合成出来的RNA序列既不会多一个碱基，也不会少一个碱基，完美符合预期的条带大小和序列组成。然而，事实上，IVT反应是一个相当复杂的过程，从T识别启动子起始转录的那一刻起，T7 RNA聚合酶朝前要走的路并非是按部就班的，任何可能的意外情况都会发生，这就导致IVT反应合成的RNA产物往往是是异质性的，各种不同的RNA序列所占的丰度是不相同的。借助于二代测序技术的飞速发展，研究者得以使用RNA-seq技术来分析IVT产物中的各种mRNA组成，大大推进了对于体外转录反应分子机制的研究，也为mRNA生产工艺优化奠定的理论基础。</p>
+    <content><![CDATA[<p>对于一个理想的IVT反应来说，T7 RNA聚合酶合成出来的RNA序列既不会多一个碱基，也不会少一个碱基，完美符合预期的条带大小和序列组成。然而，事实上，IVT反应是一个相当复杂的过程，从T识别启动子起始转录的那一刻起，T7 RNA聚合酶朝前要走的路并非是按部就班的，任何可能的意外情况都会发生，这就导致IVT反应合成的RNA产物往往是是异质性的，各种不同的RNA序列所占的丰度是不相同的。借助于二代测序技术的飞速发展，研究者得以使用RNA-seq技术来分析IVT产物中的各种mRNA组成，大大推进了对于体外转录反应分子机制的研究，也为mRNA生产工艺优化奠定的理论基础。</p>
 <p>从1979年起，Craig Martin在加州理工学院经过为期5年的研究生学习，于1984年拿到博士学位，同年，进入耶鲁大学，开始博后期间的训练，从那时开始，Martin正式开始着手研究 T7 RNA聚合酶启动转录的分子机制。1988年Martin进入美国马萨诸塞大学阿默斯特分校，任职时间至今已有34年，自2009年起开始担任化学系主任。长久以来，Martin实验室一直将研究兴趣放在探索复杂转录过程的理论机制，近年来随着RNA研究领域的不断发展，Martin开始聚焦体外转录合成体系，以此来探索如何才能合成出高质量的mRNA。</p>
 <p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210152241908.png" alt="image-20221015224142400"></p>
 <p>今天，我们分享Martin实验室在2018年发表在Nucleic Acid Research上面的突破性文章：3′ end additions by T7 RNA polymerase are RNA self-templated, distributive and diverse in character––RNA-Seq analyses，在这篇文章中，Martin利用RNA-seq技术对IVT产物进行丰度和序列分析，结果发现，在IVT反应中，RNA能够重新结合到T7 RNA聚合酶上面，借助于RNA 3’末端序列通过顺式作用回折形成的发卡结构，启动自我延伸（Primer extension），形成dsRNA。在IVT反应中，RNA产物的这种自我延伸反应会同启动子驱动的，以DNA序列为模板的转录反应形成竞争。在这篇文章中，Martin对RNA产物的自我延伸反应形成的长链RNA丰度和决定因素展开了一系列细致的研究，下面我们来一起看看。</p>
