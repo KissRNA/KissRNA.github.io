@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.kissrna.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="Martin实验室在2018年发表在Nucleic Acid Research上面的突破性文章：3′ end additions by T7 RNA polymerase are RNA self-templated, distributive and diverse in character––RNA-Seq analyses，Martin在这篇文章中发现IVT产物中长链RNA（dsRNA）的一">
+<meta property="og:type" content="article">
+<meta property="og:title" content="mRNA 3&#39;末端回折配对，重新结合T7 聚合酶，启动自我延伸，形成dsRNA。">
+<meta property="og:url" content="http://www.kissrna.com/2022/10/15/mRNA-3-%E6%9C%AB%E7%AB%AF%E5%9B%9E%E6%8A%98%E9%85%8D%E5%AF%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E7%BB%93%E5%90%88T7-%E8%81%9A%E5%90%88%E9%85%B6%EF%BC%8C%E5%90%AF%E5%8A%A8%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%EF%BC%8C%E5%BD%A2%E6%88%90dsRNA%E3%80%82/index.html">
+<meta property="og:site_name" content="RNAFactory">
+<meta property="og:description" content="Martin实验室在2018年发表在Nucleic Acid Research上面的突破性文章：3′ end additions by T7 RNA polymerase are RNA self-templated, distributive and diverse in character––RNA-Seq analyses，Martin在这篇文章中发现IVT产物中长链RNA（dsRNA）的一">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210152241908.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210140018751.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210142339212.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210150030408.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210150109443.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210151405075.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210151933905.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210151958520.png">
+<meta property="article:published_time" content="2022-10-15T15:16:26.000Z">
+<meta property="article:modified_time" content="2022-10-15T15:19:52.716Z">
+<meta property="article:author" content="RNActor">
+<meta property="article:tag" content="dsRNA">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210152241908.png">
+
+
+<link rel="canonical" href="http://www.kissrna.com/2022/10/15/mRNA-3-%E6%9C%AB%E7%AB%AF%E5%9B%9E%E6%8A%98%E9%85%8D%E5%AF%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E7%BB%93%E5%90%88T7-%E8%81%9A%E5%90%88%E9%85%B6%EF%BC%8C%E5%90%AF%E5%8A%A8%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%EF%BC%8C%E5%BD%A2%E6%88%90dsRNA%E3%80%82/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://www.kissrna.com/2022/10/15/mRNA-3-%E6%9C%AB%E7%AB%AF%E5%9B%9E%E6%8A%98%E9%85%8D%E5%AF%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E7%BB%93%E5%90%88T7-%E8%81%9A%E5%90%88%E9%85%B6%EF%BC%8C%E5%90%AF%E5%8A%A8%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%EF%BC%8C%E5%BD%A2%E6%88%90dsRNA%E3%80%82/","path":"2022/10/15/mRNA-3-末端回折配对，重新结合T7-聚合酶，启动自我延伸，形成dsRNA。/","title":"mRNA 3'末端回折配对，重新结合T7 聚合酶，启动自我延伸，形成dsRNA。"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>mRNA 3'末端回折配对，重新结合T7 聚合酶，启动自我延伸，形成dsRNA。 | RNAFactory</title>
+  
+
+
+
+
+
+<link rel="dns-prefetch" href="waline-server-kissrna.vercel.app"><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css"><style>
+#needsharebutton-postbottom {
+  cursor: pointer;
+  height: 26px;
+  margin-top: 10px;
+  position: relative;
+}
+#needsharebutton-postbottom .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 3px;
+  display: initial;
+  padding: 1px 4px;
+}
+</style>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">RNAFactory</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Sharing Key Discoveries and Advances in mRNA Therapeutics</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>研究</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-friendlink"><a href="/friendlink/" rel="section"><i class="fa fa-link fa-fw"></i>链接</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#mRNA-3%E2%80%99%E6%9C%AB%E7%AB%AF%E5%9B%9E%E6%8A%98%E9%85%8D%E5%AF%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E7%BB%93%E5%90%88T7-%E8%81%9A%E5%90%88%E9%85%B6%EF%BC%8C%E5%90%AF%E5%8A%A8%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%EF%BC%8C%E5%BD%A2%E6%88%90dsRNA%E3%80%82"><span class="nav-number">1.</span> <span class="nav-text">mRNA 3’末端回折配对，重新结合T7 聚合酶，启动自我延伸，形成dsRNA。</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#RNA3%E2%80%99%E6%9C%AB%E7%AB%AF%E5%BA%8F%E5%88%97%E9%A1%BA%E5%BC%8F%E4%BA%92%E8%A1%A5%E9%85%8D%E5%AF%B9%EF%BC%8C%E5%90%AF%E5%8A%A8%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8"><span class="nav-number">1.1.</span> <span class="nav-text">RNA3’末端序列顺式互补配对，启动自我延伸</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#RNA%E6%9C%AB%E7%AB%AF%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%E5%BA%8F%E5%88%97%E7%9A%84%E5%BC%82%E8%B4%A8%E6%80%A7%E3%80%82"><span class="nav-number">1.2.</span> <span class="nav-text">RNA末端自我延伸序列的异质性。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#RNA%E7%9A%84%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%E5%8F%96%E5%86%B3%E4%BA%8E3%E2%80%99%E6%9C%AB%E7%AB%AF%E7%9A%84%E4%B8%8A%E6%B8%B8%E5%BA%8F%E5%88%97"><span class="nav-number">1.3.</span> <span class="nav-text">RNA的自我延伸取决于3’末端的上游序列</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%A4%E7%A7%8D%E8%BD%AC%E5%BD%95%E6%A8%A1%E5%9E%8B"><span class="nav-number">1.4.</span> <span class="nav-text">两种转录模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">1.5.</span> <span class="nav-text">总结</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="RNActor"
+      src="/images/1.png">
+  <p class="site-author-name" itemprop="name">RNActor</p>
+  <div class="site-description" itemprop="description">We love and creat cool RNAs</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.kissrna.com/2022/10/15/mRNA-3-%E6%9C%AB%E7%AB%AF%E5%9B%9E%E6%8A%98%E9%85%8D%E5%AF%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E7%BB%93%E5%90%88T7-%E8%81%9A%E5%90%88%E9%85%B6%EF%BC%8C%E5%90%AF%E5%8A%A8%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%EF%BC%8C%E5%BD%A2%E6%88%90dsRNA%E3%80%82/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/1.png">
+      <meta itemprop="name" content="RNActor">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RNAFactory">
+      <meta itemprop="description" content="We love and creat cool RNAs">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="mRNA 3'末端回折配对，重新结合T7 聚合酶，启动自我延伸，形成dsRNA。 | RNAFactory">
+      <meta itemprop="description" content="Martin实验室在2018年发表在Nucleic Acid Research上面的突破性文章：3′ end additions by T7 RNA polymerase are RNA self-templated, distributive and diverse in character––RNA-Seq analyses，Martin在这篇文章中发现IVT产物中长链RNA（dsRNA）的一种形成机制：产物RNA能够回折，形成发卡结构，启动转录，自我延伸。但是，发卡结构和停止自我延伸的位置是各异的，这就导致IVT产物中长链RNA在序列组成和长度具有异质性。同时，随着IVT反应中，产物RNA浓度的提升，会导致自我延伸转录的优势越来越强于启动子驱动的转录。此外，发卡结构内部关键的碱基和3'末端的上游序列组成会影响RNA的自我延伸，导致长链RNA在IVT产物中的丰度发生变化。最后，这篇文章充分说明RNA-Seq技术是一种研究IVT分子机制的强有力工具，能够得到大量的序列数据，远远超过传统凝胶电泳所得到的信息数据。">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          mRNA 3'末端回折配对，重新结合T7 聚合酶，启动自我延伸，形成dsRNA。
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-10-15 23:16:26 / 修改时间：23:19:52" itemprop="dateCreated datePublished" datetime="2022-10-15T23:16:26+08:00">2022-10-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E5%B7%A5%E8%89%BA/" itemprop="url" rel="index"><span itemprop="name">RNA工艺</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E5%B7%A5%E8%89%BA/IVT%E5%90%88%E6%88%90/" itemprop="url" rel="index"><span itemprop="name">IVT合成</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/2022/10/15/mRNA-3-%E6%9C%AB%E7%AB%AF%E5%9B%9E%E6%8A%98%E9%85%8D%E5%AF%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E7%BB%93%E5%90%88T7-%E8%81%9A%E5%90%88%E9%85%B6%EF%BC%8C%E5%90%AF%E5%8A%A8%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%EF%BC%8C%E5%BD%A2%E6%88%90dsRNA%E3%80%82/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/2022/10/15/mRNA-3-%E6%9C%AB%E7%AB%AF%E5%9B%9E%E6%8A%98%E9%85%8D%E5%AF%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E7%BB%93%E5%90%88T7-%E8%81%9A%E5%90%88%E9%85%B6%EF%BC%8C%E5%90%AF%E5%8A%A8%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%EF%BC%8C%E5%BD%A2%E6%88%90dsRNA%E3%80%82/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+            <div class="post-description">Martin实验室在2018年发表在Nucleic Acid Research上面的突破性文章：3′ end additions by T7 RNA polymerase are RNA self-templated, distributive and diverse in character––RNA-Seq analyses，Martin在这篇文章中发现IVT产物中长链RNA（dsRNA）的一种形成机制：产物RNA能够回折，形成发卡结构，启动转录，自我延伸。但是，发卡结构和停止自我延伸的位置是各异的，这就导致IVT产物中长链RNA在序列组成和长度具有异质性。同时，随着IVT反应中，产物RNA浓度的提升，会导致自我延伸转录的优势越来越强于启动子驱动的转录。此外，发卡结构内部关键的碱基和3'末端的上游序列组成会影响RNA的自我延伸，导致长链RNA在IVT产物中的丰度发生变化。最后，这篇文章充分说明RNA-Seq技术是一种研究IVT分子机制的强有力工具，能够得到大量的序列数据，远远超过传统凝胶电泳所得到的信息数据。</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="mRNA-3’末端回折配对，重新结合T7-聚合酶，启动自我延伸，形成dsRNA。"><a href="#mRNA-3’末端回折配对，重新结合T7-聚合酶，启动自我延伸，形成dsRNA。" class="headerlink" title="mRNA 3’末端回折配对，重新结合T7 聚合酶，启动自我延伸，形成dsRNA。"></a>mRNA 3’末端回折配对，重新结合T7 聚合酶，启动自我延伸，形成dsRNA。</h1><p>对于一个理想的IVT反应来说，T7 RNA聚合酶合成出来的RNA序列既不会多一个碱基，也不会少一个碱基，完美符合预期的条带大小和序列组成。然而，事实上，IVT反应是一个相当复杂的过程，从T识别启动子起始转录的那一刻起，T7 RNA聚合酶朝前要走的路并非是按部就班的，任何可能的意外情况都会发生，这就导致IVT反应合成的RNA产物往往是是异质性的，各种不同的RNA序列所占的丰度是不相同的。借助于二代测序技术的飞速发展，研究者得以使用RNA-seq技术来分析IVT产物中的各种mRNA组成，大大推进了对于体外转录反应分子机制的研究，也为mRNA生产工艺优化奠定的理论基础。</p>
+<p>从1979年起，Craig Martin在加州理工学院经过为期5年的研究生学习，于1984年拿到博士学位，同年，进入耶鲁大学，开始博后期间的训练，从那时开始，Martin正式开始着手研究 T7 RNA聚合酶启动转录的分子机制。1988年Martin进入美国马萨诸塞大学阿默斯特分校，任职时间至今已有34年，自2009年起开始担任化学系主任。长久以来，Martin实验室一直将研究兴趣放在探索复杂转录过程的理论机制，近年来随着RNA研究领域的不断发展，Martin开始聚焦体外转录合成体系，以此来探索如何才能合成出高质量的mRNA。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210152241908.png" alt="image-20221015224142400"></p>
+<p>今天，我们分享Martin实验室在2018年发表在Nucleic Acid Research上面的突破性文章：3′ end additions by T7 RNA polymerase are RNA self-templated, distributive and diverse in character––RNA-Seq analyses，在这篇文章中，Martin利用RNA-seq技术对IVT产物进行丰度和序列分析，结果发现，在IVT反应中，RNA能够重新结合到T7 RNA聚合酶上面，借助于RNA 3’末端序列通过顺式作用回折形成的发卡结构，启动自我延伸（Primer extension），形成dsRNA。在IVT反应中，RNA产物的这种自我延伸反应会同启动子驱动的，以DNA序列为模板的转录反应形成竞争。在这篇文章中，Martin对RNA产物的自我延伸反应形成的长链RNA丰度和决定因素展开了一系列细致的研究，下面我们来一起看看。</p>
+<p>##IVT反应产物丰度</p>
+<p>研究者选择5N序列作为IVT合成的DNA模板序列，有意思的是，5N模板序列只在5’端启动子区域是互补配对的双链结构，从转录起始位点往后到3’末端都是单链DNA序列，同时，该模板还存在5个随机核苷酸。</p>
+<p>利用RNA-seq对以5N作为模板的IVT反应产物进行分析。让人感到意外的是，在IVT反应产物中，预期大小的RNA占比居然连50%都远远不到：在低产量IVT体系条件下，24nt RNA(预期产物)在IVT反应混合物中占比29.5%；在高产量IVT体系条件下，24nt RNA(预期产物)在IVT反应混合物中占比竟然降低至7.5%。</p>
+<p>在IVT低产量体系下，从IVT产物丰度图可以看出，24nt  Run off RNA(预期产物)，25nt RNA（n+1），23nt RNA(n-1)，这种3种RNA占比是最高的。对于n+1 RNA序列来说，最末端碱基是C的RNA比例远远超过末端碱基是A&#x2F;U的RNA。对于n+2 RNA序列来说，末端2个碱基存在16种可能性，并未显现出明显的偏向性。总的来说，对于n-i RNA序列来说，只存在一种序列组成，然而，对于n+i RNA来说存在4^i^种可能性。</p>
+<p>在IVT高产量体系下，IVT产物丰度图超右边移动，出现大量的各种长度超过预期长度的RNA。丰度最高的RNA不再是24nt   Run off RNA，而是26nt RNA。各种不同的n+i RNA在IVT产物中的丰度大幅增加。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210140018751.png" alt="image-20221014001837558"></p>
+<p>图1：利用RNA-Seq技术分析IVT反应产物中RNA的丰度和序列组成。</p>
+<h2 id="RNA3’末端序列顺式互补配对，启动自我延伸"><a href="#RNA3’末端序列顺式互补配对，启动自我延伸" class="headerlink" title="RNA3’末端序列顺式互补配对，启动自我延伸"></a>RNA3’末端序列顺式互补配对，启动自我延伸</h2><p>理论上来说，IVT反应产物中长链RNA分子可通过两种机制形成：一种称为顺式作用，RNA分子自身序列的对应部分互补配对启动转录，另外一种称为反式作用，不同RNA分子间互补配对启动转录。通过分析长链RNA序列，发现IVT产物中存在的长链RNA主要是通过顺式作用启动转录的，超出预期大小的片段序列回折，与上游序列互补配。随着IVT体系中，预期大小的RNA逐渐增多，顺式互补形成的长链RNA也会增多，正如图1中高产量IVT体系的RNA产物丰图分布一样。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210142339212.png" alt="image-20221014233921075"></p>
+<p>图2：IVT反应产物长片段RNA产物形成的两种机制：一种是相同RNA分子序列内部的顺式互补配对作用，另外一种是不同RNA分子间的的反式互补配对作用。</p>
+<p>##RNA自我延伸独立于启动子驱动的转录</p>
+<p> 既然RNA通过3’末端序列回折形成发卡结构，启动自我延伸，那么这种自我延伸的转录过程是否与启动子活性存在关联呢？Martin设计合成了一条长度为24nt RNA单链，加入IVT体系，对IVT产物进行测序分析。IVT产物丰图和序列数据显示在缺乏携带T7启动子的DNA序列竞争的情况下，T7 RNA聚合酶会以人工合成的RNA单链作为模板，高效合成出长链RNA。而且，随着IVT反应时间的延长，长链RNA会更加多，序列也会更加延伸，这说明RNA可能先同T7RNA聚合酶结合，延伸几个碱基，接着释放RNA，然后T7 RNA聚合酶再度结合RNA，继续延伸出更长的序列。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210150030408.png" alt="image-20221015003048256"></p>
+<p>图3：人工合成RNA单链，加入IVT体系，利用RNA-seq和凝胶电泳分析IVT产物序列和长度。</p>
+<h2 id="RNA末端自我延伸序列的异质性。"><a href="#RNA末端自我延伸序列的异质性。" class="headerlink" title="RNA末端自我延伸序列的异质性。"></a>RNA末端自我延伸序列的异质性。</h2><p>在启动子驱动的反应和自我延伸的反应中，Run off RNA 序列是相同的，分别对各自的反应产物进行测序分析：</p>
+<ul>
+<li>I类序列在启动子驱动的反应产物和自我延伸反应产物中占比分别是36%和25%。Martin推测，这种类型的序列可能是通过C图所示的发卡结构模型形成的，这种发卡结构中存在3个互补配对的碱基（GU是RNA结构中最为稳定的配对碱基），形成一个相对较小的Loop环，从而启动RNA的自我转录。但是，RNA自我延伸停止的位置是异质性的，这就造成I类序列内部又划分为各种不同类型的序列。</li>
+<li>II类序列在启动子驱动的反应产物和自我延伸反应产物中占比分别是17%和36%。Martin推测，由于形成序列I的类似发卡结构（a）存在AA碱基错配，所以，他认为更加可能的机制是，如C图（b）所示，Run off  RNA先形成一个相对更大的，更加稳定的发卡结构，使得RNA聚合酶在末端得以添加C，然后释放末端携带C的RNA。末端携带C 的RNA再形成一个更小的Loop环，形成更加稳定的3’末端碱基配对，从而启动RNA的自我延伸。</li>
+<li>III类型序列II类序列在启动子驱动的反应产物和自我延伸反应产物中占比都是4%，同样，3’末端延伸序列的长度存在异质性。</li>
+</ul>
+<p>总的来说，在IVT反应中，Run off RNA 3’末端碱基形成稳定的发卡结构，启动自我延伸，但是，发卡结构和停止转录的位置是不同的，因此导致自我延伸形成的长链RNA在序列组成和长度是各异的，在IVT反应混合种所占的丰度也是不同的。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210150109443.png" alt="image-20221015010946306"></p>
+<p>图4：Run off RNA 自我延伸反应中，3’末端碱基形成的发卡结构和转录停止的位置是各异的，从而导致自我延伸序列的组成，长度以及丰度具有异质性。</p>
+<h2 id="RNA的自我延伸取决于3’末端的上游序列"><a href="#RNA的自我延伸取决于3’末端的上游序列" class="headerlink" title="RNA的自我延伸取决于3’末端的上游序列"></a>RNA的自我延伸取决于3’末端的上游序列</h2><p>从上面的序列数据可以看出，Run off RNA 在进行自我延伸时，3’末端上下游序列之间互补配对的。Martin改变3’末端序列，设计合成3N模板序列。结果发现，与5N模板序列相比，在高产IVT体系条件下，3N模板序列合成的RNA产物中长链RNA的丰度出现明显减少。有意思的是，以N模板序列合成出来的RNA产物中，n+1&#x2F;+2 RNA占比依然非常高，这说明短链RNA延伸产物对于3’末端上游序列变化不那么敏感。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210151405075.png" alt="image-20221015140502848"></p>
+<p>图5：改变模板3’末端序列的上游序列会影响IVT反应过程中长链RNA的形成。</p>
+<p>此外，Martin还对Run off RNA3’末端碱基形成的发卡结构内部的碱基进行突变，当突变会破坏发卡结构时，会降低IVT反应产物中长链RNA的丰度，如突变5N序列，相反，当突变会增强发卡结构时，会增加IVT反应中长链RNA的丰度。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210151933905.png" alt="image-20221015193352656"></p>
+<p>图6:RNA3’末端序列形成的发卡结构中关键的碱基突变会影响IVT反应产物中长链RNA的形成。</p>
+<h2 id="两种转录模型"><a href="#两种转录模型" class="headerlink" title="两种转录模型"></a>两种转录模型</h2><p>在IVT反应中，最常见的转录反应是以“On-pathway”途径形成，即启动子驱动的转录过程，在模板末端，RNA聚合酶掉下去，形成Run off RNA。在初期，产物RNA同聚合酶的结合与启动子驱动的转录相比竞争能力很弱，然而，随着产物RNA浓度的提升，会驱动产物RNA同聚合酶以”Off-pathway”途径结合，使其同启动子驱动的转录相比竞争能力更强，启动自我延伸，形成长链RNA。所释放的长链RNA还可能同RNA聚合酶再度结合，促使更进一步的序列延伸。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210151958520.png" alt="image-20221015195845401"></p>
+<p>图7：IVT反应形成RNA产物的两种分子模型，第一种模型，为DNA作为模板，称为启动驱动的转录（On-pathway）。第二种，称为RNA的自我延伸反应（Off-pathway），产物RNA能够以顺式作用互补配对形成发卡结构，启动自我延伸，形成长链RNA。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Martin在这篇文章中发现IVT产物中长链RNA（dsRNA）的一种形成机制：产物RNA能够回折，形成发卡结构，启动转录，自我延伸。但是，发卡结构和停止自我延伸的位置是各异的，这就导致IVT产物中长链RNA在序列组成和长度具有异质性。同时，随着IVT反应中，产物RNA浓度的提升，会导致自我延伸转录的优势越来越强于启动子驱动的转录。此外，发卡结构内部关键的碱基和3’末端的上游序列组成会影响RNA的自我延伸，导致长链RNA在IVT产物中的丰度发生变化。最后，这篇文章充分说明RNA-Seq技术是一种研究IVT分子机制的强有力工具，能够得到大量的序列数据，远远超过传统凝胶电泳所得到的信息数据。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer"><div class="post-widgets">
+      <div id="needsharebutton-postbottom">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+          
+<div class="wechat_channel" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+  <br>
+  <!-- 这里添加你的二维码图片 -->
+  <img src ="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210102305336.png" style="width: auto; height:250px; max-width: 100%"/>
+</div>
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>RNActor
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://www.kissrna.com/2022/10/15/mRNA-3-%E6%9C%AB%E7%AB%AF%E5%9B%9E%E6%8A%98%E9%85%8D%E5%AF%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E7%BB%93%E5%90%88T7-%E8%81%9A%E5%90%88%E9%85%B6%EF%BC%8C%E5%90%AF%E5%8A%A8%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%EF%BC%8C%E5%BD%A2%E6%88%90dsRNA%E3%80%82/" title="mRNA 3&#39;末端回折配对，重新结合T7 聚合酶，启动自我延伸，形成dsRNA。">http://www.kissrna.com/2022/10/15/mRNA-3-末端回折配对，重新结合T7-聚合酶，启动自我延伸，形成dsRNA。/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+          <div class="post-tags">
+              <a href="/tags/dsRNA/" rel="tag"># dsRNA</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/09/22/%E5%9C%A8mRNA%E7%96%AB%E8%8B%97%E6%8A%97%E5%8E%9F%E5%BA%8F%E5%88%97%E4%B8%8A%E5%B5%8C%E5%90%88dsRNA%E4%BD%90%E5%89%82%EF%BC%8C%E5%A2%9E%E5%BC%BA%E7%99%8C%E7%97%87%E6%B2%BB%E7%96%97%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB%E3%80%82/" rel="prev" title="在mRNA疫苗抗原序列上嵌合dsRNA佐剂，增强癌症治疗过程中的细胞免疫。">
+                  <i class="fa fa-chevron-left"></i> 在mRNA疫苗抗原序列上嵌合dsRNA佐剂，增强癌症治疗过程中的细胞免疫。
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">true</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"waline-server-kissrna.vercel.app","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"placeholder":"请文明评论呀","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":false,"comment_count":true,"requiredFields":[],"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","el":"#waline","comment":true,"path":"/2022/10/15/mRNA-3-%E6%9C%AB%E7%AB%AF%E5%9B%9E%E6%8A%98%E9%85%8D%E5%AF%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E7%BB%93%E5%90%88T7-%E8%81%9A%E5%90%88%E9%85%B6%EF%BC%8C%E5%90%AF%E5%8A%A8%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%EF%BC%8C%E5%BD%A2%E6%88%90dsRNA%E3%80%82/"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
+});
+</script>
+
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+  <script>
+      pbOptions = {};
+        pbOptions.iconStyle = "box";
+        pbOptions.boxForm = "horizontal";
+        pbOptions.position = "bottomCenter";
+        pbOptions.networks = "Wechat,Weibo,QQZone,Twitter";
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+  </script><script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: '32px',
+  left: 'unset',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
+
+</body>
+</html>
