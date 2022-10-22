@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.kissrna.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="帽子结构对于 mRNA 来说，就像是一定钢盔，既可以保护 mRNA 免遭荼毒，又能够通过化学修饰在钢盔上加上烙印，便于被其他成员识别。mRNA 疫苗研发中，通过共转录方式加帽，能够更加迅速提升 mRNA 疫苗产能。IVT 反应中成本昂贵的修饰核苷酸合成需要进一步做技术突破，降低其生产成本。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="mRNA 合成帽子类型和甲基化">
+<meta property="og:url" content="http://www.kissrna.com/2022/10/22/mRNA-%E5%90%88%E6%88%90%E5%B8%BD%E5%AD%90%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%94%B2%E5%9F%BA%E5%8C%96/index.html">
+<meta property="og:site_name" content="RNAFactory">
+<meta property="og:description" content="帽子结构对于 mRNA 来说，就像是一定钢盔，既可以保护 mRNA 免遭荼毒，又能够通过化学修饰在钢盔上加上烙印，便于被其他成员识别。mRNA 疫苗研发中，通过共转录方式加帽，能够更加迅速提升 mRNA 疫苗产能。IVT 反应中成本昂贵的修饰核苷酸合成需要进一步做技术突破，降低其生产成本。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221346622.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221348647.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221349682.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221349281.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221350035.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221350568.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221404754.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221406334.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221406302.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221406274.png">
+<meta property="article:published_time" content="2022-10-22T06:07:50.000Z">
+<meta property="article:modified_time" content="2022-10-22T06:11:59.191Z">
+<meta property="article:author" content="RNActor">
+<meta property="article:tag" content="Cap">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221346622.png">
+
+
+<link rel="canonical" href="http://www.kissrna.com/2022/10/22/mRNA-%E5%90%88%E6%88%90%E5%B8%BD%E5%AD%90%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%94%B2%E5%9F%BA%E5%8C%96/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://www.kissrna.com/2022/10/22/mRNA-%E5%90%88%E6%88%90%E5%B8%BD%E5%AD%90%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%94%B2%E5%9F%BA%E5%8C%96/","path":"2022/10/22/mRNA-合成帽子类型和甲基化/","title":"mRNA 合成帽子类型和甲基化"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>mRNA 合成帽子类型和甲基化 | RNAFactory</title>
+  
+
+
+
+
+
+<link rel="dns-prefetch" href="waline-server-kissrna.vercel.app"><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css"><style>
+#needsharebutton-postbottom {
+  cursor: pointer;
+  height: 26px;
+  margin-top: 10px;
+  position: relative;
+}
+#needsharebutton-postbottom .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 3px;
+  display: initial;
+  padding: 1px 4px;
+}
+</style>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">RNAFactory</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Sharing Key Discoveries and Advances in mRNA Therapeutics</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>研究</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-friendlink"><a href="/friendlink/" rel="section"><i class="fa fa-link fa-fw"></i>链接</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Methylation-modifications-in-eukaryotic-mRNA"><span class="nav-number">1.</span> <span class="nav-text">Methylation modifications in eukaryotic mRNA</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#m-7-G-Cap"><span class="nav-number">1.1.</span> <span class="nav-text">m^7^G Cap</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#m-6-A"><span class="nav-number">1.2.</span> <span class="nav-text">m^6^A</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2%E2%80%99-O-methylation"><span class="nav-number">1.3.</span> <span class="nav-text">2’-O-methylation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#m-5-C"><span class="nav-number">1.4.</span> <span class="nav-text">m^5^C</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#mRNA-cap-type"><span class="nav-number">2.</span> <span class="nav-text">mRNA cap type</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Cap-Analogs"><span class="nav-number">2.1.</span> <span class="nav-text">Cap Analogs</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="RNActor"
+      src="/images/1.png">
+  <p class="site-author-name" itemprop="name">RNActor</p>
+  <div class="site-description" itemprop="description">We love and creat cool RNAs</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.kissrna.com/2022/10/22/mRNA-%E5%90%88%E6%88%90%E5%B8%BD%E5%AD%90%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%94%B2%E5%9F%BA%E5%8C%96/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/1.png">
+      <meta itemprop="name" content="RNActor">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RNAFactory">
+      <meta itemprop="description" content="We love and creat cool RNAs">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="mRNA 合成帽子类型和甲基化 | RNAFactory">
+      <meta itemprop="description" content="帽子结构对于 mRNA 来说，就像是一定钢盔，既可以保护 mRNA 免遭荼毒，又能够通过化学修饰在钢盔上加上烙印，便于被其他成员识别。mRNA 疫苗研发中，通过共转录方式加帽，能够更加迅速提升 mRNA 疫苗产能。IVT 反应中成本昂贵的修饰核苷酸合成需要进一步做技术突破，降低其生产成本。">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          mRNA 合成帽子类型和甲基化
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-10-22 14:07:50 / 修改时间：14:11:59" itemprop="dateCreated datePublished" datetime="2022-10-22T14:07:50+08:00">2022-10-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E5%B7%A5%E8%89%BA/" itemprop="url" rel="index"><span itemprop="name">RNA工艺</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E5%B7%A5%E8%89%BA/IVT%E5%90%88%E6%88%90/" itemprop="url" rel="index"><span itemprop="name">IVT合成</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/2022/10/22/mRNA-%E5%90%88%E6%88%90%E5%B8%BD%E5%AD%90%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%94%B2%E5%9F%BA%E5%8C%96/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/2022/10/22/mRNA-%E5%90%88%E6%88%90%E5%B8%BD%E5%AD%90%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%94%B2%E5%9F%BA%E5%8C%96/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+            <div class="post-description">帽子结构对于 mRNA 来说，就像是一定钢盔，既可以保护 mRNA 免遭荼毒，又能够通过化学修饰在钢盔上加上烙印，便于被其他成员识别。mRNA 疫苗研发中，通过共转录方式加帽，能够更加迅速提升 mRNA 疫苗产能。IVT 反应中成本昂贵的修饰核苷酸合成需要进一步做技术突破，降低其生产成本。</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>真核生物 mRNA 5’ 末端帽子结构是非常关键的组成部分，在 mRNA stability，mRNA transport，protein synthesis 方面发挥极其重要的功能。在 mRNA 体外合成反应中，可以通过 2 种方法完成 mRNA5’ 末端的加帽:</p>
+<ol>
+<li><p><strong>酶法加帽</strong></p>
+<p>成本相对较低，但是多了加帽和甲基化步骤，引入了两个额外的蛋白和 SAM，工艺步骤变繁琐，增添 QC 检测项。</p>
+</li>
+<li><p><strong>共转录加帽</strong></p>
+<p>一步到位，合成结束，可直接纯化，缺点是帽子类似物（Cap analogs）成本昂贵。考虑到未来随着技术的不断进步，帽子类似物合成方式取得新突破，成本必将发生大幅下降，因此共转录加帽必然成为未来 mRNA 合成的绝对主流。</p>
+</li>
+</ol>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221346622.png" alt="image-20221022134656458"></p>
+<p><u>mRNA 体外转录的两种加帽方式</u></p>
+<p>那么，我们有必要了解一些的 mRNA 帽子结构相关的理论知识，有助于 mRNA-based drug 方向的研发工作。</p>
+<h2 id="Methylation-modifications-in-eukaryotic-mRNA"><a href="#Methylation-modifications-in-eukaryotic-mRNA" class="headerlink" title="Methylation modifications in eukaryotic mRNA"></a>Methylation modifications in eukaryotic mRNA</h2><p>甲基化是 mRNA 最为常见的一种化学修饰，普遍存在于各种物种的细胞中。mRNA 甲基化主要是攻击嘌呤碱基和嘧啶碱基杂环上的碳原子，特定的氮原子，环外的氨基以及糖苷五碳环 2’-OH 的氧原子。目前真核生物 mRNA 甲基化的类型主要存在以下几种类型：</p>
+<blockquote>
+<p>\1. N7-methylguanosine (m^7^G) at the 5’ cap</p>
+</blockquote>
+<blockquote>
+<p>\2. N6-methyl-2’-O-methyladenosine (m^6^A<del>m</del>) within the 5’ cap</p>
+</blockquote>
+<blockquote>
+<p>\3. 2’-O-methylation (N<del>m</del>) within the 5’ cap</p>
+</blockquote>
+<blockquote>
+<p>\4. N6-methyladenosine (m^6^A) and 5-methylcytosine (m^5^C) in the internal position</p>
+</blockquote>
+<h3 id="m-7-G-Cap"><a href="#m-7-G-Cap" class="headerlink" title="m^7^G Cap"></a>m^7^G Cap</h3><blockquote>
+<p>m^7^G Cap 形成</p>
+</blockquote>
+<p>mRNA 5’ 端 Cap 加 “G” 的反应是非常迅速的，很难在体内测到 5’ 自由三磷酸基因的存在。据测算，在新生 mRNA 链到达 50 个核苷酸之前，甚至在 RNA polymerase II 离开转录起始位点之前，Cap 就已经添加到 mRNA 第一个核苷酸上了。也就是说，真核 mRNA 几乎从一出生，就头顶帽子结构了。</p>
+<p>mRNA 加帽过程可以分为三个过程:</p>
+<ol>
+<li><strong>RNA 5’ triphosphate 移除一个磷酸基团形成 diphosphate-RNA</strong></li>
+<li><strong>RNA guanylyltransferase 把 GMP 转移到 diphosphate-RNA，形成帽子结构</strong></li>
+<li><strong>RNA guanine-7-methyltransferase 利用 SAM 作为甲基供体，在鸟嘌呤核苷酸 N^7^ 位置上形成 m^7^G cap</strong></li>
+</ol>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221348647.png" alt="image-20221022134837505"></p>
+<p><u>Celluar mRNA 加帽过程</u></p>
+<p>在真菌和动物细胞中，guanylyltransferases 和 cap methyltransferases 在结构和机制上是高度保守的，但是 RNA triphosphatases 是完全不同的。</p>
+<p>我们可以看到真核细胞中 mRNA 加帽反应涉及到三个过程，需要三种不同的酶。但是在体外合成 mRNA 时，我们用到的是牛痘加帽酶。牛痘病毒加帽酶是催化形成帽子结构的有效酶，其由 D1 和 D12 两个亚基组成，兼具 RNA 三磷酸酯酶活性、鸟苷酰基转移酶活性和鸟嘌呤甲基转移酶活性，可将 7 - 甲基鸟嘌呤帽结构（m7Gppp）连接到 RNA 的 5’ 末端（m7Gppp5’N）。牛痘病毒加帽酶，在合适浓度的加帽缓冲液（Capping buffer），鸟苷三磷酸（GTP），S - 腺苷甲硫氨酸（SAM）等存在条件下，能够在一个小时之内对 RNA 进行加帽，并且保证正确的方向。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221349682.png" alt="image-20221022134937424"></p>
+<p><u>体外转录 mRNA, 牛痘病毒加帽酶可完成加帽反应</u></p>
+<blockquote>
+<p>m^7^G Cap 功能</p>
+</blockquote>
+<p>其中，m^7^G Cap 的研究较为清楚，其参与的生理学过程主要包括：</p>
+<ol>
+<li><p>mRNA translation</p>
+<p>在真核细胞中，eIF4E（eukaryotic initiation factor 4E）紧密结合到 mRNA 5’ 帽子结构上，与 eIF4G (支架蛋白) 和 eIF4A (解旋酶) ，形成 eIF4F 复合物，参与蛋白质翻译的起始。上述过程称为 cap-dependent translation, 这是大多数真核 mRNA 起始蛋白翻译依靠的机制。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221349281.png" alt="image-20221022134956070"></p>
+<p><u>mRNA cap-dependent translation</u></p>
+</li>
+<li><p>Nuclear export</p>
+<p>有研究报道，在酵母细胞中，帽子结合复合物 CBC（Cap-binding complex）可以结合到 mRAN 5’ 末端帽子结构上，通过募集 Npl3 和 Yra1，提升 mRNA 核输出。此外，CBC 还可以促进 Sus1 mRNA 剪接，而 Sus1 通过 TREX-2 系统来参与 mRNA 核输出。由此可以看出，mature RNA 从细胞核穿过核孔复合体进入到细胞质，mRNA 5’ 端帽子结构在此过程中发挥极其重要的作用。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221350035.png" alt="image-20221022135012857"></p>
+<p><u>帽子结合复合物 CBC 调控 mRNA 出核过程</u></p>
+</li>
+<li><p>mRNA stability</p>
+<p>mRNA 5’ 末端帽子能够被 Dcp2（decapping enzymes）去除掉，释放出 m7GDP 和 5’ monophosphated RNA,Xrn1 (5′-to-3′ exoribonuclease) 进而从头开始降解 5’ monophosphated RNA。有研究报道，在哺乳动物细胞中，DXO 具有 3 种酶活性，pyrophosphohydrolase, decapping, and 5’ to-3’ exoribonuclease activities，偏好降解一些加帽不完全的 mRNA 初始转录本。因此，mRNA 帽子结构和其稳定性密切相关。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221350568.png" alt="image-20221022135040387"></p>
+<p><u>DXO 可降解加帽不完全的 mRNA</u></p>
+</li>
+</ol>
+<h3 id="m-6-A"><a href="#m-6-A" class="headerlink" title="m^6^A"></a>m^6^A</h3><blockquote>
+<p>m^6^A 形成</p>
+</blockquote>
+<p>m^6^A 是细胞内 mRNA 最丰富的一种修饰，涉及蛋白翻译等多种生理功能。m^6^A 也是是第一个发现的 mRNA 可逆化学修饰，在 FTO（human fat mass and obesity associated protein (FTO) 或者 ALKBH5（alkylation repair ho- molog 5 ）的作用下发生去甲基化，类似于 DNA 和组蛋白的化学修饰，RNA m^6^A 化学修饰直接催生出一个新的研究方向 —RNA 表观遗传学。</p>
+<blockquote>
+<p>m^6^A 功能</p>
+</blockquote>
+<p>蛋白质的翻译一般都是 cap-binding complex 募集 43S 核糖体复合物到 mRNA 5’末端帽子结构，但是存在一些转录本能够通过 cap-independent translation 起始蛋白质翻译，有研究发现，mRNA 5’UTR 区域存在 m6A 时，能够通过 cap-independent translation 起始蛋白质翻译。5’ UTR m^6^A 可以直接结合 eIF3（eukaryotic initiation factor 3），eIF3 足以募集 43S 核糖体复合物，从而在缺乏 eIF4E 的情况起始蛋白翻译。值得注意的是，当细胞受到各种应激压力时，整个转录组上的 m6A 会发生重新分布，各种 5’ UTR m^6^A-mRNA 的数量增加，从而促进细胞在压力状态下的蛋白翻译。<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221404754.png" alt="image-20221022140440439" style="zoom:50%;" /></p>
+<h3 id="2’-O-methylation"><a href="#2’-O-methylation" class="headerlink" title="2’-O-methylation"></a>2’-O-methylation</h3><blockquote>
+<p>2’-O-methylation 形成</p>
+</blockquote>
+<p>在高等真核生物以及其对应的侵染病毒的 mRNA 5’ 末端结构里，第一个转录出来的核苷酸（the first transcribed nucleotide）最常发生的化学修饰是 2’-O-methylation，由此形成 Cap1 或者 Cap2。如果第一个核苷酸是 A 或者 2’-O- methyladenosine (A<del>m</del>)，那么腺嘌呤碱基 N^6^ 位置还可能发生额外甲基化，形成 m^6^A 或者 m^6^A<del>m</del>。不同物种的各类细胞中～m<del>^6^A</del>m<del>&#x2F;A</del>m~ 的比值变化非常大，在人的细胞中，两者比值可以达到最大，在一些特定类型的人细胞中，甚至超过 50%。非常有意思的是，mRNA 5’ 末端第一个腺嘌呤核苷酸，在缺乏 2’-O-methylation 的情况下，依然可以形成 N6-methylation (m^6^A)，研究人员发现存在大量此种类型的 mRNA。例如，在人 B 淋巴细胞中，mRNA 5’ 末端第一个核苷酸出现 m^6^A 和 m^6^A<del>m</del> 的概率是相同的；相反，在小鼠肝脏细胞中，mRNA5’ 末端第一个核苷酸出现 m^6^A 的概率要比～m<del>^6^A</del>m~ 出现的概率少十倍。</p>
+<blockquote>
+<p>2’-O-methylation 功能</p>
+</blockquote>
+<p>高等哺乳动物细胞 mRNA 5’ 末端存在 Cap structure，并且转录出来的第一个核苷酸会发生 2’-O-methylation，相反，大部分 Virus RNA, 形成 long strand-RNA (dsRNA), 或者产生 5’ triphosphosphates (PPP- RNA) 或者 capped but lack 2’-O-methylation RNA。通过鉴别 Virus RNA 和 celluar RNA 结构上的差异，模式识别受体 PRRs（Pattern-Recognition Receptors ）可以感知到 Virus RNA，激活细胞抗病毒级联信号通路，诱导 Type 1 interferons (IFN) 。IFN 通过旁分泌，与邻近细胞的 IFN Receptors 结合，触发 JAK-STAT 信号通路，上调抗病毒相关基因的表达，其中就包括干扰素诱导的四肽重复序列（基因（IFN-induced tetratricopeptide repeat ）。有研究显示，IFIT1 and IFIT1B 能够同蛋白翻译起始因子 eIF4E 发生强有力地竞争，阻断 Cap0-mRNA 启动翻译，相反，IFIT1B and IFIT5 需要较高的蛋白浓度才能抑制 cap1- and 5’ppp- mRNAs 启动翻译。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221406334.png" alt="image-20221022140605175"></p>
+<p><u>IFIT 可以阻断 Cap 0-mRNA 启动翻译</u></p>
+<h3 id="m-5-C"><a href="#m-5-C" class="headerlink" title="m^5^C"></a>m^5^C</h3><p>m^5^C 作为 DNA 的一种化学修饰，被广泛研究，但是对于 m^5^C-Cellular RNA 化学修饰一直被仍为仅存在于 tRNA 和 rRNA 中，缺乏相关的研究。在 2012 年，研究人员利用二代测序技术发现，除了发现 human tRNA 上存在的胞嘧啶化学修饰位点，在 mRNA 和 non-coding RNAs 上面也发现了许多胞嘧啶化学修饰位点，而且此类位点主要集中分布在 mRNA UTR 区域以及靠近 Argonaute 结合区域。</p>
+<p>mRNA cap type</p>
+<p>真核生物 mRNA 5’ 末端帽子结构有一个固定的组成：</p>
+<blockquote>
+<p>m7G+5’,5’-triphosphate chain+the first transcirbed nucleotide</p>
+</blockquote>
+<p>在 mRNA 5’ 末端核苷酸不同部位可发生甲基化，从而形成 3 种帽子结构：</p>
+<blockquote>
+<p>\1. Cap 0（m^7^GpppN<del>1</del> +mRNA)</p>
+</blockquote>
+<blockquote>
+<p>\2. Cap 1 (m^7^GpppN<del>1m</del>+mRNA)</p>
+</blockquote>
+<blockquote>
+<p>\3. Cap 2 (m^7^GpppN<del>1m</del>N<del>2m</del>)</p>
+</blockquote>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221406302.png" alt="image-20221022140634120"></p>
+<h2 id="mRNA-cap-type"><a href="#mRNA-cap-type" class="headerlink" title="mRNA cap type"></a>mRNA cap type</h2><h3 id="Cap-Analogs"><a href="#Cap-Analogs" class="headerlink" title="Cap Analogs"></a>Cap Analogs</h3><p>在 2009 年，Ishikawa 使用三核苷酸帽子类似物 m7GpppA*pG（A 可以是腺嘌呤核苷酸或者甲基腺嘌呤核苷酸）来完成 IVT 反应中 RNA 的加帽过程，突破以往 IVT 加帽反应的诸多限制。合成 4 种不同的三核苷酸帽子类似物，在腺嘌呤核苷酸 2’-OH 和 N6 位置上，存在不同的甲基化:</p>
+<blockquote>
+<p>\1. m^7^G<del>ppp</del>A<del>p</del>G(plant mRNA Type)</p>
+</blockquote>
+<blockquote>
+<p>\2. m^7^G<del>ppp</del>A<del>m</del>pG(animal mRNA Type)</p>
+</blockquote>
+<blockquote>
+<p>\3. m^7^G<del>ppp</del>^m^^6^A<del>m</del>pG(mammalian mRNA Type)</p>
+</blockquote>
+<blockquote>
+<p>\4. m^7^G<del>ppp</del>^m^^6^ApG(unnatural mRNA Type)</p>
+</blockquote>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221406274.png" alt="image-20221022140656059"></p>
+<p>利用含有 4 种不同甲基化腺嘌呤核苷酸的帽子结构类似物，合成出 4 种不同的 mRNA, 加入到兔网织红细胞裂解液系统中，研究 mRNA 5’ 端不同甲基化的腺嘌呤核苷酸对 mRNA 翻译的影响，发现 m^7^G<del>ppp</del>^m^^6^A<del>m</del>pG-mRNA 翻译效率是最高的，m^7^G<del>ppp</del>A<del>p</del>G-mRNA 翻译效率最低。这表明哺乳动物 mRNA5’ 端腺嘌呤核苷酸 2’-OH 和 N6 位置上的甲基化会影响 mRNA 蛋白翻译效率。</p>
+<p>目前市面上销售的 Cap Analogs 主要存在:</p>
+<ol>
+<li><strong>CleancapAG</strong></li>
+<li><strong>CleancapGG</strong></li>
+<li><strong>CleancapUG</strong></li>
+<li><strong>ARCA</strong></li>
+</ol>
+<p>聚合酶可以从 m7G 的 3’-OH 起始转录反应，形成 Gpppm7G-RNA（反向假冒 mRNA）, 通过合成 3’-OH 甲基化 m7G（ARCAs），来避免形成反向加帽 mRNA。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>帽子结构对于 mRNA 来说，就像是一定钢盔，既可以保护 mRNA 免遭荼毒，又能够通过化学修饰在钢盔上加上烙印，便于被其他成员识别。mRNA 疫苗研发中，通过共转录方式加帽，能够更加迅速提升 mRNA 疫苗产能。IVT 反应中成本昂贵的修饰核苷酸合成需要进一步做技术突破，降低其生产成本。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer"><div class="post-widgets">
+      <div id="needsharebutton-postbottom">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+          
+<div class="wechat_channel" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+  <br>
+  <!-- 这里添加你的二维码图片 -->
+  <img src ="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221101399.jpg" style="width: auto; height:250px; max-width: 100%"/>
+</div>
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>RNActor
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://www.kissrna.com/2022/10/22/mRNA-%E5%90%88%E6%88%90%E5%B8%BD%E5%AD%90%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%94%B2%E5%9F%BA%E5%8C%96/" title="mRNA 合成帽子类型和甲基化">http://www.kissrna.com/2022/10/22/mRNA-合成帽子类型和甲基化/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+          <div class="post-tags">
+              <a href="/tags/Cap/" rel="tag"># Cap</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/10/22/IVT%E5%8F%8D%E5%BA%94%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%BE%9D%E8%B5%96%E4%BA%8E%E5%8F%8D%E4%B9%89RNA%E9%93%BE%E7%9A%84dsRNA%E5%BD%A2%E6%88%90%E6%9C%BA%E5%88%B6/" rel="prev" title="IVT反应产物中依赖于反义RNA链的dsRNA形成机制">
+                  <i class="fa fa-chevron-left"></i> IVT反应产物中依赖于反义RNA链的dsRNA形成机制
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/10/22/%E7%90%86%E8%AE%BAT7-RNA-Polymerase-%E5%B9%B6%E9%9D%9E%E6%83%B3%E8%B1%A1%E7%9A%84%E9%82%A3%E4%B9%88%E7%AE%80%E5%8D%95/" rel="next" title="理论T7 RNA Polymerase 并非想象的那么简单">
+                  理论T7 RNA Polymerase 并非想象的那么简单 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">true</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"waline-server-kissrna.vercel.app","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"placeholder":"请文明评论呀","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":false,"comment_count":true,"requiredFields":[],"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","el":"#waline","comment":true,"path":"/2022/10/22/mRNA-%E5%90%88%E6%88%90%E5%B8%BD%E5%AD%90%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%94%B2%E5%9F%BA%E5%8C%96/"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
+});
+</script>
+
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+  <script>
+      pbOptions = {};
+        pbOptions.iconStyle = "box";
+        pbOptions.boxForm = "horizontal";
+        pbOptions.position = "bottomCenter";
+        pbOptions.networks = "Wechat,Weibo,QQZone,Twitter";
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+  </script><script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: '32px',
+  left: 'unset',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
+
+</body>
+</html>

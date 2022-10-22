@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.kissrna.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="为探究关于circRNA免疫性不同结论背后的原因，2020年5月5号，Howard Y Chang 和 Daneil.G.Adernson联合在Molecular Cell上发布文章：Circular RNA migration in agarose gel electrophoresis，他们发现circRNA在琼脂糖凝胶中的电泳迁移速率会受到凝胶类型，电泳时间，上样buffer组成，电压的影响">
+<meta property="og:type" content="article">
+<meta property="og:title" content="circRNA漂浮不定的电泳迁移速率">
+<meta property="og:url" content="http://www.kissrna.com/2022/10/22/circRNA%E6%BC%82%E6%B5%AE%E4%B8%8D%E5%AE%9A%E7%9A%84%E7%94%B5%E6%B3%B3%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87/index.html">
+<meta property="og:site_name" content="RNAFactory">
+<meta property="og:description" content="为探究关于circRNA免疫性不同结论背后的原因，2020年5月5号，Howard Y Chang 和 Daneil.G.Adernson联合在Molecular Cell上发布文章：Circular RNA migration in agarose gel electrophoresis，他们发现circRNA在琼脂糖凝胶中的电泳迁移速率会受到凝胶类型，电泳时间，上样buffer组成，电压的影响">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221127778.png">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205281945701.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221127688.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221129307.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221128420.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221129001.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221129307.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221131709.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221130093.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221130924.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221131423.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221132841.png">
+<meta property="article:published_time" content="2022-10-22T03:33:49.000Z">
+<meta property="article:modified_time" content="2022-10-22T03:52:01.492Z">
+<meta property="article:author" content="RNActor">
+<meta property="article:tag" content="dsRNA">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221127778.png">
+
+
+<link rel="canonical" href="http://www.kissrna.com/2022/10/22/circRNA%E6%BC%82%E6%B5%AE%E4%B8%8D%E5%AE%9A%E7%9A%84%E7%94%B5%E6%B3%B3%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://www.kissrna.com/2022/10/22/circRNA%E6%BC%82%E6%B5%AE%E4%B8%8D%E5%AE%9A%E7%9A%84%E7%94%B5%E6%B3%B3%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87/","path":"2022/10/22/circRNA漂浮不定的电泳迁移速率/","title":"circRNA漂浮不定的电泳迁移速率"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>circRNA漂浮不定的电泳迁移速率 | RNAFactory</title>
+  
+
+
+
+
+
+<link rel="dns-prefetch" href="waline-server-kissrna.vercel.app"><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css"><style>
+#needsharebutton-postbottom {
+  cursor: pointer;
+  height: 26px;
+  margin-top: 10px;
+  position: relative;
+}
+#needsharebutton-postbottom .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 3px;
+  display: initial;
+  padding: 1px 4px;
+}
+</style>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">RNAFactory</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Sharing Key Discoveries and Advances in mRNA Therapeutics</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>研究</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-friendlink"><a href="/friendlink/" rel="section"><i class="fa fa-link fa-fw"></i>链接</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A0%87%E5%87%86%E7%90%BC%E8%84%82%E7%B3%96%E5%87%9D%E8%83%B6%E7%94%B5%E6%B3%B3%E5%88%86%E7%A6%BBcircRNA"><span class="nav-number">1.</span> <span class="nav-text">标准琼脂糖凝胶电泳分离circRNA</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#E-Gel-EX-%E7%90%BC%E8%84%82%E7%B3%96%E5%87%9D%E8%83%B6%E7%B3%BB%E7%BB%9F%E7%94%B5%E6%B3%B3circRNA"><span class="nav-number">2.</span> <span class="nav-text">E-Gel EX 琼脂糖凝胶系统电泳circRNA</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#E-Gel-EX-%E7%B3%BB%E7%BB%9F"><span class="nav-number">2.1.</span> <span class="nav-text">E-Gel EX 系统</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GLBII-%E5%8F%98%E6%80%A7buffer%E5%AF%B9circRNA%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87%E7%9A%84%E5%BD%B1%E5%93%8D"><span class="nav-number">2.2.</span> <span class="nav-text">GLBII 变性buffer对circRNA迁移速率的影响</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%8E%AF%E5%8C%96%E5%8F%8D%E5%BA%94Buffer%E5%AF%B9circRNA%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87%E5%BD%B1%E5%93%8D"><span class="nav-number">2.3.</span> <span class="nav-text">环化反应Buffer对circRNA迁移速率影响</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%B5%E5%8E%8B%E5%AF%B9circRNA%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87%E7%9A%84%E5%BD%B1%E5%93%8D"><span class="nav-number">2.4.</span> <span class="nav-text">电压对circRNA迁移速率的影响</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%93%E6%96%99%E5%AF%B9%E4%BA%8EcircRNA%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87%E7%9A%84%E5%BD%B1%E5%93%8D"><span class="nav-number">2.5.</span> <span class="nav-text">染料对于circRNA迁移速率的影响</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%81%94%E7%94%A8%E5%88%86%E6%9E%90%E6%89%8B%E6%AE%B5%E7%A1%AE%E8%AE%A4circRNA%E7%94%B5%E6%B3%B3%E7%BB%93%E6%9E%9C"><span class="nav-number">3.</span> <span class="nav-text">联用分析手段确认circRNA电泳结果</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#RNase-H%E7%89%B9%E5%BC%82%E6%80%A7%E5%88%87%E5%89%B2"><span class="nav-number">3.1.</span> <span class="nav-text">RNase H特异性切割</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">4.</span> <span class="nav-text">总结</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="RNActor"
+      src="/images/1.png">
+  <p class="site-author-name" itemprop="name">RNActor</p>
+  <div class="site-description" itemprop="description">We love and creat cool RNAs</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.kissrna.com/2022/10/22/circRNA%E6%BC%82%E6%B5%AE%E4%B8%8D%E5%AE%9A%E7%9A%84%E7%94%B5%E6%B3%B3%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/1.png">
+      <meta itemprop="name" content="RNActor">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RNAFactory">
+      <meta itemprop="description" content="We love and creat cool RNAs">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="circRNA漂浮不定的电泳迁移速率 | RNAFactory">
+      <meta itemprop="description" content="为探究关于circRNA免疫性不同结论背后的原因，2020年5月5号，Howard Y Chang 和 Daneil.G.Adernson联合在Molecular Cell上发布文章：Circular RNA migration in agarose gel electrophoresis，他们发现circRNA在琼脂糖凝胶中的电泳迁移速率会受到凝胶类型，电泳时间，上样buffer组成，电压的影响，呈现出与实际Size不相符合的表观Size，使得circRNA和线性RNA之间的分析鉴定受到极大的干扰。他们提醒circRNA领域内的研究同行，应该联合其他的分析手段确认circRNA的电泳结果，以免得出错误的研究结论。">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          circRNA漂浮不定的电泳迁移速率
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-10-22 11:33:49 / 修改时间：11:52:01" itemprop="dateCreated datePublished" datetime="2022-10-22T11:33:49+08:00">2022-10-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E5%B7%A5%E8%89%BA/" itemprop="url" rel="index"><span itemprop="name">RNA工艺</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E5%B7%A5%E8%89%BA/IVT%E5%90%88%E6%88%90/" itemprop="url" rel="index"><span itemprop="name">IVT合成</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/2022/10/22/circRNA%E6%BC%82%E6%B5%AE%E4%B8%8D%E5%AE%9A%E7%9A%84%E7%94%B5%E6%B3%B3%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/2022/10/22/circRNA%E6%BC%82%E6%B5%AE%E4%B8%8D%E5%AE%9A%E7%9A%84%E7%94%B5%E6%B3%B3%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+            <div class="post-description">为探究关于circRNA免疫性不同结论背后的原因，2020年5月5号，Howard Y Chang 和 Daneil.G.Adernson联合在Molecular Cell上发布文章：Circular RNA migration in agarose gel electrophoresis，他们发现circRNA在琼脂糖凝胶中的电泳迁移速率会受到凝胶类型，电泳时间，上样buffer组成，电压的影响，呈现出与实际Size不相符合的表观Size，使得circRNA和线性RNA之间的分析鉴定受到极大的干扰。他们提醒circRNA领域内的研究同行，应该联合其他的分析手段确认circRNA的电泳结果，以免得出错误的研究结论。</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>circRNA是一种共价闭环的单链RNA，通过反向剪接天然产生，广泛存在于真核细胞中。circRNA不具有游离末端，稳定性优于线性RNA，有极大的优势成为下一代RNA技术平台。今年上半年，国内外的研发人员已经成功开发出多款环形RNA新冠疫苗，受到领域内众多的关注。</p>
+<p>目前，广泛使用的体外合成circRNA的方法主要依靠酶连成环或者变更的具有催化活性的内含子序列。但是，circRNA技术在应用过程中始终存在一个非常棘手的问题：如何将circRNA和线性RNA清晰地分离开来？用来对circRNA进行质量分析的手段包括，凝胶电泳，RNase R切割，靶核苷酸导向的RNase H切割，高效液相色谱（HPLC）以及single-hit hydrosis。</p>
+<p>我们在前面介绍过circRNA免疫原性一直存在着争议。</p>
+<p>2017年，斯坦福医学院Howard Y Chang最早报道使用体外合成的circRNA会触发强烈的天然免疫反应。2019年，Howard Y Chang又发现体外合成circRNA时，使用N6-甲基腺嘌呤修饰核苷酸会抑制circRNA免疫原性。同年，Daneil.G.Adernson通过一系列纯化手段得到的体外合成circRNA不会触发机体产生天然免疫反应。2021年，中科院生化细胞所陈玲玲报道通过具有自我剪接活性的内含子产生的circRNA具有免疫原性，但是，通过T4连接酶产生的circRNA不具有免疫原性。<br>为探究关于circRNA免疫性不同结论背后的原因，&#x3D;&#x3D;2020年5月5号，Howard Y Chang 和 Daneil.G.Adernson联合在Molecular Cell上发布文章：Circular RNA migration in agarose gel electrophoresis，&#x3D;&#x3D;他们发现circRNA在琼脂糖凝胶中的电泳迁移速率会受到凝胶类型，电泳时间，上样buffer组成，电压的影响，呈现出与实际Size不相符合的表观Size，使得circRNA和线性RNA之间的分析鉴定受到极大的干扰。他们提醒circRNA领域内的研究同行，应该联合其他的分析手段确认circRNA的电泳结果，以免得出错误的研究结论。</p>
+<h2 id="标准琼脂糖凝胶电泳分离circRNA"><a href="#标准琼脂糖凝胶电泳分离circRNA" class="headerlink" title="标准琼脂糖凝胶电泳分离circRNA"></a>标准琼脂糖凝胶电泳分离circRNA</h2><p>RNA在琼脂糖凝胶电泳中的迁移速率取决于RNA质量和形状。RNA质量和长度相关，相同结构的RNA，长序列要比短序列迁移得慢。RNA的形状，即二级结构，也会影响迁移速率，因此经常使用变性剂来解开二级结构。</p>
+<p>circRNA在体外合成反应结束后，产物中会存在多种类型的RNA杂质，主要包含precursor RNA(circRNA合成的线性模板RNA)，Niked RNA（circRNA产生切口，变为长度相同的单链线性RNA,），剪切掉的上下游内含子序列。</p>
+<p>研发人员用标准琼脂糖凝胶电泳来分离RNase R切割前后的环化反应产物，并且设计一系列靶向不同区域的探针，用Northern杂交去验证分离结果。在标准琼脂糖凝胶电泳图中，Precursor RNA 条带靠近2000bp，并且会被RNase R降解掉。circRNA条带在1000-1500bp之间，可以抵抗RNase R降解。但是，分子量大小相同的circRNA与Nicked RNA重叠在一起无法区分开来，随着降解时间加长，Nicked RNA逐渐被降解掉，只剩下circRNA，因此1000-1500bp之间的条带随着RNase R降解时间延长而逐渐变淡。</p>
+<p>在Northern杂交验证中，1-UpExc&#x2F;5-DownExc探针会检测到precursor RNA和剪切掉的内含子序列。2-UpRet&#x2F;3-GLuc&#x2F;4-DownRet探针可以检测到3种RNA，precusorRNA&#x2F;Nicked RNA&#x2F;circRNA，其中precusorRNA&#x2F;Nicked RNA为线性RNA，会随着时间延长逐渐被RNase R降解掉，条带逐渐变带直到检测不到。6-Ana 只能检测到circRNA条带，可以看到随着RNase R降解，circRNA会产生非常多的Nicked RNA而导致条带逐渐变淡。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221127778.png" alt="image-20221022112731556"></p>
+<p><u>标准琼脂糖凝胶电泳和Northern杂分析环化反应产物</u></p>
+<h2 id="E-Gel-EX-琼脂糖凝胶系统电泳circRNA"><a href="#E-Gel-EX-琼脂糖凝胶系统电泳circRNA" class="headerlink" title="E-Gel EX 琼脂糖凝胶系统电泳circRNA"></a>E-Gel EX 琼脂糖凝胶系统电泳circRNA</h2><h3 id="E-Gel-EX-系统"><a href="#E-Gel-EX-系统" class="headerlink" title="E-Gel EX 系统"></a>E-Gel EX 系统</h3><p>Daneil.G.Adernson在2019年的文章中使用的琼脂糖凝胶系统是从Thermo Fisher购买的预制胶E-Gel EX，circRNA在胶图中呈现出比较实际Size更大的表观Size，而且要比分子量更大的precursor RNA迁移地更慢，在E-Gel EX系统中，可以将circRNA和线性RNA区分开来，呈现出的条带分布：circRNA&gt;precursor RNA&gt;Niked RNA。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205281945701.png" alt="image-20220528194548641"></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221127688.png" alt="image-20221022112754470"></p>
+<p><u>E-GeI EX 琼脂糖凝胶系统电泳circRNA，呈现出的条带分布：circRNA&gt;precursor RNA&gt;Niked RNA。</u></p>
+<h3 id="GLBII-变性buffer对circRNA迁移速率的影响"><a href="#GLBII-变性buffer对circRNA迁移速率的影响" class="headerlink" title="GLBII 变性buffer对circRNA迁移速率的影响"></a>GLBII 变性buffer对circRNA迁移速率的影响</h3><p>在这篇文章中，研究人员使用GLBII上游缓冲液，在E-Gel EX凝胶系统中，circRNA样品电泳13min，可以看到明显的3条带：接近2500nt的强条带为circRNA;接近2000nt的弱带为precusor RNA；接近1500nt较强的条带为Nicked RNA。但是，当电泳时间延长到第18min时，circRNA条带和precursor RNA叠加在一起，无法区分开来，而Nicked RNA条带不受影响。此外，circRNA上样量不影响circRNA在E-Gel EX凝胶系统中的迁移速率。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221129307.png" alt="image-20221022112904102"></p>
+<p><u>GLBII凝胶上样缓冲液</u></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221128420.png" alt="image-20221022112848266"></p>
+<p><u>使用GLBII上游缓冲液引起circRNA和线性RNA条带重叠。</u></p>
+<p>研究人员发现在E-Gel EX凝胶系统中，RNase R处理过的circRNA样品在凝胶系统中会只存在2条带：circRNA和Nicked RNA。如果使用GBLII上游缓冲液，随着电泳时间从10min往后延长，circRNA条带会逐渐向前迁移靠近然后超越2000nt，使得表观Size逐渐变小，但是，Nicke RNA表观Size不会随时间发生改变。同时，他们还发现circRNA表观Size变化的现象只存在于E-Gel EX凝胶系统中，在非E-Gel EX凝胶系统中，circRNA表观Size和实际Size相一致，而且不会随着电泳时间发生改变。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221129001.png" alt="image-20221022112927675"></p>
+<p><u>如果使用GBLII上样buffer，circRNA表观Size会随着电泳时间的延长而变小。circRNA表观Size增大的现象只发生在E-Gel EX凝胶系统中。</u></p>
+<p>###上样缓冲液组成对circRNA迁移速率影响</p>
+<p>由于使用GBL II上样Buffer在E-Gel EX凝胶系统中带来的circRNA迁移速率变化，使得研究人员想去探究GBL II上样Buffer液中各组分对circRNA迁移速率的影响。他们发现在上样Buffer中存在甲酰胺或者+SDS的情况下，添加EDTA不仅会减小circRNA表观Size，而且会抑制circRNA形成缺口以及发生降解。在非E-Gel EX凝胶系统中，在上样缓冲液中添加EDTA具有相同的效果。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221129307.png" alt="image-20221022112959157"></p>
+<p><u>上样缓冲液中添加EDTA会减少circRNA表观Size，抑制circRNA降解。</u></p>
+<h3 id="环化反应Buffer对circRNA迁移速率影响"><a href="#环化反应Buffer对circRNA迁移速率影响" class="headerlink" title="环化反应Buffer对circRNA迁移速率影响"></a>环化反应Buffer对circRNA迁移速率影响</h3><p>由于IVT反应和环化反应buffer中存在单价或者二价盐离子和还原剂以及其他的组分，但是，纯化处理的时候很难完全去除这些成份。研发人员发现，如果在IVT反应产物或者环化反应产物中添加T4 RNA连接酶反应buffer，在EDTA同时存在的情况下，才会减小circRNA表观Size。这种现象只存在于电泳系统中，在HPLC分离中，添加T4 RNA连接酶反应buffer或者+EDTA不会影响circRNA迁移速率。<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221131709.png" alt="image-20221022113115430"></p>
+<p><u>在EDTA存在下，环化反应T4 RNA Ligase I buffer会影响circRNA在E-Gel EX凝胶系统中的迁移速率，但是不影响circRNA在分子排阻HPLC中的迁移速率。</u></p>
+<h3 id="电压对circRNA迁移速率的影响"><a href="#电压对circRNA迁移速率的影响" class="headerlink" title="电压对circRNA迁移速率的影响"></a>电压对circRNA迁移速率的影响</h3><p>在保持指示条带一致的情况下，如果降低电压（SizeSelect2%）会使得circRNA条带从靠近2000nt(高电压，EX1-2%条件下)的位置迁移到2000nt以下，但是，同时使得circRNA条带和precursor RNA条带发生重叠，难以区分开。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221130093.png" alt="image-20221022113050732"></p>
+<p><u>低电压会造成circRNA条带和precursor RNA条带的重叠。</u></p>
+<h3 id="染料对于circRNA迁移速率的影响"><a href="#染料对于circRNA迁移速率的影响" class="headerlink" title="染料对于circRNA迁移速率的影响"></a>染料对于circRNA迁移速率的影响</h3><p>E-Gel EX预制凝胶系统使用的SYBR-GOLD II 染料。研发人员发现如果在95%甲酰胺上样缓冲液中加入SYBR-GOLD I会阻断circRNA在EX凝胶系统中异常变大的表观Size,使其恢复到接近真实Size条带位置。在95%甲酰胺上样缓冲液中加入溴化乙锭对于circRNA表观Size没有改变。相比于上样缓冲液GLBII，使用RLD上样缓冲液会导致circRNA表观Size更加靠近2000nt，这可能是由于GLBII和RLD组分中EDTA浓度差异造成的。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221130924.png" alt="image-20221022113026601"></p>
+<p><u>在95%甲酰胺上样缓冲液中加入SYBR-GOLD I会阻断circRNA在EX凝胶系统中异常变大的表观Size，使其恢复到接近实际Size条带位置。</u></p>
+<h2 id="联用分析手段确认circRNA电泳结果"><a href="#联用分析手段确认circRNA电泳结果" class="headerlink" title="联用分析手段确认circRNA电泳结果"></a>联用分析手段确认circRNA电泳结果</h2><p>研发人员在初步得到circRNA电泳结果的基础上，还可以结合Northern杂交，HPLC以及酶切手段进行进一步的确认。</p>
+<h3 id="RNase-H特异性切割"><a href="#RNase-H特异性切割" class="headerlink" title="RNase H特异性切割"></a>RNase H特异性切割</h3><p>RNase H可以在特定位点切割precursor RNA，使其一分为二，而将circRNA切割成线性RNA。一旦加入RNAase H，对于IVT反应产物来说，电泳图中会出现两条强度的切割后的条带，在分子排阻HPLC峰图上可以看到precursor RNA 峰逐渐消失，而切割后的较小片段的起峰升高；对于circRNA产物来说，电泳图中circRNA条带逐渐变弱，而Nick RNA条带逐渐增强，HPLC峰图也与此相对应。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221131423.png" alt="image-20221022113138197"></p>
+<p><u>结合凝胶电泳系统和HPLC确认RNase H酶切IVT或者环化反应产物的结果。</u></p>
+<p>###单点非特异性切割</p>
+<p>当溶液中存二价离子比如酶离子，加热到70度时，溶液中的RNA骨架会发生非特异性的随机切割，导致IVT反应产物产生一系列的弥散条带，而环化反应产物中的Nick RNA增加，同时也会出现弥散降解条带。与此对应的是，IVT反应产物precusor RNA主峰前面随着切割反应的进行会出现一系列的弥散峰；环化反应产物circRNA主峰左侧升起非常明显的Nicked RNA峰，也就是在分子排阻HPLC环境中，Nicke RNA表现得比circRNA要大。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221132841.png" alt="image-20221022113204612"></p>
+<p><u>通过二价离子和加温可以确认环化反应产物中形成的circRNA。</u></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>环化反应产物经过一系列纯化，最后需要用质控分析手段去检测纯化终产物中各组类型RNA的分布比例，因此需要非常灵敏的检测手段。由于circRNA在电泳系统中的迁移速率会受多种因素的影响，造成表观Size的差异，给circRNA和线性RNA的检测区分带来困难。通过这篇文章，我们需要在circRNA电泳过程中注意以下几方面：</p>
+<p>（1）在标准琼脂糖凝胶电泳中，circRNA 在电泳胶图中呈现的表观Size与其实际Size接近，但是与相同长度的线性Nicked RNA重叠在一起，无法区分。电泳条带分布：precursor RNA&gt;circRNA&#x2F;Nicked。</p>
+<p>（2）在Thermo Fisher预制胶E-Gel EX电泳系统中，circRNA在电泳胶图中呈现的表观Size远超过其实际Size，电泳条带分布：circRNA&gt;Precusor RNA&gt; Nicked RNA。需要特别注意的是，在E-Gel EX电泳系统中，circRNA迁移速率会受到上样缓冲buffer，染料，电压的影响。</p>
+<p>（3）只通过电泳系统无法完成对电泳图中条带对应的RNA类型的准确分析，还需要联合Northen杂交，HPLC，RNase 酶切反应做最终的确认分析。</p>
+<p>（4）本项研究工作未涉及的问题：修饰核苷酸是否会影响circRNA迁移速率？在PAGE凝胶系统中，circRNA迁移速率受哪些因素的影响？</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer"><div class="post-widgets">
+      <div id="needsharebutton-postbottom">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+          
+<div class="wechat_channel" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+  <br>
+  <!-- 这里添加你的二维码图片 -->
+  <img src ="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221101399.jpg" style="width: auto; height:250px; max-width: 100%"/>
+</div>
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>RNActor
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://www.kissrna.com/2022/10/22/circRNA%E6%BC%82%E6%B5%AE%E4%B8%8D%E5%AE%9A%E7%9A%84%E7%94%B5%E6%B3%B3%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87/" title="circRNA漂浮不定的电泳迁移速率">http://www.kissrna.com/2022/10/22/circRNA漂浮不定的电泳迁移速率/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+          <div class="post-tags">
+              <a href="/tags/dsRNA/" rel="tag"># dsRNA</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/10/15/mRNA-3-%E6%9C%AB%E7%AB%AF%E5%9B%9E%E6%8A%98%E9%85%8D%E5%AF%B9%EF%BC%8C%E9%87%8D%E6%96%B0%E7%BB%93%E5%90%88T7-%E8%81%9A%E5%90%88%E9%85%B6%EF%BC%8C%E5%90%AF%E5%8A%A8%E8%87%AA%E6%88%91%E5%BB%B6%E4%BC%B8%EF%BC%8C%E5%BD%A2%E6%88%90dsRNA%E3%80%82/" rel="prev" title="mRNA 3'末端回折配对，重新结合T7 聚合酶，启动自我延伸。">
+                  <i class="fa fa-chevron-left"></i> mRNA 3'末端回折配对，重新结合T7 聚合酶，启动自我延伸。
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/10/22/IVT%E5%8F%8D%E5%BA%94%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%BE%9D%E8%B5%96%E4%BA%8E%E5%8F%8D%E4%B9%89RNA%E9%93%BE%E7%9A%84dsRNA%E5%BD%A2%E6%88%90%E6%9C%BA%E5%88%B6/" rel="next" title="IVT反应产物中依赖于反义RNA链的dsRNA形成机制">
+                  IVT反应产物中依赖于反义RNA链的dsRNA形成机制 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">true</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"waline-server-kissrna.vercel.app","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"placeholder":"请文明评论呀","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":false,"comment_count":true,"requiredFields":[],"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","el":"#waline","comment":true,"path":"/2022/10/22/circRNA%E6%BC%82%E6%B5%AE%E4%B8%8D%E5%AE%9A%E7%9A%84%E7%94%B5%E6%B3%B3%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87/"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
+});
+</script>
+
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+  <script>
+      pbOptions = {};
+        pbOptions.iconStyle = "box";
+        pbOptions.boxForm = "horizontal";
+        pbOptions.position = "bottomCenter";
+        pbOptions.networks = "Wechat,Weibo,QQZone,Twitter";
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+  </script><script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: '32px',
+  left: 'unset',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
+
+</body>
+</html>

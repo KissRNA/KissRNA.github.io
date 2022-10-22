@@ -499,8 +499,7 @@
 <p>从1979年起，Craig Martin在加州理工学院经过为期5年的研究生学习，于1984年拿到博士学位，同年，进入耶鲁大学，开始博后期间的训练，从那时开始，Martin正式开始着手研究 T7 RNA聚合酶启动转录的分子机制。1988年Martin进入美国马萨诸塞大学阿默斯特分校，任职时间至今已有34年，自2009年起开始担任化学系主任。长久以来，Martin实验室一直将研究兴趣放在探索复杂转录过程的理论机制，近年来随着RNA研究领域的不断发展，Martin开始聚焦体外转录合成体系，以此来探索如何才能合成出高质量的mRNA。</p>
 <p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210152241908.png" alt="image-20221015224142400"></p>
 <p>今天，我们分享Martin实验室在2018年发表在Nucleic Acid Research上面的突破性文章：3′ end additions by T7 RNA polymerase are RNA self-templated, distributive and diverse in character––RNA-Seq analyses，在这篇文章中，Martin利用RNA-seq技术对IVT产物进行丰度和序列分析，结果发现，在IVT反应中，RNA能够重新结合到T7 RNA聚合酶上面，借助于RNA 3’末端序列通过顺式作用回折形成的发卡结构，启动自我延伸（Primer extension），形成dsRNA。在IVT反应中，RNA产物的这种自我延伸反应会同启动子驱动的，以DNA序列为模板的转录反应形成竞争。在这篇文章中，Martin对RNA产物的自我延伸反应形成的长链RNA丰度和决定因素展开了一系列细致的研究，下面我们来一起看看。</p>
-<p>##IVT反应产物丰度</p>
-<p>研究者选择5N序列作为IVT合成的DNA模板序列，有意思的是，5N模板序列只在5’端启动子区域是互补配对的双链结构，从转录起始位点往后到3’末端都是单链DNA序列，同时，该模板还存在5个随机核苷酸。</p>
+<h2 id="IVT反应产物丰度"><a href="#IVT反应产物丰度" class="headerlink" title="IVT反应产物丰度"></a>IVT反应产物丰度</h2><p>研究者选择5N序列作为IVT合成的DNA模板序列，有意思的是，5N模板序列只在5’端启动子区域是互补配对的双链结构，从转录起始位点往后到3’末端都是单链DNA序列，同时，该模板还存在5个随机核苷酸。</p>
 <p>利用RNA-seq对以5N作为模板的IVT反应产物进行分析。让人感到意外的是，在IVT反应产物中，预期大小的RNA占比居然连50%都远远不到：在低产量IVT体系条件下，24nt RNA(预期产物)在IVT反应混合物中占比29.5%；在高产量IVT体系条件下，24nt RNA(预期产物)在IVT反应混合物中占比竟然降低至7.5%。</p>
 <p>在IVT低产量体系下，从IVT产物丰度图可以看出，24nt  Run off RNA(预期产物)，25nt RNA（n+1），23nt RNA(n-1)，这种3种RNA占比是最高的。对于n+1 RNA序列来说，最末端碱基是C的RNA比例远远超过末端碱基是A&#x2F;U的RNA。对于n+2 RNA序列来说，末端2个碱基存在16种可能性，并未显现出明显的偏向性。总的来说，对于n-i RNA序列来说，只存在一种序列组成，然而，对于n+i RNA来说存在4^i^种可能性。</p>
 <p>在IVT高产量体系下，IVT产物丰度图超右边移动，出现大量的各种长度超过预期长度的RNA。丰度最高的RNA不再是24nt   Run off RNA，而是26nt RNA。各种不同的n+i RNA在IVT产物中的丰度大幅增加。</p>
@@ -509,8 +508,7 @@
 <h2 id="RNA3’末端序列顺式互补配对，启动自我延伸"><a href="#RNA3’末端序列顺式互补配对，启动自我延伸" class="headerlink" title="RNA3’末端序列顺式互补配对，启动自我延伸"></a>RNA3’末端序列顺式互补配对，启动自我延伸</h2><p>理论上来说，IVT反应产物中长链RNA分子可通过两种机制形成：一种称为顺式作用，RNA分子自身序列的对应部分互补配对启动转录，另外一种称为反式作用，不同RNA分子间互补配对启动转录。通过分析长链RNA序列，发现IVT产物中存在的长链RNA主要是通过顺式作用启动转录的，超出预期大小的片段序列回折，与上游序列互补配。随着IVT体系中，预期大小的RNA逐渐增多，顺式互补形成的长链RNA也会增多，正如图1中高产量IVT体系的RNA产物丰图分布一样。</p>
 <p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210142339212.png" alt="image-20221014233921075"></p>
 <p>图2：IVT反应产物长片段RNA产物形成的两种机制：一种是相同RNA分子序列内部的顺式互补配对作用，另外一种是不同RNA分子间的的反式互补配对作用。</p>
-<p>##RNA自我延伸独立于启动子驱动的转录</p>
-<p> 既然RNA通过3’末端序列回折形成发卡结构，启动自我延伸，那么这种自我延伸的转录过程是否与启动子活性存在关联呢？Martin设计合成了一条长度为24nt RNA单链，加入IVT体系，对IVT产物进行测序分析。IVT产物丰图和序列数据显示在缺乏携带T7启动子的DNA序列竞争的情况下，T7 RNA聚合酶会以人工合成的RNA单链作为模板，高效合成出长链RNA。而且，随着IVT反应时间的延长，长链RNA会更加多，序列也会更加延伸，这说明RNA可能先同T7RNA聚合酶结合，延伸几个碱基，接着释放RNA，然后T7 RNA聚合酶再度结合RNA，继续延伸出更长的序列。</p>
+<h2 id="RNA自我延伸独立于启动子驱动的转录"><a href="#RNA自我延伸独立于启动子驱动的转录" class="headerlink" title="RNA自我延伸独立于启动子驱动的转录"></a>RNA自我延伸独立于启动子驱动的转录</h2><p> 既然RNA通过3’末端序列回折形成发卡结构，启动自我延伸，那么这种自我延伸的转录过程是否与启动子活性存在关联呢？Martin设计合成了一条长度为24nt RNA单链，加入IVT体系，对IVT产物进行测序分析。IVT产物丰图和序列数据显示在缺乏携带T7启动子的DNA序列竞争的情况下，T7 RNA聚合酶会以人工合成的RNA单链作为模板，高效合成出长链RNA。而且，随着IVT反应时间的延长，长链RNA会更加多，序列也会更加延伸，这说明RNA可能先同T7RNA聚合酶结合，延伸几个碱基，接着释放RNA，然后T7 RNA聚合酶再度结合RNA，继续延伸出更长的序列。</p>
 <p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210150030408.png" alt="image-20221015003048256"></p>
 <p>图3：人工合成RNA单链，加入IVT体系，利用RNA-seq和凝胶电泳分析IVT产物序列和长度。</p>
 <h2 id="RNA末端自我延伸序列的异质性。"><a href="#RNA末端自我延伸序列的异质性。" class="headerlink" title="RNA末端自我延伸序列的异质性。"></a>RNA末端自我延伸序列的异质性。</h2><p>在启动子驱动的反应和自我延伸的反应中，Run off RNA 序列是相同的，分别对各自的反应产物进行测序分析：</p>
@@ -540,5 +538,306 @@
       <tags>
         <tag>dsRNA</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>IVT反应产物中依赖于反义RNA链的dsRNA形成机制</title>
+    <url>/2022/10/22/IVT%E5%8F%8D%E5%BA%94%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%BE%9D%E8%B5%96%E4%BA%8E%E5%8F%8D%E4%B9%89RNA%E9%93%BE%E7%9A%84dsRNA%E5%BD%A2%E6%88%90%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<p>大家好，我是荷锄，这是mRNAFactory专题推出的第3篇文章，今天我们一起来寻找体外转录反应过程中副产物dsRNA的形成机制和免疫原性。</p>
+<h2 id="RNA化学和酶法合成"><a href="#RNA化学和酶法合成" class="headerlink" title="RNA化学和酶法合成"></a>RNA化学和酶法合成</h2><p>RNA疗法涉及多种类型的RNA，比如小干扰RNA(small interfering RNAs,siRNA)，RNA 适配体（aptmers），催化性核酶（ribozymes），当然，还有目前红得发紫的mRNA。RNA疗法的产业化必然需要开发出快速，高效，低成本，可以规模化生产的RNA合成技术。化学合成法一般只能用来合成 small RNA，因为随着RNA长度的增加，化学合成法的RNA产量会发生指数式下降，因此化学合成法不适合合成超过100-150nt 长度的RNA。酶法合成适用于合成各种长度的RNA。T7 pol 易于生产，具备高效的合成活性。但是，酶法合成产物会诱发机体免疫反应，其免疫原性来源于两方面，一方面源自目的产物mRNA本身，另外一方面来自合成反应过程中产生的各种副产物。因此，我们要搞清楚体外转录合成产物免疫原性的来源和详细机制，这样才能将酶法合成出来的mRNA应用到更多的治疗领域。</p>
+<h2 id="dsRNA-Cytosolic-sensors"><a href="#dsRNA-Cytosolic-sensors" class="headerlink" title="dsRNA  Cytosolic sensors"></a>dsRNA  Cytosolic sensors</h2><p>RIG-I和MDA5是两个主要的细胞内病毒dsRNA感受器，一旦识别外源的病毒dsRNA，就会激活抗病毒信号途径，上调干扰素的表达（IFNs）。RIG-I和MDA5拥有不同的RNA特异性，据此来识别各种类型的病毒。RIG-I主要监控dsRNA5’末端,特别是末端的三磷酸基团（5’PPP），与此形成对比的是，MDA5识别long dsRNA(0.5-1kb)，依赖的是双链长度。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221119220.png" alt="image-20221022111923088" style="zoom:50%;" />
+
+<p><u>dsRNA通过细胞内受体激活抗病毒天然免疫信号通路</u></p>
+<h3 id="RIG-I-识别dsRNA"><a href="#RIG-I-识别dsRNA" class="headerlink" title="RIG-I 识别dsRNA"></a>RIG-I 识别dsRNA</h3><p>RIG-I和MDA5的蛋白结构由N端串联的2个CARD组成（半胱氨酸蛋白酶激活募集结构域），中心部分由拥有依赖RNA的ATP水解酶活性的helicase结构域组成，C端由CTD结构域组成。RIG-1-CTD（the carboxy- terminal domain）负责识别末端三磷酸基团（5’PPP）或者二磷酸基团（5’PP），同时也需要和RNA分子上第一个核苷酸未甲基化的2’-OH接触;RIG-Helicase结构域负责接触RNA分子上互补配对的碱基，特别的是，此处Helicase结构域具有ATPase活性，ATP的水解会使得RIG-I从RNA分子上释放。稳定结合的RIG-I和RNA分子的稳定结合，造成CARDs和Helicase隔绝（当RIG-I处于抑制状态时，CARDs和Helicase相互接触作用），从而造成CARD和MAVS结合，激活下游信号通路。更加重要的时，病毒RNA分子的特征恰好是5’末端携带5’PPP或者5’PP，双链结构，核糖2号位未甲基化，但是许多宿主细胞的RNA是缺乏这些特征的。例如，宿主细胞mRNA分子5’末端帽子结构涉及2’-O-methylation(Cap1或者Cap2)，tRNA和某些rRNA在5’末端只携带有一个磷酸基团。</p>
+<h3 id="MDA5识别dsRNA"><a href="#MDA5识别dsRNA" class="headerlink" title="MDA5识别dsRNA"></a>MDA5识别dsRNA</h3><p>与RIG-I识别dsRNA末端不同，MDA5识别内部的双链结构。MDA5利用蛋白之间的相互作用，以头尾相接的方式沿着dsRNA堆积，形成细丝（filament），串连的CARD结构域位于MDA5细丝的外侧，寡聚化形成更长的结构，激活下游MAVS。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221119227.png" alt="image-20221022111950919"></p>
+<p><u>结合dsRNA的RIG-I和MDA5处于激活状态的构象</u></p>
+<h2 id="IVT产物免疫原性起源"><a href="#IVT产物免疫原性起源" class="headerlink" title="IVT产物免疫原性起源"></a>IVT产物免疫原性起源</h2><p>一直以来认为，体外转录（IVT）的产物之所以能够刺激机体免疫反应，是因为它们携带有5’ppp，能够被 RIG-I识别，触发抗病毒天然免疫。但是，用磷酸酶（Phoshpatase）处理IVT产物，移除末端磷酸基团，并不能完全消除IVT产物的免疫原性，这就说明还存在其他的机制。2018年，Sun Hur在Nucleic Acids  Research上面发表文章An origin of the immunogenicity of in vitro transcribed RNA，寻找IVT反应产物免疫原性的来源，接下来，让荷锄同学沿着文章的逻辑主线梳理研究过程。</p>
+<h2 id="IVT反应经常生成副产物dsRNA"><a href="#IVT反应经常生成副产物dsRNA" class="headerlink" title="IVT反应经常生成副产物dsRNA"></a>IVT反应经常生成副产物dsRNA</h2><p>首先要检测IVT反应产物T7 transcripts的免疫刺激活性，借助Interferon-promoter luciferase 系统，体外转录合成4种512nt RNA（设计4种不同碱基序列组成的模板，避免合成的转录本内部出现二级结构），转染瞬时表达RIG-I或者MDA5的293T细胞（293T细胞本身，极低表达或者不表达IG-I或者MDA5，因此需要瞬转IG-I或者MDA5质粒），通过测定luciferase 活性来表征T7 transcripts对RIG-I或者MDA5的刺激活性。</p>
+<p>结果发现：4种T7 transcripts均可强烈刺激RIG-I和MDA5，诱导IFN启动子表达luciferase。用磷酸酶CIP处理4种IVT反应产物，移除5’PPP，可以显著减弱刺激RIG-I，但是不影响对MDA5的刺激。这就是说明，IVT反应产物中，除了依赖5’PPP的免疫刺激，还存在另外一种刺激MDA5免疫活性的机制。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221120756.png" alt="image-20221022112006610"></p>
+<p>接着，要挖出IVT反应产物T7 transcripts中独立于末端5’ppp，对MDA5免疫刺激活性的来源。那么就需要知道IVT反应产物中存在哪些组分？</p>
+<p>电泳分析T7 transcripts在非变性胶上面的条带，所有的4种IVT反应产物均显示两条带，根据Marker的位置，可以确定Upper bands RNA 是500 nt ssRNA，吖啶橙（acridine orange）染色显示黄色，说明是单链RNA;Lower  bands RNA 是500 nt dsRNA，吖啶橙染色显示绿色。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221120124.png" alt="image-20221022112017855"></p>
+<p><u>IVT反应产物电泳显色</u></p>
+<p>电泳结合核酸酶切试验显示，随着RNase If 浓度梯度增加，Upper bands RNA逐渐开始降解，证实其是单链结构；随着RNase III 浓度梯度增加，Down  bands RNA逐渐开始降解，证实其是双链结构。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221120044.png" alt="image-20221022112030823"></p>
+<p><u>核酸酶处理 IVT反应产物电泳显色</u></p>
+<p>胶回收IVT反应产物的2个条带或者核酸酶处理IVT反应产物，转染293T细胞，结果luciferase活性显示，Lower  bands RNA对MDA5介导的抗病毒天然信号通路有着非常强烈的刺激（significant），相比之下，Upper bands RNA 对MDA5的免疫刺激就很弱了。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221120162.png" alt="image-20221022112046029"></p>
+<p>酶<u>处理或者胶回收的IVT反应产物组分对MDA5 介导的抗病毒天然信号通路的刺激活性检测</u></p>
+<p>体外检测IVT反应产物和MDA2之间的相互作用，显示只有Lower  bands RNA才能刺激MDA5形成细丝（filament），激活MDA5的ATP水解酶活性。电镜分析MDA5和Lower  bands RNA 形成的细丝，发现在150-160nm，符合500bp左右 dsRNA的预期长度，这说明Lower  bands RNA 并不是内部携带有二级结构的ssRNA，而是dsRNA副产物。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221120215.png" alt="image-20221022112057042"></p>
+<p><u>检测IVT反应产物刺激MDA5细丝形成和ATP水解酶活性检</u></p>
+<p><strong>小结</strong>:以上所有数据证实，IVT反应产物中除目的条带ssRNA外，还存在dsRNA副产物；IVT反应产物刺激MDA5触发下游抗病毒天然免疫信号通路，主要是由于其组分中存在的dsRNA副产物。</p>
+<h2 id="IVT反应副产物dsRNA形成机制"><a href="#IVT反应副产物dsRNA形成机制" class="headerlink" title="IVT反应副产物dsRNA形成机制"></a>IVT反应副产物dsRNA形成机制</h2><p>此前有研究报道，在体外转录反应中，如果生成的RNA末端没有形成稳定的二级结构，那么T7 pol会以产物RNA作为模板，在其3’末端继续延伸RNA，延长序列与原RNA分子3’末端序列互补配对，形成发卡结构[1]。因此，检测500 nt dsRNA是否也是通过此种方式合成的。通过3’ARCA扩增出dsRNA 正义链3’末端序列，测序结果显示，dsRNA分子中正义链3’末端序列和ssRNA序列的相同，没有出现任何的延伸的核苷酸序列。</p>
+<p>另外有报道称，T7 pol可以把RNA当作模板来复制RNA分子，合成与其互补的另外一条链。因此，检测因此，检测500 nt dsRNA会不会通过此种方式合成。通过5‘&#x2F;3’ARCA扩增出dsRNA 反义链3’末端序列，测序结果显示，dsRNA分子中反义链5’末端序列和ssRNA序列的相同，并且通T7pormoter序列没有任何的类似之处。值得注意的是，dsRNA分子中反义链3’末端序列与T7promoter序列互补。这说明，dsRNA反义链是从模板不含启动子序列的3’末端开始的，并不是通过T7 pol依赖RNA的RNA聚合酶活性合成的。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221121390.png" alt="image-20221022112109220"></p>
+<p><u>5‘&#x2F;3’ARCA扩增测序dsRNA正义链和反义链末端序列</u></p>
+<p>接下来，需要证实dsRNA合成是独立于启动子的，依赖DNA模板的转录过程，设计4种不同的模板，模板1是携带T7 promoter 的双链DNA；模板2是不携带T7 promoter 的双链DNA；模板3是胶回收的体外转录产物ssRNA；模板4是对照 RNA。电泳分析4种不同模板体外转录产物，发现即使模板DNA不懈带T7 promote，其体外转录产物中依然可以生成dsRNA。以RNA作为模板，无法生成dsRNA。</p>
+<p>在上面结论的基础上，进一步追寻dsRNA形成的机制，设计3种模板，长度80nt，模板1携带T7 promoter 双链DNA ；模板2携带T7 promoter 单链DNA(反义链)；模板3 携带T7 promoter序列的部分双链DNA（反义链）。电泳分析3种不同模板的体外转录产物，发现只有当模板DNA是全部互补配对的双链结构时，体外转录产物中才有dsRNA，部分互补配对的模板无法合成dsRNA。这表明在体外转录反应中，不依赖启动子的模板反义链RNA的转录需要双链DNA结构。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221121099.png" alt="image-20221022112119920"></p>
+<p><u>设计不同模板，电泳分析体外转录产物组成</u></p>
+<p><strong>小结</strong>：dsRNA两条链分别通过两种不同的方式合成，正义链依靠启动子合成，反义链通过互补配对的末端序列，不依赖启动子。</p>
+<h2 id="模板序列变化对IVT副产物dsRNA合成的影响"><a href="#模板序列变化对IVT副产物dsRNA合成的影响" class="headerlink" title="模板序列变化对IVT副产物dsRNA合成的影响"></a>模板序列变化对IVT副产物dsRNA合成的影响</h2><p>通过上面的一系列试验，我们知道T7 pol 能够在不含启动子的DNA末端启动反义链RNA的合成，那么紧接着就会有产生一个问题，T7 pol的这种活性是否取决于DNA末端序列结构？</p>
+<p>由于以上试验的模板DNA末端序列最后6个核苷酸是相同的，因此我们设计不同碱基组成的末端DNA模板序列，既有平末端，也有3’末端突出序列或者5’端突出序列。通过检测这些DNA模板体外转录产物的组成和免疫刺激活性，发现通过DNA模板末端，独立于启动子，依靠末端DNA合成dsRNA 反义链是一种非常普遍的现象，DNA模板末端序列组成和结构会影响副产物dsRNA的合成产量。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221121772.png" alt="image-20221022112137576"></p>
+<p><u>模板DNA末端序列组成和结构对IVT副产物dsRNA合成的影响</u></p>
+<h2 id="修饰核苷酸对IVT副产物dsRNA产量和免疫原性的影响"><a href="#修饰核苷酸对IVT副产物dsRNA产量和免疫原性的影响" class="headerlink" title="修饰核苷酸对IVT副产物dsRNA产量和免疫原性的影响"></a>修饰核苷酸对IVT副产物dsRNA产量和免疫原性的影响</h2><p>有许多研究已经报道，在体外转录反应中加入修饰核苷酸，可以降低IVT 产物 T7 trancripts的免疫原性，因此我们想知道修饰核苷酸是否会影响IVT反应副产物dsRNA的合成含量和免疫原性。</p>
+<p>首先，通过电泳分析IVT反应产物组分，可以发现，假尿嘧啶，假基鸟嘧啶，甲基胞嘧啶的插入，会抑制IVT反应副产物dsRNA的合成产量，m6A不会产生影响。与IVT反应中生成的dsRNA含量下降相对应，修饰核苷酸的插入，会造成IVT反应总产物免疫原性的下降。</p>
+<p>接下来，我们想知道，除去dsRNA含量的影响，修饰核苷酸的插入对于dsRNAB本身免疫原性的影响。纯化回收核苷酸修饰的dsRNA，转染细胞，发现修饰核苷酸对于dsRNA免疫原性的影响极其微弱。这与已有研究是相符的，MDA5识别的是dsRNA骨架结构，而不是特定的碱基。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221121679.png" alt="image-20221022112158566"></p>
+<p><strong>小结</strong>：在体外转录反应中，修饰核苷酸的插入，造成T7 transcript （总产物）免疫原性的减弱，至少有一部分原因是修饰核苷酸导致副产物dsRNA产量减低，并不是携带修饰核苷酸的dsRNA自身免疫原性减弱。</p>
+<h2 id="IVT各组分浓度对副产物dsRNA合成的影响"><a href="#IVT各组分浓度对副产物dsRNA合成的影响" class="headerlink" title="IVT各组分浓度对副产物dsRNA合成的影响"></a>IVT各组分浓度对副产物dsRNA合成的影响</h2><p>我们还想知道IVT反应各组分浓度对于副产物dsRNA合成的影响，通过电泳分析IVT产物组分，可以看出，T7 pol浓度，模板浓度，NTP浓度，NaCl浓度（高浓度的离子，会抑制T7 pol非特异性的DNA结合活性）对于dsRNA合成产量基本上没有影响。意外的是，随着镁离子浓度降低，dsRNA产量降低。特定指出的是，当镁离子浓度处于5mM时，几乎检测不到dsRNA的产生。镁离子浓度抑制IVT反应副产物dsRNA的生成具有普适性，不会因为模板序列不同的发生改变。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221122842.png" alt="image-20221022112218475"></p>
+<p><u>IVT反应各组分变化对于副产物dsRNA产量的影响</u></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>&#x3D;&#x3D;通过这篇非常经典IVT反应相关的文章，我们可以了解到在VT反应过程中常常生成副产物dsRNA。dsRNA能够强烈刺激细胞内RNA受体 RIG-I和MDA5，触发抗病毒天然免疫性号。T7 pol可以在模板双链DNA末端，以不依赖promoter的活性转录出反义RNA链，以依赖promoter的活性转录出正义链，从而产生dsRNA，这是一种非常普遍的现象，不依赖于模板DNA末端序列组成和结构。&#x3D;&#x3D;</p>
+<p>在转录起始阶段，T7 pol结合到启动子上，合成一些短的流产短链，当RNA超过一定的长度（12nt左右），T7 pol构象发生变化，离开启动子，进入延伸阶段。可以猜想，如果处于延伸构象的T7 pol直接和模板DNA末端结合，启动不依赖promoter的反义链RNA合成，而且高浓度的镁离子可以促进此过程。后续可以研究这种不依赖promoter的反义链RNA合成起始阶段是否也会产生许多短的流产RNA链，寻找促进或者抑制T7 pol 不依赖promoter 转录活性的突变。</p>
+<p>修饰核苷酸可以降低IVT反应副产物dsRNA合成产量，这至少是修饰核苷酸引起的T7 transcript免疫原性减弱的一部分原因。同时，修饰核苷酸的插入对于dsRNA自身的免疫原性没有影响。最后，还发现当镁离子浓度处于5mM时，几乎检测不到dsRNA的产生。找到抑制dsRNA合成的普适方法，修饰核苷酸替换和减低镁离子浓度。</p>
+<p>此外，这篇文章也为鉴定IVT反应产物组分提供了一种快速高效的方法。一般来说，检测dsRNA，用的都是J2抗体，但是此方法无法区分携带二级结构的ssRNA和长dsRNA。以后，我们可以利用非变性胶和吖啶橙（acridine orange）显色定性分析，MDA5 fliament 和ATPase activities定量分析dsRNA副产物，而且可以通过电镜下观察MDA5 filament的长度来确定dsRNA的长度，从而高效快速鉴定出携带二级结构的ssRNA和长dsRNA。</p>
+<hr>
+<p>1.Triana-Alonso,F.J., Dabrowski,M., Wadzack,J. and Nierhaus,K.H. (1995) Self-coded 3?-extension of run-off transcripts produces aberrant products during in vitro transcription with T7 RNA polymerase. J. Biol. Chem., 270, 6298–6307</p>
+<p>2.Konarska,M.M. and Sharp,P.A. (1989) Replication of RNA by the DNA-dependent RNA polymerase of phage T7. Cell, 57, 423–431.</p>
+]]></content>
+      <categories>
+        <category>RNA工艺</category>
+        <category>IVT合成</category>
+      </categories>
+      <tags>
+        <tag>dsRNA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>circRNA漂浮不定的电泳迁移速率</title>
+    <url>/2022/10/22/circRNA%E6%BC%82%E6%B5%AE%E4%B8%8D%E5%AE%9A%E7%9A%84%E7%94%B5%E6%B3%B3%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87/</url>
+    <content><![CDATA[<p>circRNA是一种共价闭环的单链RNA，通过反向剪接天然产生，广泛存在于真核细胞中。circRNA不具有游离末端，稳定性优于线性RNA，有极大的优势成为下一代RNA技术平台。今年上半年，国内外的研发人员已经成功开发出多款环形RNA新冠疫苗，受到领域内众多的关注。</p>
+<p>目前，广泛使用的体外合成circRNA的方法主要依靠酶连成环或者变更的具有催化活性的内含子序列。但是，circRNA技术在应用过程中始终存在一个非常棘手的问题：如何将circRNA和线性RNA清晰地分离开来？用来对circRNA进行质量分析的手段包括，凝胶电泳，RNase R切割，靶核苷酸导向的RNase H切割，高效液相色谱（HPLC）以及single-hit hydrosis。</p>
+<p>我们在前面介绍过circRNA免疫原性一直存在着争议。</p>
+<p>2017年，斯坦福医学院Howard Y Chang最早报道使用体外合成的circRNA会触发强烈的天然免疫反应。2019年，Howard Y Chang又发现体外合成circRNA时，使用N6-甲基腺嘌呤修饰核苷酸会抑制circRNA免疫原性。同年，Daneil.G.Adernson通过一系列纯化手段得到的体外合成circRNA不会触发机体产生天然免疫反应。2021年，中科院生化细胞所陈玲玲报道通过具有自我剪接活性的内含子产生的circRNA具有免疫原性，但是，通过T4连接酶产生的circRNA不具有免疫原性。<br>为探究关于circRNA免疫性不同结论背后的原因，&#x3D;&#x3D;2020年5月5号，Howard Y Chang 和 Daneil.G.Adernson联合在Molecular Cell上发布文章：Circular RNA migration in agarose gel electrophoresis，&#x3D;&#x3D;他们发现circRNA在琼脂糖凝胶中的电泳迁移速率会受到凝胶类型，电泳时间，上样buffer组成，电压的影响，呈现出与实际Size不相符合的表观Size，使得circRNA和线性RNA之间的分析鉴定受到极大的干扰。他们提醒circRNA领域内的研究同行，应该联合其他的分析手段确认circRNA的电泳结果，以免得出错误的研究结论。</p>
+<h2 id="标准琼脂糖凝胶电泳分离circRNA"><a href="#标准琼脂糖凝胶电泳分离circRNA" class="headerlink" title="标准琼脂糖凝胶电泳分离circRNA"></a>标准琼脂糖凝胶电泳分离circRNA</h2><p>RNA在琼脂糖凝胶电泳中的迁移速率取决于RNA质量和形状。RNA质量和长度相关，相同结构的RNA，长序列要比短序列迁移得慢。RNA的形状，即二级结构，也会影响迁移速率，因此经常使用变性剂来解开二级结构。</p>
+<p>circRNA在体外合成反应结束后，产物中会存在多种类型的RNA杂质，主要包含precursor RNA(circRNA合成的线性模板RNA)，Niked RNA（circRNA产生切口，变为长度相同的单链线性RNA,），剪切掉的上下游内含子序列。</p>
+<p>研发人员用标准琼脂糖凝胶电泳来分离RNase R切割前后的环化反应产物，并且设计一系列靶向不同区域的探针，用Northern杂交去验证分离结果。在标准琼脂糖凝胶电泳图中，Precursor RNA 条带靠近2000bp，并且会被RNase R降解掉。circRNA条带在1000-1500bp之间，可以抵抗RNase R降解。但是，分子量大小相同的circRNA与Nicked RNA重叠在一起无法区分开来，随着降解时间加长，Nicked RNA逐渐被降解掉，只剩下circRNA，因此1000-1500bp之间的条带随着RNase R降解时间延长而逐渐变淡。</p>
+<p>在Northern杂交验证中，1-UpExc&#x2F;5-DownExc探针会检测到precursor RNA和剪切掉的内含子序列。2-UpRet&#x2F;3-GLuc&#x2F;4-DownRet探针可以检测到3种RNA，precusorRNA&#x2F;Nicked RNA&#x2F;circRNA，其中precusorRNA&#x2F;Nicked RNA为线性RNA，会随着时间延长逐渐被RNase R降解掉，条带逐渐变带直到检测不到。6-Ana 只能检测到circRNA条带，可以看到随着RNase R降解，circRNA会产生非常多的Nicked RNA而导致条带逐渐变淡。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221127778.png" alt="image-20221022112731556"></p>
+<p><u>标准琼脂糖凝胶电泳和Northern杂分析环化反应产物</u></p>
+<h2 id="E-Gel-EX-琼脂糖凝胶系统电泳circRNA"><a href="#E-Gel-EX-琼脂糖凝胶系统电泳circRNA" class="headerlink" title="E-Gel EX 琼脂糖凝胶系统电泳circRNA"></a>E-Gel EX 琼脂糖凝胶系统电泳circRNA</h2><h3 id="E-Gel-EX-系统"><a href="#E-Gel-EX-系统" class="headerlink" title="E-Gel EX 系统"></a>E-Gel EX 系统</h3><p>Daneil.G.Adernson在2019年的文章中使用的琼脂糖凝胶系统是从Thermo Fisher购买的预制胶E-Gel EX，circRNA在胶图中呈现出比较实际Size更大的表观Size，而且要比分子量更大的precursor RNA迁移地更慢，在E-Gel EX系统中，可以将circRNA和线性RNA区分开来，呈现出的条带分布：circRNA&gt;precursor RNA&gt;Niked RNA。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/BioFactory-bot/Image@main//202205281945701.png" alt="image-20220528194548641"></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221127688.png" alt="image-20221022112754470"></p>
+<p><u>E-GeI EX 琼脂糖凝胶系统电泳circRNA，呈现出的条带分布：circRNA&gt;precursor RNA&gt;Niked RNA。</u></p>
+<h3 id="GLBII-变性buffer对circRNA迁移速率的影响"><a href="#GLBII-变性buffer对circRNA迁移速率的影响" class="headerlink" title="GLBII 变性buffer对circRNA迁移速率的影响"></a>GLBII 变性buffer对circRNA迁移速率的影响</h3><p>在这篇文章中，研究人员使用GLBII上游缓冲液，在E-Gel EX凝胶系统中，circRNA样品电泳13min，可以看到明显的3条带：接近2500nt的强条带为circRNA;接近2000nt的弱带为precusor RNA；接近1500nt较强的条带为Nicked RNA。但是，当电泳时间延长到第18min时，circRNA条带和precursor RNA叠加在一起，无法区分开来，而Nicked RNA条带不受影响。此外，circRNA上样量不影响circRNA在E-Gel EX凝胶系统中的迁移速率。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221129307.png" alt="image-20221022112904102"></p>
+<p><u>GLBII凝胶上样缓冲液</u></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221128420.png" alt="image-20221022112848266"></p>
+<p><u>使用GLBII上游缓冲液引起circRNA和线性RNA条带重叠。</u></p>
+<p>研究人员发现在E-Gel EX凝胶系统中，RNase R处理过的circRNA样品在凝胶系统中会只存在2条带：circRNA和Nicked RNA。如果使用GBLII上游缓冲液，随着电泳时间从10min往后延长，circRNA条带会逐渐向前迁移靠近然后超越2000nt，使得表观Size逐渐变小，但是，Nicke RNA表观Size不会随时间发生改变。同时，他们还发现circRNA表观Size变化的现象只存在于E-Gel EX凝胶系统中，在非E-Gel EX凝胶系统中，circRNA表观Size和实际Size相一致，而且不会随着电泳时间发生改变。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221129001.png" alt="image-20221022112927675"></p>
+<p><u>如果使用GBLII上样buffer，circRNA表观Size会随着电泳时间的延长而变小。circRNA表观Size增大的现象只发生在E-Gel EX凝胶系统中。</u></p>
+<p>###上样缓冲液组成对circRNA迁移速率影响</p>
+<p>由于使用GBL II上样Buffer在E-Gel EX凝胶系统中带来的circRNA迁移速率变化，使得研究人员想去探究GBL II上样Buffer液中各组分对circRNA迁移速率的影响。他们发现在上样Buffer中存在甲酰胺或者+SDS的情况下，添加EDTA不仅会减小circRNA表观Size，而且会抑制circRNA形成缺口以及发生降解。在非E-Gel EX凝胶系统中，在上样缓冲液中添加EDTA具有相同的效果。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221129307.png" alt="image-20221022112959157"></p>
+<p><u>上样缓冲液中添加EDTA会减少circRNA表观Size，抑制circRNA降解。</u></p>
+<h3 id="环化反应Buffer对circRNA迁移速率影响"><a href="#环化反应Buffer对circRNA迁移速率影响" class="headerlink" title="环化反应Buffer对circRNA迁移速率影响"></a>环化反应Buffer对circRNA迁移速率影响</h3><p>由于IVT反应和环化反应buffer中存在单价或者二价盐离子和还原剂以及其他的组分，但是，纯化处理的时候很难完全去除这些成份。研发人员发现，如果在IVT反应产物或者环化反应产物中添加T4 RNA连接酶反应buffer，在EDTA同时存在的情况下，才会减小circRNA表观Size。这种现象只存在于电泳系统中，在HPLC分离中，添加T4 RNA连接酶反应buffer或者+EDTA不会影响circRNA迁移速率。<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221131709.png" alt="image-20221022113115430"></p>
+<p><u>在EDTA存在下，环化反应T4 RNA Ligase I buffer会影响circRNA在E-Gel EX凝胶系统中的迁移速率，但是不影响circRNA在分子排阻HPLC中的迁移速率。</u></p>
+<h3 id="电压对circRNA迁移速率的影响"><a href="#电压对circRNA迁移速率的影响" class="headerlink" title="电压对circRNA迁移速率的影响"></a>电压对circRNA迁移速率的影响</h3><p>在保持指示条带一致的情况下，如果降低电压（SizeSelect2%）会使得circRNA条带从靠近2000nt(高电压，EX1-2%条件下)的位置迁移到2000nt以下，但是，同时使得circRNA条带和precursor RNA条带发生重叠，难以区分开。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221130093.png" alt="image-20221022113050732"></p>
+<p><u>低电压会造成circRNA条带和precursor RNA条带的重叠。</u></p>
+<h3 id="染料对于circRNA迁移速率的影响"><a href="#染料对于circRNA迁移速率的影响" class="headerlink" title="染料对于circRNA迁移速率的影响"></a>染料对于circRNA迁移速率的影响</h3><p>E-Gel EX预制凝胶系统使用的SYBR-GOLD II 染料。研发人员发现如果在95%甲酰胺上样缓冲液中加入SYBR-GOLD I会阻断circRNA在EX凝胶系统中异常变大的表观Size,使其恢复到接近真实Size条带位置。在95%甲酰胺上样缓冲液中加入溴化乙锭对于circRNA表观Size没有改变。相比于上样缓冲液GLBII，使用RLD上样缓冲液会导致circRNA表观Size更加靠近2000nt，这可能是由于GLBII和RLD组分中EDTA浓度差异造成的。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221130924.png" alt="image-20221022113026601"></p>
+<p><u>在95%甲酰胺上样缓冲液中加入SYBR-GOLD I会阻断circRNA在EX凝胶系统中异常变大的表观Size，使其恢复到接近实际Size条带位置。</u></p>
+<h2 id="联用分析手段确认circRNA电泳结果"><a href="#联用分析手段确认circRNA电泳结果" class="headerlink" title="联用分析手段确认circRNA电泳结果"></a>联用分析手段确认circRNA电泳结果</h2><p>研发人员在初步得到circRNA电泳结果的基础上，还可以结合Northern杂交，HPLC以及酶切手段进行进一步的确认。</p>
+<h3 id="RNase-H特异性切割"><a href="#RNase-H特异性切割" class="headerlink" title="RNase H特异性切割"></a>RNase H特异性切割</h3><p>RNase H可以在特定位点切割precursor RNA，使其一分为二，而将circRNA切割成线性RNA。一旦加入RNAase H，对于IVT反应产物来说，电泳图中会出现两条强度的切割后的条带，在分子排阻HPLC峰图上可以看到precursor RNA 峰逐渐消失，而切割后的较小片段的起峰升高；对于circRNA产物来说，电泳图中circRNA条带逐渐变弱，而Nick RNA条带逐渐增强，HPLC峰图也与此相对应。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221131423.png" alt="image-20221022113138197"></p>
+<p><u>结合凝胶电泳系统和HPLC确认RNase H酶切IVT或者环化反应产物的结果。</u></p>
+<p>###单点非特异性切割</p>
+<p>当溶液中存二价离子比如酶离子，加热到70度时，溶液中的RNA骨架会发生非特异性的随机切割，导致IVT反应产物产生一系列的弥散条带，而环化反应产物中的Nick RNA增加，同时也会出现弥散降解条带。与此对应的是，IVT反应产物precusor RNA主峰前面随着切割反应的进行会出现一系列的弥散峰；环化反应产物circRNA主峰左侧升起非常明显的Nicked RNA峰，也就是在分子排阻HPLC环境中，Nicke RNA表现得比circRNA要大。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221132841.png" alt="image-20221022113204612"></p>
+<p><u>通过二价离子和加温可以确认环化反应产物中形成的circRNA。</u></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>环化反应产物经过一系列纯化，最后需要用质控分析手段去检测纯化终产物中各组类型RNA的分布比例，因此需要非常灵敏的检测手段。由于circRNA在电泳系统中的迁移速率会受多种因素的影响，造成表观Size的差异，给circRNA和线性RNA的检测区分带来困难。通过这篇文章，我们需要在circRNA电泳过程中注意以下几方面：</p>
+<p>（1）在标准琼脂糖凝胶电泳中，circRNA 在电泳胶图中呈现的表观Size与其实际Size接近，但是与相同长度的线性Nicked RNA重叠在一起，无法区分。电泳条带分布：precursor RNA&gt;circRNA&#x2F;Nicked。</p>
+<p>（2）在Thermo Fisher预制胶E-Gel EX电泳系统中，circRNA在电泳胶图中呈现的表观Size远超过其实际Size，电泳条带分布：circRNA&gt;Precusor RNA&gt; Nicked RNA。需要特别注意的是，在E-Gel EX电泳系统中，circRNA迁移速率会受到上样缓冲buffer，染料，电压的影响。</p>
+<p>（3）只通过电泳系统无法完成对电泳图中条带对应的RNA类型的准确分析，还需要联合Northen杂交，HPLC，RNase 酶切反应做最终的确认分析。</p>
+<p>（4）本项研究工作未涉及的问题：修饰核苷酸是否会影响circRNA迁移速率？在PAGE凝胶系统中，circRNA迁移速率受哪些因素的影响？</p>
+]]></content>
+      <categories>
+        <category>RNA工艺</category>
+        <category>IVT合成</category>
+      </categories>
+      <tags>
+        <tag>dsRNA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mRNA 合成帽子类型和甲基化</title>
+    <url>/2022/10/22/mRNA-%E5%90%88%E6%88%90%E5%B8%BD%E5%AD%90%E7%B1%BB%E5%9E%8B%E5%92%8C%E7%94%B2%E5%9F%BA%E5%8C%96/</url>
+    <content><![CDATA[<p>真核生物 mRNA 5’ 末端帽子结构是非常关键的组成部分，在 mRNA stability，mRNA transport，protein synthesis 方面发挥极其重要的功能。在 mRNA 体外合成反应中，可以通过 2 种方法完成 mRNA5’ 末端的加帽:</p>
+<ol>
+<li><p><strong>酶法加帽</strong></p>
+<p>成本相对较低，但是多了加帽和甲基化步骤，引入了两个额外的蛋白和 SAM，工艺步骤变繁琐，增添 QC 检测项。</p>
+</li>
+<li><p><strong>共转录加帽</strong></p>
+<p>一步到位，合成结束，可直接纯化，缺点是帽子类似物（Cap analogs）成本昂贵。考虑到未来随着技术的不断进步，帽子类似物合成方式取得新突破，成本必将发生大幅下降，因此共转录加帽必然成为未来 mRNA 合成的绝对主流。</p>
+</li>
+</ol>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221346622.png" alt="image-20221022134656458"></p>
+<p><u>mRNA 体外转录的两种加帽方式</u></p>
+<p>那么，我们有必要了解一些的 mRNA 帽子结构相关的理论知识，有助于 mRNA-based drug 方向的研发工作。</p>
+<h2 id="Methylation-modifications-in-eukaryotic-mRNA"><a href="#Methylation-modifications-in-eukaryotic-mRNA" class="headerlink" title="Methylation modifications in eukaryotic mRNA"></a>Methylation modifications in eukaryotic mRNA</h2><p>甲基化是 mRNA 最为常见的一种化学修饰，普遍存在于各种物种的细胞中。mRNA 甲基化主要是攻击嘌呤碱基和嘧啶碱基杂环上的碳原子，特定的氮原子，环外的氨基以及糖苷五碳环 2’-OH 的氧原子。目前真核生物 mRNA 甲基化的类型主要存在以下几种类型：</p>
+<blockquote>
+<p>\1. N7-methylguanosine (m^7^G) at the 5’ cap</p>
+</blockquote>
+<blockquote>
+<p>\2. N6-methyl-2’-O-methyladenosine (m^6^A<del>m</del>) within the 5’ cap</p>
+</blockquote>
+<blockquote>
+<p>\3. 2’-O-methylation (N<del>m</del>) within the 5’ cap</p>
+</blockquote>
+<blockquote>
+<p>\4. N6-methyladenosine (m^6^A) and 5-methylcytosine (m^5^C) in the internal position</p>
+</blockquote>
+<h3 id="m-7-G-Cap"><a href="#m-7-G-Cap" class="headerlink" title="m^7^G Cap"></a>m^7^G Cap</h3><blockquote>
+<p>m^7^G Cap 形成</p>
+</blockquote>
+<p>mRNA 5’ 端 Cap 加 “G” 的反应是非常迅速的，很难在体内测到 5’ 自由三磷酸基因的存在。据测算，在新生 mRNA 链到达 50 个核苷酸之前，甚至在 RNA polymerase II 离开转录起始位点之前，Cap 就已经添加到 mRNA 第一个核苷酸上了。也就是说，真核 mRNA 几乎从一出生，就头顶帽子结构了。</p>
+<p>mRNA 加帽过程可以分为三个过程:</p>
+<ol>
+<li><strong>RNA 5’ triphosphate 移除一个磷酸基团形成 diphosphate-RNA</strong></li>
+<li><strong>RNA guanylyltransferase 把 GMP 转移到 diphosphate-RNA，形成帽子结构</strong></li>
+<li><strong>RNA guanine-7-methyltransferase 利用 SAM 作为甲基供体，在鸟嘌呤核苷酸 N^7^ 位置上形成 m^7^G cap</strong></li>
+</ol>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221348647.png" alt="image-20221022134837505"></p>
+<p><u>Celluar mRNA 加帽过程</u></p>
+<p>在真菌和动物细胞中，guanylyltransferases 和 cap methyltransferases 在结构和机制上是高度保守的，但是 RNA triphosphatases 是完全不同的。</p>
+<p>我们可以看到真核细胞中 mRNA 加帽反应涉及到三个过程，需要三种不同的酶。但是在体外合成 mRNA 时，我们用到的是牛痘加帽酶。牛痘病毒加帽酶是催化形成帽子结构的有效酶，其由 D1 和 D12 两个亚基组成，兼具 RNA 三磷酸酯酶活性、鸟苷酰基转移酶活性和鸟嘌呤甲基转移酶活性，可将 7 - 甲基鸟嘌呤帽结构（m7Gppp）连接到 RNA 的 5’ 末端（m7Gppp5’N）。牛痘病毒加帽酶，在合适浓度的加帽缓冲液（Capping buffer），鸟苷三磷酸（GTP），S - 腺苷甲硫氨酸（SAM）等存在条件下，能够在一个小时之内对 RNA 进行加帽，并且保证正确的方向。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221349682.png" alt="image-20221022134937424"></p>
+<p><u>体外转录 mRNA, 牛痘病毒加帽酶可完成加帽反应</u></p>
+<blockquote>
+<p>m^7^G Cap 功能</p>
+</blockquote>
+<p>其中，m^7^G Cap 的研究较为清楚，其参与的生理学过程主要包括：</p>
+<ol>
+<li><p>mRNA translation</p>
+<p>在真核细胞中，eIF4E（eukaryotic initiation factor 4E）紧密结合到 mRNA 5’ 帽子结构上，与 eIF4G (支架蛋白) 和 eIF4A (解旋酶) ，形成 eIF4F 复合物，参与蛋白质翻译的起始。上述过程称为 cap-dependent translation, 这是大多数真核 mRNA 起始蛋白翻译依靠的机制。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221349281.png" alt="image-20221022134956070"></p>
+<p><u>mRNA cap-dependent translation</u></p>
+</li>
+<li><p>Nuclear export</p>
+<p>有研究报道，在酵母细胞中，帽子结合复合物 CBC（Cap-binding complex）可以结合到 mRAN 5’ 末端帽子结构上，通过募集 Npl3 和 Yra1，提升 mRNA 核输出。此外，CBC 还可以促进 Sus1 mRNA 剪接，而 Sus1 通过 TREX-2 系统来参与 mRNA 核输出。由此可以看出，mature RNA 从细胞核穿过核孔复合体进入到细胞质，mRNA 5’ 端帽子结构在此过程中发挥极其重要的作用。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221350035.png" alt="image-20221022135012857"></p>
+<p><u>帽子结合复合物 CBC 调控 mRNA 出核过程</u></p>
+</li>
+<li><p>mRNA stability</p>
+<p>mRNA 5’ 末端帽子能够被 Dcp2（decapping enzymes）去除掉，释放出 m7GDP 和 5’ monophosphated RNA,Xrn1 (5′-to-3′ exoribonuclease) 进而从头开始降解 5’ monophosphated RNA。有研究报道，在哺乳动物细胞中，DXO 具有 3 种酶活性，pyrophosphohydrolase, decapping, and 5’ to-3’ exoribonuclease activities，偏好降解一些加帽不完全的 mRNA 初始转录本。因此，mRNA 帽子结构和其稳定性密切相关。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221350568.png" alt="image-20221022135040387"></p>
+<p><u>DXO 可降解加帽不完全的 mRNA</u></p>
+</li>
+</ol>
+<h3 id="m-6-A"><a href="#m-6-A" class="headerlink" title="m^6^A"></a>m^6^A</h3><blockquote>
+<p>m^6^A 形成</p>
+</blockquote>
+<p>m^6^A 是细胞内 mRNA 最丰富的一种修饰，涉及蛋白翻译等多种生理功能。m^6^A 也是是第一个发现的 mRNA 可逆化学修饰，在 FTO（human fat mass and obesity associated protein (FTO) 或者 ALKBH5（alkylation repair ho- molog 5 ）的作用下发生去甲基化，类似于 DNA 和组蛋白的化学修饰，RNA m^6^A 化学修饰直接催生出一个新的研究方向 —RNA 表观遗传学。</p>
+<blockquote>
+<p>m^6^A 功能</p>
+</blockquote>
+<p>蛋白质的翻译一般都是 cap-binding complex 募集 43S 核糖体复合物到 mRNA 5’末端帽子结构，但是存在一些转录本能够通过 cap-independent translation 起始蛋白质翻译，有研究发现，mRNA 5’UTR 区域存在 m6A 时，能够通过 cap-independent translation 起始蛋白质翻译。5’ UTR m^6^A 可以直接结合 eIF3（eukaryotic initiation factor 3），eIF3 足以募集 43S 核糖体复合物，从而在缺乏 eIF4E 的情况起始蛋白翻译。值得注意的是，当细胞受到各种应激压力时，整个转录组上的 m6A 会发生重新分布，各种 5’ UTR m^6^A-mRNA 的数量增加，从而促进细胞在压力状态下的蛋白翻译。<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221404754.png" alt="image-20221022140440439" style="zoom:50%;" /></p>
+<h3 id="2’-O-methylation"><a href="#2’-O-methylation" class="headerlink" title="2’-O-methylation"></a>2’-O-methylation</h3><blockquote>
+<p>2’-O-methylation 形成</p>
+</blockquote>
+<p>在高等真核生物以及其对应的侵染病毒的 mRNA 5’ 末端结构里，第一个转录出来的核苷酸（the first transcribed nucleotide）最常发生的化学修饰是 2’-O-methylation，由此形成 Cap1 或者 Cap2。如果第一个核苷酸是 A 或者 2’-O- methyladenosine (A<del>m</del>)，那么腺嘌呤碱基 N^6^ 位置还可能发生额外甲基化，形成 m^6^A 或者 m^6^A<del>m</del>。不同物种的各类细胞中～m<del>^6^A</del>m<del>&#x2F;A</del>m~ 的比值变化非常大，在人的细胞中，两者比值可以达到最大，在一些特定类型的人细胞中，甚至超过 50%。非常有意思的是，mRNA 5’ 末端第一个腺嘌呤核苷酸，在缺乏 2’-O-methylation 的情况下，依然可以形成 N6-methylation (m^6^A)，研究人员发现存在大量此种类型的 mRNA。例如，在人 B 淋巴细胞中，mRNA 5’ 末端第一个核苷酸出现 m^6^A 和 m^6^A<del>m</del> 的概率是相同的；相反，在小鼠肝脏细胞中，mRNA5’ 末端第一个核苷酸出现 m^6^A 的概率要比～m<del>^6^A</del>m~ 出现的概率少十倍。</p>
+<blockquote>
+<p>2’-O-methylation 功能</p>
+</blockquote>
+<p>高等哺乳动物细胞 mRNA 5’ 末端存在 Cap structure，并且转录出来的第一个核苷酸会发生 2’-O-methylation，相反，大部分 Virus RNA, 形成 long strand-RNA (dsRNA), 或者产生 5’ triphosphosphates (PPP- RNA) 或者 capped but lack 2’-O-methylation RNA。通过鉴别 Virus RNA 和 celluar RNA 结构上的差异，模式识别受体 PRRs（Pattern-Recognition Receptors ）可以感知到 Virus RNA，激活细胞抗病毒级联信号通路，诱导 Type 1 interferons (IFN) 。IFN 通过旁分泌，与邻近细胞的 IFN Receptors 结合，触发 JAK-STAT 信号通路，上调抗病毒相关基因的表达，其中就包括干扰素诱导的四肽重复序列（基因（IFN-induced tetratricopeptide repeat ）。有研究显示，IFIT1 and IFIT1B 能够同蛋白翻译起始因子 eIF4E 发生强有力地竞争，阻断 Cap0-mRNA 启动翻译，相反，IFIT1B and IFIT5 需要较高的蛋白浓度才能抑制 cap1- and 5’ppp- mRNAs 启动翻译。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221406334.png" alt="image-20221022140605175"></p>
+<p><u>IFIT 可以阻断 Cap 0-mRNA 启动翻译</u></p>
+<h3 id="m-5-C"><a href="#m-5-C" class="headerlink" title="m^5^C"></a>m^5^C</h3><p>m^5^C 作为 DNA 的一种化学修饰，被广泛研究，但是对于 m^5^C-Cellular RNA 化学修饰一直被仍为仅存在于 tRNA 和 rRNA 中，缺乏相关的研究。在 2012 年，研究人员利用二代测序技术发现，除了发现 human tRNA 上存在的胞嘧啶化学修饰位点，在 mRNA 和 non-coding RNAs 上面也发现了许多胞嘧啶化学修饰位点，而且此类位点主要集中分布在 mRNA UTR 区域以及靠近 Argonaute 结合区域。</p>
+<p>mRNA cap type</p>
+<p>真核生物 mRNA 5’ 末端帽子结构有一个固定的组成：</p>
+<blockquote>
+<p>m7G+5’,5’-triphosphate chain+the first transcirbed nucleotide</p>
+</blockquote>
+<p>在 mRNA 5’ 末端核苷酸不同部位可发生甲基化，从而形成 3 种帽子结构：</p>
+<blockquote>
+<p>\1. Cap 0（m^7^GpppN<del>1</del> +mRNA)</p>
+</blockquote>
+<blockquote>
+<p>\2. Cap 1 (m^7^GpppN<del>1m</del>+mRNA)</p>
+</blockquote>
+<blockquote>
+<p>\3. Cap 2 (m^7^GpppN<del>1m</del>N<del>2m</del>)</p>
+</blockquote>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221406302.png" alt="image-20221022140634120"></p>
+<h2 id="mRNA-cap-type"><a href="#mRNA-cap-type" class="headerlink" title="mRNA cap type"></a>mRNA cap type</h2><h3 id="Cap-Analogs"><a href="#Cap-Analogs" class="headerlink" title="Cap Analogs"></a>Cap Analogs</h3><p>在 2009 年，Ishikawa 使用三核苷酸帽子类似物 m7GpppA*pG（A 可以是腺嘌呤核苷酸或者甲基腺嘌呤核苷酸）来完成 IVT 反应中 RNA 的加帽过程，突破以往 IVT 加帽反应的诸多限制。合成 4 种不同的三核苷酸帽子类似物，在腺嘌呤核苷酸 2’-OH 和 N6 位置上，存在不同的甲基化:</p>
+<blockquote>
+<p>\1. m^7^G<del>ppp</del>A<del>p</del>G(plant mRNA Type)</p>
+</blockquote>
+<blockquote>
+<p>\2. m^7^G<del>ppp</del>A<del>m</del>pG(animal mRNA Type)</p>
+</blockquote>
+<blockquote>
+<p>\3. m^7^G<del>ppp</del>^m^^6^A<del>m</del>pG(mammalian mRNA Type)</p>
+</blockquote>
+<blockquote>
+<p>\4. m^7^G<del>ppp</del>^m^^6^ApG(unnatural mRNA Type)</p>
+</blockquote>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221406274.png" alt="image-20221022140656059"></p>
+<p>利用含有 4 种不同甲基化腺嘌呤核苷酸的帽子结构类似物，合成出 4 种不同的 mRNA, 加入到兔网织红细胞裂解液系统中，研究 mRNA 5’ 端不同甲基化的腺嘌呤核苷酸对 mRNA 翻译的影响，发现 m^7^G<del>ppp</del>^m^^6^A<del>m</del>pG-mRNA 翻译效率是最高的，m^7^G<del>ppp</del>A<del>p</del>G-mRNA 翻译效率最低。这表明哺乳动物 mRNA5’ 端腺嘌呤核苷酸 2’-OH 和 N6 位置上的甲基化会影响 mRNA 蛋白翻译效率。</p>
+<p>目前市面上销售的 Cap Analogs 主要存在:</p>
+<ol>
+<li><strong>CleancapAG</strong></li>
+<li><strong>CleancapGG</strong></li>
+<li><strong>CleancapUG</strong></li>
+<li><strong>ARCA</strong></li>
+</ol>
+<p>聚合酶可以从 m7G 的 3’-OH 起始转录反应，形成 Gpppm7G-RNA（反向假冒 mRNA）, 通过合成 3’-OH 甲基化 m7G（ARCAs），来避免形成反向加帽 mRNA。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>帽子结构对于 mRNA 来说，就像是一定钢盔，既可以保护 mRNA 免遭荼毒，又能够通过化学修饰在钢盔上加上烙印，便于被其他成员识别。mRNA 疫苗研发中，通过共转录方式加帽，能够更加迅速提升 mRNA 疫苗产能。IVT 反应中成本昂贵的修饰核苷酸合成需要进一步做技术突破，降低其生产成本。</p>
+]]></content>
+      <categories>
+        <category>RNA工艺</category>
+        <category>IVT合成</category>
+      </categories>
+      <tags>
+        <tag>Cap</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理论T7 RNA Polymerase 并非想象的那么简单</title>
+    <url>/2022/10/22/%E7%90%86%E8%AE%BAT7-RNA-Polymerase-%E5%B9%B6%E9%9D%9E%E6%83%B3%E8%B1%A1%E7%9A%84%E9%82%A3%E4%B9%88%E7%AE%80%E5%8D%95/</url>
+    <content><![CDATA[<p>在新冠疫情带来的梦魇中，mRNA疫苗凭借高效的保护力，快速的产能放大，一飞冲天，让人们看到终结疫情的希望。同时，在人身上大规模接种mRNA疫苗也提供了海量的临床数据，证实了其安全性，为各种各样的<strong>mRNA-based drug</strong>应用于真实世界，打下坚实的基础。资本闻风而动，涌向整个核酸行业，催生明日之星。</p>
+<p>mRNA药物生产工艺不仅路线非常明确成熟，而且在应对各种各样的靶标mRNA时，工艺路线固定不变。不像抗体药物，不同的抗体需要摸索不同的纯化工艺路线。一旦整个生产线搭建运转起来，基本上靠<strong>化学合成</strong>来完成，非常容易扩大生产。我们只需合成遗传信息指令即可,把苦活累全部活交给人体细胞自己去完成。</p>
+<p>关于mRNA药物生产工艺的文章，网上大把，但是细节解析几乎没有，因此笔者会持续挖掘一些有价值的信息，加以分享，让读者大人可以从同质化的公众号文章中脱身出来。</p>
+<h2 id="RNA合成"><a href="#RNA合成" class="headerlink" title="RNA合成"></a>RNA合成</h2><p>RNA合成可以分为固相化学合成和酶法合成。</p>
+<h3 id="Solid-Phase-Chemical-Synthesis"><a href="#Solid-Phase-Chemical-Synthesis" class="headerlink" title="Solid Phase Chemical Synthesis"></a>Solid Phase Chemical Synthesis</h3><p>固相化学合成适用于一些短链RNA合成（50-100nt）。不足的地方在于，随着RNA的长度增加，合成产量和纯度会发生下降。<strong>申基生物</strong>研发人员称，他们可以采用固相化学合成mRNA的长度达到150bp，如果去掉20bp的polyA尾巴，此<strong>150bp</strong> mRNA可编码产生40个氨基酸的多肽序列。此类短肽的mRNA序列可以用于表达抗原表位肽，进行疫苗研发。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221340615.png" alt="image-20221022134029437"></p>
+<h3 id="Enzymatic-Synthesis"><a href="#Enzymatic-Synthesis" class="headerlink" title="Enzymatic Synthesis"></a>Enzymatic Synthesis</h3><p>适用于<strong>各种长度RNA</strong>,<strong>实现高产量</strong>，还得靠酶学的方法。酶法合成利用T7 RNA polymerase ，通过体外转录反应来实现高产量的各种长度的RNA合成。T7 RNApolymerase 在体外也具有有启动子特异性的转录活性（promoter specific transcription），是第一个被鉴定出来的单亚基RNA polymerase，可在大肠杆菌种过表达，用于构建体外转录系统。<strong>早在八十年代左右</strong>，人们就把外源目的基因连到质粒上，提取质粒，酶切得到线性化的模板，以此线性化的质粒模板来合成RNA。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221340565.png" alt="image-20221022134042458" style="zoom:50%;" />
+
+<h5 id="转录的基本原理"><a href="#转录的基本原理" class="headerlink" title="转录的基本原理"></a><strong>转录的基本原理</strong></h5><p>在转录起始位点（the start site of transcription）上游，有一段保守启动子序列（consensus promoter sequence）。RNA polymerase 识别并且结合到特异性的启动子上（recognizes and binds  specific promoter），打开（melt）转录起始位点附近的DNA双链，启动RNA的从头合成（initiate de novo synthesis of RNA）。RNA polymerase 利用NTPs起始转录，初始阶段，转录是不稳定低效的，典型特征是<strong>重复发生流产性起始事件</strong>（characterized by repeated abortive initiation events），形成长度<strong>2-6 nt流产短链RNAs</strong>（short abortive RNAs）。一旦合成出超过10-12 nt RNA，RNA  polymerase 构象发生改变，逃离启动子，DNA-酶-RNA形成稳定的三元复合物，进入高效转录阶段（enters the highly processive elongation phase），直到RNA polymerase 遇到终止子（a terminator sequence）或者从线性DNA模板（the 5′ end of a linearized template）的末端滑落掉下,mRNA转录合成便终止。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221341361.png" alt="image-20221022134106244"></p>
+<h5 id="T7-RNA-polymerase-Structure"><a href="#T7-RNA-polymerase-Structure" class="headerlink" title="T7 RNA polymerase Structure"></a><strong>T7 RNA polymerase Structure</strong></h5><p>细胞和叶绿体的 RNA polymerase 由多个不同的亚基组成，不同的亚基执行不同的功能。许多噬菌体和线粒体的RNA polymerase由单一的亚基构成，同时拥有多种功能，比如RNA的聚合，DNA双链的解开，DNA-RNA链的解开。</p>
+<p>T7 RNAP主要32个 ɑ螺旋和9个 β折叠片构成。C端结构域有2&#x2F;3跟Klenow fragment相似，由finger，thumb，palm，组成，N端结构域（1-325）是T7 RNA polymerase特有的，涉及启动子识别和DNA解链。T7 RNA polymerase可以解开-1 to -4 的碱基对，该区域的模板链置于含有催化活性位点的裂缝区域（catalytic active-site cleft of  the polymerase），形成一个transcription bubble。在promoter DNA双链邻近的大小沟，T7 RNA polymerase来实现启动子双链区域的序列特异性识别。Intercalating β hairpin（230-240）插入到DNA大沟里，实现碱基的直接识别。由740-770残基形成specificity loop同样可以识别碱基对。N端结构域通过插入一段弹性的loop结构(93-101)来识别DNA小沟中富含AT碱基的DNA序列(-17 ——13)。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221341295.png" alt="image-20221022134147928"></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221342545.png" alt="image-20221022134223144"></p>
+<p><u>T7RNP和启动子序列之间的相互作用</u></p>
+<p>转录初始和延伸阶段，在构象上，T7 RNA polymerase有由非常显著的差异。DNA-T7 RNA polymerase在延伸阶段非常稳定。T7 lysozyme可以抑制T7 RNA polymerase从初始阶段向延伸阶段的转变，但是对于转录延伸阶段的T7 RNA polymerase活性没有任何的影响。从转录初始进入到延伸阶段以后，T7 RNAP的N端结构域发生重排，破坏掉启动子结合结构域，创造出一个可以容纳7bp DNA-RNA异质性双链的通道，在异质性双链脱落以后，允许RNA转录本通过。</p>
+<h6 id="Promoter-Dependent-Polymerase"><a href="#Promoter-Dependent-Polymerase" class="headerlink" title="Promoter Dependent Polymerase"></a><strong>Promoter Dependent Polymerase</strong></h6><p>T7 RNAploymerase同时有依赖于DNA模板和RNA模板的RNA聚合酶活性，可以高度特异性地识别保守启动子序列，但其聚合酶活性具有非常大的弹性尺度范围。不管双链DNA启动子序列后面跟着的是双链or 单链DNA序列，双链or单链RNA序列，chemeric DNA-RNA,T7 RNAploymerase 都可以启动转录合成RNA序列，这可以看作是T7 RNApolymerase 依赖于启动子的聚合酶活性（promoter dependent polymerase）。说白了，只要存在启动子DAN双链序列，不管后面接的是什么，T7 RNAploymerase都可以利用NTPs合成出产物RNA。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221344223.png" alt="image-20221022134402106"></p>
+<p><u>拥有启动子双链DNA序列的各种不同模板</u></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221344369.png" alt="image-20221022134429294"></p>
+<p><u>拥有启动子双链DNA序列的各种不同模板均可合成RNA</u></p>
+<p><strong>Promoter Independent Polymerase</strong></p>
+<p>有研究利用RNA -Seq来研究体外转录反应产物序列和产量分布情况，发现IVT反应中的RNA产物末端可以折回形成发卡结构，将自身变成引物，在3’端添加NTPs，产生长度超过预期产物的RNA，并且随着RNA产物浓度的升高，此过程会跟以DNA为模板的正常转录过程发生竞争。以上过程，可以看作是独立于启动子序列的聚合酶活性（promoter independent polymerase）。说白了，就是IVT反应的产物RNA可能会自己折叠形成发卡结构，把自己变成RNA引物，并且以自己为模板在末端添加核苷酸，这样的话就产生了很多超过预期长度的产物RNA。这个过程可能会循环发生，导致更长的RNA产物反而成了IVT反应的主要产物。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221345235.png" alt="image-20221022134520117"></p>
+<p><u>IVT反应中超过预期长度的mRNA形成机制</u></p>
+<h5 id="副产物给mRNA纯化增添困难"><a href="#副产物给mRNA纯化增添困难" class="headerlink" title="副产物给mRNA纯化增添困难"></a><strong>副产物给mRNA纯化增添困难</strong></h5><p>T7 RNA polymerase 在体外转录反应中，不仅可以产生符合预期长度的mRNA (expected run off RNA products),还会产生一些副产物RNA(contaminant RNA),比如短的流产RNA（n-i），甚至更长的RNA（n+i）。IVT反应中，这些副产物增加了纯化目标mRNA的难度。IVT反应副产物RNA可能形成的<strong>dsRNA</strong>,会导致机体产生强烈的免疫反应，因此必须去除dsRNA。目前mRNA主流纯化工艺都是采用<strong>oligo dT柱子</strong>（只选择性地结合有polyA尾巴RNA），<strong>高盐浓度</strong>下，可以<strong>抑制携带负电荷</strong>的柱子配体和RNA之间的相互排斥，促进氢键形成。将<strong>盐离子去除</strong>以后，恢复柱子配体-RNA之间的负电荷之间的排斥，<strong>摧毁氢键</strong>，把RNA洗脱下来。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221345266.png" alt="image-20221022134559155"></p>
+<p><u>oligo dT柱子</u></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221346321.png" alt="image-20221022134622181"></p>
+<p><u>BIA柱子纯化mRNA出峰图</u></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>IVT反应本身没有难度可言，但是如何实现产量的最大化，如何减少副产物的形成，如何实现高效的加帽率，如何得到高纯度的mRNA,这些都是需要从业人员一一去攻克的难关路漫漫其修远兮，愿我们上下而求索，建立起高产量高效率的mRNA合成纯化路线。</p>
+]]></content>
+      <categories>
+        <category>RNA工艺</category>
+        <category>IVT合成</category>
+      </categories>
   </entry>
 </search>
