@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.kissrna.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="今天，我们分享一篇探究IVT产物中dsRNA来源以及抑制dsRNA形成方法的极其扎实的工作，在2020年发表在RNA Society ：Synthesis of low immunogenicity RNA with high-temperature in vitro transcription。这篇文章由NEB RNA合成部资前深科学家Bijoyita Roy主导，有意思的是，她在今年8月份已经">
+<meta property="og:type" content="article">
+<meta property="og:title" content="釜底抽薪，减少IVT反产物中两种不同来源的dsRNA。">
+<meta property="og:url" content="http://www.kissrna.com/2022/10/22/%E9%87%9C%E5%BA%95%E6%8A%BD%E8%96%AA%EF%BC%8C%E5%87%8F%E5%B0%91IVT%E5%8F%8D%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%B8%A4%E7%A7%8D%E4%B8%8D%E5%90%8C%E6%9D%A5%E6%BA%90%E7%9A%84dsRNA%E3%80%82/index.html">
+<meta property="og:site_name" content="RNAFactory">
+<meta property="og:description" content="今天，我们分享一篇探究IVT产物中dsRNA来源以及抑制dsRNA形成方法的极其扎实的工作，在2020年发表在RNA Society ：Synthesis of low immunogenicity RNA with high-temperature in vitro transcription。这篇文章由NEB RNA合成部资前深科学家Bijoyita Roy主导，有意思的是，她在今年8月份已经">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212342518.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210180041593.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212230190.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210181451715.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212234543.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212238371.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212241323.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210211015595.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210211328693.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210211443563.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210211731290.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212117090.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212153308.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212222934.png">
+<meta property="article:published_time" content="2022-10-22T07:08:18.000Z">
+<meta property="article:modified_time" content="2022-10-22T07:09:33.079Z">
+<meta property="article:author" content="RNActor">
+<meta property="article:tag" content="dsRNA">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212342518.png">
+
+
+<link rel="canonical" href="http://www.kissrna.com/2022/10/22/%E9%87%9C%E5%BA%95%E6%8A%BD%E8%96%AA%EF%BC%8C%E5%87%8F%E5%B0%91IVT%E5%8F%8D%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%B8%A4%E7%A7%8D%E4%B8%8D%E5%90%8C%E6%9D%A5%E6%BA%90%E7%9A%84dsRNA%E3%80%82/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://www.kissrna.com/2022/10/22/%E9%87%9C%E5%BA%95%E6%8A%BD%E8%96%AA%EF%BC%8C%E5%87%8F%E5%B0%91IVT%E5%8F%8D%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%B8%A4%E7%A7%8D%E4%B8%8D%E5%90%8C%E6%9D%A5%E6%BA%90%E7%9A%84dsRNA%E3%80%82/","path":"2022/10/22/釜底抽薪，减少IVT反产物中两种不同来源的dsRNA。/","title":"釜底抽薪，减少IVT反产物中两种不同来源的dsRNA。"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>釜底抽薪，减少IVT反产物中两种不同来源的dsRNA。 | RNAFactory</title>
+  
+
+
+
+
+
+<link rel="dns-prefetch" href="waline-server-kissrna.vercel.app"><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css"><style>
+#needsharebutton-postbottom {
+  cursor: pointer;
+  height: 26px;
+  margin-top: 10px;
+  position: relative;
+}
+#needsharebutton-postbottom .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 3px;
+  display: initial;
+  padding: 1px 4px;
+}
+</style>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">RNAFactory</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Sharing Key Discoveries and Advances in mRNA Therapeutics</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>研究</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-friendlink"><a href="/friendlink/" rel="section"><i class="fa fa-link fa-fw"></i>链接</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#IVT%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%BC%9A%E5%BD%A2%E6%88%903%E2%80%99%E6%9C%AB%E7%AB%AF%E5%BB%B6%E4%BC%B8RNA"><span class="nav-number">1.</span> <span class="nav-text">IVT产物中会形成3’末端延伸RNA</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%80%90%E9%AB%98%E6%B8%A9T7-RNA%E8%81%9A%E5%90%88%E9%85%B6"><span class="nav-number">2.</span> <span class="nav-text">耐高温T7 RNA聚合酶</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%AB%98%E6%95%88%E5%90%88%E6%88%90RNA"><span class="nav-number">2.1.</span> <span class="nav-text">高效合成RNA</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BE%9D%E8%B5%96%E4%BA%8E%E5%8F%8D%E4%B9%89%E9%93%BE%E7%9A%84dsRNA%E5%BD%A2%E6%88%90%E6%98%AF%E5%BA%8F%E5%88%97%E7%89%B9%E5%BC%82%E6%80%A7%E7%9A%84"><span class="nav-number">2.2.</span> <span class="nav-text">依赖于反义链的dsRNA形成是序列特异性的</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%80%90%E9%AB%98%E6%B8%A9T7%E8%81%9A%E5%90%88%E9%85%B6IVT%E4%BA%A7%E7%89%A9%E7%9A%84%E5%85%8D%E7%96%AB%E5%8E%9F%E6%80%A7"><span class="nav-number">2.3.</span> <span class="nav-text">耐高温T7聚合酶IVT产物的免疫原性</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E8%AE%BA"><span class="nav-number">3.</span> <span class="nav-text">结论</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="RNActor"
+      src="/images/1.png">
+  <p class="site-author-name" itemprop="name">RNActor</p>
+  <div class="site-description" itemprop="description">We love and creat cool RNAs</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">13</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.kissrna.com/2022/10/22/%E9%87%9C%E5%BA%95%E6%8A%BD%E8%96%AA%EF%BC%8C%E5%87%8F%E5%B0%91IVT%E5%8F%8D%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%B8%A4%E7%A7%8D%E4%B8%8D%E5%90%8C%E6%9D%A5%E6%BA%90%E7%9A%84dsRNA%E3%80%82/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/1.png">
+      <meta itemprop="name" content="RNActor">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RNAFactory">
+      <meta itemprop="description" content="We love and creat cool RNAs">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="釜底抽薪，减少IVT反产物中两种不同来源的dsRNA。 | RNAFactory">
+      <meta itemprop="description" content="今天，我们分享一篇探究IVT产物中dsRNA来源以及抑制dsRNA形成方法的极其扎实的工作，在2020年发表在RNA Society ：Synthesis of low immunogenicity RNA with high-temperature in vitro transcription。这篇文章由NEB RNA合成部资前深科学家Bijoyita Roy主导，有意思的是，她在今年8月份已经加入Moderna技术研发部门。">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          釜底抽薪，减少IVT反产物中两种不同来源的dsRNA。
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-10-22 15:08:18 / 修改时间：15:09:33" itemprop="dateCreated datePublished" datetime="2022-10-22T15:08:18+08:00">2022-10-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E5%B7%A5%E8%89%BA/" itemprop="url" rel="index"><span itemprop="name">RNA工艺</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E5%B7%A5%E8%89%BA/IVT%E5%90%88%E6%88%90/" itemprop="url" rel="index"><span itemprop="name">IVT合成</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/2022/10/22/%E9%87%9C%E5%BA%95%E6%8A%BD%E8%96%AA%EF%BC%8C%E5%87%8F%E5%B0%91IVT%E5%8F%8D%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%B8%A4%E7%A7%8D%E4%B8%8D%E5%90%8C%E6%9D%A5%E6%BA%90%E7%9A%84dsRNA%E3%80%82/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/2022/10/22/%E9%87%9C%E5%BA%95%E6%8A%BD%E8%96%AA%EF%BC%8C%E5%87%8F%E5%B0%91IVT%E5%8F%8D%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%B8%A4%E7%A7%8D%E4%B8%8D%E5%90%8C%E6%9D%A5%E6%BA%90%E7%9A%84dsRNA%E3%80%82/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+            <div class="post-description">今天，我们分享一篇探究IVT产物中dsRNA来源以及抑制dsRNA形成方法的极其扎实的工作，在2020年发表在RNA Society ：Synthesis of low immunogenicity RNA with high-temperature in vitro transcription。这篇文章由NEB RNA合成部资前深科学家Bijoyita Roy主导，有意思的是，她在今年8月份已经加入Moderna技术研发部门。</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><a target="_blank" rel="noopener" href="http://kissrna.com/2022/10/22/IVT%E5%8F%8D%E5%BA%94%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%BE%9D%E8%B5%96%E4%BA%8E%E5%8F%8D%E4%B9%89RNA%E9%93%BE%E7%9A%84dsRNA%E5%BD%A2%E6%88%90%E6%9C%BA%E5%88%B6/">尽管有人故意在mRNA序列上添加短dsRNA牙齿，作为增强免疫反应的佐剂</a>，但是，绝大部分时候，我们都希望尽最大努力减少IVT反应过程中形成的dsRNA。相对于在IVT[反应结束后，通过纯化的方法去除dsRNA，从IVT反应中dsRNA形成的机制出发抑制dsRNA形成显然是更加有效和经济的做法。前面，我们介绍过一种IVT反应中dsRNA的形成机制：Run off RNA重新结合T7 RNA聚合酶，3’末端序列回折碱基配对，启动自我延伸，形成一系列异质性的携带dsRNA结构的超长RNA。今天，我们分享一篇探究IVT产物中dsRNA来源以及抑制dsRNA形成方法的极其扎实的工作，<strong>在2020年发表在RNA Society ：Synthesis of low immunogenicity RNA with high-temperature in vitro transcription</strong>。这篇文章由NEB RNA合成部资前深科学家Bijoyita Roy主导，有意思的是，她在今年8月份已经加入Moderna技术研发部门。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212342518.png" alt="image-20221021234228308"></p>
+<h2 id="IVT产物中会形成3’末端延伸RNA"><a href="#IVT产物中会形成3’末端延伸RNA" class="headerlink" title="IVT产物中会形成3’末端延伸RNA"></a>IVT产物中会形成3’末端延伸RNA</h2><p>研究人员想弄清楚IVT反应产物中dsRNA形成机制和程度，设计出不同长度和序列组成的模板：RFP，GFP，CLuc，进行IVT反应，并且检测IVT反应产物中的dsRNA。非变性凝胶电泳无法将正常RNA与dsRNA区分开来。J2-免疫斑点印迹法（J2抗体可识别超过40bp dsRNA双链结构）显示3种不同模板的IVT产物中均可检测不同程度的dsRNA，但是，此方法只能说明检测样品中存在dsRNA区域，无法搞清楚这些dsRNA的形成机制或者来源。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210180041593.png" alt="image-20221018004140452" style="zoom:67%;" />
+
+<p><u>图1：免疫印迹斑点试验证实不同模板的IVT反应产物中均存在dsRNA。</u></p>
+<p>因此，研究人员又设计合成出30nt 短链模板，以便采用LC-MS分析其IVT反应产物。LC-MS不仅可以检测到Run off RNA，还可以检测到IVT反应中存在的无法被正常凝胶电泳或者其他检测方法检测到的其他杂质RNA。更加关键的是，LC-MS可以区分样品中的dsRNA结构是来自于Run off RNA序列内部的二级机构呢，还是来自于真正的dsRNA产物。</p>
+<p>对于只含有A&#x2F;G&#x2F;C 3个碱基的短链模板1来说，IVT体系中缺乏UTP会抑制3’末端自我延伸形成的dsRNA，而往IVT体系中加入UTP会与Run off RNA序列末端的A配对，启动自我延伸，形成携带dsRNA区域的长链RNA（图2.A）。当在IVT体系中不加入UTP时，尿素聚丙烯酰胺凝胶电泳胶图上面只显示一条预期大小的带，即Run off RNA，相反，当在IVT体系加入UTP时，尿素聚丙烯酰胺凝胶电泳胶图还会额外出现一条大小超过Run off RNA的条带，而且，RNase III（降解dsRNA）会降解这条超长RNA带(图2.B)。接着，采用LC-MS对IVT产物分析：不加UTP时，MS图谱显示存在3个主要产物:Run off RNA，n+1RNA,n+2RNA，而加入UTP后，MS图谱显示副产物除了n+1&#x2F;n+2 RNA外，还存一系列的异质性的超长RNA，甚至比预期大小的RNA超过22nt（图2.C）。有意思的是，在IVT产物中，加入RNase III会降解MS图谱上存在的一系列异质性的超长RNA，只留下Run off RNA，n+1&#x2F;n+2 RNA（图3）。为排除序列特异性引起的特异性结构，研究者重新设计只有G&#x2F;A&#x2F;T组成的30nt 短模板序列2，经过尿素聚丙烯酰胺凝胶和LC-MS检测其IVT产物，发现与短模板序列1类似的结果。</p>
+<p>总结来说，通过变性凝胶电泳和LC-MS分析两个短模板序列1&#x2F;2，证实IVT产物中存在一些超过预期长度的3’末端延伸的长链RNA，其中绝大多数会形成dsRNA(添加RNase III会降解)。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212230190.png" alt="image-20221021223019021"></p>
+<p><u>图2：设计特异性的短链模板序列，通过尿素变性聚丙烯酰胺凝胶电泳与LC-MS证实IVT反应产物中存在一系列异质性的超过预期长度的3’末端延伸的RNA。</u></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210181451715.png" alt="image-20221018145119621"></p>
+<p><u>图3：以短链序列为模板的IVT反应产物中加入能够降解dsRNA的RNase III后，LC-MS峰图中超过预期长度的3’末端延伸RNA会降解消失，这说明这些超长的异质性RNA序列绝大部分是dsRNA。</u></p>
+<h2 id="耐高温T7-RNA聚合酶"><a href="#耐高温T7-RNA聚合酶" class="headerlink" title="耐高温T7 RNA聚合酶"></a>耐高温T7 RNA聚合酶</h2><h3 id="高效合成RNA"><a href="#高效合成RNA" class="headerlink" title="高效合成RNA"></a>高效合成RNA</h3><p>通过上述数据，我们可以看到，野生型的T7 RNA聚合酶合成的RNA产物中存在一系列异质性的3’末端延伸的长链RNA，我们前期介绍过，IVT产物Run off RNA会重新与T7 RNA聚合酶结合，在3’末端回折配对，启动自我延伸，形成长链RNA。因此，研究人员想通过提升IVT反应温度来抑制Run off RNA 同T7聚合酶的重新结合，以减少IVT产物中一系列异质性的长链dsRNA。NEB的研究人员筛选到两种耐高温的T7 RNA聚合酶：Ts-T7-1和Ts-T7-2。这两种耐高温的T7聚合酶在IVT反应温度超过45℃依然具有非常高效的合成活性，TsT7-1甚至在62℃时还与微弱的活性，然而，野生型T7聚合酶超过45℃时的合成活性已经基本丧失(图4.A)。</p>
+<p>###37℃ IVT产物中依然存在3’末端延伸的超长RNA链</p>
+<p>在37℃ 进行IVT，利用耐高温T7 RNA聚合酶合成CLuc-mRNA时，与野生型T7 RNA聚合酶一样，免疫印迹显示IVT产物中存在大量dsRNA（图4.B）。以短链序列1为模板时，与野生型T7 RNA聚合酶一样，尿素聚丙烯酰胺凝胶和LC-MS均显示耐高温T7 RNA聚合酶IVT产物中存在一系列异质性的超长dsRNA链(图4.C&#x2F;D)。这说明在耐高温T7 RNA聚合酶中引入的突变并不能抑制37℃ IVT合成产物中3’末端延伸的超长RNA链的形成。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212234543.png" alt="image-20221021223459286"></p>
+<p><u>图4：耐高温T7聚合酶在37℃条件下合成CLuc mRNA或者短链RNA1时，免疫印迹，尿素聚丙稀酰胺变性胶以及LC-MS均可检测到一系列异质性的3’末端延伸的超长dsRNA。</u></p>
+<p>###高温减少IVT产物中3’末端延伸的超长RNA链</p>
+<p>以短链模板序列1，使用TsT7-1聚合酶，从37℃到48℃进行IVT反应，尿素聚丙烯酰胺凝胶电泳显示IVT反应产物中存在两条带：Run-off RNA和3’末端延伸的超长RNA。然而，当IVT反应温度高于48℃时，变性胶电泳显示IVT反应产物只存在一条Run-off RNA带，3’末端延伸的超长RNA基本消失不见（图5.A）。为消除这是由于高温下RNA构象变化引起的电泳迁移速率的变化，研究人员用短链模板序列1&#x2F;2在50℃条件下进行IVT，LC-MS检测IVT产物：当添加UTP或者CTP时，50℃条件下合成的IVT产物中只存在Run off RNA和极少量的一些末端非模板添加RNA序列，检测不到如同37℃条件下合成的IVT产物中存在的一系列异质性的3’末端延伸的超长RNA（图5.B）。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212238371.png" alt="image-20221021223854187"></p>
+<p><u>图5：利用耐高温T7聚合酶，在一系列温度梯度下进行IVT，尿素聚丙烯酰胺凝胶电泳和LC-MS分析IVT产物均显示高温条件下会抑制一系列异质性的3’末端延伸的超长RNA形成。</u></p>
+<p>研究人员利用耐高温聚合酶合成CLucRNA，再次验证上述试验数据。野生型T7聚合酶合成CLucRNA的产量随着温度的升高发现明显下降，超过48℃时，野生型T7聚合酶已经丧失活性。TsT7-1在55℃条件下依然可以合成CLucRNA，产量保持不变。而且，免疫印迹显示随着温度的提高，利用TsT7-1 进行IVT， IVT产物中的dsRNA出现显著减少(图6.A)。LC-MS的数据同样显示利用TsT7-1 在50℃进行IVT，产物中的一系列异质性的3’末端延伸的超长RNA消失不见（图6.B）。这说明免疫印迹检测到的dsRNA中大部分都是3’末端延伸的超长RNA。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212241323.png" alt="image-20221021224143161"></p>
+<p><u>图6:利用耐高温聚合酶TsT7-1在不同温度梯度下合成CLucRNA，在50℃添加进行IVT，免疫印迹显示产物中dsRNA发生显著下降，LC-MS图谱显示产物中的一系列异质性的3’末端延伸的超长RNA也消失不见。</u></p>
+<p>###高温无法抑制依赖于反义链的dsRNA形成</p>
+<p><a target="_blank" rel="noopener" href="http://kissrna.com/2022/10/22/circRNA%E6%BC%82%E6%B5%AE%E4%B8%8D%E5%AE%9A%E7%9A%84%E7%94%B5%E6%B3%B3%E8%BF%81%E7%A7%BB%E9%80%9F%E7%8E%87/">先前我们介绍过dsRNA形成的另外一种机制，借助独立于启动子的聚合酶活性，T7 RNA聚合酶能够合成出反义链RNA，并且同Run off RNA互补配对，形成dsRNA</a>。此种dsRNA形成机制具有非常强的序列特异性，研究者只能使用先前研究中的512B序列作为模板，才能在IVT产物中检测到依赖于反义链的dsRNA。值得注意的是，与’末端延伸的超长RNA不同，依赖于反义链的dsRNA与Run off RNA只能在非变性凝胶电泳中区分开来，在变性凝胶电泳中，两者迁移速率是相同的。利用野生型T7聚合酶或者耐高温聚合酶，以512B序列作为模板，在37℃条件下进行IVT，在非变性凝胶电泳中均可检测到依赖于反义链的dsRNA，而且，对RNAIII的降解非常敏感(图7.A)。免疫印迹也可检测到521B-IVT产物中存在的dsRNA(图7.B)。有意思的是，以512B序列作为模板，利用耐高温聚合酶TsT7-1在37℃或者50℃进行IVT反应，免疫印迹均可检测到dsRNA存在(图7.C)，非变异性凝胶电泳均显示两种不同温度下的IVT产物中均存在dsRNA(图7.D)，也就是说，利用耐高温聚合酶在高温下进行IVT反应无法抑制依赖于反义链的dsRNA形成。此外，研究人员发现降低IVT体系中的镁离子浓度，会导致整体RNA产量发生下降，而不仅仅是依赖于反义链的dsRNA含量。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210211015595.png" alt="image-20221021101519297"></p>
+<p><u>图7：当用512B序列作为模板序列时，即便使用耐高温聚合酶TsT7-1，在高温下进行IVT，非变性凝胶电泳和免疫印迹均可检测到dsRNA存在，即利用耐高温聚合酶在高温下进行IVT反应无法抑制依赖于反义链的dsRNA形成。</u></p>
+<h3 id="依赖于反义链的dsRNA形成是序列特异性的"><a href="#依赖于反义链的dsRNA形成是序列特异性的" class="headerlink" title="依赖于反义链的dsRNA形成是序列特异性的"></a>依赖于反义链的dsRNA形成是序列特异性的</h3><p>免疫印迹显示，对于不同长度的模板序列，利用耐高温T7聚合酶，在高温条件进行IVT，能够显著减少IVT产物中dsRNA的形成。然而，即便使用耐高温T7聚合酶在高温条件下进行IVT，512B模板序列IVT产物中依赖于反义链RNA的dsRNA并不会发生减少，这就说明，对于这些不同长度模板序列的IVT产物来说，免疫印迹检测到的dsRNA主要是3’末端延伸的超长RNA，而512B模板序列IVT产物中依赖于反义链RNA的dsRNA形成机制可能是序列特异性的。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210211328693.png" alt="image-20221021132848553"></p>
+<p><u>图8：免疫印迹显示利用耐高温T7聚合酶，在高温条件下进行IVT，不同长度的模板序列IVT产物中的dsRNA均发生显著减少。</u></p>
+<p>有意思的是，不管是用野生型T7聚合酶，还是用耐高温T7聚合酶，当研究人员将512B模板序列3’末端的25bp序列逐渐往5’末端移动时，免疫印迹显示对应IVT产物中的dsRNA含量会发生减少（图9.A）。在高温条件下进行IVT，免疫印迹显示，50℃ IVT产物中的dsRNA要比37℃ IVT产物中的dsRNA总含量显著减少（图9.B）。以512B-B序列为模板时，50℃ IVT反应产物中依赖于反义链RNA的dsRNA发生明显减少。如果把CLuc 模板序列3’末端的序列与512B模板序列嵌合，在37℃或者50℃ IVT产物中依赖于反义链RNA的dsRNA均会出现显著减少（图9.C）。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210211443563.png" alt="image-20221021144302244"></p>
+<p><u>图9：移动512B 3’末端序列或者添加CLuc 3’末端序列时会减少IVT产物中依赖于反义链RNA的dsRNA形成。</u></p>
+<p>总结来说，以512B作为模板序列时，IVT产物中依赖于反义链RNA的dsRNA形成是序列特异性的，截断512B模板3’末端序列可以减少IVT反应产物中依赖于反义链RNA的dsRNA形成（图10）。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210211731290.png" alt="image-20221021173115155"></p>
+<p><u>图10：当把512B模板序列3’末端序列截短时，免疫印迹显示IVT产物中dsRNA总含量发生明显下降，非变性凝胶电泳显示IVT产物中依赖于反义链RNA的dsRNA同样出现显著下降。</u></p>
+<p>###模板序列中添加PolyA序列会影响反义链RNA的形成</p>
+<p>PolyA尾巴对于真核细胞mRNA是必不可少的元件，在合成CLuc RNA时，延长PolyA尾巴，免疫印迹显示在37℃条件下 IVT产物中的dsRNA并未发生改变（图11.A）。相反，如果在512B-GLuc序列末端添加PolyA尾巴，在37℃或者50℃条件下IVT产物中的dsRNA总含量会随着PolyA尾巴的延长减少（图11.B左），非变性凝胶电泳显示添加的PolyA尾巴越长，IVT产物中依赖于反义链RNA的dsRNA减少地越发显著（图11.B右）。这就说明在模板序列末端添加PolyA尾巴会减少IVT产物中依赖于反义RNA链的dsRNA形成。此外，短链模板序列1的IVT产物中依然检测到一系列异质性的3’末端延伸的超长RNA，这说明即使模板序列末端存在PolyA尾巴，Run off RNA依然可以重新结合T7聚合酶，在3’末端形成发卡结构，形成3’末端延伸的dsRNA（图11.C）。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212117090.png" alt="image-20221021211735875"></p>
+<p><u>图11：在模板序列中添加PolyA尾巴会减少IVT产物中依赖于反义RNA链的dsRNA含量，但是，并不会影响3’末端延伸的dsRNA的形成。</u></p>
+<h3 id="耐高温T7聚合酶IVT产物的免疫原性"><a href="#耐高温T7聚合酶IVT产物的免疫原性" class="headerlink" title="耐高温T7聚合酶IVT产物的免疫原性"></a>耐高温T7聚合酶IVT产物的免疫原性</h3><p>耐高温T7聚合酶在50℃条件进行IVT合成的CLuc-mRNA转染HEK293细胞后蛋白表达水平正常（图12.A）。在37℃条件下利用野生型T7聚合酶合成的IVT粗纯产物转染细胞后会引起强烈的免疫反应，但是，当使用HPLC纯化时，分离得到的组分II中基本检测不到dsRNA。在50℃条件下，耐高温T7聚合酶TsT7-1合成的IVT粗纯产物转染细胞后，触发的免疫反应强度会发生显著下降。尤其值得注意的是，假尿嘧啶修饰的CLuc-mRNA粗纯IVT产物转染细胞后触发的免疫反应强度可达到经过HPLC纯化的IVT产物（图12.C），这说明在高温条件下合成的IVT产物中dsRNA含量已经发生显著下降。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212153308.png" alt="image-20221021215300185"></p>
+<p><u>图12：耐高T7温聚合酶在高温条件下合成的IVT产物中dsRNA含量发生显著下降，不用HPLC纯化也不会触发强烈的细胞免疫。</u></p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>这篇文章以耐高温T7聚合酶作为锲子，利用多种检测手段，例如凝胶电泳，免疫印迹，LC-MS，对IVT产物中dsRNA的来源做出了非常详细的分析：</p>
+<ul>
+<li>IVT反应中dsRNA的来源有两种：一种是由于Run off RNA重新结合T7 RNA聚合酶，3’末端回折配对，启动自我延伸，形成一系列异质性的3’末端携带dsRNA区域的超长RNA；另一种是基于T7 RNA聚合酶独立于启动子的聚合酶活性，能够以非模板链转录出反义RNA链，与Run off RNA互补配对，形成依赖于反义RNA链的dsRNA。</li>
+<li>因为J2抗体可识别超过40bp 的dsRNA双链结构，所以基于J2抗体的免疫印迹能检测到IVT产物中存在的所有携带dsRNA区域（&gt;40bp）的RNA，无法区分不同类型的dsRNA，也分不清dsRNA是来自于Run off RNA内部序列还是真正的dsRNA。</li>
+<li>非变性凝胶无法将Run off RNA和3’末端延伸的超长RNA区分开来，但是，尿素聚丙烯酰胺凝胶电泳可以将两者区分开来。值得注意的是，与’末端延伸的超长RNA不同，依赖于反义链的dsRNA与Run off RNA只能在非变性聚丙烯酰胺凝胶电泳中区分开来，在变性凝胶电泳中，两者迁移速率是相同的。也就是说，在非变性聚丙烯酰胺凝胶中，相同长度的dsRNA和ssRNA迁移速率是不相同的。</li>
+<li>当用30nt短链模板进行IVT反应时，LC-MS可检测到IVT产物中存在一系列异质性的3’末端延伸的超长RNA序列。在缺少特定核苷酸，导致3’末端无法形成配对碱基时，IVT产物中的3’末端延伸超长RNA会消失。</li>
+<li>高温条件可减少IVT产物中3’末端延伸的超长RNA的形成，从而导致IVT产物中dsRNA总含量发生下降，因为对于普遍的模板序列来说，其IVT产物中的dsRNA绝大多数都是3’末端延伸的超长RNA。但是，高温条件无法减少IVT产物中依赖于反义RNA链的dsRNA形成。</li>
+<li>依赖于反义链RNA的dsRNA形成机制是序列特异性的，改变3’末端序列或者添加PolyA序列会减少IVT产物中依赖于反义链RNA的dsRNA形成。然而，在模板序列模板添加PolyA序列并不会影响IVT产物中3’末端延伸的超长RNA形成。</li>
+</ul>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212222934.png" alt="image-20221021222213819" style="zoom:50%;" />
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer"><div class="post-widgets">
+      <div id="needsharebutton-postbottom">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+          
+<div class="wechat_channel" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+  <br>
+  <!-- 这里添加你的二维码图片 -->
+  <img src ="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221101399.jpg" style="width: auto; height:250px; max-width: 100%"/>
+</div>
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>RNActor
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://www.kissrna.com/2022/10/22/%E9%87%9C%E5%BA%95%E6%8A%BD%E8%96%AA%EF%BC%8C%E5%87%8F%E5%B0%91IVT%E5%8F%8D%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%B8%A4%E7%A7%8D%E4%B8%8D%E5%90%8C%E6%9D%A5%E6%BA%90%E7%9A%84dsRNA%E3%80%82/" title="釜底抽薪，减少IVT反产物中两种不同来源的dsRNA。">http://www.kissrna.com/2022/10/22/釜底抽薪，减少IVT反产物中两种不同来源的dsRNA。/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+          <div class="post-tags">
+              <a href="/tags/dsRNA/" rel="tag"># dsRNA</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/10/22/%E7%90%86%E8%AE%BAT7-RNA-Polymerase-%E5%B9%B6%E9%9D%9E%E6%83%B3%E8%B1%A1%E7%9A%84%E9%82%A3%E4%B9%88%E7%AE%80%E5%8D%95/" rel="prev" title="T7 RNA Polymerase 并非想象的那么简单">
+                  <i class="fa fa-chevron-left"></i> T7 RNA Polymerase 并非想象的那么简单
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">true</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"waline-server-kissrna.vercel.app","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"placeholder":"请文明评论呀","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":false,"comment_count":true,"requiredFields":[],"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","el":"#waline","comment":true,"path":"/2022/10/22/%E9%87%9C%E5%BA%95%E6%8A%BD%E8%96%AA%EF%BC%8C%E5%87%8F%E5%B0%91IVT%E5%8F%8D%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%B8%A4%E7%A7%8D%E4%B8%8D%E5%90%8C%E6%9D%A5%E6%BA%90%E7%9A%84dsRNA%E3%80%82/"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
+});
+</script>
+<script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: '32px',
+  left: 'unset',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
+
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+  <script>
+      pbOptions = {};
+        pbOptions.iconStyle = "box";
+        pbOptions.boxForm = "horizontal";
+        pbOptions.position = "bottomCenter";
+        pbOptions.networks = "Wechat,Weibo,QQZone,Twitter";
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+  </script>
+</body>
+</html>
