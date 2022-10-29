@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.kissrna.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="这期内容，我们通过分享一项Codexis公司研究团队所做的工作，一起来探寻问题的答案。：**An Engineered T7 RNA Polymerase for efficient co-transcriptional 1 capping with reduced dsRNA byproducts in mRNA synthesis**，他们以野生型T7 RNA聚合酶作为基础，通过定向进化突变库">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成">
+<meta property="og:url" content="http://www.kissrna.com/2022/10/29/Codexis%E5%BC%80%E5%8F%91%E4%BB%A5%E4%BD%8E%E6%B5%93%E5%BA%A6%E5%B8%BD%E5%AD%90%E7%B1%BB%E4%BC%BC%E7%89%A9%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%AB%98%E5%8A%A0%E5%B8%BD%E7%8E%87%E7%9A%84T7%E8%81%9A%E5%90%88%E9%85%B6/index.html">
+<meta property="og:site_name" content="RNAFactory">
+<meta property="og:description" content="这期内容，我们通过分享一项Codexis公司研究团队所做的工作，一起来探寻问题的答案。：**An Engineered T7 RNA Polymerase for efficient co-transcriptional 1 capping with reduced dsRNA byproducts in mRNA synthesis**，他们以野生型T7 RNA聚合酶作为基础，通过定向进化突变库">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291730451.jpg">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210290235398.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291201935.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291244306.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291755669.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291546153.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291549962.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291618778.png">
+<meta property="article:published_time" content="2022-10-29T10:54:39.000Z">
+<meta property="article:modified_time" content="2022-10-29T10:56:56.969Z">
+<meta property="article:author" content="RNActor">
+<meta property="article:tag" content="dsRNA">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291730451.jpg">
+
+
+<link rel="canonical" href="http://www.kissrna.com/2022/10/29/Codexis%E5%BC%80%E5%8F%91%E4%BB%A5%E4%BD%8E%E6%B5%93%E5%BA%A6%E5%B8%BD%E5%AD%90%E7%B1%BB%E4%BC%BC%E7%89%A9%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%AB%98%E5%8A%A0%E5%B8%BD%E7%8E%87%E7%9A%84T7%E8%81%9A%E5%90%88%E9%85%B6/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://www.kissrna.com/2022/10/29/Codexis%E5%BC%80%E5%8F%91%E4%BB%A5%E4%BD%8E%E6%B5%93%E5%BA%A6%E5%B8%BD%E5%AD%90%E7%B1%BB%E4%BC%BC%E7%89%A9%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%AB%98%E5%8A%A0%E5%B8%BD%E7%8E%87%E7%9A%84T7%E8%81%9A%E5%90%88%E9%85%B6/","path":"2022/10/29/Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶/","title":"Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成 | RNAFactory</title>
+  
+
+
+
+
+
+<link rel="dns-prefetch" href="waline-server-kissrna.vercel.app"><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css"><style>
+#needsharebutton-postbottom {
+  cursor: pointer;
+  height: 26px;
+  margin-top: 10px;
+  position: relative;
+}
+#needsharebutton-postbottom .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 3px;
+  display: initial;
+  padding: 1px 4px;
+}
+</style>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">RNAFactory</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Sharing Key Discoveries and Advances in mRNA Therapeutics</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>研究</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-friendlink"><a href="/friendlink/" rel="section"><i class="fa fa-link fa-fw"></i>链接</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Codexis%E5%BC%80%E5%8F%91%E4%BB%A5%E4%BD%8E%E6%B5%93%E5%BA%A6%E5%B8%BD%E5%AD%90%E7%B1%BB%E4%BC%BC%E7%89%A9%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%AB%98%E5%8A%A0%E5%B8%BD%E7%8E%87%E7%9A%84T7%E8%81%9A%E5%90%88%E9%85%B6%EF%BC%8C%E5%90%8C%E6%97%B6%E8%BF%98%E5%8F%AF%E6%8A%91%E5%88%B6dsRNA%E5%BD%A2%E6%88%90%E3%80%82"><span class="nav-number">1.</span> <span class="nav-text">Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成。</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B5%8B%E8%AF%84%E5%8A%A0%E5%B8%BD%E7%8E%87"><span class="nav-number">1.1.</span> <span class="nav-text">测评加帽率</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E6%A0%B8%E8%8B%B7%E9%85%B8%E5%B8%BD%E5%AD%90%E5%8A%A0%E5%B8%BD%E7%8E%87"><span class="nav-number">1.1.1.</span> <span class="nav-text">三核苷酸帽子加帽率</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BF%AE%E9%A5%B0%E6%A0%B8%E8%8B%B7%E9%85%B8%E4%B8%8EIVT%E4%BA%A7%E9%87%8F"><span class="nav-number">1.2.</span> <span class="nav-text">修饰核苷酸与IVT产量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%BD%AC%E5%BD%95%E4%BF%9D%E7%9C%9F%E5%BA%A6"><span class="nav-number">1.3.</span> <span class="nav-text">转录保真度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#IVT%E4%BA%A7%E7%89%A9%E4%B8%AD%E7%9A%84dsRNA%E5%90%AB%E9%87%8F"><span class="nav-number">1.4.</span> <span class="nav-text">IVT产物中的dsRNA含量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%8D%E7%96%AB%E5%8E%9F%E6%80%A7%E5%92%8C%E7%BF%BB%E8%AF%91%E6%95%88%E7%8E%87"><span class="nav-number">1.5.</span> <span class="nav-text">免疫原性和翻译效率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E8%AE%BA"><span class="nav-number">1.6.</span> <span class="nav-text">结论</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="RNActor"
+      src="/images/1.png">
+  <p class="site-author-name" itemprop="name">RNActor</p>
+  <div class="site-description" itemprop="description">We love and creat cool RNAs</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.kissrna.com/2022/10/29/Codexis%E5%BC%80%E5%8F%91%E4%BB%A5%E4%BD%8E%E6%B5%93%E5%BA%A6%E5%B8%BD%E5%AD%90%E7%B1%BB%E4%BC%BC%E7%89%A9%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%AB%98%E5%8A%A0%E5%B8%BD%E7%8E%87%E7%9A%84T7%E8%81%9A%E5%90%88%E9%85%B6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/1.png">
+      <meta itemprop="name" content="RNActor">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RNAFactory">
+      <meta itemprop="description" content="We love and creat cool RNAs">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成 | RNAFactory">
+      <meta itemprop="description" content="这期内容，我们通过分享一项Codexis公司研究团队所做的工作，一起来探寻问题的答案。：**An Engineered T7 RNA Polymerase for efficient co-transcriptional 1 capping with reduced dsRNA byproducts in mRNA synthesis**，他们以野生型T7 RNA聚合酶作为基础，通过定向进化突变库筛选出既能够在低浓度帽子类似物存在的IVT体系总，保证极高的插入率，又可以维持IVT高产量的新型常温T7 RNA聚合酶T7-68（目前已上市）。">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-10-29 18:54:39 / 修改时间：18:56:56" itemprop="dateCreated datePublished" datetime="2022-10-29T18:54:39+08:00">2022-10-29</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E5%B7%A5%E8%89%BA/" itemprop="url" rel="index"><span itemprop="name">RNA工艺</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E5%B7%A5%E8%89%BA/IVT%E5%90%88%E6%88%90/" itemprop="url" rel="index"><span itemprop="name">IVT合成</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/2022/10/29/Codexis%E5%BC%80%E5%8F%91%E4%BB%A5%E4%BD%8E%E6%B5%93%E5%BA%A6%E5%B8%BD%E5%AD%90%E7%B1%BB%E4%BC%BC%E7%89%A9%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%AB%98%E5%8A%A0%E5%B8%BD%E7%8E%87%E7%9A%84T7%E8%81%9A%E5%90%88%E9%85%B6/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/2022/10/29/Codexis%E5%BC%80%E5%8F%91%E4%BB%A5%E4%BD%8E%E6%B5%93%E5%BA%A6%E5%B8%BD%E5%AD%90%E7%B1%BB%E4%BC%BC%E7%89%A9%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%AB%98%E5%8A%A0%E5%B8%BD%E7%8E%87%E7%9A%84T7%E8%81%9A%E5%90%88%E9%85%B6/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+            <div class="post-description">这期内容，我们通过分享一项Codexis公司研究团队所做的工作，一起来探寻问题的答案。：**An Engineered T7 RNA Polymerase for efficient co-transcriptional 1 capping with reduced dsRNA byproducts in mRNA synthesis**，他们以野生型T7 RNA聚合酶作为基础，通过定向进化突变库筛选出既能够在低浓度帽子类似物存在的IVT体系总，保证极高的插入率，又可以维持IVT高产量的新型常温T7 RNA聚合酶T7-68（目前已上市）。</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成。"><a href="#Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成。" class="headerlink" title="Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成。"></a>Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成。</h1><p>T7 RNA聚合酶是整个体外转录反应的灵魂，从根源上决定着IVT合成产物中mRNA质量的优劣。目前，国产T7聚合酶供应厂家群雄并起，角逐竞赛，例如申基，瀚海，近岸，恺卡，诺唯赞，翌圣等，这也给下游RNA药物研发公司提供更加多样化的选择。面对众多的选择，我们到底应该从哪些角度入手去评价一款T7 RNA聚合酶的好坏？</p>
+<p>这期内容，我们通过分享一项Codexis公司研究团队所做的工作，一起来探寻问题的答案。：<strong>An Engineered T7 RNA Polymerase for efficient co-transcriptional 1 capping with reduced dsRNA byproducts in mRNA synthesis</strong>，他们以野生型T7 RNA聚合酶作为基础，通过定向进化突变库筛选出既能够在低浓度帽子类似物存在的IVT体系总，保证极高的插入率，又可以维持IVT高产量的新型常温T7 RNA聚合酶T7-68（目前已上市）。尤其值得学习的是，这项研究提供了一种测评T7 RNA聚合酶的思路，不仅仅关注浮于表面的产量，还对不同类型和浓度的帽子类似物插入率，dsRNA含量，修饰核苷酸兼容性，序列保真度，免疫原性和翻译效率等进行分析，从而做出更加可靠真实的测评结论。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291730451.jpg" alt="新建 Microsoft PowerPoint 演示文稿"></p>
+<h2 id="测评加帽率"><a href="#测评加帽率" class="headerlink" title="测评加帽率"></a>测评加帽率</h2><p>共转录加帽反应需要向IVT体系中添加三核苷酸帽子类似物或者二核苷酸帽子类似物。帽子类似物会与模板序列中转录起始位点序列发生配对，从而插入到mRNA序列中。IVT体系中的GTP和帽子类似物会抢夺mRNA序列中第一个转录出来的核苷酸插入位点（+1）。野生型T7 RNA聚合酶对于二核苷酸帽子类似物和GTP不具有偏好性，因此，为了使得野生型T7 RNA聚合酶更加偏好插入二核苷酸帽子类似物，需要将Cap：GTP设置为4:1，这样才能实现70%的加帽率。但是，高浓度的帽子类似物和低浓度的GTP组合会提升IVT反应成本，降低最终的mRNA产量。相比之下，T7 RNA聚合酶对于三核苷酸帽子类似物具有偏好性，这可能是由于三核苷酸帽子类似物和DNA模板序列在转录起始位点拥有多出一个的碱基互补配对作用(+2)，因此，不需要降低GTP比例，维持正常浓度5mM时，便可实现非常高的加帽率。</p>
+<p>Codexis研发团队构建GlmS Ribozyme-mRNA和Luciferase-mRNA，使用二核苷酸帽子类似物或者三核苷酸帽子类似物，比较野生型T7 RNA聚合酶和T7-68的加帽率差异(图1)。 GlmS Ribozyme-mRNA能够响应配体glucosamine-6-phosphate(氨基葡萄糖-6-磷酸)，5’末端发生自我切割，产生16bp可供分析的小片段RNA。Luciferase-mRNA能够被DNAzyme在特定位点切割，释放出5’末端13bp的小片段RNA。这样的话，便可通过尿素聚丙烯酰胺凝胶区分加帽和未加帽的 GlmS Ribozyme-mRNA和Luciferase-mRNA。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210290235398.png" alt="image-20221029023536965"></p>
+<p>图1：切割 GlmS Ribozyme-mRNA和Luciferase-mRNA，释放5’末端小片段RNA，变性凝胶电泳区分加帽和未加帽小片段RNA，从而测定加帽率。</p>
+<p>###二核苷酸帽子类似物加帽率</p>
+<p>他们用ARCA和sCap(m7Gpppm7G)来测试T7-68和野生型T7 RNA聚合酶的加帽率。首先，构建 GlmS Ribozyme-mRNA，能够响应配体glucosamine-6-phosphate(氨基葡萄糖-6-磷酸)，5’末端发生自我切割，产生16bp可供分析的小片段RNA。这样的话，便可通过尿素聚丙烯酰胺凝胶区分加帽和未加帽的 GlmS Ribozyme-mRNA。研发人员设置一系列的Cap:GTP比例梯度，从0-5mM增加ARCA或者sCap浓度，并将Cap和GTP总浓度设为6mM。结合电泳图和定量分析来看（图2）：</p>
+<ul>
+<li>ARCA和sCap具有相似的加帽率</li>
+<li>随着Cap浓度的增加，加帽率会增加。</li>
+<li>在给定的Cap:GTP比例下，相比野生型 T7 RNA聚合酶，T7-68明显具有更高的加帽率。</li>
+<li>在Cap:GTP为5:1时，T7-68加帽率为100%，而野生型T7 RNA聚合酶为88%。</li>
+<li>对于T7-68来说，在Cap为低浓度时（1mM），T7-68加帽率可达70%-80%，而野生型T7 RNA聚合酶仅仅能到达30%。</li>
+</ul>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291201935.png" alt="image-20221029120128743"  />
+
+<p>图2：构建GlmS Ribozyme -mRNA，设置Cap:GTP比例梯度，比较ARCA和sCap加帽率。</p>
+<p>研究人员构建Luciferase-mRNA，利用ARCA和sCap(m7Gpppm7G)测定T7-68和野生型T7 RNA聚合酶的加帽率，设置与上面类似的Cap:GTP比例进行IVT合成，结合电泳图和定量分析来看（图3）：</p>
+<ul>
+<li>ARCA和sCap具有类似的加帽率。</li>
+<li>当Cap:GTP为5:1时，T7-68加帽率可以达到99%，而野生型T7 RNA聚合酶的加帽率只能到达81%；当Cap:GTP为1:5时，T7-68加帽率可以达到88%，而野生型T7 RNA聚合酶的加帽率仅仅只有26%。</li>
+</ul>
+<p>此外，他们还比较了Luciferase-mRNA加帽率和IVT产量之间的关系，发现GTP浓度和IVT产量之间呈现正相关。当sCap:GTP为1:5时，T7-68实现88%的加帽率时，IVT产量为6mg&#x2F;ml，然而，野生型T7 RNA聚合酶实现77-81%的加帽率时，sCap:GTP为5:1，此时IVT产量已经降低到1mg&#x2F;ml（图3.D）。也就是说，T7-68在实现高加帽效率的同时，又可以保证IVT产量不发生下降。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291244306.png" alt="image-20221029124431187"></p>
+<p>图3：构建Luciferase-mRNA，设置Cap:GTP比例梯度，比较ARCA和sCap加帽率以及IVT产量。</p>
+<h3 id="三核苷酸帽子加帽率"><a href="#三核苷酸帽子加帽率" class="headerlink" title="三核苷酸帽子加帽率"></a>三核苷酸帽子加帽率</h3><p>研究人员构建Luciferase-mRNA，测定T7-68和野生型T7 RNA聚合酶的加帽率。当使用Buffer C时，野生型T7 RNA聚合酶加帽效率可达到97%。当降低GAG浓度时，加帽效率会发生下降。对于T7-68来说，当使用最佳Buffer B且1mM GAG时，加帽率可达到97%，相当于野生型T7 RNA聚合酶在4mMGAG时的加帽率。当使用相同的Buffer体系，T7-68和野生型T7 RNA聚合酶的加帽率有着更加明显的差别（图4）。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291755669.png" alt="image-20221029175517518"></p>
+<p>图4:构建Luciferase-mRNA，设置GAG:GTP比例梯度，测定加帽率和IVT产量。</p>
+<h2 id="修饰核苷酸与IVT产量"><a href="#修饰核苷酸与IVT产量" class="headerlink" title="修饰核苷酸与IVT产量"></a>修饰核苷酸与IVT产量</h2><p>在合成mRNA时，常常使用甲基假尿嘧啶来降低免疫原性。利用5mM甲基假尿嘧啶合成Luciferase-mRNA时，野生型T7 RNA聚合酶和T7-68具有相似的IVT产量。这意味着，T7-68对于修饰核苷酸具有非常好的兼容性，修饰核苷酸的使用不会影响IVT产量（图4.C）。</p>
+<h2 id="转录保真度"><a href="#转录保真度" class="headerlink" title="转录保真度"></a>转录保真度</h2><p>体外转录合成的治疗性mRNA必须保证序列的正确性，才能翻译出正确的靶标蛋白。通过对T7-86合成的RNA进行测序分析，发现T7-68与野生型T7 RNA聚合酶具有相似的保真度，均接近8.1×10-5。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291546153.png" alt="image-20221029154617044"></p>
+<p>图5：T7 RNA聚合酶保真度测试，mRNA反转录形成cDNA，构建克隆子，进行测序分析。</p>
+<h2 id="IVT产物中的dsRNA含量"><a href="#IVT产物中的dsRNA含量" class="headerlink" title="IVT产物中的dsRNA含量"></a>IVT产物中的dsRNA含量</h2><p>首先，研究人员通过反相色谱法分析IVT产物中3’末端延伸的dsRNA含量，发现T7-68合成的IVT产物中具有最低的dsRNA含量。通过HPLC纯化后的野生型T7 RNA聚合酶合成的IVT产物中的3’末端延伸的dsRNA发生明显下降（主峰后有着更长保留时间的两个小峰）。接着，通过ELISA测试IVT产物中由3’末端延伸的dsRNA和依赖于RNA反义链的dsRNA组成的总dsRNA，发现T7-68合成的IVT产物中的总dsRNA要比野生型T7 RNA聚合酶合成的IVT产物中降低50多倍。总结来说，HPLC和ELISA数据均显示T7-68 RNA聚合酶合成的IVT产物中dsRNA含量发生明显下降。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291549962.png" alt="image-20221029154944861"></p>
+<p>图6：通过反相HPLC和ELISA测试野生型T7 RNA聚合酶和T7-68 IVT产物中的dsRNA含量。</p>
+<h2 id="免疫原性和翻译效率"><a href="#免疫原性和翻译效率" class="headerlink" title="免疫原性和翻译效率"></a>免疫原性和翻译效率</h2><p>最后，研究人员测定T7-68合成的mRNA在细胞水平的免疫原性。位于细胞质和细胞核中的RIG-I能够识别5’末端携带3磷酸基团，转录第一个核苷酸缺乏2’-OH甲基化以及靠近5’末端拥有短dsRNA区域的外源RNA；TLR3是位于胞内体上的模式识别受体，能够选择性结合超过40bp的长dsRNA。这两种受体信号均能触发干扰素途径。将合成的mRNA转染进能够响应干扰素信号的细胞中，结果发现T7-68合成的mRNA具有最低的免疫原性（图7.A）。野生型T7 RNA聚合酶合成出来的产物经过HPLC纯化后，免疫原性也会发生明显下降。由于合成的mRNA样品具有非常高的加帽率，因此，细胞水平的免疫原性更多地是表征dsRNA含量，这与前面检测的dsRNA数据也是相符合的。</p>
+<p>由于干扰素反应会激活PKR，磷酸化eIF-2α，从而抑制整个细胞的蛋白翻译。研究人员将T7-68和野生型T7 RNA聚合酶合成出来的IVT产物转染Hela细胞，结果发现T7-68合成的mRNA在细胞内的蛋白翻译水平要高出野生型8倍。这说明T7-68 IVT合成产物中dsRNA含量的下降可能提升了蛋白翻译效率。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291618778.png" alt="image-20221029161850693"></p>
+<p>图7：在细胞水平检测野生型T7 RNA聚合酶和T7-68 IVT产物的免疫原性和蛋白翻译水平。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>帽子结构能够促进mRNA进行高效翻译，提升mRNA稳定性，减弱mRNA免疫原性，因此是mRNA工艺生产中的关键质量属性。野生型T7 RNA聚合酶在插入二核苷酸帽子类似物和GTP到转录起始位点时，并不具有偏向性，这导致IVT体系中Cap:GTP维持4:1时，才仅仅能实现70%加帽率。而且，对于野生型T7 RNA聚合酶来说，降低IVT体系中的GTP含量，会导致IVT产量发生下降。由此，对于野生型T7 RNA聚合酶来说，加帽率和IVT产量的双向提升存在相互掣肘。Codexis公司研究团队开发的T7-68在转录起始位点插入二核苷酸或者三核苷酸帽子类似物的偏好性要强于GTP，因此，当IVT体系中所帽子类似物处于较低浓度时，也能保证极高的加帽率，同时又不会影响IVT整体的产量。更加具有优势的是，相比野生型T7 RNA聚合酶，T7-68 IVT合成产物中dsRNA含量会明显发生下降，蛋白翻译效率得到显著提高。</p>
+<p>NEB开发的耐高温T7 RNA聚合酶，在高温50℃条件下合成的IVT产物中dsRNA含量会发生明显下降。然而，RNA很容易在高温下发生降解，特别是IVT体系中存在镁离子。虽然降低镁离子浓度，能够减轻50℃条件下RNA的水解，但是，这将会限制IVT反应的总产量。T7-68在常温条件进行IVT合成的产物中dsRNA含量同样发生显著下降，更加适合在mRNA合成工艺中使用，更加有利于维持IVT的产量以及mRNA稳定性。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer"><div class="post-widgets">
+      <div id="needsharebutton-postbottom">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+          
+<div class="wechat_channel" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+  <br>
+  <!-- 这里添加你的二维码图片 -->
+  <img src ="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221101399.jpg" style="width: auto; height:250px; max-width: 100%"/>
+</div>
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>RNActor
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://www.kissrna.com/2022/10/29/Codexis%E5%BC%80%E5%8F%91%E4%BB%A5%E4%BD%8E%E6%B5%93%E5%BA%A6%E5%B8%BD%E5%AD%90%E7%B1%BB%E4%BC%BC%E7%89%A9%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%AB%98%E5%8A%A0%E5%B8%BD%E7%8E%87%E7%9A%84T7%E8%81%9A%E5%90%88%E9%85%B6/" title="Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成">http://www.kissrna.com/2022/10/29/Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+          <div class="post-tags">
+              <a href="/tags/dsRNA/" rel="tag"># dsRNA</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/10/22/%E9%87%9C%E5%BA%95%E6%8A%BD%E8%96%AA%EF%BC%8C%E5%87%8F%E5%B0%91IVT%E5%8F%8D%E4%BA%A7%E7%89%A9%E4%B8%AD%E4%B8%A4%E7%A7%8D%E4%B8%8D%E5%90%8C%E6%9D%A5%E6%BA%90%E7%9A%84dsRNA%E3%80%82/" rel="prev" title="釜底抽薪，减少IVT反产物中两种不同来源的dsRNA。">
+                  <i class="fa fa-chevron-left"></i> 釜底抽薪，减少IVT反产物中两种不同来源的dsRNA。
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">true</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"waline-server-kissrna.vercel.app","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"placeholder":"请文明评论呀","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":false,"comment_count":true,"requiredFields":[],"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","el":"#waline","comment":true,"path":"/2022/10/29/Codexis%E5%BC%80%E5%8F%91%E4%BB%A5%E4%BD%8E%E6%B5%93%E5%BA%A6%E5%B8%BD%E5%AD%90%E7%B1%BB%E4%BC%BC%E7%89%A9%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%AB%98%E5%8A%A0%E5%B8%BD%E7%8E%87%E7%9A%84T7%E8%81%9A%E5%90%88%E9%85%B6/"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
+});
+</script>
+<script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: '32px',
+  left: 'unset',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
+
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+  <script>
+      pbOptions = {};
+        pbOptions.iconStyle = "box";
+        pbOptions.boxForm = "horizontal";
+        pbOptions.position = "bottomCenter";
+        pbOptions.networks = "Wechat,Weibo,QQZone,Twitter";
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+  </script>
+</body>
+</html>

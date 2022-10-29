@@ -854,11 +854,10 @@
 <p>总结来说，通过变性凝胶电泳和LC-MS分析两个短模板序列1&#x2F;2，证实IVT产物中存在一些超过预期长度的3’末端延伸的长链RNA，其中绝大多数会形成dsRNA(添加RNase III会降解)。</p>
 <p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212230190.png" alt="image-20221021223019021"></p>
 <p><u>图2：设计特异性的短链模板序列，通过尿素变性聚丙烯酰胺凝胶电泳与LC-MS证实IVT反应产物中存在一系列异质性的超过预期长度的3’末端延伸的RNA。</u></p>
-<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210181451715.png" alt="image-20221018145119621"></p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291853287.png" alt="image-20221029185318165"></p>
 <p><u>图3：以短链序列为模板的IVT反应产物中加入能够降解dsRNA的RNase III后，LC-MS峰图中超过预期长度的3’末端延伸RNA会降解消失，这说明这些超长的异质性RNA序列绝大部分是dsRNA。</u></p>
 <h2 id="耐高温T7-RNA聚合酶"><a href="#耐高温T7-RNA聚合酶" class="headerlink" title="耐高温T7 RNA聚合酶"></a>耐高温T7 RNA聚合酶</h2><h3 id="高效合成RNA"><a href="#高效合成RNA" class="headerlink" title="高效合成RNA"></a>高效合成RNA</h3><p>通过上述数据，我们可以看到，野生型的T7 RNA聚合酶合成的RNA产物中存在一系列异质性的3’末端延伸的长链RNA，我们前期介绍过，IVT产物Run off RNA会重新与T7 RNA聚合酶结合，在3’末端回折配对，启动自我延伸，形成长链RNA。因此，研究人员想通过提升IVT反应温度来抑制Run off RNA 同T7聚合酶的重新结合，以减少IVT产物中一系列异质性的长链dsRNA。NEB的研究人员筛选到两种耐高温的T7 RNA聚合酶：Ts-T7-1和Ts-T7-2。这两种耐高温的T7聚合酶在IVT反应温度超过45℃依然具有非常高效的合成活性，TsT7-1甚至在62℃时还与微弱的活性，然而，野生型T7聚合酶超过45℃时的合成活性已经基本丧失(图4.A)。</p>
-<p>###37℃ IVT产物中依然存在3’末端延伸的超长RNA链</p>
-<p>在37℃ 进行IVT，利用耐高温T7 RNA聚合酶合成CLuc-mRNA时，与野生型T7 RNA聚合酶一样，免疫印迹显示IVT产物中存在大量dsRNA（图4.B）。以短链序列1为模板时，与野生型T7 RNA聚合酶一样，尿素聚丙烯酰胺凝胶和LC-MS均显示耐高温T7 RNA聚合酶IVT产物中存在一系列异质性的超长dsRNA链(图4.C&#x2F;D)。这说明在耐高温T7 RNA聚合酶中引入的突变并不能抑制37℃ IVT合成产物中3’末端延伸的超长RNA链的形成。</p>
+<h3 id="37℃-IVT产物中依然存在3’末端延伸的超长RNA链"><a href="#37℃-IVT产物中依然存在3’末端延伸的超长RNA链" class="headerlink" title="37℃ IVT产物中依然存在3’末端延伸的超长RNA链"></a>37℃ IVT产物中依然存在3’末端延伸的超长RNA链</h3><p>在37℃ 进行IVT，利用耐高温T7 RNA聚合酶合成CLuc-mRNA时，与野生型T7 RNA聚合酶一样，免疫印迹显示IVT产物中存在大量dsRNA（图4.B）。以短链序列1为模板时，与野生型T7 RNA聚合酶一样，尿素聚丙烯酰胺凝胶和LC-MS均显示耐高温T7 RNA聚合酶IVT产物中存在一系列异质性的超长dsRNA链(图4.C&#x2F;D)。这说明在耐高温T7 RNA聚合酶中引入的突变并不能抑制37℃ IVT合成产物中3’末端延伸的超长RNA链的形成。</p>
 <p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212234543.png" alt="image-20221021223459286"></p>
 <p><u>图4：耐高温T7聚合酶在37℃条件下合成CLuc mRNA或者短链RNA1时，免疫印迹，尿素聚丙稀酰胺变性胶以及LC-MS均可检测到一系列异质性的3’末端延伸的超长dsRNA。</u></p>
 <p>###高温减少IVT产物中3’末端延伸的超长RNA链</p>
@@ -898,6 +897,61 @@
 <li>依赖于反义链RNA的dsRNA形成机制是序列特异性的，改变3’末端序列或者添加PolyA序列会减少IVT产物中依赖于反义链RNA的dsRNA形成。然而，在模板序列模板添加PolyA序列并不会影响IVT产物中3’末端延伸的超长RNA形成。</li>
 </ul>
 <img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210212222934.png" alt="image-20221021222213819" style="zoom:50%;" />
+]]></content>
+      <categories>
+        <category>RNA工艺</category>
+        <category>IVT合成</category>
+      </categories>
+      <tags>
+        <tag>dsRNA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成</title>
+    <url>/2022/10/29/Codexis%E5%BC%80%E5%8F%91%E4%BB%A5%E4%BD%8E%E6%B5%93%E5%BA%A6%E5%B8%BD%E5%AD%90%E7%B1%BB%E4%BC%BC%E7%89%A9%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%AB%98%E5%8A%A0%E5%B8%BD%E7%8E%87%E7%9A%84T7%E8%81%9A%E5%90%88%E9%85%B6/</url>
+    <content><![CDATA[<h1 id="Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成。"><a href="#Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成。" class="headerlink" title="Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成。"></a>Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成。</h1><p>T7 RNA聚合酶是整个体外转录反应的灵魂，从根源上决定着IVT合成产物中mRNA质量的优劣。目前，国产T7聚合酶供应厂家群雄并起，角逐竞赛，例如申基，瀚海，近岸，恺卡，诺唯赞，翌圣等，这也给下游RNA药物研发公司提供更加多样化的选择。面对众多的选择，我们到底应该从哪些角度入手去评价一款T7 RNA聚合酶的好坏？</p>
+<p>这期内容，我们通过分享一项Codexis公司研究团队所做的工作，一起来探寻问题的答案。：<strong>An Engineered T7 RNA Polymerase for efficient co-transcriptional 1 capping with reduced dsRNA byproducts in mRNA synthesis</strong>，他们以野生型T7 RNA聚合酶作为基础，通过定向进化突变库筛选出既能够在低浓度帽子类似物存在的IVT体系总，保证极高的插入率，又可以维持IVT高产量的新型常温T7 RNA聚合酶T7-68（目前已上市）。尤其值得学习的是，这项研究提供了一种测评T7 RNA聚合酶的思路，不仅仅关注浮于表面的产量，还对不同类型和浓度的帽子类似物插入率，dsRNA含量，修饰核苷酸兼容性，序列保真度，免疫原性和翻译效率等进行分析，从而做出更加可靠真实的测评结论。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291730451.jpg" alt="新建 Microsoft PowerPoint 演示文稿"></p>
+<h2 id="测评加帽率"><a href="#测评加帽率" class="headerlink" title="测评加帽率"></a>测评加帽率</h2><p>共转录加帽反应需要向IVT体系中添加三核苷酸帽子类似物或者二核苷酸帽子类似物。帽子类似物会与模板序列中转录起始位点序列发生配对，从而插入到mRNA序列中。IVT体系中的GTP和帽子类似物会抢夺mRNA序列中第一个转录出来的核苷酸插入位点（+1）。野生型T7 RNA聚合酶对于二核苷酸帽子类似物和GTP不具有偏好性，因此，为了使得野生型T7 RNA聚合酶更加偏好插入二核苷酸帽子类似物，需要将Cap：GTP设置为4:1，这样才能实现70%的加帽率。但是，高浓度的帽子类似物和低浓度的GTP组合会提升IVT反应成本，降低最终的mRNA产量。相比之下，T7 RNA聚合酶对于三核苷酸帽子类似物具有偏好性，这可能是由于三核苷酸帽子类似物和DNA模板序列在转录起始位点拥有多出一个的碱基互补配对作用(+2)，因此，不需要降低GTP比例，维持正常浓度5mM时，便可实现非常高的加帽率。</p>
+<p>Codexis研发团队构建GlmS Ribozyme-mRNA和Luciferase-mRNA，使用二核苷酸帽子类似物或者三核苷酸帽子类似物，比较野生型T7 RNA聚合酶和T7-68的加帽率差异(图1)。 GlmS Ribozyme-mRNA能够响应配体glucosamine-6-phosphate(氨基葡萄糖-6-磷酸)，5’末端发生自我切割，产生16bp可供分析的小片段RNA。Luciferase-mRNA能够被DNAzyme在特定位点切割，释放出5’末端13bp的小片段RNA。这样的话，便可通过尿素聚丙烯酰胺凝胶区分加帽和未加帽的 GlmS Ribozyme-mRNA和Luciferase-mRNA。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210290235398.png" alt="image-20221029023536965"></p>
+<p>图1：切割 GlmS Ribozyme-mRNA和Luciferase-mRNA，释放5’末端小片段RNA，变性凝胶电泳区分加帽和未加帽小片段RNA，从而测定加帽率。</p>
+<p>###二核苷酸帽子类似物加帽率</p>
+<p>他们用ARCA和sCap(m7Gpppm7G)来测试T7-68和野生型T7 RNA聚合酶的加帽率。首先，构建 GlmS Ribozyme-mRNA，能够响应配体glucosamine-6-phosphate(氨基葡萄糖-6-磷酸)，5’末端发生自我切割，产生16bp可供分析的小片段RNA。这样的话，便可通过尿素聚丙烯酰胺凝胶区分加帽和未加帽的 GlmS Ribozyme-mRNA。研发人员设置一系列的Cap:GTP比例梯度，从0-5mM增加ARCA或者sCap浓度，并将Cap和GTP总浓度设为6mM。结合电泳图和定量分析来看（图2）：</p>
+<ul>
+<li>ARCA和sCap具有相似的加帽率</li>
+<li>随着Cap浓度的增加，加帽率会增加。</li>
+<li>在给定的Cap:GTP比例下，相比野生型 T7 RNA聚合酶，T7-68明显具有更高的加帽率。</li>
+<li>在Cap:GTP为5:1时，T7-68加帽率为100%，而野生型T7 RNA聚合酶为88%。</li>
+<li>对于T7-68来说，在Cap为低浓度时（1mM），T7-68加帽率可达70%-80%，而野生型T7 RNA聚合酶仅仅能到达30%。</li>
+</ul>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291201935.png" alt="image-20221029120128743"  />
+
+<p>图2：构建GlmS Ribozyme -mRNA，设置Cap:GTP比例梯度，比较ARCA和sCap加帽率。</p>
+<p>研究人员构建Luciferase-mRNA，利用ARCA和sCap(m7Gpppm7G)测定T7-68和野生型T7 RNA聚合酶的加帽率，设置与上面类似的Cap:GTP比例进行IVT合成，结合电泳图和定量分析来看（图3）：</p>
+<ul>
+<li>ARCA和sCap具有类似的加帽率。</li>
+<li>当Cap:GTP为5:1时，T7-68加帽率可以达到99%，而野生型T7 RNA聚合酶的加帽率只能到达81%；当Cap:GTP为1:5时，T7-68加帽率可以达到88%，而野生型T7 RNA聚合酶的加帽率仅仅只有26%。</li>
+</ul>
+<p>此外，他们还比较了Luciferase-mRNA加帽率和IVT产量之间的关系，发现GTP浓度和IVT产量之间呈现正相关。当sCap:GTP为1:5时，T7-68实现88%的加帽率时，IVT产量为6mg&#x2F;ml，然而，野生型T7 RNA聚合酶实现77-81%的加帽率时，sCap:GTP为5:1，此时IVT产量已经降低到1mg&#x2F;ml（图3.D）。也就是说，T7-68在实现高加帽效率的同时，又可以保证IVT产量不发生下降。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291244306.png" alt="image-20221029124431187"></p>
+<p>图3：构建Luciferase-mRNA，设置Cap:GTP比例梯度，比较ARCA和sCap加帽率以及IVT产量。</p>
+<h3 id="三核苷酸帽子加帽率"><a href="#三核苷酸帽子加帽率" class="headerlink" title="三核苷酸帽子加帽率"></a>三核苷酸帽子加帽率</h3><p>研究人员构建Luciferase-mRNA，测定T7-68和野生型T7 RNA聚合酶的加帽率。当使用Buffer C时，野生型T7 RNA聚合酶加帽效率可达到97%。当降低GAG浓度时，加帽效率会发生下降。对于T7-68来说，当使用最佳Buffer B且1mM GAG时，加帽率可达到97%，相当于野生型T7 RNA聚合酶在4mMGAG时的加帽率。当使用相同的Buffer体系，T7-68和野生型T7 RNA聚合酶的加帽率有着更加明显的差别（图4）。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291755669.png" alt="image-20221029175517518"></p>
+<p>图4:构建Luciferase-mRNA，设置GAG:GTP比例梯度，测定加帽率和IVT产量。</p>
+<h2 id="修饰核苷酸与IVT产量"><a href="#修饰核苷酸与IVT产量" class="headerlink" title="修饰核苷酸与IVT产量"></a>修饰核苷酸与IVT产量</h2><p>在合成mRNA时，常常使用甲基假尿嘧啶来降低免疫原性。利用5mM甲基假尿嘧啶合成Luciferase-mRNA时，野生型T7 RNA聚合酶和T7-68具有相似的IVT产量。这意味着，T7-68对于修饰核苷酸具有非常好的兼容性，修饰核苷酸的使用不会影响IVT产量（图4.C）。</p>
+<h2 id="转录保真度"><a href="#转录保真度" class="headerlink" title="转录保真度"></a>转录保真度</h2><p>体外转录合成的治疗性mRNA必须保证序列的正确性，才能翻译出正确的靶标蛋白。通过对T7-86合成的RNA进行测序分析，发现T7-68与野生型T7 RNA聚合酶具有相似的保真度，均接近8.1×10-5。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291546153.png" alt="image-20221029154617044"></p>
+<p>图5：T7 RNA聚合酶保真度测试，mRNA反转录形成cDNA，构建克隆子，进行测序分析。</p>
+<h2 id="IVT产物中的dsRNA含量"><a href="#IVT产物中的dsRNA含量" class="headerlink" title="IVT产物中的dsRNA含量"></a>IVT产物中的dsRNA含量</h2><p>首先，研究人员通过反相色谱法分析IVT产物中3’末端延伸的dsRNA含量，发现T7-68合成的IVT产物中具有最低的dsRNA含量。通过HPLC纯化后的野生型T7 RNA聚合酶合成的IVT产物中的3’末端延伸的dsRNA发生明显下降（主峰后有着更长保留时间的两个小峰）。接着，通过ELISA测试IVT产物中由3’末端延伸的dsRNA和依赖于RNA反义链的dsRNA组成的总dsRNA，发现T7-68合成的IVT产物中的总dsRNA要比野生型T7 RNA聚合酶合成的IVT产物中降低50多倍。总结来说，HPLC和ELISA数据均显示T7-68 RNA聚合酶合成的IVT产物中dsRNA含量发生明显下降。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291549962.png" alt="image-20221029154944861"></p>
+<p>图6：通过反相HPLC和ELISA测试野生型T7 RNA聚合酶和T7-68 IVT产物中的dsRNA含量。</p>
+<h2 id="免疫原性和翻译效率"><a href="#免疫原性和翻译效率" class="headerlink" title="免疫原性和翻译效率"></a>免疫原性和翻译效率</h2><p>最后，研究人员测定T7-68合成的mRNA在细胞水平的免疫原性。位于细胞质和细胞核中的RIG-I能够识别5’末端携带3磷酸基团，转录第一个核苷酸缺乏2’-OH甲基化以及靠近5’末端拥有短dsRNA区域的外源RNA；TLR3是位于胞内体上的模式识别受体，能够选择性结合超过40bp的长dsRNA。这两种受体信号均能触发干扰素途径。将合成的mRNA转染进能够响应干扰素信号的细胞中，结果发现T7-68合成的mRNA具有最低的免疫原性（图7.A）。野生型T7 RNA聚合酶合成出来的产物经过HPLC纯化后，免疫原性也会发生明显下降。由于合成的mRNA样品具有非常高的加帽率，因此，细胞水平的免疫原性更多地是表征dsRNA含量，这与前面检测的dsRNA数据也是相符合的。</p>
+<p>由于干扰素反应会激活PKR，磷酸化eIF-2α，从而抑制整个细胞的蛋白翻译。研究人员将T7-68和野生型T7 RNA聚合酶合成出来的IVT产物转染Hela细胞，结果发现T7-68合成的mRNA在细胞内的蛋白翻译水平要高出野生型8倍。这说明T7-68 IVT合成产物中dsRNA含量的下降可能提升了蛋白翻译效率。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210291618778.png" alt="image-20221029161850693"></p>
+<p>图7：在细胞水平检测野生型T7 RNA聚合酶和T7-68 IVT产物的免疫原性和蛋白翻译水平。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>帽子结构能够促进mRNA进行高效翻译，提升mRNA稳定性，减弱mRNA免疫原性，因此是mRNA工艺生产中的关键质量属性。野生型T7 RNA聚合酶在插入二核苷酸帽子类似物和GTP到转录起始位点时，并不具有偏向性，这导致IVT体系中Cap:GTP维持4:1时，才仅仅能实现70%加帽率。而且，对于野生型T7 RNA聚合酶来说，降低IVT体系中的GTP含量，会导致IVT产量发生下降。由此，对于野生型T7 RNA聚合酶来说，加帽率和IVT产量的双向提升存在相互掣肘。Codexis公司研究团队开发的T7-68在转录起始位点插入二核苷酸或者三核苷酸帽子类似物的偏好性要强于GTP，因此，当IVT体系中所帽子类似物处于较低浓度时，也能保证极高的加帽率，同时又不会影响IVT整体的产量。更加具有优势的是，相比野生型T7 RNA聚合酶，T7-68 IVT合成产物中dsRNA含量会明显发生下降，蛋白翻译效率得到显著提高。</p>
+<p>NEB开发的耐高温T7 RNA聚合酶，在高温50℃条件下合成的IVT产物中dsRNA含量会发生明显下降。然而，RNA很容易在高温下发生降解，特别是IVT体系中存在镁离子。虽然降低镁离子浓度，能够减轻50℃条件下RNA的水解，但是，这将会限制IVT反应的总产量。T7-68在常温条件进行IVT合成的产物中dsRNA含量同样发生显著下降，更加适合在mRNA合成工艺中使用，更加有利于维持IVT的产量以及mRNA稳定性。</p>
 ]]></content>
       <categories>
         <category>RNA工艺</category>
