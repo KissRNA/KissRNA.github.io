@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.kissrna.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="2022年10月24号，BioNTech 公司CEO Ugur Sahin 在Molecular Therapy发表文章：Self-amplifying RNA vaccine protects mice against lethal Ebola virus infection，他们从抗原的组成和接种路线出发，成功开发出预防EBOV感染致死的自复制RNA（saRNA）疫苗。用单独表达GP或者共表达">
+<meta property="og:type" content="article">
+<meta property="og:title" content="BioNTech开发埃博拉自复制二价RNA疫苗，仅需一针便可使EBOV感染小鼠免于死亡">
+<meta property="og:url" content="http://www.kissrna.com/2022/11/05/BioNTech%E5%BC%80%E5%8F%91%E5%9F%83%E5%8D%9A%E6%8B%89%E8%87%AA%E5%A4%8D%E5%88%B6%E4%BA%8C%E4%BB%B7RNA%E7%96%AB%E8%8B%97%EF%BC%8C%E4%BB%85%E9%9C%80%E4%B8%80%E9%92%88%E4%BE%BF%E5%8F%AF%E4%BD%BFEBOV%E6%84%9F%E6%9F%93%E5%B0%8F%E9%BC%A0%E5%85%8D%E4%BA%8E%E6%AD%BB%E4%BA%A1/index.html">
+<meta property="og:site_name" content="RNAFactory">
+<meta property="og:description" content="2022年10月24号，BioNTech 公司CEO Ugur Sahin 在Molecular Therapy发表文章：Self-amplifying RNA vaccine protects mice against lethal Ebola virus infection，他们从抗原的组成和接种路线出发，成功开发出预防EBOV感染致死的自复制RNA（saRNA）疫苗。用单独表达GP或者共表达">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050013674.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211011159282.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050030129.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050027867.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211042142160.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050038714.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050056971.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050110831.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050139742.png">
+<meta property="article:published_time" content="2022-11-05T02:58:44.000Z">
+<meta property="article:modified_time" content="2022-11-05T03:00:55.425Z">
+<meta property="article:author" content="RNActor">
+<meta property="article:tag" content="saRNA">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050013674.png">
+
+
+<link rel="canonical" href="http://www.kissrna.com/2022/11/05/BioNTech%E5%BC%80%E5%8F%91%E5%9F%83%E5%8D%9A%E6%8B%89%E8%87%AA%E5%A4%8D%E5%88%B6%E4%BA%8C%E4%BB%B7RNA%E7%96%AB%E8%8B%97%EF%BC%8C%E4%BB%85%E9%9C%80%E4%B8%80%E9%92%88%E4%BE%BF%E5%8F%AF%E4%BD%BFEBOV%E6%84%9F%E6%9F%93%E5%B0%8F%E9%BC%A0%E5%85%8D%E4%BA%8E%E6%AD%BB%E4%BA%A1/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://www.kissrna.com/2022/11/05/BioNTech%E5%BC%80%E5%8F%91%E5%9F%83%E5%8D%9A%E6%8B%89%E8%87%AA%E5%A4%8D%E5%88%B6%E4%BA%8C%E4%BB%B7RNA%E7%96%AB%E8%8B%97%EF%BC%8C%E4%BB%85%E9%9C%80%E4%B8%80%E9%92%88%E4%BE%BF%E5%8F%AF%E4%BD%BFEBOV%E6%84%9F%E6%9F%93%E5%B0%8F%E9%BC%A0%E5%85%8D%E4%BA%8E%E6%AD%BB%E4%BA%A1/","path":"2022/11/05/BioNTech开发埃博拉自复制二价RNA疫苗，仅需一针便可使EBOV感染小鼠免于死亡/","title":"BioNTech开发埃博拉自复制二价RNA疫苗，仅需一针便可使EBOV感染小鼠免于死亡"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>BioNTech开发埃博拉自复制二价RNA疫苗，仅需一针便可使EBOV感染小鼠免于死亡 | RNAFactory</title>
+  
+
+
+
+
+
+<link rel="dns-prefetch" href="waline-server-kissrna.vercel.app"><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css"><style>
+#needsharebutton-postbottom {
+  cursor: pointer;
+  height: 26px;
+  margin-top: 10px;
+  position: relative;
+}
+#needsharebutton-postbottom .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 3px;
+  display: initial;
+  padding: 1px 4px;
+}
+</style>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">RNAFactory</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Sharing Key Discoveries and Advances in mRNA Therapeutics</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>研究</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-friendlink"><a href="/friendlink/" rel="section"><i class="fa fa-link fa-fw"></i>链接</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#EBOV%E6%8A%97%E5%8E%9F%E7%9A%84%E7%BB%93%E6%9E%84%E5%92%8C%E5%8A%9F%E8%83%BD"><span class="nav-number">1.</span> <span class="nav-text">EBOV抗原的结构和功能</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#sGP%E6%8A%97%E5%8E%9F"><span class="nav-number">1.1.</span> <span class="nav-text">sGP抗原</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GP%E6%8A%97%E5%8E%9F"><span class="nav-number">1.2.</span> <span class="nav-text">GP抗原</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ssGP%E6%8A%97%E5%8E%9F"><span class="nav-number">1.3.</span> <span class="nav-text">ssGP抗原</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#NP%E6%8A%97%E5%8E%9F"><span class="nav-number">1.4.</span> <span class="nav-text">NP抗原</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#EBOV%E7%96%AB%E8%8B%97%E7%A0%94%E5%8F%91%E8%BF%9B%E5%B1%95"><span class="nav-number">2.</span> <span class="nav-text">EBOV疫苗研发进展</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#BioNtech%E5%BC%80%E5%8F%91%E7%9A%84EBOV%E8%87%AA%E5%A4%8D%E5%88%B6RNA%E7%96%AB%E8%8B%97"><span class="nav-number">3.</span> <span class="nav-text">BioNtech开发的EBOV自复制RNA疫苗</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%86%E8%83%9E%E6%B0%B4%E5%B9%B3%E6%8A%97%E5%8E%9F%E8%A1%A8%E8%BE%BE"><span class="nav-number">3.1.</span> <span class="nav-text">细胞水平抗原表达</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%93%E6%B6%B2%E5%85%8D%E7%96%AB%E5%92%8C%E7%BB%86%E8%83%9E%E5%85%8D%E7%96%AB"><span class="nav-number">3.2.</span> <span class="nav-text">体液免疫和细胞免疫</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%A4%E7%A7%8D%E6%8E%A5%E7%A7%8D%E8%B7%AF%E7%BA%BF%E5%85%8D%E7%96%AB%E6%95%88%E6%9E%9C%E7%9A%84%E5%B7%AE%E5%BC%82"><span class="nav-number">3.3.</span> <span class="nav-text">两种接种路线免疫效果的差异</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%89%E6%95%88%E4%BF%9D%E6%8A%A4EBOV%E6%84%9F%E6%9F%93%E5%B0%8F%E9%BC%A0%E5%85%8D%E4%BA%8E%E6%AD%BB%E4%BA%A1"><span class="nav-number">3.4.</span> <span class="nav-text">有效保护EBOV感染小鼠免于死亡</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E8%AE%BA"><span class="nav-number">4.</span> <span class="nav-text">结论</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="RNActor"
+      src="/images/1.png">
+  <p class="site-author-name" itemprop="name">RNActor</p>
+  <div class="site-description" itemprop="description">We love and creat cool RNAs</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.kissrna.com/2022/11/05/BioNTech%E5%BC%80%E5%8F%91%E5%9F%83%E5%8D%9A%E6%8B%89%E8%87%AA%E5%A4%8D%E5%88%B6%E4%BA%8C%E4%BB%B7RNA%E7%96%AB%E8%8B%97%EF%BC%8C%E4%BB%85%E9%9C%80%E4%B8%80%E9%92%88%E4%BE%BF%E5%8F%AF%E4%BD%BFEBOV%E6%84%9F%E6%9F%93%E5%B0%8F%E9%BC%A0%E5%85%8D%E4%BA%8E%E6%AD%BB%E4%BA%A1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/1.png">
+      <meta itemprop="name" content="RNActor">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RNAFactory">
+      <meta itemprop="description" content="We love and creat cool RNAs">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="BioNTech开发埃博拉自复制二价RNA疫苗，仅需一针便可使EBOV感染小鼠免于死亡 | RNAFactory">
+      <meta itemprop="description" content="2022年10月24号，BioNTech 公司CEO Ugur Sahin 在Molecular Therapy发表文章：Self-amplifying RNA vaccine protects mice against lethal Ebola virus infection，他们从抗原的组成和接种路线出发，成功开发出预防EBOV感染致死的自复制RNA（saRNA）疫苗。用单独表达GP或者共表达NP的saRNA疫苗免疫小鼠能触发抗原特异性的免疫反应，产生具有中和活性的GP特异性抗体，特异性的CD4+T细胞和CD8+T细胞。同时，采用肌肉注射EBOV自复制RNA疫苗要比皮内注射能够更好地触发免疫效果。最后，他们发现接种两针表达二价自复制疫苗(5ug GP-saRNA+2.5ug NP-saRNA)或者单价自复制疫苗（5ug GP-saRNA）能够保护感染EBOV的小鼠免于死亡。此外，他们还发现即便接种一针表达GP+NP抗原的二价自复制疫苗也能保护小鼠免于EBOV感染带来的致死效应。总体来看，表达EBOV抗原的自复制RNA疫苗是一种非常有前景的疫苗。">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          BioNTech开发埃博拉自复制二价RNA疫苗，仅需一针便可使EBOV感染小鼠免于死亡
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-11-05 10:58:44 / 修改时间：11:00:55" itemprop="dateCreated datePublished" datetime="2022-11-05T10:58:44+08:00">2022-11-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E7%96%97%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">RNA疗法</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E7%96%97%E6%B3%95/RNA%E7%96%AB%E8%8B%97/" itemprop="url" rel="index"><span itemprop="name">RNA疫苗</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/2022/11/05/BioNTech%E5%BC%80%E5%8F%91%E5%9F%83%E5%8D%9A%E6%8B%89%E8%87%AA%E5%A4%8D%E5%88%B6%E4%BA%8C%E4%BB%B7RNA%E7%96%AB%E8%8B%97%EF%BC%8C%E4%BB%85%E9%9C%80%E4%B8%80%E9%92%88%E4%BE%BF%E5%8F%AF%E4%BD%BFEBOV%E6%84%9F%E6%9F%93%E5%B0%8F%E9%BC%A0%E5%85%8D%E4%BA%8E%E6%AD%BB%E4%BA%A1/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/2022/11/05/BioNTech%E5%BC%80%E5%8F%91%E5%9F%83%E5%8D%9A%E6%8B%89%E8%87%AA%E5%A4%8D%E5%88%B6%E4%BA%8C%E4%BB%B7RNA%E7%96%AB%E8%8B%97%EF%BC%8C%E4%BB%85%E9%9C%80%E4%B8%80%E9%92%88%E4%BE%BF%E5%8F%AF%E4%BD%BFEBOV%E6%84%9F%E6%9F%93%E5%B0%8F%E9%BC%A0%E5%85%8D%E4%BA%8E%E6%AD%BB%E4%BA%A1/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+            <div class="post-description">2022年10月24号，BioNTech 公司CEO Ugur Sahin 在Molecular Therapy发表文章：Self-amplifying RNA vaccine protects mice against lethal Ebola virus infection，他们从抗原的组成和接种路线出发，成功开发出预防EBOV感染致死的自复制RNA（saRNA）疫苗。用单独表达GP或者共表达NP的saRNA疫苗免疫小鼠能触发抗原特异性的免疫反应，产生具有中和活性的GP特异性抗体，特异性的CD4+T细胞和CD8+T细胞。同时，采用肌肉注射EBOV自复制RNA疫苗要比皮内注射能够更好地触发免疫效果。最后，他们发现接种两针表达二价自复制疫苗(5ug GP-saRNA+2.5ug NP-saRNA)或者单价自复制疫苗（5ug GP-saRNA）能够保护感染EBOV的小鼠免于死亡。此外，他们还发现即便接种一针表达GP+NP抗原的二价自复制疫苗也能保护小鼠免于EBOV感染带来的致死效应。总体来看，表达EBOV抗原的自复制RNA疫苗是一种非常有前景的疫苗。</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>从2014年到2016年，在西非地区出现的埃博拉疫情，是自1976年首次发现埃博拉病毒以来，爆发规模最大，最严重的一次埃博拉疫情。埃博拉病毒（EBOV）一种烈性病原体，感染人体后，可引发严重的出血热，平均致死率为50%，以往疫情中的致死率为25%-90%之间。如同埃博拉病毒（EBOV）和新冠病毒一样，绝大多数新出现的病毒也是从动物传播到人体，这使得我们很难预测何时何地会爆发感染何种病毒引发的疫情。全球化和交通的改善，让人们可以触达世界上各种偏远的地区，这也使得新型病毒引发疫情的频率和规模大幅增加，因此，人们必须要加强快速研发预防性病毒疫苗的能力。</p>
+<p>2022年10月24号，BioNTech 公司CEO Ugur Sahin 在Molecular Therapy发表文章：Self-amplifying RNA vaccine protects mice against lethal Ebola virus infection，他们从抗原的组成和接种路线出发，成功开发出预防EBOV感染致死的自复制RNA（saRNA）疫苗。用单独表达GP或者共表达NP的saRNA疫苗免疫小鼠能触发抗原特异性的免疫反应，产生具有中和活性的GP特异性抗体，特异性的CD4+T细胞和CD8+T细胞。同时，采用肌肉注射EBOV自复制RNA疫苗要比皮内注射能够更好地触发免疫效果。最后，他们发现接种两针表达二价自复制疫苗(5ug GP-saRNA+2.5ug NP-saRNA)或者单价自复制疫苗（5ug GP-saRNA）能够保护感染EBOV的小鼠免于死亡。此外，他们还发现即便接种一针表达GP+NP抗原的二价自复制疫苗也能保护小鼠免于EBOV感染带来的致死效应。总体来看，表达EBOV抗原的自复制RNA疫苗是一种非常有前景的疫苗。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050013674.png" alt="image-20221105001315322"></p>
+<p>本期分享围绕这款埃博拉病毒自复制RNA疫苗展开，我们主要进行以下几个方面的探讨:</p>
+<ol>
+<li>埃博拉病毒GP和NP抗原的结构和功能。</li>
+<li>埃博拉病毒疫苗研发进展</li>
+<li>埃博拉病毒自复制RNA疫苗的小鼠体内免疫数据</li>
+</ol>
+<h2 id="EBOV抗原的结构和功能"><a href="#EBOV抗原的结构和功能" class="headerlink" title="EBOV抗原的结构和功能"></a>EBOV抗原的结构和功能</h2><p>EBOV（埃博拉病毒）属于丝状病毒科，是一个有包膜的，单链负链RNA病毒。EBOV基因组长达19kb，由7个结构蛋白基因组成：NP，VP35,VP40,GP,VP30,VP24,L。然而，由于GP基因的RNA编辑和翻译后修饰，EBOV能够合成的蛋白种类要超过7个。GP基因可以编码3种蛋白：sGP，GP，ssGP。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211011159282.png" alt="" style="zoom:50%;" />
+
+<p>图1：埃博拉病毒的基因组结构以及编码的抗原。</p>
+<h3 id="sGP抗原"><a href="#sGP抗原" class="headerlink" title="sGP抗原"></a>sGP抗原</h3><p>sGP是一个由363个氨基酸组成的非结构蛋白，称为分泌型GP（sGP）。sGP的前体会被Furin切割产生成熟的sGP和一个高度O-连接糖基化的，分泌型的小单体非结构蛋白，称为△-peptide。两个相互平行的sGP单体通过两个二硫键连接（Cys53-Cys53和Cys306-Cys306）。在感染EBOV的病人血清中会检测到大量的sGP。幸存者血清中的抗体对于sGP的识别能力要优于GP。因此，sGP通过结合EBOV感染机体后触发的抗体，在EBOV逃脱体液免疫方面发挥着非常重要的作用。</p>
+<h3 id="GP抗原"><a href="#GP抗原" class="headerlink" title="GP抗原"></a>GP抗原</h3><p>GP基因的一个发卡Loop结构内有7个连续的腺嘌呤核苷酸，当L聚合酶转录至此时会发生卡顿，可能会插入一个额外的腺嘌呤核苷酸，引发移码，最终翻译产生676个氨基酸的I型跨膜糖蛋白Pre-GP。由于发生移码突变，GP和sGP在N端具有相同的295个氨基酸，在C端具有不同的序列。不同的C末端会导致不同的二硫键模式和不同的蛋白结构。尽管sGP是一个二聚体形式，但是GP的最终结构是一个三聚体。preGP被Furin切割产生两个亚基：GP1与GP2，这两个亚基之间通过GP1的Cys53和GP2的Cys609之间的二硫键连接。GP1+GP2异源二聚体组装成位于病毒粒子表面的450KDa的三聚体。TNF-α转化酶（TACE）通过靠近跨膜锚定区域的切割位点能够将附着在病毒粒子表面的GP释放。GP是唯一附着在EBOV病毒粒子表面的蛋白，介导EBOV进入宿主细胞的过程。GP1介导病毒附着在宿主细胞表面，而GP2参与膜融合过程。在HEK293T细胞中，过表达GP蛋白会引发细胞毒性，这种细胞毒性由GP蛋白中富含N-或者O-糖苷键修饰的结构域决定，称为类粘蛋白结构域（mucin-like domain）。</p>
+<h3 id="ssGP抗原"><a href="#ssGP抗原" class="headerlink" title="ssGP抗原"></a>ssGP抗原</h3><p>当GP基因转录时额外插入腺嘌呤核苷酸会产生GP，缺失一个或者添加2个腺嘌呤核苷酸时会产生第三个蛋白，称为ssGP，是一个非结构的单体小sGP，与sGP，GP具有共同的295个N末端氨基酸，但是C端具有不同的氨基酸组成。</p>
+<p>EBOV最为独特的特征是感染期间，会从细胞中释放可溶解形式的糖蛋白。在感染EBOV的病人和动物血清中会检测到大量的sGP和截断的表面蛋白GP。由于sGP缺乏跨膜锚定结构域，因此可通过经典的分泌途径从细胞中释放出来。位于病毒粒子表面的GP会被TACE切割，称为脱落GP。溶解形式的脱落GP能够结合和隔离靶向病毒粒子表面GP的中和抗体。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050030129.png" alt="image-20221105003043032" style="zoom: 50%;" />
+
+<p>图2：埃博拉病毒GP抗原的转录和翻译后加工工程。</p>
+<h3 id="NP抗原"><a href="#NP抗原" class="headerlink" title="NP抗原"></a>NP抗原</h3><p>NP是与病毒基因组连接在一起的核蛋白（nucleoprotein），能够与聚合酶辅因子（VP35），转录激活因子（VP30），依赖于RNA的RNA聚合酶（L）组装成螺旋形的核衣壳（nucleocapsid，NC）。构成核衣壳的病毒蛋白与病毒基因组的复制和转录有关。VP24是一个极小的病毒基质蛋白，对于核衣壳复合物的组装也是必需的。当NP单独在细胞中表达时，会同细胞内的RNA形成一个松弛的类似线圈装的结构（coli-like structure）。当NP和VP24以及VP25在细胞中共表达时，能够在细胞质中形成类似核衣壳的结构，这种结构与EBOV感染的细胞中观察的核衣壳结构在形态上没有差异。</p>
+<p>EBOV病毒基因组负链RNA转录形成mRNA，释放到细胞质中，翻译出病毒蛋白。NP与VP35，VP40，VP30，VP24形成小包涵体（small inclusions），这种包涵体在靠近细胞核的位置会变得更大。在包涵体的边缘位置，形成核衣壳。VP40与核衣壳结合在一起，有助于将其运输到细胞膜。另外一种情况是，核衣壳初始的时候就会结合很多VP40，然后被转运到细胞质膜，然后被膜结合型的VP40包封。GP经过内质网，核糖体，转移至细胞膜，组装形成病毒颗粒。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050027867.png" alt="image-20221105002722731" style="zoom: 50%;" />
+
+<p>图3：埃博拉病毒在宿主细胞内的组装过程。</p>
+<h2 id="EBOV疫苗研发进展"><a href="#EBOV疫苗研发进展" class="headerlink" title="EBOV疫苗研发进展"></a>EBOV疫苗研发进展</h2><p>目前，存在4种能够引发致命性疾病的埃博拉病毒：SUDV，BDBV，TAFV，EBOV。在埃博拉疫苗研发的近期进展中，有5款基于病毒载体的埃博拉病毒疫苗走在最前面:</p>
+<ol>
+<li>Ervebo(rVSV-EBOV)，是一款由Merck生产的表达EBOV GP抗原的单价疫苗，也是唯一一款被证实有临床效果的疫苗，已获得FDA和EMA的批准。</li>
+<li>Zabdeno&#x2F;Mvabea，是一款由Johnson&amp;Johnson生产的多价疫苗，初始免疫接种表达EBOV GP抗原的Zabdeno疫苗，加强免疫接种表达多种混合抗原的Mvabea疫苗，在某些特定情况下被EMA批准使用。</li>
+<li>ChAd3-EBOZ&#x2F;MVA-BN-Filo，是一款由GlaxoSmithKline合作研发的多价疫苗，初始免疫接种表达EBOV GP抗原的cAd3-EBOZ&#x2F;EBOV疫苗，加强免疫接种表达多种混合抗原的Mvabea疫苗，目前还未被FDA或者EMA批准使用。</li>
+<li>Ad5-EBOV，是一款由康希诺和军事医学院研发的单价疫苗，于2017年取得1类生物制品新药注册证书。</li>
+<li>GamEvac，是一款俄罗斯流行病学和微生物研究生开发的异源疫苗，通过rVSV和Ad5表达EBOV GP抗原。</li>
+</ol>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211042142160.png" style="zoom:67%;" />
+
+<p>图4:基于病毒载体的处于领先地位的EBOV疫苗。</p>
+<h2 id="BioNtech开发的EBOV自复制RNA疫苗"><a href="#BioNtech开发的EBOV自复制RNA疫苗" class="headerlink" title="BioNtech开发的EBOV自复制RNA疫苗"></a>BioNtech开发的EBOV自复制RNA疫苗</h2><h3 id="细胞水平抗原表达"><a href="#细胞水平抗原表达" class="headerlink" title="细胞水平抗原表达"></a>细胞水平抗原表达</h3><p>BioNtech设计的saRNA，采用ARCA共转录加帽的方式。将2ug GP-saRNA，NP-saRNA或者编码GP&#x2F;NP的质粒转染HuH7细胞，24h以后，可以看到NP（绿色）位于细胞核附近不同大小的包涵体中，而GP（红色）定位于细胞质膜上病毒出芽的位置。通过WB分析病毒蛋白的表达情况，发现能够检测到两条GP带，180KDa的GP1亚基和110KDa的GP前体。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050038714.png" alt="image-20221105003809476"></p>
+<p>图5：saRNA编码的GP或者NP抗原可以在细胞中高效表达。</p>
+<h3 id="体液免疫和细胞免疫"><a href="#体液免疫和细胞免疫" class="headerlink" title="体液免疫和细胞免疫"></a>体液免疫和细胞免疫</h3><p>将LNP包封的共表达GP+NP抗原的saRNA二价疫苗或者只表达GP抗原的saRNA单价疫苗免疫小鼠，均能够触发特异性的GP或者NP血清结合抗体，而且这两种抗原相对于靶向彼此的体液免疫不存在相互干扰。同时，还在血清中检测到非常强的靶向EBOV中和抗体。此外，研究人员还发现添加NP抗原能够加强CD8+T细胞免疫反应。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050056971.png" alt="image-20221105005632887"></p>
+<p>图6：LNP包封的EBOV自复制RNA疫苗在小鼠体内的免疫原性。</p>
+<h3 id="两种接种路线免疫效果的差异"><a href="#两种接种路线免疫效果的差异" class="headerlink" title="两种接种路线免疫效果的差异"></a>两种接种路线免疫效果的差异</h3><p>通过皮内注射1&#x2F;5标准肌肉注射剂量的流感疫苗能够触发相似或者更好的免疫效果。因此，研究人员想保持GP:NP-saRNA为2:1，测试高剂量7.5ug saRNA和低剂量1.5ug saRNA 通过肌肉注射和皮内注射两种接种路线免疫小鼠所触发的免疫效果差异。结果发现，不同接种剂量和接种路线触发的血清结合抗体存在差异：高剂量肌肉注射&gt;低剂量肌肉注射&gt;高剂量皮内注射，血清中和抗体活性也存在类似的想象。非常有意思的是，研究人员发现皮内注射自复制RNA疫苗引发的CD8+ T细胞反应要明显低于同等剂量的肌肉注射的。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050110831.png" alt="image-20221105011036728"></p>
+<p>图7：肌肉注射EBOV自复制RNA疫苗触发的免疫效果要优于皮内注射。</p>
+<h3 id="有效保护EBOV感染小鼠免于死亡"><a href="#有效保护EBOV感染小鼠免于死亡" class="headerlink" title="有效保护EBOV感染小鼠免于死亡"></a>有效保护EBOV感染小鼠免于死亡</h3><p>小鼠肌肉注射两针表达GP，NP或者GP+NP的高剂量saRNA，结果发现，注射GP或者GP+NP saRNA疫苗的小鼠体内产生的血清结合抗体IgG是相当的，然而注射NP saRNA疫苗的小鼠血清中靶向NP的血清结合抗体IgG要明显低于注射GP+NP saRNA疫苗。注射GP或者GP+NP saRNA疫苗的小鼠血清中检测到中和抗体活性，但是，在注射NP saRNA疫苗的小鼠血清中并没有检测到中和抗体的活性。</p>
+<p>用GP或者GP+NP saRNA疫苗免疫小鼠后，在EBOV感染后的第5天或者第14天，在血清中并没有发现感染性的病毒。而且，在这些小鼠的脾脏和肝脏中也没有检测到病毒基因组。相反，在用NP saRNA疫苗免疫小鼠后，在EBOV感染后的第5天处死小鼠后，在血清和脏器中检测到病毒RNA和感染性病毒的存在。</p>
+<p>研究人员用只表达GP抗原或者共表达NP抗原的saRNA疫苗初始免疫和加强免疫小鼠，发现能够保护感染EBOV的小鼠免于死亡。尽管NP可以触发特异性的CD8+T细胞反应，但是，单独接种表达NP抗原的saRNA疫苗，无法保护感染EBOV的小鼠免于死亡。</p>
+<p>最后，研究人员还惊喜地发现，接种一针GP+NP saRNA疫苗的小鼠感染EBOV病毒后，也可免于死亡。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211050139742.png" alt="image-20221105013911642"></p>
+<p>图8：用GP或者NP或者GP+NP自复制RNA疫苗二次免疫小鼠，可保护感染EBOV的小鼠免于死亡。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>BioNTech开发的EBOV自复制RNA疫苗充分展现出自复RNA技术的巨大优势，可以完全保护接种疫苗的小鼠感染EBOV后，免于死亡。自复制RNA疫苗之所以可以触发效果更好的免疫效果，主要是两个方面的原因造成的：首先，自复制RNA在宿主细胞中发生复制后会产生大量的病毒抗原，最终耗尽宿主细胞的资源，造成宿主细胞的死亡和裂解，然后释放出来的抗原能够持续刺激B细胞，产生大量的特异性抗体。其次，自复制RNA在宿主细胞中的复制过程会刺激天然免疫反应，充当佐剂，提升适应性免疫反应。总的来说，编码抗原的RNA在宿主细胞内的大量复制和复制过程对天然免疫反应的刺激促使自复制RNA疫苗能够以极低的剂量触发强烈的免疫反应。此外，尽管EBOV自复制RNA疫苗在小鼠模型中具有非常好的免疫效果，但是，鉴于其他类型的EBOV疫苗，例如灭活疫苗或者重组蛋白疫苗，无法在非人灵长类动物身上取得良好的免疫效果，所以，BioNTech开发的这款EBOV自复制RNA疫苗还需要在非人灵长类动物身上进行进一步的测试。</p>
+<hr>
+<p>1.Current state of Ebola virus vaccines: A snapshot.</p>
+<p>2.The spatio-temporal distribution dynamics of Ebola virus proteins and RNA in infected cells.</p>
+<p>3.Ebolavirus glycoprotein structure and mechanism of entry.</p>
+<p>4.Shed GP of Ebola Virus Triggers Immune Activation and Increased Vascular Permeability.</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer"><div class="post-widgets">
+      <div id="needsharebutton-postbottom">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+          
+<div class="wechat_channel" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+  <br>
+  <!-- 这里添加你的二维码图片 -->
+  <img src ="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221101399.jpg" style="width: auto; height:250px; max-width: 100%"/>
+</div>
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>RNActor
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://www.kissrna.com/2022/11/05/BioNTech%E5%BC%80%E5%8F%91%E5%9F%83%E5%8D%9A%E6%8B%89%E8%87%AA%E5%A4%8D%E5%88%B6%E4%BA%8C%E4%BB%B7RNA%E7%96%AB%E8%8B%97%EF%BC%8C%E4%BB%85%E9%9C%80%E4%B8%80%E9%92%88%E4%BE%BF%E5%8F%AF%E4%BD%BFEBOV%E6%84%9F%E6%9F%93%E5%B0%8F%E9%BC%A0%E5%85%8D%E4%BA%8E%E6%AD%BB%E4%BA%A1/" title="BioNTech开发埃博拉自复制二价RNA疫苗，仅需一针便可使EBOV感染小鼠免于死亡">http://www.kissrna.com/2022/11/05/BioNTech开发埃博拉自复制二价RNA疫苗，仅需一针便可使EBOV感染小鼠免于死亡/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+          <div class="post-tags">
+              <a href="/tags/saRNA/" rel="tag"># saRNA</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/10/29/Codexis%E5%BC%80%E5%8F%91%E4%BB%A5%E4%BD%8E%E6%B5%93%E5%BA%A6%E5%B8%BD%E5%AD%90%E7%B1%BB%E4%BC%BC%E7%89%A9%E5%AE%9E%E7%8E%B0%E6%9E%81%E9%AB%98%E5%8A%A0%E5%B8%BD%E7%8E%87%E7%9A%84T7%E8%81%9A%E5%90%88%E9%85%B6/" rel="prev" title="Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成">
+                  <i class="fa fa-chevron-left"></i> Codexis开发以低浓度帽子类似物实现极高加帽率的T7聚合酶，同时还可抑制dsRNA形成
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">true</span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+<div>
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("10/29/2022 19:54:00");
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+setInterval("createtime()",250);
+</script>
+</div>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"waline-server-kissrna.vercel.app","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"placeholder":"请文明评论呀","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":false,"comment_count":true,"requiredFields":[],"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","el":"#waline","comment":true,"path":"/2022/11/05/BioNTech%E5%BC%80%E5%8F%91%E5%9F%83%E5%8D%9A%E6%8B%89%E8%87%AA%E5%A4%8D%E5%88%B6%E4%BA%8C%E4%BB%B7RNA%E7%96%AB%E8%8B%97%EF%BC%8C%E4%BB%85%E9%9C%80%E4%B8%80%E9%92%88%E4%BE%BF%E5%8F%AF%E4%BD%BFEBOV%E6%84%9F%E6%9F%93%E5%B0%8F%E9%BC%A0%E5%85%8D%E4%BA%8E%E6%AD%BB%E4%BA%A1/"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
+});
+</script>
+<script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: '32px',
+  left: 'unset',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
+
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+  <script>
+      pbOptions = {};
+        pbOptions.iconStyle = "box";
+        pbOptions.boxForm = "horizontal";
+        pbOptions.position = "bottomCenter";
+        pbOptions.networks = "Wechat,Weibo,QQZone,Twitter";
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+  </script>
+</body>
+</html>
