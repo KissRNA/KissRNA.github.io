@@ -1082,4 +1082,72 @@
         <tag>saRNA</tag>
       </tags>
   </entry>
+  <entry>
+    <title>综述|自复制RNA质粒载体序列优化设计策略</title>
+    <url>/2022/11/12/%E7%BB%BC%E8%BF%B0-%E8%87%AA%E5%A4%8D%E5%88%B6RNA%E8%B4%A8%E7%B2%92%E8%BD%BD%E4%BD%93%E5%BA%8F%E5%88%97%E4%BC%98%E5%8C%96%E8%AE%BE%E8%AE%A1%E7%AD%96%E7%95%A5/</url>
+    <content><![CDATA[<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211121432913.jpg" alt="每周分享海报" style="zoom:50%;" />
+
+<p>mRNA技术有着诸多让人无法抵挡的独特优势，使其成为传染病疫苗，肿瘤治疗，蛋白替代疗法，基因编辑等一系列领域最具吸引力的技术支撑平台。相比传统的蛋白疗法，在宿主细胞中，外源合成mRNA能合成具有天然构象的靶蛋白，保留所有的翻译后修饰。相比其他的核酸疗法（基于质粒DNA或者病毒载体），外源合成mRNA没有整合进基因组的风险，一般也不会触发针对载体的免疫反应，能够重复注射。此外，mRNA和LNP，本身具有佐剂效应，能够增强编码抗原触发的免疫反应。更加吸引人的是，mRNA生产工艺不涉及细胞培养，只需借助酶促反应和简单的下游纯化工艺，极易扩大产能。</p>
+<p>尽管有诸多显著优势，但是，RNA有个致命的弱点：非常不稳定，容易降解，这大大限制mRNA作为治疗药物的应用。即便通过加帽加尾和修饰核苷酸能够在一定程度上提升体外合成mRNA稳定性，但也仅仅只能将其在细胞内的活性维持几天而已。为延长体外合成mRNA在细胞内的表达时间，人们想出两种方法：一种将目光望向circRNA，通过环化反应让体外合成mRNA变得不那么容易降解，更加持久的表达靶蛋白；另外一种是向RNA病毒学习，设计出自复制RNA（self-amplying RNA,saRNA），让体外合成mRNA在细胞内复制，以数量取胜。相比传统非复制线性mRNA，使用相同剂量的saRNA会表达更高水平的靶蛋白。因此，circRNA和saRNA被视为下一代mRNA技术平台。</p>
+<p>本期内容我们以自复制RNA质粒载体序列优化设计为主题，分享以下几个方面的内容：</p>
+<ul>
+<li>saRNA自复制机制</li>
+<li>突变saRNA序列</li>
+<li>分割saRNA系统</li>
+<li>反式saRNA系统</li>
+<li>共表达干扰素调控因子</li>
+</ul>
+<h2 id="saRNA自复制机制"><a href="#saRNA自复制机制" class="headerlink" title="saRNA自复制机制"></a>saRNA自复制机制</h2><p>saRNA序列源自对正链RNA病毒（例如，alphaviruses）双顺反子基因组的改造，除了最基本的mRNA元件，例如帽子、5’UTR、3’UTR、PolyA尾巴，在saRNA 5’端还存在一个非常大的开放阅读框，编码来自委内瑞拉脑炎病毒（VEEV）、辛德毕斯病毒（SIN）或者塞姆利基森林病毒（SFV）的4个非结构蛋白（NSPs），而原本位于亚基因组启动子（SGP）后面的结构蛋白病毒基因被替换成编码靶蛋白的异源基因（GOI）。去除编码结构蛋白的病毒基因会使得mRNA无法产生感染性子代病毒颗粒。saRNA一旦进入宿主细胞质中，首先翻译出4个非结构蛋白（NSP1,NSP2,NSP3,NSP4），通过一个复杂的、多步骤过程聚合形成依赖于RNA的RNA聚合酶复合物（replicase）。NSP1涉及复制酶复合物与细胞质膜之间的连接以及病毒RNA的加帽反应；NSP2充当RNA解旋酶和多聚蛋白加工蛋白酶；NSP3介导多种病毒蛋白与宿主蛋白之间的相互作用；NSP4是依赖于RNA的RNA聚合酶。RNA聚合酶复合物存在于一个内陷的球形膜泡中，该膜泡与细胞质膜紧密连接，以此来逃避宿主免疫系统的监控。</p>
+<p>RNA聚合酶复合物首先以正义链RNA合成出互补的负链RNA中间体，接着，以后者为模板合成出两个不同的正链RNA。第一条正链RNA是原始全长基因组RNA的拷贝；第二条正链RNA是大量的编码异源靶基因的亚基组RNA，这也是saRNA能够以低剂量实现高水平持久靶蛋白表达的原因。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211121159316.png" alt="image-20221112115914170"></p>
+<p>图1：saRNA质粒载体骨架结构和自我复制过程。</p>
+<h2 id="saRNA载体序列优化"><a href="#saRNA载体序列优化" class="headerlink" title="saRNA载体序列优化"></a>saRNA载体序列优化</h2><p>saRNA要比非复制的线性mRNA超出7000多kb，相比传统非复制线性mRNA来说，saRNA编码靶蛋白实现更高的表达水平和更持久的表达时间，然而，由于宿主天然免疫系统的存在，saRNA编码靶标蛋白的表达还是会逐渐减弱。近些年来，研究人员尝试各种策略来设计优化saRNA载体骨架序列，以提升saRNA表达强度和持续时间，降低宿主天然免疫反应。</p>
+<h3 id="突变saRNA序列"><a href="#突变saRNA序列" class="headerlink" title="突变saRNA序列"></a>突变saRNA序列</h3><p>2019年，YingzhongLi等人基于VEEV复制子系统，构建体外演化策略，延长复制子转染细胞的培养时间，同时重复富集高表达水平的细胞将会筛选到携带有利突变的复制子，从而找到高表达，低免疫原性的突变复制子序列。很多复制子研究中采用缺乏IFN信号途径的BHK-21细胞，为筛选到能够有力限制宿主细胞天然免疫反应的复制子，YingzhongLi等人选择拥有IFN信号通路的Jurkat细胞。体外转录表达mCherry荧光蛋白的VEEV复制子，转染Jurkat细胞。基于RNA病毒突变速率，将转染复制子的细胞培养60天，在此期间，借助流式细胞荧光分选技术（FACS），10天为一轮，筛选mCherry表达量前20%的细胞。随着每一轮的筛选，mCherry阳性细胞比例和荧光强度会逐渐增加，到第6轮时达到平台值。从筛选到的阳性细胞（第5轮）中提取Total RNA，反转录成cDNA。用7对特异性的引物扩增NSP1-4和亚基因组启动子序列，将扩增片段分别克隆到质粒载体上，转化大肠杆菌，挑选克隆子进行测序。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211121238336.png" alt="image-20221112123819170" style="zoom:33%;" />
+
+<p>图2：采取体外演化策略筛选促进亚基因组靶蛋白表达水平的saRNA有益突变。</p>
+<p>与原始复制子序列比对，发现NSP2和NSP3位置存在5个突变位点。将这些突变位点进行组合，转染细胞，结果发现，位于NSP2和NSP3序列上面的2个突变位点（b1和b2）能够增强整个复制子RNA和亚基组RNA水平，从而增强mCherry细胞内的表达强度和持续时间，而位于NSP3序列上面的3个突变位点(a和c1&#x2F;c2)能够这种增强效应进行调控（不改变或者抑制）。此外，他们还发现，一般来说，b1&#x2F;b2位点突变会增强IFN信号通路，而c1&#x2F;c2位点突变会减弱IFN信号通路。研究人员挑选了两个有效突复制子，采用瘤内注射或者肌肉注射LNP-突变复制子，在小鼠体内Luciferase荧光表达强度和持续时间均明显优于野生型复制子。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211121239474.png" alt="image-20221112123901389"></p>
+<p>图3:突变RNA复制子能够影响靶标基因在小鼠体内表达强度和持续时间。</p>
+<h3 id="分割saRNA系统"><a href="#分割saRNA系统" class="headerlink" title="分割saRNA系统"></a>分割saRNA系统</h3><p>2018年，Robin J. Shattock首次开发出一种分隔式的自复制系统，称为splitzicons，虽然使用两个独立的RNA分别编码非结构蛋白NSPs和靶标基因，但是，这种分隔式的RNA仍然展示出自我复制的特点。研究人员设计出编码Luciferase的正链splitzicon和负链splitzicon，组成其序列的元件包括：5’UTR，来自NSP1的51bp保守序列元件（CSE），亚基因组启动子（SGP）以及相应的UTR，IRES。通过与编码聚合酶复合物的splitzicon-NSP 配对共同转染细胞，检测荧光蛋白的表达量，以此来判断到底哪些元件会影响splitzicon-Luciferase的扩增。51 CSE，SGP以及对应的UTR序列对于正链splitzicon-Luciferase扩增是极其重要的，与此形成对比的是，负链splitzicon-Luciferase的扩增仅需要引入SGP。在多个细胞类型中，splitzicon-Luciferase均可得到扩增，其荧光蛋白表达量与splitzicon-NSP 剂量成正比例。更加重要的是，在splitzicon-NSP 存在下，正链&#x2F;负链splitzicon-Luciferase可以持续扩增72h，荧光蛋白表达量增幅超过100000倍。这项工作一方面鉴定出RNA自复制系统中亚基因组RNA发生扩增必需的序列元件，也为采用splitzicon编码多个抗原，设计多价RNA疫苗提供思路。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211121235113.png" alt="image-20221112123529966"></p>
+<p>图4：设计编码Luciferase正链或者负链RNA Splitzicon和编码非结构蛋白的NSP-splitzicon。</p>
+<h3 id="反式saRNA系统"><a href="#反式saRNA系统" class="headerlink" title="反式saRNA系统"></a>反式saRNA系统</h3><p>在Robin J. Shattock工作的基础上，2022年，Ugur Sahin开发出分割的反式RNA复制系统（Trans-amplifying RNA system，taRNA），分为TR组分和复制酶组分。TR组分将编码复制酶的NSP基因从saRNA序列中剔除掉，保留5’CSE（保守序列）和SGP，下游序列包括靶基因序列和3’CSE。复制酶组分又可分为两种类型:第一种是标准的saRNA序列，只是编码区是无关序列iTG，这个saRNA-REPL只用来递送复制酶，不会编码任何靶蛋白;第二种选择是采用编码复制酶的传统非复制mRNA(nrRNA-REPL)。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211121225352.png" alt="image-20221112122519265"></p>
+<p>图5：saRNA-REPL反式系统与nrRNA-REPL反式系统构建策略。</p>
+<p>nrRNA-REPL反式系统要比saRNA-REPL反式系统介导的荧光蛋白细胞表达水平高出10-100倍，可实现与传统saRNA自复制系统类似的高效蛋白表达水平。nrRNA-REPL反式系统之所以优于saRNA-REPL反式系统可能是由于nrRNA具有非常高效的复制酶表达效应，而且对细胞整体的翻译不会造成干扰。在小鼠模型中，研究人员采用50ng编码HA抗原的nrRNA-REPL反式系统b便可以触发高水平的中和抗体，保护小鼠免受流感病毒触发的死亡。此外，由于复制酶不仅可以复制RNA，而且还可以对RNA拷贝进行加帽和加尾。当省去构建nrRNA-REPL时的加帽和加尾反应时，对于其所触发的免疫原性并不会产生太大的影响。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211121226943.png" alt="image-20221112122619833"></p>
+<p>图6：nrRNA-REPL反式系统实现与传统saRNA自复制系统类似的高效蛋白表达水平。</p>
+<h3 id="共表达干扰素调控因子"><a href="#共表达干扰素调控因子" class="headerlink" title="共表达干扰素调控因子"></a>共表达干扰素调控因子</h3><p>saRNA翻译过程中形成的dsRNA中间体会被细胞质中的RNA受体识别(MDA5&#x2F;RIG-I&#x2F;OAS&#x2F;PKR)，激活I 型IFN信号通路。与传统的非复制线性mRNA相比，低剂量saRNA这种强烈的天然佐剂活性会具有更高水平的免疫原性。然而，激活细胞内模式识别受体，特别是PKR，会抑制细胞内整体的蛋白翻译过程。活化的PKR将翻译起始因子eIF2α磷酸化，从而阻断依赖于帽子结构的翻译。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211121200983.png" alt="image-20221112120054832" style="zoom: 50%;" />
+
+<p>图7：细胞内模式识别受体感应saRNA，触发IFN信号通路。</p>
+<p>为抵抗天然免疫对于细胞翻译的抑制，alphaviruses 核衣壳蛋白基因开放阅读框5’端会形成RNA茎环结构（downstream loop，DLP），从而能够启动独立于eIF2α翻译。当靶基因取代结构蛋白基因后，saRNA缺乏DLP，其翻译过程对eIF2α磷酸化非常敏感。因为在靶基因前面插入核衣壳开放阅读5’端的DLP序列（102个核苷酸，编码34个氨基酸）可能会改变靶蛋白的功能，因此需要通过其他途径来解除天然免疫对saRNA翻译的抑制。</p>
+<p>与alphaviruses相反，绝大多数其他病毒通过编码大量的反作用于细胞质RNA受体的病毒蛋白来实现免疫逃脱。例如，牛痘病毒表达特异性的免疫逃脱蛋白：PKR抑制剂；dsRNA结合蛋白E3；PKR假底物K3;IFN诱饵受体B18。实际上，很早就有人通过共转染编码牛痘病毒E3&#x2F;K3&#x2F;B18 mRNA来提升外源合成的非复制mRNA的蛋白翻译效率，这种方法早已经在商业上用于生产可诱导多潜能干细胞。有研究曾报道，流感病毒多功能免疫逃脱蛋白NS1也有助于增强外源合成的非复制mRNA翻译效率。</p>
+<p>在前面研究基础上，2017年，Ugur Sahin为减少saRNA对于胞内模式识别受体的刺激，解除saRNA翻译的抑制效应，首次将编码免疫逃逸蛋白E3&#x2F;K3&#x2F;B18的非复制mRNA组合与编码Luciferase荧光蛋白的saRNA共同递送，这种方法能够显著抑制细胞内的PKR和IFN途径，极大增强saRNA编码的Luciferase荧光蛋白在小鼠体内的翻译效率。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211121202510.png" alt="image-20221112120246371"></p>
+<p>图8：在小鼠体内，共递送编码牛痘病毒免疫逃逸蛋白的mRNA组合显著增强saRNA编码的Luciferase表达水平，并且具有剂量效应。</p>
+<p>Ugur Sahin采取的共转递送编码免疫逃逸蛋白mRNA的方式不足之处在于2ug saRNA需要共递送6ug或者12ug E3 mRNA，这显著增加RNA注射剂量，而且，这些大量的反式编码产生的蛋白可能会抑制细胞摄取和表达两种类型的RNA。在此基础上，2021年，Robin J. Shattock构建顺式编码天然免疫反应抑制蛋白（innate inhibiting proteins，IIPs）的saRNA文库，筛选增强saRNA靶标蛋白表达和免疫原性的IIPs。他们发现saRNA通过顺式作用编码产生的副流感病毒PIV5蛋白和MERS ORF4a蛋白能够提升靶标蛋白在细胞水平和小鼠体内表达量以及编码狂犬病毒G糖蛋白saRNA在兔子中的免疫原性。非常有意的是，他们还发现ruxolitinib（JAK&#x2F;STAT抑制剂）会显著提升saRNA体内靶标蛋白翻译效率。Robin的工作说明在saRNA骨架序列中直接插入编码IFN信号通路抑制蛋白的基因能够显著增强saRNA蛋白表达水平，降低saRNA免疫原性。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211121155954.png" alt="image-20221112115459689" style="zoom:50%;" />
+
+<p>图9：构建顺式编码天然免疫反应抑制蛋白（innate inhibiting proteins，IIPs）的saRNA文库，筛选增强saRNA靶标蛋白表达效率和降低saRNA免疫原性的IIPs。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>相比传统的非复制线性mRNA而言，saRNA最大的优势就是进入细胞后可以不断复制编码靶标基因的亚基因组RNA，以极低剂量实现高水平的靶标蛋白表达。saRNA质粒骨架序列优化目的是实现高效率和持久性的靶标蛋白表达，降低触发的天然免疫反应强度，沿着这个思路，研究人员采取体外演化saRNA序列，切割saRNA系统，构建反式saRNA以及共表达IFN信号通路抑制因子等一系列策略进行不断的尝试摸索，为基于saRNA技术的疫苗或者其他疗法的质粒载体序列优化奠定了一定的理论基础。此外，由于编码复制酶复合物的NSP基因长达7000多bp，这大大增加saRNA在体外转录反应时的难度，降低saRNA生产时的产量和纯度。尽管此前Robin J. Shattock对合成超长片段saRNA的体外转录反应体系做出过优化，但是，未来还需要依赖能够高效合成超长片段的T7RNA聚合酶来做出根本性的突破。</p>
+<hr>
+<ol>
+<li>An Update on Self-Amplifying mRNA Vaccine Development.</li>
+<li>In vitro evolution of enhanced RNA replicons for immunotherapy.</li>
+<li>Structural Components for Amplification of Positive and Negative Strand VEEV Splitzicons.</li>
+<li>A Trans-amplifying RNA Vaccine Strategy for Induction of Potent Protective Immunity.</li>
+<li>Innate Inhibiting Proteins Enhance Expression and Immunogenicity of Self-Amplifying RNA.</li>
+<li>Improvement of In Vivo Expression of Genes Delivered by Self-Amplifying RNA Using Vaccinia Virus Immune Evasion Proteins.</li>
+</ol>
+]]></content>
+      <categories>
+        <category>RNA工艺</category>
+        <category>RNA序列设计</category>
+      </categories>
+      <tags>
+        <tag>saRNA</tag>
+      </tags>
+  </entry>
 </search>
