@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"www.kissrna.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.13.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="从首次发现注射裸mRNA也可实现体内表达，到首次研究裸环状RNA的瘤内注射，历经三十多年。总结来说，细胞摄取裸mRNA的过程一个高效的，强烈依赖于钙离子，可饱和的主动过程。注射液成分会对mRNA递送效率产生重要影响。采用皮层内注射裸mRNA或者采用瘤内注射环形RNA均可实现RNA在注射部位的局部表达。尽管直接注射裸mRNA也可实现体内表达，并且在人体内得到验证，但是，RNA的天然不稳定，负电性以及">
+<meta property="og:type" content="article">
+<meta property="og:title" content="直接注射裸mRNA，无须借助递送载体，也能实现蛋白表达。">
+<meta property="og:url" content="http://www.kissrna.com/2022/11/26/%E7%9B%B4%E6%8E%A5%E6%B3%A8%E5%B0%84%E8%A3%B8mRNA%EF%BC%8C%E6%97%A0%E9%A1%BB%E5%80%9F%E5%8A%A9%E9%80%92%E9%80%81%E8%BD%BD%E4%BD%93%EF%BC%8C%E4%B9%9F%E8%83%BD%E5%AE%9E%E7%8E%B0%E8%9B%8B%E7%99%BD%E8%A1%A8%E8%BE%BE%E3%80%82/index.html">
+<meta property="og:site_name" content="RNAFactory">
+<meta property="og:description" content="从首次发现注射裸mRNA也可实现体内表达，到首次研究裸环状RNA的瘤内注射，历经三十多年。总结来说，细胞摄取裸mRNA的过程一个高效的，强烈依赖于钙离子，可饱和的主动过程。注射液成分会对mRNA递送效率产生重要影响。采用皮层内注射裸mRNA或者采用瘤内注射环形RNA均可实现RNA在注射部位的局部表达。尽管直接注射裸mRNA也可实现体内表达，并且在人体内得到验证，但是，RNA的天然不稳定，负电性以及">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211222307870.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211240051992.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211251046802.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211262357130.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211261100436.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211261059134.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211261100007.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211261135878.png">
+<meta property="og:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211261158943.png">
+<meta property="article:published_time" content="2022-11-26T15:55:40.000Z">
+<meta property="article:modified_time" content="2022-11-26T16:00:30.613Z">
+<meta property="article:author" content="RNActor">
+<meta property="article:tag" content="naked RNA">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211222307870.png">
+
+
+<link rel="canonical" href="http://www.kissrna.com/2022/11/26/%E7%9B%B4%E6%8E%A5%E6%B3%A8%E5%B0%84%E8%A3%B8mRNA%EF%BC%8C%E6%97%A0%E9%A1%BB%E5%80%9F%E5%8A%A9%E9%80%92%E9%80%81%E8%BD%BD%E4%BD%93%EF%BC%8C%E4%B9%9F%E8%83%BD%E5%AE%9E%E7%8E%B0%E8%9B%8B%E7%99%BD%E8%A1%A8%E8%BE%BE%E3%80%82/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://www.kissrna.com/2022/11/26/%E7%9B%B4%E6%8E%A5%E6%B3%A8%E5%B0%84%E8%A3%B8mRNA%EF%BC%8C%E6%97%A0%E9%A1%BB%E5%80%9F%E5%8A%A9%E9%80%92%E9%80%81%E8%BD%BD%E4%BD%93%EF%BC%8C%E4%B9%9F%E8%83%BD%E5%AE%9E%E7%8E%B0%E8%9B%8B%E7%99%BD%E8%A1%A8%E8%BE%BE%E3%80%82/","path":"2022/11/26/直接注射裸mRNA，无须借助递送载体，也能实现蛋白表达。/","title":"直接注射裸mRNA，无须借助递送载体，也能实现蛋白表达。"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>直接注射裸mRNA，无须借助递送载体，也能实现蛋白表达。 | RNAFactory</title>
+  
+
+
+
+
+
+<link rel="dns-prefetch" href="waline-server-kissrna.vercel.app"><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css"><style>
+#needsharebutton-postbottom {
+  cursor: pointer;
+  height: 26px;
+  margin-top: 10px;
+  position: relative;
+}
+#needsharebutton-postbottom .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 3px;
+  display: initial;
+  padding: 1px 4px;
+}
+</style>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">RNAFactory</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Sharing Key Discoveries and Advances in mRNA Therapeutics</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>研究</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-friendlink"><a href="/friendlink/" rel="section"><i class="fa fa-link fa-fw"></i>链接</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A6%96%E6%AC%A1%E5%8F%91%E7%8E%B0%E6%B3%A8%E5%B0%84%E8%A3%B8mRNA%E4%B9%9F%E5%8F%AF%E5%AE%9E%E7%8E%B0%E8%9B%8B%E7%99%BD%E8%A1%A8%E8%BE%BE"><span class="nav-number">1.</span> <span class="nav-text">首次发现注射裸mRNA也可实现蛋白表达</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%A8%E5%B0%84%E7%BC%96%E7%A0%81%E6%8A%97%E5%8E%9F%E7%9A%84mRNA%E8%A7%A6%E5%8F%91%E7%89%B9%E5%BC%82%E6%80%A7%E5%85%8D%E7%96%AB%E5%8F%8D%E5%BA%94"><span class="nav-number">2.</span> <span class="nav-text">注射编码抗原的mRNA触发特异性免疫反应</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8E%A2%E7%A9%B6%E5%BD%B1%E5%93%8D%E8%A3%B8%E7%BA%BF%E6%80%A7mRNA%E9%80%92%E9%80%81%E6%95%88%E7%8E%87%E7%9A%84%E5%9B%A0%E7%B4%A0"><span class="nav-number">3.</span> <span class="nav-text">探究影响裸线性mRNA递送效率的因素</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BD%B1%E5%93%8D%E8%A3%B8%E7%8E%AF%E7%8A%B6RNA%E9%80%92%E9%80%81%E6%95%88%E7%8E%87%E7%9A%84%E5%9B%A0%E7%B4%A0"><span class="nav-number">4.</span> <span class="nav-text">影响裸环状RNA递送效率的因素</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E8%AE%BA"><span class="nav-number">5.</span> <span class="nav-text">结论</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="RNActor"
+      src="/images/1.png">
+  <p class="site-author-name" itemprop="name">RNActor</p>
+  <div class="site-description" itemprop="description">We love and creat cool RNAs</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">19</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.kissrna.com/2022/11/26/%E7%9B%B4%E6%8E%A5%E6%B3%A8%E5%B0%84%E8%A3%B8mRNA%EF%BC%8C%E6%97%A0%E9%A1%BB%E5%80%9F%E5%8A%A9%E9%80%92%E9%80%81%E8%BD%BD%E4%BD%93%EF%BC%8C%E4%B9%9F%E8%83%BD%E5%AE%9E%E7%8E%B0%E8%9B%8B%E7%99%BD%E8%A1%A8%E8%BE%BE%E3%80%82/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/1.png">
+      <meta itemprop="name" content="RNActor">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RNAFactory">
+      <meta itemprop="description" content="We love and creat cool RNAs">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="直接注射裸mRNA，无须借助递送载体，也能实现蛋白表达。 | RNAFactory">
+      <meta itemprop="description" content="从首次发现注射裸mRNA也可实现体内表达，到首次研究裸环状RNA的瘤内注射，历经三十多年。总结来说，细胞摄取裸mRNA的过程一个高效的，强烈依赖于钙离子，可饱和的主动过程。注射液成分会对mRNA递送效率产生重要影响。采用皮层内注射裸mRNA或者采用瘤内注射环形RNA均可实现RNA在注射部位的局部表达。尽管直接注射裸mRNA也可实现体内表达，并且在人体内得到验证，但是，RNA的天然不稳定，负电性以及体内的复杂环境（例如，广泛分布的RNase）决定了这种裸mRNA递送的方式只能成为一种特殊的现象被研究，要想真正广泛推广应用到临床，肯定将会面临巨大的困难和挑战。">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          直接注射裸mRNA，无须借助递送载体，也能实现蛋白表达。
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-11-26 23:55:40" itemprop="dateCreated datePublished" datetime="2022-11-26T23:55:40+08:00">2022-11-26</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-11-27 00:00:30" itemprop="dateModified" datetime="2022-11-27T00:00:30+08:00">2022-11-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/RNA%E9%80%92%E9%80%81%E7%B3%BB%E7%BB%9F/" itemprop="url" rel="index"><span itemprop="name">RNA递送系统</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/2022/11/26/%E7%9B%B4%E6%8E%A5%E6%B3%A8%E5%B0%84%E8%A3%B8mRNA%EF%BC%8C%E6%97%A0%E9%A1%BB%E5%80%9F%E5%8A%A9%E9%80%92%E9%80%81%E8%BD%BD%E4%BD%93%EF%BC%8C%E4%B9%9F%E8%83%BD%E5%AE%9E%E7%8E%B0%E8%9B%8B%E7%99%BD%E8%A1%A8%E8%BE%BE%E3%80%82/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/2022/11/26/%E7%9B%B4%E6%8E%A5%E6%B3%A8%E5%B0%84%E8%A3%B8mRNA%EF%BC%8C%E6%97%A0%E9%A1%BB%E5%80%9F%E5%8A%A9%E9%80%92%E9%80%81%E8%BD%BD%E4%BD%93%EF%BC%8C%E4%B9%9F%E8%83%BD%E5%AE%9E%E7%8E%B0%E8%9B%8B%E7%99%BD%E8%A1%A8%E8%BE%BE%E3%80%82/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+            <div class="post-description">从首次发现注射裸mRNA也可实现体内表达，到首次研究裸环状RNA的瘤内注射，历经三十多年。总结来说，细胞摄取裸mRNA的过程一个高效的，强烈依赖于钙离子，可饱和的主动过程。注射液成分会对mRNA递送效率产生重要影响。采用皮层内注射裸mRNA或者采用瘤内注射环形RNA均可实现RNA在注射部位的局部表达。尽管直接注射裸mRNA也可实现体内表达，并且在人体内得到验证，但是，RNA的天然不稳定，负电性以及体内的复杂环境（例如，广泛分布的RNase）决定了这种裸mRNA递送的方式只能成为一种特殊的现象被研究，要想真正广泛推广应用到临床，肯定将会面临巨大的困难和挑战。</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>一提到RNA，大家首先想到的是不稳定，在体外合成或者提取RNA时，总是担心出现RNase污染，把RNA给降解掉，因此，反复擦拭，操作上倍加小心。当初次听到有人说可以直接注射裸RNA时，很多人恐怕会直接否定掉。然而，自然界中总是存在意外。本期内容，我们将分享裸mRNA递送方面的研究成果：</p>
+<p>众所周知，构成RNA的核糖存在2’OH，会进攻邻近的磷酸基团，引发RNA链断裂。从化学结构上来说，RNA分子天然不稳定，易于发生水解。mRNA一旦注射进入体内，又遇到广泛存在的RNase，可能被迅速降解掉。此外，mRNA是一种带负电的大分子，很难穿过细胞膜，到达细胞质。mRNA在递送上面临的困难，曾经一度阻碍了mRNA的临床应用。因此，研发者尝试一系列措施来高效递送mRNA，包括优化给药途径，基因枪注射，鱼精蛋白载体系统，RNA佐剂以及纳米颗粒包封RNA。但是，长期以来，还存在一个令人不太能理解，但大为意外的研究结果—无须使用额外的递送载体，直接注射裸mRNA，也能实现体内蛋白表达。</p>
+<h2 id="首次发现注射裸mRNA也可实现蛋白表达"><a href="#首次发现注射裸mRNA也可实现蛋白表达" class="headerlink" title="首次发现注射裸mRNA也可实现蛋白表达"></a>首次发现注射裸mRNA也可实现蛋白表达</h2><p>1990年，Wolff等人在Science发表文章，他们发现向小鼠体内直接注射mRNA竟然也能实现报告基因在肌肉细胞中的正常表达[1]。在小鼠股四头肌注射100ug编码氯霉素乙酰基转移酶的mRNA（溶解在5%蔗糖溶液中），18h后，在注射部位检测到氯霉素乙酰基转移酶表达。此外，mRNA的注射剂量与其编码蛋白表达量存在剂量效应，也就是说，注射mRNA量越多，蛋白表达量越高。如果将溶解在20%蔗糖溶液中的Luciferase-mRNA注射进小鼠股四头肌，18h后，Luciferase活性达到最大值74pg，随后开始下降，到注射后60h时，Luciferase活性已下降至2pg。形成对比的是，当使用脂质体向成纤维细胞转染Luciferase-mRNA时，在转染后8h，Luciferase活性达到最大值。尤其值得关注的是，当使用脂质体向成纤维细胞转染20ug Luciferase-mRNA可表达出450pg Luciferase，然而，向肌肉细胞注射25ug Luciferase-mRNA 只能表达出74pg Luciferase。也就是说，mRNA在脂质体转染细胞中的表达效率要比直接注射的肌肉细胞中高出7倍多。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211222307870.png" alt="image-20221122230709750"></p>
+<p>图1: A图中黑色柱状图表示向小鼠四头肌注射Luciferase-mRNA的剂量与蛋白表达量之间的关系，斜条纹柱状图表示注射质粒剂量。B图中黑色柱状图表示向小鼠四头肌注射Luciferase-mRNA(25ug)在不同时间点的表达量，斜条纹柱状图表示向成纤维细胞转染Luciferase-mRNA（20ug）在不同时间点的表达量。</p>
+<h2 id="注射编码抗原的mRNA触发特异性免疫反应"><a href="#注射编码抗原的mRNA触发特异性免疫反应" class="headerlink" title="注射编码抗原的mRNA触发特异性免疫反应"></a>注射编码抗原的mRNA触发特异性免疫反应</h2><p>2002年，Ingmar等人发现在小鼠耳廓注射30ug glacZ-mRNA(溶解在DEPC处理过的水中)，2周以后，可以在小鼠血清中检测到特异性的抗β-糖苷酶 IgG，同时，也能触发β-糖苷酶特异性的CTL反应（细胞毒性T淋巴细胞反应）。也就是说，在小鼠体内注射裸mRNA能正常表达抗抗原，触发特异性的体液免疫和细胞免疫[3]。2004年，Carralot等人在小鼠耳朵外侧部位注射编码β-糖苷酶的mRNA（溶解在HEPES和Nacl中，采用β-globin UTR序列），16h后，处死小鼠，切碎耳朵组织，用X-gal染色，可检测到许多蓝色细胞，说明β-糖苷酶正常表达[2]。</p>
+<img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211240051992.png" alt="image-20221124005113796" style="zoom:50%;" />
+
+<p>图2：向小鼠耳廓注射30ug glacZ-mRNA，可触发β-糖苷酶特异性的CTL反应和血清结合抗体IgG。</p>
+<h2 id="探究影响裸线性mRNA递送效率的因素"><a href="#探究影响裸线性mRNA递送效率的因素" class="headerlink" title="探究影响裸线性mRNA递送效率的因素"></a>探究影响裸线性mRNA递送效率的因素</h2><p>一直到2007年，Probst等人开始系统性研究影响裸mRNA递送效率的因素，首次发现小鼠体皮肤组织细胞摄取外源裸mRNA的过程是一种特异性的，可饱和的，离子依赖型的主动过程。他们发现，在小鼠耳廓采用皮内注射编码Luciferase的裸mRNA，注射液成分会影响mRNA递送效率。溶解在乳酸林格氏液(Ringer Lactate，RL）中的mRNA荧光蛋白表达量要明显比溶解在PBS或者HEPES&#x2F;NaCl中高。去除乳酸林格氏液中的乳糖，基本不会影响mRNA 在小鼠耳廓部位的Luciferase表达量，而去除乳酸林格氏液中的钙离子会将mRNA在小鼠耳廓部位Luciferase表达量降低到类似于PBS或者HEPES&#x2F;NaCl注射液。将乳酸林格氏液中钙离子浓度升高或者降低时（相比于标准乳酸林格氏配方），并未检测更高的Luciferase表达量。类似的，改变乳酸林格氏液中乳酸浓度（相比于标准乳酸林格氏配方）也不会检测到更高的Luciferase表达量。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211251046802.png" alt="image-20221125104611663"></p>
+<p>图3：PBS，HEPES&#x2F;NaCL，Ringer Lactate三种注射液组成成份。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211262357130.png" alt="image-20221125223357445"></p>
+<p>图4：注射液成份对于Luciferase mRNA体内表达效率的影响。</p>
+<p>Probst等人采用乳酸林格氏液注射液溶解Luciferase mRNA，将其注射到小鼠耳廓部位，17h便可检测到荧光信号，3天后，信号消失。相比之下，注射Luciferase-pDNA，3天后，荧光信号才达到峰值。而且，检测到的荧光信号只分布在mRNA注射部位，这表明在皮内注射mRNA后，无论是裸mRNA，还是摄取了mRNA的细胞，都没有迁移到更远的地方。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211261100436.png" alt="image-20221126110005296"></p>
+<p>图5：检测注射到小鼠耳廓部位的Luc mRNA或者pDNA蛋白表达持续时间，用活体成像显示Luciferase的局部表达和持续时间。R代表Luc mRNA，D代表编码luciferase荧光蛋白的pDNA。</p>
+<p>如果将乳酸林格氏液注射液（100ul）中溶解的Luc mRNA从1ug提升到5ug，小鼠耳廓部位luciferase表达量会线性增加。有意思的是，如果将乳酸林格氏液注射液（100ul）溶解的Luciferase mRNA从5ug继续提升到80ug,小鼠耳廓部位luciferase表达量没有发生改变。这与早期的发现是冲突的，1990年，Wolff组采用肌肉注射mRNA，注射剂量越多，mRNA表达量越多（mRNA剂量从10ug增加到100ug）。从J Probst的数据来看，真皮层某些细胞摄取外源mRNA的过程是一个会出现饱和的主动过程。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211261059134.png" alt="image-20221126105942016"></p>
+<p>图6：小鼠耳廓部位Luc mRNA注射剂量与表达量之间的关系。</p>
+<p>Probst将不同的大分子同Luc mRNA混合在一起注射，探究这些分子对于Luc mRNA摄取过程的竞争干扰。将M1 mRNA（编码流感病毒基质蛋白M1），超声处理的Luc mRNA片段，pDNA，CpG DNA寡核苷酸或者多肽各自分别与10ug Luc mRNA混合，注射到小鼠耳廓。当Luc mRNA与多肽混合时，不影响其在体内的表达量，然而，LucmRNA与其他类型的过量核酸混合会导致表达量发生显著下降，例如CpG寡核苷酸，pDNA，其他的mRNA。这表明细胞摄取mRNA的限速过程是一种对于核酸特异性的机制。此外，研究人员还发现使用细胞松弛素B（Cytochalasin B）能够显著抑制注射Luc mRNA的表达量，说明mRNA在递送到细胞质的过程中与囊泡运输有关。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211261100007.png" alt="image-20221126110022911"></p>
+<p>图7:不同分子量的核酸或者多肽和细胞运输抑制剂对小鼠耳廓部位细胞摄取外源裸mRNA的过程干扰。</p>
+<p>最后，Probst在小鼠耳廓注射编码β糖苷酶的mRNA，分析注射部位能够摄取裸mRNA，正常表达出蛋白，被x-gal染成蓝色的细胞类型是肌肉细胞，成纤维细胞，角质形成细胞。相反，大部分的MHC-II阳性细胞均无法表达β糖苷酶。在APC细胞中也没有检测出β糖苷酶。然后，研究人员将GMP条件下生产的Luc mRNA（溶解在乳酸林格氏液注射液中）采用皮层内注射到人体皮肤，在皮肤注射部位的活体样本中可检测Luc mRNA正常表达。</p>
+<h2 id="影响裸环状RNA递送效率的因素"><a href="#影响裸环状RNA递送效率的因素" class="headerlink" title="影响裸环状RNA递送效率的因素"></a>影响裸环状RNA递送效率的因素</h2><p>2017年，Kong等人报道，癌细胞可以自发摄取长度在57bp-1620bp DNA片段，这反应出癌细胞可能存在过度激活的内吞作用。正是基于此，2022年，科锐迈德公司左炽健等人对小鼠肿瘤细胞是否能够摄取裸mRNA进行探究。首先，他们将溶解在PBS中的circ LucRNA直接进行B16F10 小鼠黑色素瘤肿瘤内注射（i.t）。接着，再采样不同的注射方式（包括皮下注射，皮内注射，肌肉注射，静脉注射，腹膜注射）打进小鼠体内。结果发现，在瘤内注射6h后，只在B16F10黑色素肿瘤内检测到荧光信号，而采样其他注射方式的小鼠均未检测到荧光信号。这就说明裸circ LucRNA可以被直接递送，但是只能在肿瘤组织中表达。此外，他们还将circ LucRNA采用瘤内注射的方式注射到表达人非小细胞肺癌细胞（A549&#x2F;NCI-H358）或者小鼠结肠癌细胞(MC38)的小鼠中，在小鼠体内的肿瘤组织中均检测到显著的荧光信号。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211261135878.png" alt="image-20221126113521571"></p>
+<p>图8：采用瘤内注射或者其他注射方式注射10ug circ LucRNA到小鼠肿瘤组织或者其他部位，发现circ LucRNA只能在肿瘤组织中表达。</p>
+<p>上面提到过，2007年，Probst发现不同的注射液溶剂对于裸线性mRNA体内递送的效率会产生显著影响，钙离子对于小鼠皮肤组织摄取裸线性mRNA极其重要。基于此，左炽健等人又对注射液成分对于裸circRNA的递送效率进行研究。他们利用不同的circ LucRNA溶剂进行小鼠瘤内注射，结果发现，溶解在林格氏液中circ LucRNA在肿瘤组织中的荧光表达量最高。林格氏液的由氯化钠，氯化钙，氯化钾以及碳酸氢钠组成。去除林格氏液中的氯化钠或者氯化钙会显著降低circ LucRNA在肿瘤组织中的荧光表达量，而去除林格氏液中的氯化钠或者碳酸氢钠对circ LucRNA表达量影响较为微弱。以上结果说明氯化钠或者氯化钙是circRNA在瘤内进行递送的关键成分。</p>
+<p><img src="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202211261158943.png" alt="image-20221126115833677"></p>
+<p>图9：不同注射液成分对于circ LucRNA在小鼠瘤内荧光表达量的影响。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>从首次发现注射裸mRNA也可实现体内表达，到首次研究裸环状RNA的瘤内注射，历经三十多年。总结来说，细胞摄取裸mRNA的过程一个高效的，强烈依赖于钙离子，可饱和的主动过程。注射液成分会对mRNA递送效率产生重要影响。采用皮层内注射裸mRNA或者采用瘤内注射环形RNA均可实现RNA在注射部位的局部表达。尽管直接注射裸mRNA也可实现体内表达，并且在人体内得到验证，但是，RNA的天然不稳定，负电性以及体内的复杂环境（例如，广泛分布的RNase）决定了这种裸mRNA递送的方式只能成为一种特殊的现象被研究，要想真正广泛推广应用到临床，肯定将会面临巨大的困难和挑战。</p>
+<hr>
+<p>参考文献：</p>
+<ol>
+<li>Direct gene transfer into mouse muscle in vivo.</li>
+<li>Polarization of immunity induced by direct injection of naked sequence-stabilized mRNA vaccines.</li>
+<li>In vivo application of RNA leads to induction of specific cytotoxic T lymphocytes and antibodies.</li>
+<li>Spontaneous cellular uptake of exogenous messenger RNA in vivo is nucleic acid-specific, saturable and ion dependent</li>
+<li>Intratumoral delivered novel circular mRNA encoding cytokines for immune modulation and cancer therapy.</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer"><div class="post-widgets">
+      <div id="needsharebutton-postbottom">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+          
+<div class="wechat_channel" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+  <br>
+  <!-- 这里添加你的二维码图片 -->
+  <img src ="https://biofactroy-01.oss-cn-shanghai.aliyuncs.com/202210221101399.jpg" style="width: auto; height:250px; max-width: 100%"/>
+</div>
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>RNActor
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="http://www.kissrna.com/2022/11/26/%E7%9B%B4%E6%8E%A5%E6%B3%A8%E5%B0%84%E8%A3%B8mRNA%EF%BC%8C%E6%97%A0%E9%A1%BB%E5%80%9F%E5%8A%A9%E9%80%92%E9%80%81%E8%BD%BD%E4%BD%93%EF%BC%8C%E4%B9%9F%E8%83%BD%E5%AE%9E%E7%8E%B0%E8%9B%8B%E7%99%BD%E8%A1%A8%E8%BE%BE%E3%80%82/" title="直接注射裸mRNA，无须借助递送载体，也能实现蛋白表达。">http://www.kissrna.com/2022/11/26/直接注射裸mRNA，无须借助递送载体，也能实现蛋白表达。/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+          <div class="post-tags">
+              <a href="/tags/naked-RNA/" rel="tag"># naked RNA</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/11/17/Moderna%E6%96%B0%E5%86%A0%E4%BA%8C%E4%BB%B7mRNA%E7%96%AB%E8%8B%97%E5%8A%A0%E5%BC%BA%E5%85%8D%E7%96%AB%E6%9C%80%E6%96%B0%E4%B8%B4%E5%BA%8A%E6%95%B0%E6%8D%AE/" rel="prev" title="Moderna新冠二价mRNA疫苗加强免疫最新临床数据">
+                  <i class="fa fa-chevron-left"></i> Moderna新冠二价mRNA疫苗加强免疫最新临床数据
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">true</span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+<div>
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("10/29/2022 19:54:00");
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+setInterval("createtime()",250);
+</script>
+</div>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"waline-server-kissrna.vercel.app","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"placeholder":"请文明评论呀","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":false,"comment_count":true,"requiredFields":[],"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","el":"#waline","comment":true,"path":"/2022/11/26/%E7%9B%B4%E6%8E%A5%E6%B3%A8%E5%B0%84%E8%A3%B8mRNA%EF%BC%8C%E6%97%A0%E9%A1%BB%E5%80%9F%E5%8A%A9%E9%80%92%E9%80%81%E8%BD%BD%E4%BD%93%EF%BC%8C%E4%B9%9F%E8%83%BD%E5%AE%9E%E7%8E%B0%E8%9B%8B%E7%99%BD%E8%A1%A8%E8%BE%BE%E3%80%82/"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
+});
+</script>
+<script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: '32px',
+  left: 'unset',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
+
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+  <script>
+      pbOptions = {};
+        pbOptions.iconStyle = "box";
+        pbOptions.boxForm = "horizontal";
+        pbOptions.position = "bottomCenter";
+        pbOptions.networks = "Wechat,Weibo,QQZone,Twitter";
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+  </script>
+</body>
+</html>
